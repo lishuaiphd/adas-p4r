@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration">
   <notation:Diagram xmi:id="_iip8YDoQEeuDR-FZDkAqqw" type="PapyrusUMLClassDiagram" name="RequirementPackages" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_0SLSIDoQEeuDR-FZDkAqqw" type="Package_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_0SLSIjoQEeuDR-FZDkAqqw" type="Package_NameLabel"/>
@@ -53,6 +53,19 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_eYbnlDokEeuDR-FZDkAqqw" y="15"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_eYbnlTokEeuDR-FZDkAqqw" type="Classifier_UseCaseCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_iSvGoDr4Eeu3KuzfvF94vQ" type="UseCase_Shape_CCN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_iSvtsDr4Eeu3KuzfvF94vQ" type="UseCase_NameLabel_CCN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_iSvtsTr4Eeu3KuzfvF94vQ" type="UseCase_FloatingNameLabel_CCN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_iSvtsjr4Eeu3KuzfvF94vQ" y="15"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_iSwUwDr4Eeu3KuzfvF94vQ" type="UseCase_ExtensionPointCompartment_CCN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_iSwUwTr4Eeu3KuzfvF94vQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_iSwUwjr4Eeu3KuzfvF94vQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iSwUwzr4Eeu3KuzfvF94vQ"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="ADAS_Requirements.uml#_iRkB8Dr4Eeu3KuzfvF94vQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iSvGoTr4Eeu3KuzfvF94vQ" x="104" y="100" width="111" height="71"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYbnljokEeuDR-FZDkAqqw"/>
       </children>
       <element xmi:type="uml:Class" href="ADAS_Requirements.uml#_eYZyYDokEeuDR-FZDkAqqw"/>
@@ -195,5 +208,100 @@
       <owner xmi:type="uml:Package" href="ADAS_Requirements.uml#_VqEwUDokEeuDR-FZDkAqqw"/>
     </styles>
     <element xmi:type="uml:Interaction" href="ADAS_Requirements.uml#_LAgCMDonEeuDR-FZDkAqqw"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_3Xz8kDrwEeu3KuzfvF94vQ" type="PapyrusUMLClassDiagram" name="MotionAssistanceRequierement" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="__jDYUDrzEeu3KuzfvF94vQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="__je2IDrzEeu3KuzfvF94vQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="__je2ITrzEeu3KuzfvF94vQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__jfdMDrzEeu3KuzfvF94vQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__jfdMTrzEeu3KuzfvF94vQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__jfdMjrzEeu3KuzfvF94vQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__jfdMzrzEeu3KuzfvF94vQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__jfdNDrzEeu3KuzfvF94vQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__jfdNTrzEeu3KuzfvF94vQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__jfdNjrzEeu3KuzfvF94vQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__jfdNzrzEeu3KuzfvF94vQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__jfdODrzEeu3KuzfvF94vQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__jfdOTrzEeu3KuzfvF94vQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__jfdOjrzEeu3KuzfvF94vQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__jfdOzrzEeu3KuzfvF94vQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__jfdPDrzEeu3KuzfvF94vQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__jfdPTrzEeu3KuzfvF94vQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__jfdPjrzEeu3KuzfvF94vQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__jfdPzrzEeu3KuzfvF94vQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="ADAS_Requirements.uml#_Yej7ADrxEeu3KuzfvF94vQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__jDYUTrzEeu3KuzfvF94vQ" x="373" y="216"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__tIhYDrzEeu3KuzfvF94vQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="__tIhYTrzEeu3KuzfvF94vQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="__tJIcDrzEeu3KuzfvF94vQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="ADAS_Requirements.uml#_Yej7ADrxEeu3KuzfvF94vQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__tIhYjrzEeu3KuzfvF94vQ" x="200"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_3Xz8kTrwEeu3KuzfvF94vQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_3Xz8kjrwEeu3KuzfvF94vQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_3Xz8kzrwEeu3KuzfvF94vQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+      <owner xmi:type="uml:Package" href="ADAS_Requirements.uml#_0SBhIDoQEeuDR-FZDkAqqw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="ADAS_Requirements.uml#_0SBhIDoQEeuDR-FZDkAqqw"/>
+    <edges xmi:type="notation:Connector" xmi:id="__tJIcTrzEeu3KuzfvF94vQ" type="StereotypeCommentLink" source="__jDYUDrzEeu3KuzfvF94vQ" target="__tIhYDrzEeu3KuzfvF94vQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="__tJIcjrzEeu3KuzfvF94vQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="__tKWkjrzEeu3KuzfvF94vQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="ADAS_Requirements.uml#_Yej7ADrxEeu3KuzfvF94vQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__tJIczrzEeu3KuzfvF94vQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__tKWkDrzEeu3KuzfvF94vQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__tKWkTrzEeu3KuzfvF94vQ"/>
+    </edges>
+  </notation:Diagram>
+  <nattable:Table xmi:id="_XLmeUDrxEeu3KuzfvF94vQ" description="" name="MotionAssistanceRequirement" currentRowAxisProvider="_XLmeVDrxEeu3KuzfvF94vQ" currentColumnAxisProvider="_XLmeUTrxEeu3KuzfvF94vQ" tableKindId="org.eclipse.papyrus.sysml14.table.requirement">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XLuaIDrxEeu3KuzfvF94vQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XLuaITrxEeu3KuzfvF94vQ" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <context xmi:type="uml:Package" href="ADAS_Requirements.uml#_0SBhIDoQEeuDR-FZDkAqqw"/>
+    <owner xmi:type="uml:Package" href="ADAS_Requirements.uml#_0SBhIDoQEeuDR-FZDkAqqw"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_XLmeUTrxEeu3KuzfvF94vQ" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_XLmeUjrxEeu3KuzfvF94vQ" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_XLmeUzrxEeu3KuzfvF94vQ" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirement.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_XLmeVDrxEeu3KuzfvF94vQ" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_x-lUcDr4Eeu3KuzfvF94vQ" type="PapyrusUMLSequenceDiagram" name="AdasStartup" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_x-lUcTr4Eeu3KuzfvF94vQ" type="Interaction_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_x-lUcjr4Eeu3KuzfvF94vQ" type="Interaction_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_x-lUczr4Eeu3KuzfvF94vQ" type="Interaction_SubfragmentCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_3ohYcDr4Eeu3KuzfvF94vQ" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_3oh_gDr4Eeu3KuzfvF94vQ" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="ADAS_Requirements.uml#_3odHADr4Eeu3KuzfvF94vQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3ohYcTr4Eeu3KuzfvF94vQ" x="94" y="10"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5AJSsDr4Eeu3KuzfvF94vQ" type="Lifeline_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_5AJSsjr4Eeu3KuzfvF94vQ" type="Lifeline_NameLabel"/>
+          <element xmi:type="uml:Lifeline" href="ADAS_Requirements.uml#_5ADMEDr4Eeu3KuzfvF94vQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5AJSsTr4Eeu3KuzfvF94vQ" x="294" y="10"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x-lUdDr4Eeu3KuzfvF94vQ"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="ADAS_Requirements.uml#_u6FBoDr4Eeu3KuzfvF94vQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x-lUdTr4Eeu3KuzfvF94vQ"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_x-lUdjr4Eeu3KuzfvF94vQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_x-lUdzr4Eeu3KuzfvF94vQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_x-lUeDr4Eeu3KuzfvF94vQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.sequence">
+      <owner xmi:type="uml:Package" href="ADAS_Requirements.uml#_UGzmwDokEeuDR-FZDkAqqw"/>
+    </styles>
+    <element xmi:type="uml:Interaction" href="ADAS_Requirements.uml#_u6FBoDr4Eeu3KuzfvF94vQ"/>
   </notation:Diagram>
 </xmi:XMI>
