@@ -13,8 +13,10 @@
 * SOMONNIAN Guillaume
 * HATAT Guillaume
 * KARA Fatma
-* +1
+* HENNI Yasmine
 
 
 ## Team 4
-* +3
+* AZZI Faycal
+* OUSSI Ali
+* MOUTAOUKKIL Imane
