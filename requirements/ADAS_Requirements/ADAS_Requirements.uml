@@ -12,14 +12,16 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_qm6VkDrzEeuK2K6rYvhOcA" name="SafeMotion"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_tCEJYDrzEeuK2K6rYvhOcA" name="ObstacleManagement"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_AoFmYDr3EeuK2K6rYvhOcA" name="ObstacleDetection"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_l6cZ4DsIEeuK2K6rYvhOcA" name="Refine4" client="_AoFmYDr3EeuK2K6rYvhOcA" supplier="_tCEJYDrzEeuK2K6rYvhOcA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_8MfdUDoQEeuDR-FZDkAqqw" name="SteeringAssistance"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_9NCUUDoQEeuDR-FZDkAqqw" name="Feedback"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_gpLXoDojEeuDR-FZDkAqqw" name="EnvironmentAwareness"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_UGzmwDokEeuDR-FZDkAqqw" name="Usecases">
-      <packagedElement xmi:type="uml:Class" xmi:id="_eYZyYDokEeuDR-FZDkAqqw" name="ADAS" useCase="_chnSADr3EeuK2K6rYvhOcA">
-        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_chnSADr3EeuK2K6rYvhOcA" name="Startup" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_eYZyYDokEeuDR-FZDkAqqw" name="ADAS" useCase="_KZAosDsJEeuK2K6rYvhOcA _TbjAMDsJEeuK2K6rYvhOcA">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_KZAosDsJEeuK2K6rYvhOcA" name="Startup" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_TbjAMDsJEeuK2K6rYvhOcA" name="ManagerSpeed" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_firNIDokEeuDR-FZDkAqqw" name="Driver"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_gSL-gDokEeuDR-FZDkAqqw" name="Vehicle"/>
@@ -28,6 +30,20 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="_mh_IoDokEeuDR-FZDkAqqw" name="Lane"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_Iih10DolEeuDR-FZDkAqqw" name="Obstacle"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_MIQmYDolEeuDR-FZDkAqqw" name="Road"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_QnUlEDsJEeuK2K6rYvhOcA" memberEnd="_QnVMIjsJEeuK2K6rYvhOcA _QnVzMDsJEeuK2K6rYvhOcA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QnVMIDsJEeuK2K6rYvhOcA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QnVMITsJEeuK2K6rYvhOcA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_QnVMIjsJEeuK2K6rYvhOcA" name="startup" type="_KZAosDsJEeuK2K6rYvhOcA" association="_QnUlEDsJEeuK2K6rYvhOcA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_QnVzMDsJEeuK2K6rYvhOcA" name="driver" type="_firNIDokEeuDR-FZDkAqqw" association="_QnUlEDsJEeuK2K6rYvhOcA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YV1v8DsJEeuK2K6rYvhOcA" memberEnd="_YV2XADsJEeuK2K6rYvhOcA _YV2XATsJEeuK2K6rYvhOcA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YV1v8TsJEeuK2K6rYvhOcA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YV1v8jsJEeuK2K6rYvhOcA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YV2XADsJEeuK2K6rYvhOcA" name="managerspeed" type="_TbjAMDsJEeuK2K6rYvhOcA" association="_YV1v8DsJEeuK2K6rYvhOcA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YV2XATsJEeuK2K6rYvhOcA" name="trafficsign" type="_hoQZkDokEeuDR-FZDkAqqw" association="_YV1v8DsJEeuK2K6rYvhOcA"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VqEwUDokEeuDR-FZDkAqqw" name="Scenarios">
       <packagedElement xmi:type="uml:Class" xmi:id="_XKuDsDokEeuDR-FZDkAqqw" name="Context">
@@ -40,7 +56,17 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_TjYesDomEeuDR-FZDkAqqw" name="road" type="_MIQmYDolEeuDR-FZDkAqqw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_ilXQIDomEeuDR-FZDkAqqw" name="adas" type="_eYZyYDokEeuDR-FZDkAqqw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_LAgCMDonEeuDR-FZDkAqqw" name="AdasStartup"/>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_LAgCMDonEeuDR-FZDkAqqw" name="AdasStartup">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_JGNHkDsKEeuK2K6rYvhOcA" name="Driver" coveredBy="_uZKnwDsKEeuK2K6rYvhOcA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_SgnzkDsKEeuK2K6rYvhOcA" name="ADAS" coveredBy="_uZLO0DsKEeuK2K6rYvhOcA _wb57kDsKEeuK2K6rYvhOcA _wb6ioDsKEeuK2K6rYvhOcA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uZKnwDsKEeuK2K6rYvhOcA" name="Message3SendEvent" covered="_JGNHkDsKEeuK2K6rYvhOcA" message="_uZJZoDsKEeuK2K6rYvhOcA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_uZLO0DsKEeuK2K6rYvhOcA" name="Message3ReceiveEvent" covered="_SgnzkDsKEeuK2K6rYvhOcA" message="_uZJZoDsKEeuK2K6rYvhOcA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wb57kDsKEeuK2K6rYvhOcA" name="Message6SendEvent" covered="_SgnzkDsKEeuK2K6rYvhOcA" message="_wb4tcDsKEeuK2K6rYvhOcA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wb6ioDsKEeuK2K6rYvhOcA" name="Message6ReceiveEvent" covered="_SgnzkDsKEeuK2K6rYvhOcA" message="_wb4tcDsKEeuK2K6rYvhOcA"/>
+        <message xmi:type="uml:Message" xmi:id="_uZJZoDsKEeuK2K6rYvhOcA" name="Startup" messageSort="asynchCall" receiveEvent="_uZLO0DsKEeuK2K6rYvhOcA" sendEvent="_uZKnwDsKEeuK2K6rYvhOcA"/>
+        <message xmi:type="uml:Message" xmi:id="_wb4tcDsKEeuK2K6rYvhOcA" name="Start Obstacle Detection " messageSort="asynchCall" receiveEvent="_wb6ioDsKEeuK2K6rYvhOcA" sendEvent="_wb57kDsKEeuK2K6rYvhOcA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_5XHjEDsKEeuK2K6rYvhOcA" name="SpeedManagement"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_plv10Dl6Eeu2uO8BpxUrEw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plv10Tl6Eeu2uO8BpxUrEw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -105,6 +131,7 @@
   </uml:Model>
   <Blocks:Block xmi:id="_XKyVIDokEeuDR-FZDkAqqw" base_Class="_XKuDsDokEeuDR-FZDkAqqw"/>
   <Requirements:Requirement xmi:id="_qnEtoDrzEeuK2K6rYvhOcA" base_Class="_qm6VkDrzEeuK2K6rYvhOcA" id="MAReq1" text="The ADAS must assist in provinding safe motion to the driver."/>
-  <Requirements:Requirement xmi:id="_tCMFMDrzEeuK2K6rYvhOcA" base_Class="_tCEJYDrzEeuK2K6rYvhOcA" id="MAReq2" text="The ADAS must be able to  stop the car in front of obstacles"/>
+  <Requirements:Requirement xmi:id="_tCMFMDrzEeuK2K6rYvhOcA" base_Class="_tCEJYDrzEeuK2K6rYvhOcA" id="MAReq2" text="The ADAS must be able to  stop the car in front of obstacles."/>
   <Requirements:Requirement xmi:id="_AorcQDr3EeuK2K6rYvhOcA" base_Class="_AoFmYDr3EeuK2K6rYvhOcA" id="MAReq3" text="The ADAS must be able to detect obstacles"/>
+  <Requirements:Refine xmi:id="_l6grUDsIEeuK2K6rYvhOcA" base_DirectedRelationship="_l6cZ4DsIEeuK2K6rYvhOcA" base_Abstraction="_l6cZ4DsIEeuK2K6rYvhOcA"/>
 </xmi:XMI>
