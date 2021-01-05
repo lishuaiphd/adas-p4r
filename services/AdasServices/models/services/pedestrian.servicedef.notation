@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_pcSvwE8vEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Pedestrian diagram" measurementUnit="Pixel">
+  <styles xsi:type="notation:StringValueStyle" xmi:id="_pcSvwU8vEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_pcSvwk8vEeuf54tkkZK0ow"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_pcSvw08vEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
+    <owner href="pedestrian.servicedef.uml#_pcQTgE8vEeuf54tkkZK0ow"/>
+  </styles>
+  <element href="pedestrian.servicedef.uml#_pcQTgk8vEeuf54tkkZK0ow"/>
+</notation:Diagram>

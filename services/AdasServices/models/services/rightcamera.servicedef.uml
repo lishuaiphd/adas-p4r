@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+  <uml:Model xmi:id="_bNWvYE8wEeuf54tkkZK0ow" name="RightcameraServicedef">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_bNWvYU8wEeuf54tkkZK0ow">
+      <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bNWvYk8wEeuf54tkkZK0ow" name="svcdefs"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bNWvY08wEeuf54tkkZK0ow" name="msg"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvZE8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvZU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvZk8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvZ08wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvaE8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvaU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//components"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_EZ1TgJZ2Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvak8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWva08wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commpattern"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_8Z6x8Je6EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvbE8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvbU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//deployment"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_tu6OsJe9EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvbk8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvb08wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//services"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SlbOAJe_EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvcE8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvcU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commobject"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_bz5AcPCaEeee6ab5J_C5Dg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvck8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvc08wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//functions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SV7GwC6LEei0V9-WLHIyvg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvdE8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvdU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//parameters"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_-pU5oDmpEei--ZsfKWaFtw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bNWvdk8wEeuf54tkkZK0ow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bNWvd08wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.services:ServiceDefinitionModel xmi:id="_bNWveE8wEeuf54tkkZK0ow" base_Package="_bNWvYE8wEeuf54tkkZK0ow"/>
+  <robotics.generics:Package xmi:id="_bNWveU8wEeuf54tkkZK0ow" base_Package="_bNWvY08wEeuf54tkkZK0ow"/>
+  <robotics.generics:Package xmi:id="_bNWvek8wEeuf54tkkZK0ow" base_Package="_bNWvYk8wEeuf54tkkZK0ow"/>
+</xmi:XMI>
