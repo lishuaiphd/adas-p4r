@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_zPw_gE8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Speedcontrol diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_zPw_gU8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_zPw_gk8wEeuf54tkkZK0ow"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_zPw_g08wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
-    <owner href="speedcontrol.servicedef.uml#_zPwYcE8wEeuf54tkkZK0ow"/>
-  </styles>
-  <element href="speedcontrol.servicedef.uml#_zPwYck8wEeuf54tkkZK0ow"/>
-</notation:Diagram>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_zPw_gE8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Speedcontrol diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_zPw_gU8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_zPw_gk8wEeuf54tkkZK0ow"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_zPw_g08wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
+      <owner xmi:type="uml:Model" href="speedcontrol.servicedef.uml#_zPwYcE8wEeuf54tkkZK0ow"/>
+    </styles>
+    <element xmi:type="uml:Package" href="speedcontrol.servicedef.uml#_zPwYck8wEeuf54tkkZK0ow"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_tpSV8FAyEeuZLb0AfzNybw" type="PapyrusUMLClassDiagram" name="Speedcontrol" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_e9zRkFA1EeuZLb0AfzNybw" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_e9z4oVA1EeuZLb0AfzNybw" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_e9z4olA1EeuZLb0AfzNybw" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_e9z4o1A1EeuZLb0AfzNybw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_e9z4pFA1EeuZLb0AfzNybw" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_hgX8AFA1EeuZLb0AfzNybw" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_hgIEYFA1EeuZLb0AfzNybw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_hgX8AVA1EeuZLb0AfzNybw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_e9z4pVA1EeuZLb0AfzNybw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_e9z4plA1EeuZLb0AfzNybw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_e9z4p1A1EeuZLb0AfzNybw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e9z4qFA1EeuZLb0AfzNybw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_e9z4qVA1EeuZLb0AfzNybw" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_e9z4qlA1EeuZLb0AfzNybw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_e9z4q1A1EeuZLb0AfzNybw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_e9z4rFA1EeuZLb0AfzNybw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e9z4rVA1EeuZLb0AfzNybw"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_e9tyAFA1EeuZLb0AfzNybw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e9z4oFA1EeuZLb0AfzNybw" x="400" y="160" width="241" height="81"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_e99CkFA1EeuZLb0AfzNybw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_e99CkVA1EeuZLb0AfzNybw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_e99Ck1A1EeuZLb0AfzNybw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_e9tyAFA1EeuZLb0AfzNybw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e99CklA1EeuZLb0AfzNybw" x="200"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_tpSV8VAyEeuZLb0AfzNybw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_tpSV8lAyEeuZLb0AfzNybw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_tpSV81AyEeuZLb0AfzNybw" diagramKindId="org.eclipse.papyrus.robotics.diagram.data">
+      <owner xmi:type="uml:Package" href="speedcontrol.servicedef.uml#_o6Y94FAyEeuZLb0AfzNybw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="speedcontrol.servicedef.uml#_o6Y94FAyEeuZLb0AfzNybw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_e99ClFA1EeuZLb0AfzNybw" type="StereotypeCommentLink" source="_e9zRkFA1EeuZLb0AfzNybw" target="_e99CkFA1EeuZLb0AfzNybw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_e99ClVA1EeuZLb0AfzNybw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_e99CmVA1EeuZLb0AfzNybw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_e9tyAFA1EeuZLb0AfzNybw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e99CllA1EeuZLb0AfzNybw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e99Cl1A1EeuZLb0AfzNybw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e99CmFA1EeuZLb0AfzNybw"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
