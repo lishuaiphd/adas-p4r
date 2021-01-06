@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_pcQTgE8vEeuf54tkkZK0ow" name="PedestrianServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_pcQTgU8vEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_pcQTgk8vEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_pcQTg08vEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pcQTg08vEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9y26MFA1EeujvL-dTWkBGg" name="Publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_WNCKEFA2EeujvL-dTWkBGg" name="pedestrian">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_BfpQ0FA9EeujvL-dTWkBGg">
+            <body>CommObject pedestrian {
+	speed_message/Vitessepersonne
+	obstacle_detector/Personnedynamique[] dynamique
+    obstacle_detector/Personnestatique[] statique
+}
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_lpNkMFA2EeujvL-dTWkBGg" name="personnedynamique">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Uec80FBAEeujvL-dTWkBGg">
+            <body>Enumeration personnedynamique {
+	geometry_msgs/Point first_point  # haut de la personne [m]
+    geometry_msgs/Point last_point   # pied de la personne [m]
+    geometry_msgs/Point center      # Central point [m]
+    speed_message/Vitessepersonne
+}
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_w30KoFA2EeujvL-dTWkBGg" name="SPEED">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_iB1ewFA_EeujvL-dTWkBGg">
+            <body>DataType SPEED {
+	speed_message/Vitessepersonne
+}
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_iVHxsFBAEeujvL-dTWkBGg" name="Dynamique">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_poEa4FBAEeujvL-dTWkBGg">
+            <body>DataType Dynamique {
+	[] dynamique
+}
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_qoKl8FBAEeujvL-dTWkBGg" name="Statique">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_whX1AFBAEeujvL-dTWkBGg">
+            <body>DataType Statique {
+	[] statique
+}
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_0yd2wFBAEeujvL-dTWkBGg" name="PersonneStatique">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_4RHu8FBAEeujvL-dTWkBGg">
+            <body>Enumeration PersonneStatique {
+	geometry_msgs/Point first_point  # haut de la personne [m]
+    geometry_msgs/Point last_point   # pied de la personne [m]
+    geometry_msgs/Point center      # Central point [m]
+}
+</body>
+          </ownedComment>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ArYmgFA2EeujvL-dTWkBGg" name="Subscribe"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pcQThE8vEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pcQThU8vEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -66,8 +125,26 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZV1uEFA2EeujvL-dTWkBGg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZV5YcFA2EeujvL-dTWkBGg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_pcQTmE8vEeuf54tkkZK0ow" base_Package="_pcQTgE8vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_pcQTmU8vEeuf54tkkZK0ow" base_Package="_pcQTg08vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_pcQTmk8vEeuf54tkkZK0ow" base_Package="_pcQTgk8vEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_WOMnsFA2EeujvL-dTWkBGg" description="pieton&#xA;&#xA;" base_DataType="_WNCKEFA2EeujvL-dTWkBGg"/>
+  <robotics.commobject:Enumeration xmi:id="_lpyL8FA2EeujvL-dTWkBGg" description="" base_DataType="_lpNkMFA2EeujvL-dTWkBGg"/>
+  <robotics.commobject:DataType xmi:id="_w3_JwFA2EeujvL-dTWkBGg" base_DataType="_w30KoFA2EeujvL-dTWkBGg"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_BfuJUFA9EeujvL-dTWkBGg" base_Comment="_BfpQ0FA9EeujvL-dTWkBGg" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_iB8McFA_EeujvL-dTWkBGg" base_Comment="_iB1ewFA_EeujvL-dTWkBGg" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_UeicYFBAEeujvL-dTWkBGg" base_Comment="_Uec80FBAEeujvL-dTWkBGg" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
+  <robotics.commobject:DataType xmi:id="_iVPtgFBAEeujvL-dTWkBGg" base_DataType="_iVHxsFBAEeujvL-dTWkBGg"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_poJ6cFBAEeujvL-dTWkBGg" base_Comment="_poEa4FBAEeujvL-dTWkBGg" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
+  <robotics.commobject:DataType xmi:id="_qoQFgFBAEeujvL-dTWkBGg" description="[] dynamique" base_DataType="_qoKl8FBAEeujvL-dTWkBGg"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_whctgFBAEeujvL-dTWkBGg" base_Comment="_whX1AFBAEeujvL-dTWkBGg" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
+  <robotics.commobject:Enumeration xmi:id="_0ylLgFBAEeujvL-dTWkBGg" base_DataType="_0yd2wFBAEeujvL-dTWkBGg"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_4RMAYFBAEeujvL-dTWkBGg" base_Comment="_4RHu8FBAEeujvL-dTWkBGg" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
 </xmi:XMI>
