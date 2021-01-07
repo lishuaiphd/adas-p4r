@@ -10,17 +10,24 @@
       </packageImport>
       <packagedElement xmi:type="uml:Package" xmi:id="_0SBhIDoQEeuDR-FZDkAqqw" name="MotionAssistance">
         <packagedElement xmi:type="uml:Class" xmi:id="_Yej7ADrxEeu3KuzfvF94vQ" name="speedControl"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_fwEgIDr5Eeu3KuzfvF94vQ" name="InformationDisplay"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_wTCjMDr5Eeu3KuzfvF94vQ" name="obstacleDetector"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_cM0mYDr6Eeu3KuzfvF94vQ" name="pedestrianDetector"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_8MfdUDoQEeuDR-FZDkAqqw" name="SteeringAssistance"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_9NCUUDoQEeuDR-FZDkAqqw" name="Feedback"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_gpLXoDojEeuDR-FZDkAqqw" name="EnvironmentAwareness"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_8MfdUDoQEeuDR-FZDkAqqw" name="SteeringAssistance">
+        <packagedElement xmi:type="uml:Class" xmi:id="_I0BW8FD5EeuG9Nr4YNqGaQ" name="Requirement1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_9NCUUDoQEeuDR-FZDkAqqw" name="Feedback">
+        <packagedElement xmi:type="uml:Class" xmi:id="_j4I6AFD4EeuG9Nr4YNqGaQ" name="InformationDisplay"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_gpLXoDojEeuDR-FZDkAqqw" name="EnvironmentAwareness">
+        <packagedElement xmi:type="uml:Class" xmi:id="_btNqgFD5EeuG9Nr4YNqGaQ" name="Lidar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_n33CcFD5EeuG9Nr4YNqGaQ" name="ObstacleDetector"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_UGzmwDokEeuDR-FZDkAqqw" name="Usecases">
-      <packagedElement xmi:type="uml:Class" xmi:id="_eYZyYDokEeuDR-FZDkAqqw" name="ADAS" useCase="_iRkB8Dr4Eeu3KuzfvF94vQ">
-        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_iRkB8Dr4Eeu3KuzfvF94vQ" name="demarrer" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_eYZyYDokEeuDR-FZDkAqqw" name="ADAS" useCase="_cUQm8FD6EeuG9Nr4YNqGaQ _s2qpUFD6EeuG9Nr4YNqGaQ _7X6FMFD6EeuG9Nr4YNqGaQ _-LaHkFD6EeuG9Nr4YNqGaQ">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cUQm8FD6EeuG9Nr4YNqGaQ" name="Lidar" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_s2qpUFD6EeuG9Nr4YNqGaQ" name="ObstacleDetector" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7X6FMFD6EeuG9Nr4YNqGaQ" name="SpeedControl" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-LaHkFD6EeuG9Nr4YNqGaQ" name="InformationDisplay" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_firNIDokEeuDR-FZDkAqqw" name="Driver"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_gSL-gDokEeuDR-FZDkAqqw" name="Vehicle"/>
@@ -33,6 +40,12 @@
         <lifeline xmi:type="uml:Lifeline" xmi:id="_3odHADr4Eeu3KuzfvF94vQ" name="Driver"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_5ADMEDr4Eeu3KuzfvF94vQ" name="ADAS"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_GuEFIFD7EeuG9Nr4YNqGaQ" client="_cUQm8FD6EeuG9Nr4YNqGaQ" supplier="_Iih10DolEeuDR-FZDkAqqw"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Icc5kFD7EeuG9Nr4YNqGaQ" client="_s2qpUFD6EeuG9Nr4YNqGaQ" supplier="_cUQm8FD6EeuG9Nr4YNqGaQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Q3dXAFD7EeuG9Nr4YNqGaQ" client="_-LaHkFD6EeuG9Nr4YNqGaQ" supplier="_7X6FMFD6EeuG9Nr4YNqGaQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_TJXIMFD7EeuG9Nr4YNqGaQ" client="_7X6FMFD6EeuG9Nr4YNqGaQ" supplier="_s2qpUFD6EeuG9Nr4YNqGaQ"/>
+      <packagedElement xmi:type="uml:Realization" xmi:id="_b5jygFD7EeuG9Nr4YNqGaQ" visibility="protected" client="_7X6FMFD6EeuG9Nr4YNqGaQ" supplier="_gSL-gDokEeuDR-FZDkAqqw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_n201wFD7EeuG9Nr4YNqGaQ" client="_firNIDokEeuDR-FZDkAqqw" supplier="_-LaHkFD6EeuG9Nr4YNqGaQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VqEwUDokEeuDR-FZDkAqqw" name="Scenarios">
       <packagedElement xmi:type="uml:Class" xmi:id="_XKuDsDokEeuDR-FZDkAqqw" name="Context">
@@ -110,7 +123,8 @@
   </uml:Model>
   <Blocks:Block xmi:id="_XKyVIDokEeuDR-FZDkAqqw" base_Class="_XKuDsDokEeuDR-FZDkAqqw"/>
   <Requirements:Requirement xmi:id="_YgP9EDrxEeu3KuzfvF94vQ" base_Class="_Yej7ADrxEeu3KuzfvF94vQ" id="MAReq1" text="ADAS doit controler la vitesse en fonction des détecteurs et de la volonté du conducteur"/>
-  <Requirements:Requirement xmi:id="_fwNDADr5Eeu3KuzfvF94vQ" base_Class="_fwEgIDr5Eeu3KuzfvF94vQ" id="MAReq2" text="ADAS doit afficher les résultats des différents capteurs"/>
-  <Requirements:Requirement xmi:id="_wTLGEDr5Eeu3KuzfvF94vQ" base_Class="_wTCjMDr5Eeu3KuzfvF94vQ" id="MAReq3" text="ADAS doit trouver les obstacles sur la route"/>
-  <Requirements:Requirement xmi:id="_cM6F8Dr6Eeu3KuzfvF94vQ" base_Class="_cM0mYDr6Eeu3KuzfvF94vQ" id="MAReq4" text="ADAS doit detecter la présence de pieton"/>
+  <Requirements:Requirement xmi:id="_j5N4EFD4EeuG9Nr4YNqGaQ" base_Class="_j4I6AFD4EeuG9Nr4YNqGaQ" id="MAReq2" text="doit afficher les résultats des différents capteurs"/>
+  <Requirements:Requirement xmi:id="_I0NkMFD5EeuG9Nr4YNqGaQ" base_Class="_I0BW8FD5EeuG9Nr4YNqGaQ"/>
+  <Requirements:Requirement xmi:id="_btZQsFD5EeuG9Nr4YNqGaQ" base_Class="_btNqgFD5EeuG9Nr4YNqGaQ" id="MAReq3" text="doit creer une carte des alentours de la voiture"/>
+  <Requirements:Requirement xmi:id="_n3--QFD5EeuG9Nr4YNqGaQ" base_Class="_n33CcFD5EeuG9Nr4YNqGaQ" id="MAReq4" text="doit detecter les obstacles autour de la voiture a partir du plan du lidar"/>
 </xmi:XMI>
