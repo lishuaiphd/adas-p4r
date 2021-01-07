@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_uN-goE8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Obstacledetection diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_uN-goU8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_uN-gok8wEeuf54tkkZK0ow"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_uN-go08wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
-    <owner href="obstacledetection.servicedef.uml#_uNmGIE8wEeuf54tkkZK0ow"/>
-  </styles>
-  <element href="obstacledetection.servicedef.uml#_uNmGIk8wEeuf54tkkZK0ow"/>
-</notation:Diagram>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_uN-goE8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Obstacledetection diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_uN-goU8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_uN-gok8wEeuf54tkkZK0ow"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_uN-go08wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
+      <owner xmi:type="uml:Model" href="obstacledetection.servicedef.uml#_uNmGIE8wEeuf54tkkZK0ow"/>
+    </styles>
+    <element xmi:type="uml:Package" href="obstacledetection.servicedef.uml#_uNmGIk8wEeuf54tkkZK0ow"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_XwwX0FEAEeu75sOB_tDiGw" type="PapyrusUMLClassDiagram" name="ObstacleDetection" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_cvdtgFEAEeu75sOB_tDiGw" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cvzEsFEAEeu75sOB_tDiGw" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_cv054FEAEeu75sOB_tDiGw" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cv1g8FEAEeu75sOB_tDiGw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cv7AgFEAEeu75sOB_tDiGw" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_mPocMFEAEeu75sOB_tDiGw" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="obstacledetection.servicedef.uml#_mL7n8FEAEeu75sOB_tDiGw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_mPocMVEAEeu75sOB_tDiGw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cv7AgVEAEeu75sOB_tDiGw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_cv7AglEAEeu75sOB_tDiGw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_cv7Ag1EAEeu75sOB_tDiGw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cv7AhFEAEeu75sOB_tDiGw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_cv7nkFEAEeu75sOB_tDiGw" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_cv7nkVEAEeu75sOB_tDiGw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_cv7nklEAEeu75sOB_tDiGw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_cv7nk1EAEeu75sOB_tDiGw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cv7nlFEAEeu75sOB_tDiGw"/>
+      </children>
+      <element xmi:type="uml:DataType" href="obstacledetection.servicedef.uml#_craT8FEAEeu75sOB_tDiGw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cvdtgVEAEeu75sOB_tDiGw" x="170" y="182"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_cx9n4FEAEeu75sOB_tDiGw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_cx9n4VEAEeu75sOB_tDiGw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cx-O8FEAEeu75sOB_tDiGw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="obstacledetection.servicedef.uml#_craT8FEAEeu75sOB_tDiGw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cx9n4lEAEeu75sOB_tDiGw" x="200"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_XwwX0VEAEeu75sOB_tDiGw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_XwwX0lEAEeu75sOB_tDiGw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_XwwX01EAEeu75sOB_tDiGw" diagramKindId="org.eclipse.papyrus.robotics.diagram.data">
+      <owner xmi:type="uml:Package" href="obstacledetection.servicedef.uml#_UA7QEFEAEeu75sOB_tDiGw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="obstacledetection.servicedef.uml#_UA7QEFEAEeu75sOB_tDiGw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_cx-2AFEAEeu75sOB_tDiGw" type="StereotypeCommentLink" source="_cvdtgFEAEeu75sOB_tDiGw" target="_cx9n4FEAEeu75sOB_tDiGw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_cx-2AVEAEeu75sOB_tDiGw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_cx_dElEAEeu75sOB_tDiGw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="obstacledetection.servicedef.uml#_craT8FEAEeu75sOB_tDiGw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cx-2AlEAEeu75sOB_tDiGw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cx_dEFEAEeu75sOB_tDiGw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cx_dEVEAEeu75sOB_tDiGw"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

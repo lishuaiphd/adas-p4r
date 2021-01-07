@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_uNmGIE8wEeuf54tkkZK0ow" name="ObstacledetectionServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_uNmGIU8wEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_uNmGIk8wEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_uNmGI08wEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_uNmGI08wEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_UA7QEFEAEeu75sOB_tDiGw" name="Publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_craT8FEAEeu75sOB_tDiGw" name="carte du lidar">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_mL7n8FEAEeu75sOB_tDiGw" name="distance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uNmGJE8wEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uNmGJU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -70,4 +78,6 @@
   <robotics.services:ServiceDefinitionModel xmi:id="_uNmGOE8wEeuf54tkkZK0ow" base_Package="_uNmGIE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_uNmGOU8wEeuf54tkkZK0ow" base_Package="_uNmGI08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_uNmGOk8wEeuf54tkkZK0ow" base_Package="_uNmGIk8wEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_ctia4FEAEeu75sOB_tDiGw" base_DataType="_craT8FEAEeu75sOB_tDiGw"/>
+  <robotics.commobject:DataAttribute xmi:id="_mNjYkFEAEeu75sOB_tDiGw" base_Property="_mL7n8FEAEeu75sOB_tDiGw"/>
 </xmi:XMI>
