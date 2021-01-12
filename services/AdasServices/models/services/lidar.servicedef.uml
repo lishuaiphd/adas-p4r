@@ -7,19 +7,27 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_ibmewk8wEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_ibmew08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_VHB6YFAtEeuMRt809dAxfw" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_7EeL4FA2EeuN0MABJzfdCw" name="lidar">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_AupgcFA3EeuN0MABJzfdCw" name="distance">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
-          </ownedAttribute>
-        </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_N8_xEFA3EeuN0MABJzfdCw" name="rotation">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_YWqTkFA3EeuN0MABJzfdCw" name="vitesse">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedAttribute>
-        </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_s5oBUFA3EeuN0MABJzfdCw" name="données">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_2xHq4FA3EeuN0MABJzfdCw" name="objets">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_2xHq4FA3EeuN0MABJzfdCw" name="distance" type="_RioEUFSzEeuU77FJedd79A"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_RioEUFSzEeuU77FJedd79A" name="Lidar">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_X3BakFSzEeuU77FJedd79A" name="distances">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z9C0oFS0EeuU77FJedd79A"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ynrkMFS0EeuU77FJedd79A" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Yq1nsFS0EeuU77FJedd79A" name="nb_points">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_bLtpAFS0EeuU77FJedd79A" name="angle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7tThYFSzEeuU77FJedd79A" name="Suscribe">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_ZfTDIFS3EeuU77FJedd79A" name="rotation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dv9AAFS3EeuU77FJedd79A" name="vitesse">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -100,10 +108,12 @@
   <robotics.services:ServiceDefinitionModel xmi:id="_ibme2E8wEeuf54tkkZK0ow" base_Package="_ibmewE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_ibme2U8wEeuf54tkkZK0ow" base_Package="_ibmew08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_ibme2k8wEeuf54tkkZK0ow" base_Package="_ibmewk8wEeuf54tkkZK0ow"/>
-  <robotics.commobject:CommunicationObject xmi:id="_7E_JQFA2EeuN0MABJzfdCw" description="" base_DataType="_7EeL4FA2EeuN0MABJzfdCw"/>
-  <robotics.commobject:DataAttribute xmi:id="_AwiW0FA3EeuN0MABJzfdCw" base_Property="_AupgcFA3EeuN0MABJzfdCw"/>
-  <robotics.commobject:CommunicationObject xmi:id="_N9wmEFA3EeuN0MABJzfdCw" base_DataType="_N8_xEFA3EeuN0MABJzfdCw"/>
-  <robotics.commobject:DataAttribute xmi:id="_YXAR0FA3EeuN0MABJzfdCw" description="reception de la vitesse de rotation du module" base_Property="_YWqTkFA3EeuN0MABJzfdCw"/>
   <robotics.commobject:CommunicationObject xmi:id="_s568QFA3EeuN0MABJzfdCw" description="données créées par le capteur&#xA;" base_DataType="_s5oBUFA3EeuN0MABJzfdCw"/>
   <robotics.commobject:DataAttribute xmi:id="_2xbz8FA3EeuN0MABJzfdCw" base_Property="_2xHq4FA3EeuN0MABJzfdCw"/>
+  <robotics.commobject:DataType xmi:id="_RjPvYFSzEeuU77FJedd79A" description="" base_DataType="_RioEUFSzEeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_X3ZOAFSzEeuU77FJedd79A" base_Property="_X3BakFSzEeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_YrRFgFS0EeuU77FJedd79A" base_Property="_Yq1nsFS0EeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_bL52QFS0EeuU77FJedd79A" base_Property="_bLtpAFS0EeuU77FJedd79A"/>
+  <robotics.commobject:CommunicationObject xmi:id="_ZfiTsFS3EeuU77FJedd79A" description="selection de la vitesse de rotation&#xA;" base_DataType="_ZfTDIFS3EeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_dwHYEFS3EeuU77FJedd79A" base_Property="_dv9AAFS3EeuU77FJedd79A"/>
 </xmi:XMI>
