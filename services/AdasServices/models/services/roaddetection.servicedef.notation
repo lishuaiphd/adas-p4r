@@ -1,9 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_U8GzwE8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Roaddetection diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_U8GzwU8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_U8Gzwk8wEeuf54tkkZK0ow"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_U8Gzw08wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
-    <owner href="roaddetection.servicedef.uml#_U8FloE8wEeuf54tkkZK0ow"/>
-  </styles>
-  <element href="roaddetection.servicedef.uml#_U8Flok8wEeuf54tkkZK0ow"/>
-</notation:Diagram>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_U8GzwE8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Roaddetection diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_DPTDcFTFEeunjeKkmcG6Xw" type="Interface_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DPTqgVTFEeunjeKkmcG6Xw" type="Interface_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DPTqglTFEeunjeKkmcG6Xw" type="Interface_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DPTqg1TFEeunjeKkmcG6Xw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_DPTqhFTFEeunjeKkmcG6Xw" type="Interface_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_DPTqhVTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_DPTqhlTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_DPTqh1TFEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPTqiFTFEeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_DPTqiVTFEeunjeKkmcG6Xw" type="Interface_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_DPTqilTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_DPTqi1TFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_DPTqjFTFEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPTqjVTFEeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_DPTqjlTFEeunjeKkmcG6Xw" type="Interface_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_DPTqj1TFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_DPTqkFTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_DPTqkVTFEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPTqklTFEeunjeKkmcG6Xw"/>
+      </children>
+      <element xmi:type="uml:Interface" href="roaddetection.servicedef.uml#_CFzEwFTFEeunjeKkmcG6Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPTqgFTFEeunjeKkmcG6Xw" x="140" y="60" width="261" height="121"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_DPdbhVTFEeunjeKkmcG6Xw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_DPdbhlTFEeunjeKkmcG6Xw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_DPdbiFTFEeunjeKkmcG6Xw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Interface" href="roaddetection.servicedef.uml#_CFzEwFTFEeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DPdbh1TFEeunjeKkmcG6Xw" x="200"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_U8GzwU8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_U8Gzwk8wEeuf54tkkZK0ow"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_U8Gzw08wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
+      <owner xmi:type="uml:Model" href="roaddetection.servicedef.uml#_U8FloE8wEeuf54tkkZK0ow"/>
+    </styles>
+    <element xmi:type="uml:Package" href="roaddetection.servicedef.uml#_U8Flok8wEeuf54tkkZK0ow"/>
+    <edges xmi:type="notation:Connector" xmi:id="_DPdbiVTFEeunjeKkmcG6Xw" type="StereotypeCommentLink" source="_DPTDcFTFEeunjeKkmcG6Xw" target="_DPdbhVTFEeunjeKkmcG6Xw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_DPdbilTFEeunjeKkmcG6Xw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_DPeCkFTFEeunjeKkmcG6Xw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Interface" href="roaddetection.servicedef.uml#_CFzEwFTFEeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DPdbi1TFEeunjeKkmcG6Xw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DPdbjFTFEeunjeKkmcG6Xw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DPdbjVTFEeunjeKkmcG6Xw"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_MX8OgFS7EeunjeKkmcG6Xw" type="PapyrusUMLClassDiagram" name="RoadDetectionSubscribedMsg" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_6ybXEFS_EeunjeKkmcG6Xw" type="DataType_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_taYF8VTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_taYF8lTBEeunjeKkmcG6Xw" key="canonical" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6ybXElS_EeunjeKkmcG6Xw" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6ybXE1S_EeunjeKkmcG6Xw" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6ybXFFS_EeunjeKkmcG6Xw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6ybXFVS_EeunjeKkmcG6Xw" type="DataType_AttributeCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tbVvQFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tbVvQVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_taZUEFTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tbVvQlTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tbVvQ1TBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="roaddetection.servicedef.uml#_Zoaz0FTAEeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_taZUEVTBEeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_taZUElTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tbVvRFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tbVvRVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="roaddetection.servicedef.uml#_enYBIFTAEeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_taZUE1TBEeunjeKkmcG6Xw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6ybXFlS_EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6ybXF1S_EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6ybXGFS_EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ybXGVS_EeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6yb-IFS_EeunjeKkmcG6Xw" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6yb-IVS_EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6yb-IlS_EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6yb-I1S_EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6yb-JFS_EeunjeKkmcG6Xw"/>
+      </children>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_taYF8FTBEeunjeKkmcG6Xw"/>
+      <element xmi:type="uml:DataType" href="roaddetection.servicedef.uml#_6yYTwFS_EeunjeKkmcG6Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ybXEVS_EeunjeKkmcG6Xw" x="140" y="80" width="241" height="121"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_A1O8IFTCEeunjeKkmcG6Xw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_A1O8IVTCEeunjeKkmcG6Xw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A1O8I1TCEeunjeKkmcG6Xw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="roaddetection.servicedef.uml#_6yYTwFS_EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A1O8IlTCEeunjeKkmcG6Xw" x="340" y="80"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_MX8OgVS7EeunjeKkmcG6Xw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_MX8OglS7EeunjeKkmcG6Xw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_MX8Og1S7EeunjeKkmcG6Xw" diagramKindId="org.eclipse.papyrus.robotics.diagram.data">
+      <owner xmi:type="uml:Package" href="roaddetection.servicedef.uml#_I4RCoFS7EeunjeKkmcG6Xw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="roaddetection.servicedef.uml#_I4RCoFS7EeunjeKkmcG6Xw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_A1O8JFTCEeunjeKkmcG6Xw" type="StereotypeCommentLink" source="_6ybXEFS_EeunjeKkmcG6Xw" target="_A1O8IFTCEeunjeKkmcG6Xw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_A1O8JVTCEeunjeKkmcG6Xw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A1PjMlTCEeunjeKkmcG6Xw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="roaddetection.servicedef.uml#_6yYTwFS_EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A1O8JlTCEeunjeKkmcG6Xw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A1PjMFTCEeunjeKkmcG6Xw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A1PjMVTCEeunjeKkmcG6Xw"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_jiCkUFTAEeunjeKkmcG6Xw" type="PapyrusUMLClassDiagram" name="RoadDetectionPublishedMsg" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_kFlWQFTAEeunjeKkmcG6Xw" type="DataType_Shape" transparency="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nJBcoFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nJBcoVTBEeunjeKkmcG6Xw" key="canonical" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kFlWQlTAEeunjeKkmcG6Xw" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kFlWQ1TAEeunjeKkmcG6Xw" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kFlWRFTAEeunjeKkmcG6Xw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kFlWRVTAEeunjeKkmcG6Xw" type="DataType_AttributeCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nLQRQFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nLQRQVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_nJ9QwFTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nLQ4UFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nLQ4UVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="roaddetection.servicedef.uml#_yjd8IFTAEeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_nJ9QwVTBEeunjeKkmcG6Xw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kFlWRlTAEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kFlWR1TAEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kFlWSFTAEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kFlWSVTAEeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kFlWSlTAEeunjeKkmcG6Xw" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kFlWS1TAEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kFlWTFTAEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kFlWTVTAEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kFlWTlTAEeunjeKkmcG6Xw"/>
+      </children>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_nJA1kFTBEeunjeKkmcG6Xw"/>
+      <element xmi:type="uml:DataType" href="roaddetection.servicedef.uml#_kFhE0FTAEeunjeKkmcG6Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kFlWQVTAEeunjeKkmcG6Xw" x="160" y="40" width="301" height="141"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_A0swo1TCEeunjeKkmcG6Xw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_A0tXsFTCEeunjeKkmcG6Xw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A0tXslTCEeunjeKkmcG6Xw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="roaddetection.servicedef.uml#_kFhE0FTAEeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A0tXsVTCEeunjeKkmcG6Xw" x="360" y="40"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_jiCkUVTAEeunjeKkmcG6Xw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_jiCkUlTAEeunjeKkmcG6Xw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jiCkU1TAEeunjeKkmcG6Xw" diagramKindId="org.eclipse.papyrus.robotics.diagram.data">
+      <owner xmi:type="uml:Package" href="roaddetection.servicedef.uml#_HxZhMFS7EeunjeKkmcG6Xw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="roaddetection.servicedef.uml#_HxZhMFS7EeunjeKkmcG6Xw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_A0tXs1TCEeunjeKkmcG6Xw" type="StereotypeCommentLink" source="_kFlWQFTAEeunjeKkmcG6Xw" target="_A0swo1TCEeunjeKkmcG6Xw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_A0tXtFTCEeunjeKkmcG6Xw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A0tXuFTCEeunjeKkmcG6Xw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="roaddetection.servicedef.uml#_kFhE0FTAEeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A0tXtVTCEeunjeKkmcG6Xw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A0tXtlTCEeunjeKkmcG6Xw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A0tXt1TCEeunjeKkmcG6Xw"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>
