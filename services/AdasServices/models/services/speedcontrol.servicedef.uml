@@ -9,6 +9,8 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_o6Y94FAyEeuZLb0AfzNybw" name="Publish">
         <packagedElement xmi:type="uml:DataType" xmi:id="_e9tyAFA1EeuZLb0AfzNybw" name="SpeedControl">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_sJva8FS1EeuEh6TOcyHeKA" name="Speed" type="_f50MUFSzEeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_NLfLUFS7EeuEh6TOcyHeKA" name="Motor" type="_zd6hQFS3EeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RVtwEFS7EeuEh6TOcyHeKA" name="Breaks" type="_IlWYkFS5EeuEh6TOcyHeKA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_f50MUFSzEeuEh6TOcyHeKA" name="Speed">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_rMgokFSzEeuEh6TOcyHeKA" name="Speed">
@@ -16,6 +18,25 @@
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Rm98UFS0EeuEh6TOcyHeKA" name="Time">
             <type xmi:type="uml:Enumeration" href="pathmap://Papyrus_LIBRARIES/MARTE_Library.library.uml#_MDyyoA-KEdyNj8xzjk-DoA"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_zd6hQFS3EeuEh6TOcyHeKA" name="Motor">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Dshd4FS4EeuEh6TOcyHeKA" name="InjectFuel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cMc7AFS5EeuEh6TOcyHeKA" name="Rotation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IlWYkFS5EeuEh6TOcyHeKA" name="Breaks">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_NIWpsFS5EeuEh6TOcyHeKA" name="State">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EAHn8FS7EeuEh6TOcyHeKA" name="Pressure">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_JfI1YFS7EeuEh6TOcyHeKA" name="ABS">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -101,4 +122,13 @@
   <robotics.commobject:DataAttribute xmi:id="_rMurAFSzEeuEh6TOcyHeKA" base_Property="_rMgokFSzEeuEh6TOcyHeKA"/>
   <robotics.commobject:DataAttribute xmi:id="_RnCNwFS0EeuEh6TOcyHeKA" base_Property="_Rm98UFS0EeuEh6TOcyHeKA"/>
   <robotics.commobject:DataAttribute xmi:id="_sJ0TcFS1EeuEh6TOcyHeKA" base_Property="_sJva8FS1EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_zeAA0FS3EeuEh6TOcyHeKA" base_DataType="_zd6hQFS3EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_DslIQFS4EeuEh6TOcyHeKA" base_Property="_Dshd4FS4EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_IlbREFS5EeuEh6TOcyHeKA" base_DataType="_IlWYkFS5EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_NIa7IFS5EeuEh6TOcyHeKA" base_Property="_NIWpsFS5EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_cMglYFS5EeuEh6TOcyHeKA" base_Property="_cMc7AFS5EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_EALSUFS7EeuEh6TOcyHeKA" base_Property="_EAHn8FS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_JfL4sFS7EeuEh6TOcyHeKA" base_Property="_JfI1YFS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_NLiOoFS7EeuEh6TOcyHeKA" base_Property="_NLfLUFS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_RVxacFS7EeuEh6TOcyHeKA" base_Property="_RVtwEFS7EeuEh6TOcyHeKA"/>
 </xmi:XMI>
