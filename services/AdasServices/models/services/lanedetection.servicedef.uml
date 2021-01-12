@@ -21,14 +21,37 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_Xk8v8FSvEeuZaLX8s8LTGQ" name="InterfaceLeftCamera">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_iyXOIFSwEeuZaLX8s8LTGQ" name="RoadImage">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Xk8v8FSvEeuZaLX8s8LTGQ" name="InterfaceCamera">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_iyXOIFSwEeuZaLX8s8LTGQ" name="LeftImage">
+            <type xmi:type="uml:DataType" href="leftcamera.servicedef.uml#_o6h9UFRPEeuHn4gYbqpl3w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7n-VcFSzEeuZaLX8s8LTGQ" name="RIghtImage">
             <type xmi:type="uml:DataType" href="leftcamera.servicedef.uml#_o6h9UFRPEeuHn4gYbqpl3w"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_senmIFSyEeuZaLX8s8LTGQ" name="ContrôleInterface">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_5LbP8FSyEeuZaLX8s8LTGQ" name="TurnSignal">
             <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_RzA0QFS0EeuZaLX8s8LTGQ" name="TraitementImage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_awXw0FS0EeuZaLX8s8LTGQ" name="DistanceRight">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ef6ksFS0EeuZaLX8s8LTGQ" name="DIstanceLeft">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_6j0jABydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Ljb3IFS1EeuZaLX8s8LTGQ" name="lane_curves" type="_1_so4FS0EeuZaLX8s8LTGQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_1_so4FS0EeuZaLX8s8LTGQ" name="Curve">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_-pJyAFS0EeuZaLX8s8LTGQ" name="a">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_BzXEMFS1EeuZaLX8s8LTGQ" name="b">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_FZhSkFS1EeuZaLX8s8LTGQ" name="c">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -113,4 +136,13 @@
   <robotics.commobject:DataAttribute xmi:id="_Xz8t4FSyEeuZaLX8s8LTGQ" base_Property="_Xz3OUFSyEeuZaLX8s8LTGQ"/>
   <robotics.commobject:CommunicationObject xmi:id="_serQgFSyEeuZaLX8s8LTGQ" base_DataType="_senmIFSyEeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_5LgvgFSyEeuZaLX8s8LTGQ" base_Property="_5LbP8FSyEeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_7oBYwFSzEeuZaLX8s8LTGQ" base_Property="_7n-VcFSzEeuZaLX8s8LTGQ"/>
+  <robotics.commobject:CommunicationObject xmi:id="_RzFFsFS0EeuZaLX8s8LTGQ" base_DataType="_RzA0QFS0EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_awdQYFS0EeuZaLX8s8LTGQ" base_Property="_awXw0FS0EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_ef_dMFS0EeuZaLX8s8LTGQ" base_Property="_ef6ksFS0EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataType xmi:id="_1_xhYFS0EeuZaLX8s8LTGQ" base_DataType="_1_so4FS0EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_-pSU4FS0EeuZaLX8s8LTGQ" base_Property="_-pJyAFS0EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_BzaukFS1EeuZaLX8s8LTGQ" base_Property="_BzXEMFS1EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_FZkV4FS1EeuZaLX8s8LTGQ" base_Property="_FZhSkFS1EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_LjfhgFS1EeuZaLX8s8LTGQ" base_Property="_Ljb3IFS1EeuZaLX8s8LTGQ"/>
 </xmi:XMI>
