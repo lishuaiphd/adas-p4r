@@ -145,19 +145,19 @@
   <robotics.generics:Package xmi:id="_bGS6qU8vEeuf54tkkZK0ow" base_Package="_bGS6k08vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_bGS6qk8vEeuf54tkkZK0ow" base_Package="_bGS6kk8vEeuf54tkkZK0ow"/>
   <robotics.commobject:CommunicationObject xmi:id="_OyJ8oFAlEeuQn4VMJWeC_w" base_DataType="_OxRL0FAlEeuQn4VMJWeC_w"/>
-  <robotics.commobject:DataAttribute xmi:id="_ULzh4FAlEeuQn4VMJWeC_w" base_Property="_ULkRUFAlEeuQn4VMJWeC_w"/>
-  <robotics.commobject:DataAttribute xmi:id="_VqpecFAlEeuQn4VMJWeC_w" description="" base_Property="_VqftcFAlEeuQn4VMJWeC_w"/>
+  <robotics.commobject:DataAttribute xmi:id="_ULzh4FAlEeuQn4VMJWeC_w" description="Image height, that is, number of rows" base_Property="_ULkRUFAlEeuQn4VMJWeC_w"/>
+  <robotics.commobject:DataAttribute xmi:id="_VqpecFAlEeuQn4VMJWeC_w" description="Image width, that is, number of columns" base_Property="_VqftcFAlEeuQn4VMJWeC_w"/>
   <robotics.services:ServiceDefinition xmi:id="_1VyagFAlEeuQn4VMJWeC_w" base_Interface="_vt-dcFAlEeuQn4VMJWeC_w"/>
-  <robotics.commobject:DataAttribute xmi:id="_DMh7UFA7EeuS2bjPKkq44w" base_Property="_DMdC0FA7EeuS2bjPKkq44w"/>
-  <robotics.commobject:DataAttribute xmi:id="_BSIxcFQ8EeuHcITk3ae9JA" base_Property="_BSEgAFQ8EeuHcITk3ae9JA"/>
-  <robotics.commobject:DataAttribute xmi:id="_i2vsYFRDEeuHcITk3ae9JA" base_Property="_i2ra8FRDEeuHcITk3ae9JA"/>
-  <robotics.commobject:DataAttribute xmi:id="_n5GL8FRDEeuHcITk3ae9JA" base_Property="_n5B6gFRDEeuHcITk3ae9JA"/>
+  <robotics.commobject:DataAttribute xmi:id="_DMh7UFA7EeuS2bjPKkq44w" description="Actual matrix data, size is (step * rows)" base_Property="_DMdC0FA7EeuS2bjPKkq44w"/>
+  <robotics.commobject:DataAttribute xmi:id="_BSIxcFQ8EeuHcITk3ae9JA" description="Encoding of pixels -- channel meaning, ordering, size" base_Property="_BSEgAFQ8EeuHcITk3ae9JA"/>
+  <robotics.commobject:DataAttribute xmi:id="_i2vsYFRDEeuHcITk3ae9JA" description="Is this data bigendian?" base_Property="_i2ra8FRDEeuHcITk3ae9JA"/>
+  <robotics.commobject:DataAttribute xmi:id="_n5GL8FRDEeuHcITk3ae9JA" description="Full row length in bytes" base_Property="_n5B6gFRDEeuHcITk3ae9JA"/>
   <robotics.commobject:CommunicationObject xmi:id="_-vt-YFRDEeuHcITk3ae9JA" base_DataType="_-voe0FRDEeuHcITk3ae9JA"/>
-  <robotics.commobject:DataAttribute xmi:id="_LGS5gFREEeuHcITk3ae9JA" base_Property="_LGPPIFREEeuHcITk3ae9JA"/>
-  <robotics.commobject:DataAttribute xmi:id="_PKtxMFREEeuHcITk3ae9JA" base_Property="_PKnqkFREEeuHcITk3ae9JA"/>
+  <robotics.commobject:DataAttribute xmi:id="_LGS5gFREEeuHcITk3ae9JA" description="Specifies the format of the data" base_Property="_LGPPIFREEeuHcITk3ae9JA"/>
+  <robotics.commobject:DataAttribute xmi:id="_PKtxMFREEeuHcITk3ae9JA" description="Compressed image buffer" base_Property="_PKnqkFREEeuHcITk3ae9JA"/>
   <robotics.commobject:CommunicationObject xmi:id="_n0MBUFREEeuHcITk3ae9JA" base_DataType="_n0Hv4FREEeuHcITk3ae9JA"/>
-  <robotics.commobject:DataAttribute xmi:id="_u-K7wFREEeuHcITk3ae9JA" base_Property="_u-FcMFREEeuHcITk3ae9JA"/>
-  <robotics.commobject:DataAttribute xmi:id="_x3XWcFREEeuHcITk3ae9JA" base_Property="_x3TsEFREEeuHcITk3ae9JA"/>
+  <robotics.commobject:DataAttribute xmi:id="_u-K7wFREEeuHcITk3ae9JA" description="The channel name should give semantics of the channel" base_Property="_u-FcMFREEeuHcITk3ae9JA"/>
+  <robotics.commobject:DataAttribute xmi:id="_x3XWcFREEeuHcITk3ae9JA" description="The values array should be 1-1 with the elements of the associated PointCloud" base_Property="_x3TsEFREEeuHcITk3ae9JA"/>
   <robotics.commobject:DataType xmi:id="_o6orAFRPEeuHn4gYbqpl3w" base_DataType="_o6h9UFRPEeuHn4gYbqpl3w"/>
-  <robotics.commobject:DataAttribute xmi:id="_Aw0dAFRQEeuHn4gYbqpl3w" base_Property="_Awr6IFRQEeuHn4gYbqpl3w"/>
+  <robotics.commobject:DataAttribute xmi:id="_Aw0dAFRQEeuHn4gYbqpl3w" description="" base_Property="_Awr6IFRQEeuHn4gYbqpl3w"/>
 </xmi:XMI>
