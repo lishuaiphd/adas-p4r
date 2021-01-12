@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_pcQTgE8vEeuf54tkkZK0ow" name="PedestrianServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_pcQTgU8vEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_pcQTgk8vEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_pcQTg08vEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pcQTgk8vEeuf54tkkZK0ow" name="svcdefs">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_of-gkFRVEeuFB7VlL5LR-w" name="Pedestrian">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_sfmX0FRVEeuFB7VlL5LR-w">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_sfm-4FRVEeuFB7VlL5LR-w" actual="_hCg1AFRLEeuFB7VlL5LR-w">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pcQTg08vEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_9y26MFA1EeujvL-dTWkBGg" name="Publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_hCg1AFRLEeuFB7VlL5LR-w" name="Pedestrian">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kJYfUFRLEeuFB7VlL5LR-w" name="speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jhS5sFRNEeuFB7VlL5LR-w"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j7N1kFRNEeuFB7VlL5LR-w" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_-7aXYFRLEeuFB7VlL5LR-w" name="statique">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ng1vsFRMEeuFB7VlL5LR-w"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NhQmcFRMEeuFB7VlL5LR-w" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_PRqNEFRMEeuFB7VlL5LR-w" name="dynamique">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TFnm4FRMEeuFB7VlL5LR-w"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TF1CQFRMEeuFB7VlL5LR-w" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DaC-gFRPEeuFB7VlL5LR-w" name="original_image">
+            <type xmi:type="uml:DataType" href="leftcamera.servicedef.uml#_o6h9UFRPEeuHn4gYbqpl3w"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_rwqkUFRMEeuFB7VlL5LR-w" name="Dynamique">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_upADYFRMEeuFB7VlL5LR-w" name="speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_N1zdoFRNEeuFB7VlL5LR-w" name="Position">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Xun84FRNEeuFB7VlL5LR-w"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y4OCMFRNEeuFB7VlL5LR-w" value="2"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_2jTngFRMEeuFB7VlL5LR-w" name="Statique">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5N5lgFRMEeuFB7VlL5LR-w" name="Position">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a5FtwFRNEeuFB7VlL5LR-w"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bokC4FRNEeuFB7VlL5LR-w" value="2"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ArYmgFA2EeujvL-dTWkBGg" name="Subscribe"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pcQThE8vEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pcQThU8vEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -66,8 +116,25 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZV1uEFA2EeujvL-dTWkBGg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZV5YcFA2EeujvL-dTWkBGg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_pcQTmE8vEeuf54tkkZK0ow" base_Package="_pcQTgE8vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_pcQTmU8vEeuf54tkkZK0ow" base_Package="_pcQTg08vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_pcQTmk8vEeuf54tkkZK0ow" base_Package="_pcQTgk8vEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_hC3aUFRLEeuFB7VlL5LR-w" base_DataType="_hCg1AFRLEeuFB7VlL5LR-w"/>
+  <robotics.commobject:DataAttribute xmi:id="_kJhCMFRLEeuFB7VlL5LR-w" description="" base_Property="_kJYfUFRLEeuFB7VlL5LR-w"/>
+  <robotics.commobject:DataAttribute xmi:id="_-7hFEFRLEeuFB7VlL5LR-w" base_Property="_-7aXYFRLEeuFB7VlL5LR-w"/>
+  <robotics.commobject:DataAttribute xmi:id="_PRyv8FRMEeuFB7VlL5LR-w" base_Property="_PRqNEFRMEeuFB7VlL5LR-w"/>
+  <robotics.commobject:CommunicationObject xmi:id="_rwwq8FRMEeuFB7VlL5LR-w" base_DataType="_rwqkUFRMEeuFB7VlL5LR-w"/>
+  <robotics.commobject:DataAttribute xmi:id="_upEU0FRMEeuFB7VlL5LR-w" base_Property="_upADYFRMEeuFB7VlL5LR-w"/>
+  <robotics.commobject:CommunicationObject xmi:id="_2jZHEFRMEeuFB7VlL5LR-w" base_DataType="_2jTngFRMEeuFB7VlL5LR-w"/>
+  <robotics.commobject:DataAttribute xmi:id="_5OD9kFRMEeuFB7VlL5LR-w" base_Property="_5N5lgFRMEeuFB7VlL5LR-w"/>
+  <robotics.commobject:DataAttribute xmi:id="_N16LUFRNEeuFB7VlL5LR-w" description="" base_Property="_N1zdoFRNEeuFB7VlL5LR-w"/>
+  <robotics.commobject:DataAttribute xmi:id="_DaJFIFRPEeuFB7VlL5LR-w" base_Property="_DaC-gFRPEeuFB7VlL5LR-w"/>
+  <robotics.services:ServiceDefinition xmi:id="_sftskFRVEeuFB7VlL5LR-w" base_Interface="_of-gkFRVEeuFB7VlL5LR-w"/>
 </xmi:XMI>
