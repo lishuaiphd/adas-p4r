@@ -32,7 +32,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TFnm4FRMEeuFB7VlL5LR-w"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TF1CQFRMEeuFB7VlL5LR-w" value="*"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_DaC-gFRPEeuFB7VlL5LR-w" name="original_image">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DaC-gFRPEeuFB7VlL5LR-w" name="left_image">
             <type xmi:type="uml:DataType" href="leftcamera.servicedef.uml#_o6h9UFRPEeuHn4gYbqpl3w"/>
           </ownedAttribute>
         </packagedElement>
