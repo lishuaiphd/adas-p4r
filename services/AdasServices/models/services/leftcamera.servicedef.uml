@@ -12,6 +12,7 @@
           </parameterSubstitution>
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
         </templateBinding>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_02HAEFSzEeuFRKNJ5FlKHw" name="CompressedImage" type="_o6h9UFRPEeuHn4gYbqpl3w"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_bGS6k08vEeuf54tkkZK0ow" name="msg">
@@ -160,4 +161,5 @@
   <robotics.commobject:DataAttribute xmi:id="_x3XWcFREEeuHcITk3ae9JA" description="The values array should be 1-1 with the elements of the associated PointCloud" base_Property="_x3TsEFREEeuHcITk3ae9JA"/>
   <robotics.commobject:DataType xmi:id="_o6orAFRPEeuHn4gYbqpl3w" base_DataType="_o6h9UFRPEeuHn4gYbqpl3w"/>
   <robotics.commobject:DataAttribute xmi:id="_Aw0dAFRQEeuHn4gYbqpl3w" description="" base_Property="_Awr6IFRQEeuHn4gYbqpl3w"/>
+  <robotics.services:ServiceProperty xmi:id="_02RYIFSzEeuFRKNJ5FlKHw" base_Property="_02HAEFSzEeuFRKNJ5FlKHw"/>
 </xmi:XMI>
