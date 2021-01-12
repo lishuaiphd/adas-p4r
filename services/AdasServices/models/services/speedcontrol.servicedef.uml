@@ -7,9 +7,15 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_zPwYck8wEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPwYc08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_o6Y94FAyEeuZLb0AfzNybw" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_e9tyAFA1EeuZLb0AfzNybw" name="Speed">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_hgIEYFA1EeuZLb0AfzNybw" name="Speed">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_e9tyAFA1EeuZLb0AfzNybw" name="SpeedControl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_sJva8FS1EeuEh6TOcyHeKA" name="Speed" type="_f50MUFSzEeuEh6TOcyHeKA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_f50MUFSzEeuEh6TOcyHeKA" name="Speed">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rMgokFSzEeuEh6TOcyHeKA" name="Speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Rm98UFS0EeuEh6TOcyHeKA" name="Time">
+            <type xmi:type="uml:Enumeration" href="pathmap://Papyrus_LIBRARIES/MARTE_Library.library.uml#_MDyyoA-KEdyNj8xzjk-DoA"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -91,5 +97,8 @@
   <robotics.generics:Package xmi:id="_zPwYiU8wEeuf54tkkZK0ow" base_Package="_zPwYc08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_zPwYik8wEeuf54tkkZK0ow" base_Package="_zPwYck8wEeuf54tkkZK0ow"/>
   <robotics.commobject:CommunicationObject xmi:id="_e9yDcFA1EeuZLb0AfzNybw" base_DataType="_e9tyAFA1EeuZLb0AfzNybw"/>
-  <robotics.commobject:DataAttribute xmi:id="_hgNj8FA1EeuZLb0AfzNybw" base_Property="_hgIEYFA1EeuZLb0AfzNybw"/>
+  <robotics.commobject:DataType xmi:id="_f6FSEFSzEeuEh6TOcyHeKA" base_DataType="_f50MUFSzEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_rMurAFSzEeuEh6TOcyHeKA" base_Property="_rMgokFSzEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_RnCNwFS0EeuEh6TOcyHeKA" base_Property="_Rm98UFS0EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_sJ0TcFS1EeuEh6TOcyHeKA" base_Property="_sJva8FS1EeuEh6TOcyHeKA"/>
 </xmi:XMI>
