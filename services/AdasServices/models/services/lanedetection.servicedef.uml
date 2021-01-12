@@ -4,7 +4,16 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_enLnYU8vEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_enLnYk8vEeuf54tkkZK0ow" name="svcdefs"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_enLnYk8vEeuf54tkkZK0ow" name="svcdefs">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_uhDW8FS9EeuFRKNJ5FlKHw" name="LaneManagementSystem">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_0S1IUFS9EeuFRKNJ5FlKHw">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_0S1vYFS9EeuFRKNJ5FlKHw" actual="_Uwq7QFFeEeuvZJGuSzNKYw">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+      </packagedElement>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_enLnY08vEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_NgU80FAvEeuwUYbf04lBzQ" name="Publish">
         <packagedElement xmi:type="uml:DataType" xmi:id="_Uwq7QFFeEeuvZJGuSzNKYw" name="LaneManagementSystem">
@@ -13,10 +22,7 @@
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_Xk8v8FSvEeuZaLX8s8LTGQ" name="InterfaceCamera">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_iyXOIFSwEeuZaLX8s8LTGQ" name="LeftImage">
-            <type xmi:type="uml:DataType" href="leftcamera.servicedef.uml#_o6h9UFRPEeuHn4gYbqpl3w"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_7n-VcFSzEeuZaLX8s8LTGQ" name="RIghtImage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_iyXOIFSwEeuZaLX8s8LTGQ" name="leftcamera.servicedef/LeftImage">
             <type xmi:type="uml:DataType" href="leftcamera.servicedef.uml#_o6h9UFRPEeuHn4gYbqpl3w"/>
           </ownedAttribute>
         </packagedElement>
@@ -132,7 +138,6 @@
   <robotics.commobject:DataAttribute xmi:id="_iycGoFSwEeuZaLX8s8LTGQ" base_Property="_iyXOIFSwEeuZaLX8s8LTGQ"/>
   <robotics.commobject:CommunicationObject xmi:id="_serQgFSyEeuZaLX8s8LTGQ" base_DataType="_senmIFSyEeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_5LgvgFSyEeuZaLX8s8LTGQ" base_Property="_5LbP8FSyEeuZaLX8s8LTGQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_7oBYwFSzEeuZaLX8s8LTGQ" base_Property="_7n-VcFSzEeuZaLX8s8LTGQ"/>
   <robotics.commobject:CommunicationObject xmi:id="_RzFFsFS0EeuZaLX8s8LTGQ" base_DataType="_RzA0QFS0EeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_awdQYFS0EeuZaLX8s8LTGQ" base_Property="_awXw0FS0EeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_ef_dMFS0EeuZaLX8s8LTGQ" base_Property="_ef6ksFS0EeuZaLX8s8LTGQ"/>
@@ -144,4 +149,5 @@
   <robotics.commobject:CommunicationObject xmi:id="_CgRGIFS4EeuZaLX8s8LTGQ" base_DataType="_CgOC0FS4EeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_IVYfYFS4EeuZaLX8s8LTGQ" base_Property="_IVQjkFS4EeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_LeFVsFS4EeuZaLX8s8LTGQ" base_Property="_LeBrUFS4EeuZaLX8s8LTGQ"/>
+  <robotics.services:ServiceDefinition xmi:id="_0S6A0FS9EeuFRKNJ5FlKHw" base_Interface="_uhDW8FS9EeuFRKNJ5FlKHw"/>
 </xmi:XMI>

@@ -7,7 +7,7 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_ibmewk8wEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_ibmew08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_VHB6YFAtEeuMRt809dAxfw" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_s5oBUFA3EeuN0MABJzfdCw" name="données">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_s5oBUFA3EeuN0MABJzfdCw" name="donnees">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_2xHq4FA3EeuN0MABJzfdCw" name="distance" type="_RioEUFSzEeuU77FJedd79A"/>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_RioEUFSzEeuU77FJedd79A" name="Lidar">
@@ -21,6 +21,11 @@
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_bLtpAFS0EeuU77FJedd79A" name="angle">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_6rbpIFS9EeuU77FJedd79A" name="vitesse d'utilisation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7xOzkFS9EeuU77FJedd79A" name="process_speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -116,4 +121,6 @@
   <robotics.commobject:DataAttribute xmi:id="_bL52QFS0EeuU77FJedd79A" base_Property="_bLtpAFS0EeuU77FJedd79A"/>
   <robotics.commobject:CommunicationObject xmi:id="_ZfiTsFS3EeuU77FJedd79A" description="selection de la vitesse de rotation&#xA;" base_DataType="_ZfTDIFS3EeuU77FJedd79A"/>
   <robotics.commobject:DataAttribute xmi:id="_dwHYEFS3EeuU77FJedd79A" base_Property="_dv9AAFS3EeuU77FJedd79A"/>
+  <robotics.commobject:CommunicationObject xmi:id="_6rtV8FS9EeuU77FJedd79A" description="vitesse de processing" base_DataType="_6rbpIFS9EeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_7xmnAFS9EeuU77FJedd79A" base_Property="_7xOzkFS9EeuU77FJedd79A"/>
 </xmi:XMI>
