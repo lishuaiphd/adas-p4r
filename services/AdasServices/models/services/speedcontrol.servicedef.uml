@@ -40,6 +40,39 @@
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__qyUgFS8EeuEh6TOcyHeKA" name="Subscribe">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_SUR_MFS9EeuEh6TOcyHeKA" name="SpeedControl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Q17DcFTAEeuEh6TOcyHeKA" name="Obstacle" type="_YvMFwFTAEeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_UFmrgFTAEeuEh6TOcyHeKA" name="Signs" type="_7h4wAFS9EeuEh6TOcyHeKA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_7h4wAFS9EeuEh6TOcyHeKA" name="TrafficSigns">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Fq8qsFS-EeuEh6TOcyHeKA" name="State">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_J0tVYFS-EeuEh6TOcyHeKA" name="Coordonate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMap"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_S56mYFS-EeuEh6TOcyHeKA" name="Type" type="_IiH2sFS_EeuEh6TOcyHeKA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_IiH2sFS_EeuEh6TOcyHeKA" name="Signs">
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_RACeMFS_EeuEh6TOcyHeKA" name="STOP"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_UZnCEFS_EeuEh6TOcyHeKA" name="SpeedLimit"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_XOvcIFS_EeuEh6TOcyHeKA" name="Danger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_YvMFwFTAEeuEh6TOcyHeKA" name="ObstacleDetection">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_b84w0FTAEeuEh6TOcyHeKA" name="ObstacleState">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gKrm8FTAEeuEh6TOcyHeKA" name="ObstacleCoordonate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMap"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_roEQQFTAEeuEh6TOcyHeKA" name="Odometer">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uG9UkFTAEeuEh6TOcyHeKA" name="WheelRotation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zPwYdE8wEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zPwYdU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -113,6 +146,12 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_LIBRARIES/MARTE.profile.uml#_U_GAoAPMEdyuUt-4qHuVvQ"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MATNwFS_EeuEh6TOcyHeKA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MAUb4FS_EeuEh6TOcyHeKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_zPwYiE8wEeuf54tkkZK0ow" base_Package="_zPwYcE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_zPwYiU8wEeuf54tkkZK0ow" base_Package="_zPwYc08wEeuf54tkkZK0ow"/>
@@ -131,4 +170,20 @@
   <robotics.commobject:DataAttribute xmi:id="_JfL4sFS7EeuEh6TOcyHeKA" base_Property="_JfI1YFS7EeuEh6TOcyHeKA"/>
   <robotics.commobject:DataAttribute xmi:id="_NLiOoFS7EeuEh6TOcyHeKA" base_Property="_NLfLUFS7EeuEh6TOcyHeKA"/>
   <robotics.commobject:DataAttribute xmi:id="_RVxacFS7EeuEh6TOcyHeKA" base_Property="_RVtwEFS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:CommunicationObject xmi:id="_SUVpkFS9EeuEh6TOcyHeKA" base_DataType="_SUR_MFS9EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_7h9BcFS9EeuEh6TOcyHeKA" base_DataType="_7h4wAFS9EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_Fq_uAFS-EeuEh6TOcyHeKA" base_Property="_Fq8qsFS-EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_J0wYsFS-EeuEh6TOcyHeKA" base_Property="_J0tVYFS-EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_S59psFS-EeuEh6TOcyHeKA" base_Property="_S56mYFS-EeuEh6TOcyHeKA"/>
+  <robotics.commobject:Enumeration xmi:id="_IiLhEFS_EeuEh6TOcyHeKA" base_DataType="_IiH2sFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_RAFhgFS_EeuEh6TOcyHeKA" base_EnumerationLiteral="_RACeMFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_UZpeUFS_EeuEh6TOcyHeKA" base_EnumerationLiteral="_UZnCEFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_XOx4YFS_EeuEh6TOcyHeKA" base_EnumerationLiteral="_XOvcIFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_Q2BKEFTAEeuEh6TOcyHeKA" base_Property="_Q17DcFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_UFsyIFTAEeuEh6TOcyHeKA" base_Property="_UFmrgFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_YvPJEFTAEeuEh6TOcyHeKA" base_DataType="_YvMFwFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_b87NEFTAEeuEh6TOcyHeKA" base_Property="_b84w0FTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_gKuDMFTAEeuEh6TOcyHeKA" base_Property="_gKrm8FTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_roHTkFTAEeuEh6TOcyHeKA" base_DataType="_roEQQFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_uG_w0FTAEeuEh6TOcyHeKA" base_Property="_uG9UkFTAEeuEh6TOcyHeKA"/>
 </xmi:XMI>
