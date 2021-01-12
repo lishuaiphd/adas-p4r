@@ -7,15 +7,6 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_enLnYk8vEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_enLnY08vEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_NgU80FAvEeuwUYbf04lBzQ" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_Q3-pkFA5EeuwUYbf04lBzQ" name="InterfaceOdomètre">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_Fh9cwFFbEeuvZJGuSzNKYw" name="speed">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
-            <defaultValue xmi:type="uml:LiteralString" xmi:id="_tF9OoFFfEeuvZJGuSzNKYw" value=""/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_Xz3OUFSyEeuZaLX8s8LTGQ" name="MinSpeed">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
-          </ownedAttribute>
-        </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_Uwq7QFFeEeuvZJGuSzNKYw" name="LaneManagementSystem">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_j_X6EFFeEeuvZJGuSzNKYw" name="active">
             <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
@@ -52,6 +43,14 @@
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_FZhSkFS1EeuZaLX8s8LTGQ" name="c">
             <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_CgOC0FS4EeuZaLX8s8LTGQ" name="InterfaceOdomètre">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_IVQjkFS4EeuZaLX8s8LTGQ" name="speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_LeBrUFS4EeuZaLX8s8LTGQ" name="MinSpeed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -127,13 +126,10 @@
   <robotics.services:ServiceDefinitionModel xmi:id="_enLneE8vEeuf54tkkZK0ow" base_Package="_enLnYE8vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_enLneU8vEeuf54tkkZK0ow" base_Package="_enLnY08vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_enLnek8vEeuf54tkkZK0ow" base_Package="_enLnYk8vEeuf54tkkZK0ow"/>
-  <robotics.commobject:CommunicationObject xmi:id="_Q4YSMFA5EeuwUYbf04lBzQ" description="Classe représentant le véhicule avec ses différents attributs qui feront agir les autres &#xA;classes différement selon la valeur ou les états que prendront ces attributs" base_DataType="_Q3-pkFA5EeuwUYbf04lBzQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_FiHNwFFbEeuvZJGuSzNKYw" description="" base_Property="_Fh9cwFFbEeuvZJGuSzNKYw"/>
   <robotics.commobject:CommunicationObject xmi:id="_UwvzwFFeEeuvZJGuSzNKYw" description="" base_DataType="_Uwq7QFFeEeuvZJGuSzNKYw"/>
   <robotics.commobject:DataAttribute xmi:id="_j_bkcFFeEeuvZJGuSzNKYw" description="" base_Property="_j_X6EFFeEeuvZJGuSzNKYw"/>
   <robotics.commobject:CommunicationObject xmi:id="_XlEEsFSvEeuZaLX8s8LTGQ" base_DataType="_Xk8v8FSvEeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_iycGoFSwEeuZaLX8s8LTGQ" base_Property="_iyXOIFSwEeuZaLX8s8LTGQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_Xz8t4FSyEeuZaLX8s8LTGQ" base_Property="_Xz3OUFSyEeuZaLX8s8LTGQ"/>
   <robotics.commobject:CommunicationObject xmi:id="_serQgFSyEeuZaLX8s8LTGQ" base_DataType="_senmIFSyEeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_5LgvgFSyEeuZaLX8s8LTGQ" base_Property="_5LbP8FSyEeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_7oBYwFSzEeuZaLX8s8LTGQ" base_Property="_7n-VcFSzEeuZaLX8s8LTGQ"/>
@@ -145,4 +141,7 @@
   <robotics.commobject:DataAttribute xmi:id="_BzaukFS1EeuZaLX8s8LTGQ" base_Property="_BzXEMFS1EeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_FZkV4FS1EeuZaLX8s8LTGQ" base_Property="_FZhSkFS1EeuZaLX8s8LTGQ"/>
   <robotics.commobject:DataAttribute xmi:id="_LjfhgFS1EeuZaLX8s8LTGQ" base_Property="_Ljb3IFS1EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:CommunicationObject xmi:id="_CgRGIFS4EeuZaLX8s8LTGQ" base_DataType="_CgOC0FS4EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_IVYfYFS4EeuZaLX8s8LTGQ" base_Property="_IVQjkFS4EeuZaLX8s8LTGQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_LeFVsFS4EeuZaLX8s8LTGQ" base_Property="_LeBrUFS4EeuZaLX8s8LTGQ"/>
 </xmi:XMI>
