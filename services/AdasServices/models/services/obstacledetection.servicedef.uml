@@ -6,13 +6,34 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_uNmGIk8wEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_uNmGI08wEeuf54tkkZK0ow" name="msg">
-      <packagedElement xmi:type="uml:Package" xmi:id="_UA7QEFEAEeu75sOB_tDiGw" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_craT8FEAEeu75sOB_tDiGw" name="carte du lidar">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_mL7n8FEAEeu75sOB_tDiGw" name="distance">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_mWV1wFSxEeusQNN_osqztQ" name="publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Vbzf4FS0EeusQNN_osqztQ" name="Obstacle">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cJ5IgFS0EeusQNN_osqztQ" name="Presence_obstacle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-HCh0FUUEeufKLWiKi_HaQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-HCh0VUUEeufKLWiKi_HaQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Po4gkFUYEeufKLWiKi_HaQ" name="Id_obstacle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Po4gkVUYEeufKLWiKi_HaQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Po4gklUYEeufKLWiKi_HaQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_V3k3cFUYEeufKLWiKi_HaQ" name="Position_obstacle " type="_o3ljIFS0EeusQNN_osqztQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_o3ljIFS0EeusQNN_osqztQ" name="pos">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_y01GYFUXEeufKLWiKi_HaQ" name="Distance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y01GYVUXEeufKLWiKi_HaQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y01GYlUXEeufKLWiKi_HaQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_y0-3YVUXEeufKLWiKi_HaQ" name="Angle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y0-3YlUXEeufKLWiKi_HaQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y0-3Y1UXEeufKLWiKi_HaQ" value="1"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_zIjHgFSyEeusQNN_osqztQ" name="subscribe "/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_uNmGJE8wEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uNmGJU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -74,10 +95,21 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_tZOD0FTLEeusQNN_osqztQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tZbfMFTLEeusQNN_osqztQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_uNmGOE8wEeuf54tkkZK0ow" base_Package="_uNmGIE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_uNmGOU8wEeuf54tkkZK0ow" base_Package="_uNmGI08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_uNmGOk8wEeuf54tkkZK0ow" base_Package="_uNmGIk8wEeuf54tkkZK0ow"/>
-  <robotics.commobject:CommunicationObject xmi:id="_ctia4FEAEeu75sOB_tDiGw" base_DataType="_craT8FEAEeu75sOB_tDiGw"/>
-  <robotics.commobject:DataAttribute xmi:id="_mNjYkFEAEeu75sOB_tDiGw" base_Property="_mL7n8FEAEeu75sOB_tDiGw"/>
+  <robotics.commobject:CommunicationObject xmi:id="_VcQL0FS0EeusQNN_osqztQ" description="" base_DataType="_Vbzf4FS0EeusQNN_osqztQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_cKC5gFS0EeusQNN_osqztQ" base_Property="_cJ5IgFS0EeusQNN_osqztQ"/>
+  <robotics.commobject:DataType xmi:id="_o3vUIFS0EeusQNN_osqztQ" base_DataType="_o3ljIFS0EeusQNN_osqztQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_y0-3YFUXEeufKLWiKi_HaQ" base_Property="_y01GYFUXEeufKLWiKi_HaQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_y1IBUFUXEeufKLWiKi_HaQ" base_Property="_y0-3YVUXEeufKLWiKi_HaQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_PpCRkFUYEeufKLWiKi_HaQ" base_Property="_Po4gkFUYEeufKLWiKi_HaQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_V3k3cVUYEeufKLWiKi_HaQ" base_Property="_V3k3cFUYEeufKLWiKi_HaQ"/>
 </xmi:XMI>
