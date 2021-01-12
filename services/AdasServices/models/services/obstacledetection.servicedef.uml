@@ -7,9 +7,21 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_uNmGIk8wEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_uNmGI08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_UA7QEFEAEeu75sOB_tDiGw" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_craT8FEAEeu75sOB_tDiGw" name="carte du lidar">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_mL7n8FEAEeu75sOB_tDiGw" name="distance">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_craT8FEAEeu75sOB_tDiGw" name="Obstacle">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_mL7n8FEAEeu75sOB_tDiGw" name="ID Obstacle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_B0SxgFUnEeub3ss_kkkuRA" name="PresenceObstacle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_LlrMAFUnEeub3ss_kkkuRA" name="Position Obstacle" type="_NKQkMFUnEeub3ss_kkkuRA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_NKQkMFUnEeub3ss_kkkuRA" name="Pos">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_QzBaoFUnEeub3ss_kkkuRA" name="Distance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_TBQMwFUnEeub3ss_kkkuRA" name="Angle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -80,4 +92,9 @@
   <robotics.generics:Package xmi:id="_uNmGOk8wEeuf54tkkZK0ow" base_Package="_uNmGIk8wEeuf54tkkZK0ow"/>
   <robotics.commobject:CommunicationObject xmi:id="_ctia4FEAEeu75sOB_tDiGw" base_DataType="_craT8FEAEeu75sOB_tDiGw"/>
   <robotics.commobject:DataAttribute xmi:id="_mNjYkFEAEeu75sOB_tDiGw" base_Property="_mL7n8FEAEeu75sOB_tDiGw"/>
+  <robotics.commobject:DataAttribute xmi:id="_B0XqAFUnEeub3ss_kkkuRA" base_Property="_B0SxgFUnEeub3ss_kkkuRA"/>
+  <robotics.commobject:DataAttribute xmi:id="_Llu2YFUnEeub3ss_kkkuRA" base_Property="_LlrMAFUnEeub3ss_kkkuRA"/>
+  <robotics.commobject:DataType xmi:id="_NKTngFUnEeub3ss_kkkuRA" base_DataType="_NKQkMFUnEeub3ss_kkkuRA"/>
+  <robotics.commobject:DataAttribute xmi:id="_QzEd8FUnEeub3ss_kkkuRA" base_Property="_QzBaoFUnEeub3ss_kkkuRA"/>
+  <robotics.commobject:DataAttribute xmi:id="_TBUeMFUnEeub3ss_kkkuRA" base_Property="_TBQMwFUnEeub3ss_kkkuRA"/>
 </xmi:XMI>
