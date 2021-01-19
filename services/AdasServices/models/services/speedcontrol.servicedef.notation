@@ -8,16 +8,24 @@
     </styles>
     <element xmi:type="uml:Package" href="speedcontrol.servicedef.uml#_zPwYck8wEeuf54tkkZK0ow"/>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_tpSV8FAyEeuZLb0AfzNybw" type="PapyrusUMLClassDiagram" name="Speedcontrol" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_tpSV8FAyEeuZLb0AfzNybw" type="PapyrusUMLClassDiagram" name="SpeedcontrolPublish" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_e9zRkFA1EeuZLb0AfzNybw" type="DataType_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_e9z4oVA1EeuZLb0AfzNybw" type="DataType_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_e9z4olA1EeuZLb0AfzNybw" type="DataType_FloatingNameLabel">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_e9z4o1A1EeuZLb0AfzNybw" y="15"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_e9z4pFA1EeuZLb0AfzNybw" type="DataType_AttributeCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_hgX8AFA1EeuZLb0AfzNybw" type="Property_DataTypeAttributeLabel">
-          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_hgIEYFA1EeuZLb0AfzNybw"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_hgX8AVA1EeuZLb0AfzNybw"/>
+        <children xmi:type="notation:Shape" xmi:id="_sKH1cFS1EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_sJva8FS1EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_sKH1cVS1EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_NMIEgFS7EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_NLfLUFS7EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_NMIEgVS7EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RWZFgFS7EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_RVtwEFS7EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RWZFgVS7EeuEh6TOcyHeKA"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_e9z4pVA1EeuZLb0AfzNybw"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_e9z4plA1EeuZLb0AfzNybw"/>
@@ -31,15 +39,127 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e9z4rVA1EeuZLb0AfzNybw"/>
       </children>
       <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_e9tyAFA1EeuZLb0AfzNybw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e9z4oFA1EeuZLb0AfzNybw" x="400" y="160" width="241" height="81"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e9z4oFA1EeuZLb0AfzNybw" x="400" y="160" width="241" height="121"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_e99CkFA1EeuZLb0AfzNybw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_e99CkVA1EeuZLb0AfzNybw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_e99Ck1A1EeuZLb0AfzNybw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_f6VwwFSzEeuEh6TOcyHeKA" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_f6YNAFSzEeuEh6TOcyHeKA" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_f6YNAVSzEeuEh6TOcyHeKA" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_f6YNAlSzEeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_f6Y0EFSzEeuEh6TOcyHeKA" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_rNHskFSzEeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_rMgokFSzEeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_rNHskVSzEeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RnSFYFS0EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_Rm98UFS0EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RnSFYVS0EeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_f6Y0EVSzEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_f6Y0ElSzEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_f6Y0E1SzEeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f6Y0FFSzEeuEh6TOcyHeKA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_f6Y0FVSzEeuEh6TOcyHeKA" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_f6Y0FlSzEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_f6Y0F1SzEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_f6Y0GFSzEeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f6Y0GVSzEeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_f50MUFSzEeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f6VwwVSzEeuEh6TOcyHeKA" x="380" y="300" width="201" height="101"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_zeCdEFS3EeuEh6TOcyHeKA" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zeDEIFS3EeuEh6TOcyHeKA" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zeDEIVS3EeuEh6TOcyHeKA" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zeDEIlS3EeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zeDEI1S3EeuEh6TOcyHeKA" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_Ds7tkFS4EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_Dshd4FS4EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Ds7tkVS4EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_cNCw4FS5EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_cMc7AFS5EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_cNCw4VS5EeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zeDEJFS3EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zeDrMFS3EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zeDrMVS3EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeDrMlS3EeuEh6TOcyHeKA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_zeDrM1S3EeuEh6TOcyHeKA" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_zeDrNFS3EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_zeDrNVS3EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_zeDrNlS3EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeDrN1S3EeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_zd6hQFS3EeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zeCdEVS3EeuEh6TOcyHeKA" x="660" y="300" width="201" height="101"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_IldGQFS5EeuEh6TOcyHeKA" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IldGQlS5EeuEh6TOcyHeKA" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IldGQ1S5EeuEh6TOcyHeKA" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IldGRFS5EeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IldGRVS5EeuEh6TOcyHeKA" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_NJCmMFS5EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_NIWpsFS5EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_NJCmMVS5EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_EA0ykFS7EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_EAHn8FS7EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_EA0ykVS7EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Jf0x4FS7EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_JfI1YFS7EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Jf0x4VS7EeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IldGRlS5EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IldGR1S5EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IldGSFS5EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IldGSVS5EeuEh6TOcyHeKA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IldtUFS5EeuEh6TOcyHeKA" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IldtUVS5EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IldtUlS5EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IldtU1S5EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IldtVFS5EeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_IlWYkFS5EeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IldGQVS5EeuEh6TOcyHeKA" x="660" y="420" width="201" height="101"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_v_uj4FotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_v_uj4VotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_v_uj41otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_e9tyAFA1EeuZLb0AfzNybw"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e99CklA1EeuZLb0AfzNybw" x="200"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v_uj4lotEeuDz9PbhVKlDA" x="600" y="160"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_wAO6MFotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wAO6MVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wAO6M1otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_f50MUFSzEeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wAO6MlotEeuDz9PbhVKlDA" x="580" y="300"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_wAsNMFotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wAsNMVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wAsNM1otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_zd6hQFS3EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wAsNMlotEeuDz9PbhVKlDA" x="860" y="300"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_wBCygFotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wBCygVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wBDZkFotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_IlWYkFS5EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wBCyglotEeuDz9PbhVKlDA" x="860" y="420"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_tpSV8VAyEeuZLb0AfzNybw" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_tpSV8lAyEeuZLb0AfzNybw"/>
@@ -47,15 +167,281 @@
       <owner xmi:type="uml:Package" href="speedcontrol.servicedef.uml#_o6Y94FAyEeuZLb0AfzNybw"/>
     </styles>
     <element xmi:type="uml:Package" href="speedcontrol.servicedef.uml#_o6Y94FAyEeuZLb0AfzNybw"/>
-    <edges xmi:type="notation:Connector" xmi:id="_e99ClFA1EeuZLb0AfzNybw" type="StereotypeCommentLink" source="_e9zRkFA1EeuZLb0AfzNybw" target="_e99CkFA1EeuZLb0AfzNybw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_e99ClVA1EeuZLb0AfzNybw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_e99CmVA1EeuZLb0AfzNybw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_v_uj5FotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_e9zRkFA1EeuZLb0AfzNybw" target="_v_uj4FotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_v_uj5VotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_v_vK8lotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_e9tyAFA1EeuZLb0AfzNybw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_e99CllA1EeuZLb0AfzNybw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e99Cl1A1EeuZLb0AfzNybw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_e99CmFA1EeuZLb0AfzNybw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v_uj5lotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v_vK8FotEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v_vK8VotEeuDz9PbhVKlDA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_wAO6NFotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_f6VwwFSzEeuEh6TOcyHeKA" target="_wAO6MFotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_wAO6NVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wAO6OVotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_f50MUFSzEeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wAO6NlotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAO6N1otEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAO6OFotEeuDz9PbhVKlDA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_wAsNNFotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_zeCdEFS3EeuEh6TOcyHeKA" target="_wAsNMFotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_wAsNNVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wAsNOVotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_zd6hQFS3EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wAsNNlotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAsNN1otEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wAsNOFotEeuDz9PbhVKlDA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_wBDZkVotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_IldGQFS5EeuEh6TOcyHeKA" target="_wBCygFotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_wBDZklotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wBDZllotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_IlWYkFS5EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wBDZk1otEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wBDZlFotEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wBDZlVotEeuDz9PbhVKlDA"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_PGE90FS9EeuEh6TOcyHeKA" type="PapyrusUMLClassDiagram" name="SpeedControlSubscribe" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_SUW3sFS9EeuEh6TOcyHeKA" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_SUXewFS9EeuEh6TOcyHeKA" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SUXewVS9EeuEh6TOcyHeKA" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_SUXewlS9EeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_SUXew1S9EeuEh6TOcyHeKA" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_Q2lKwFTAEeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_Q17DcFTAEeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Q2lKwVTAEeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_UGT2IFTAEeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_UFmrgFTAEeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_UGT2IVTAEeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_SUXexFS9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_SUXexVS9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_SUXexlS9EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SUXex1S9EeuEh6TOcyHeKA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_SUXeyFS9EeuEh6TOcyHeKA" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_SUXeyVS9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_SUXeylS9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_SUXey1S9EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SUXezFS9EeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_SUR_MFS9EeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SUW3sVS9EeuEh6TOcyHeKA" x="520" y="100" width="231" height="90"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_7h-2oFS9EeuEh6TOcyHeKA" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7h-2olS9EeuEh6TOcyHeKA" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7h-2o1S9EeuEh6TOcyHeKA" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7h-2pFS9EeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_7h-2pVS9EeuEh6TOcyHeKA" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_FrKtIFS-EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_Fq8qsFS-EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_FrKtIVS-EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_J0_CMFS-EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_J0tVYFS-EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_J0_CMVS-EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S6OIYFS-EeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_S56mYFS-EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S6OIYVS-EeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_7h-2plS9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_7h-2p1S9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_7h-2qFS9EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7h-2qVS9EeuEh6TOcyHeKA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_7h_dsFS9EeuEh6TOcyHeKA" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_7h_dsVS9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_7h_dslS9EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_7h_ds1S9EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7h_dtFS9EeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_7h4wAFS9EeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7h-2oVS9EeuEh6TOcyHeKA" x="580" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_IiNWQFS_EeuEh6TOcyHeKA" type="Enumeration_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IiNWQlS_EeuEh6TOcyHeKA" type="Enumeration_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IiNWQ1S_EeuEh6TOcyHeKA" type="Enumeration_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IiNWRFS_EeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IiNWRVS_EeuEh6TOcyHeKA" type="Enumeration_LiteralCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_RAaRoFS_EeuEh6TOcyHeKA" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="speedcontrol.servicedef.uml#_RACeMFS_EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RAaRoVS_EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_UaB40FS_EeuEh6TOcyHeKA" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="speedcontrol.servicedef.uml#_UZnCEFS_EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_UaB40VS_EeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_XPPycFS_EeuEh6TOcyHeKA" type="EnumerationLiteral_LiteralLabel">
+          <element xmi:type="uml:EnumerationLiteral" href="speedcontrol.servicedef.uml#_XOvcIFS_EeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_XPPycVS_EeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IiNWRlS_EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IiNWR1S_EeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IiNWSFS_EeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IiNWSVS_EeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="speedcontrol.servicedef.uml#_IiH2sFS_EeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IiNWQVS_EeuEh6TOcyHeKA" x="600" y="340"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_YvQ-QFTAEeuEh6TOcyHeKA" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_YvQ-QlTAEeuEh6TOcyHeKA" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_YvQ-Q1TAEeuEh6TOcyHeKA" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YvQ-RFTAEeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YvQ-RVTAEeuEh6TOcyHeKA" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_b9fNwFTAEeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_b84w0FTAEeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_b9fNwVTAEeuEh6TOcyHeKA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_gLUgIFTAEeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_gKrm8FTAEeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_gLUgIVTAEeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YvQ-RlTAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_YvQ-R1TAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_YvQ-SFTAEeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvQ-SVTAEeuEh6TOcyHeKA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_YvQ-SlTAEeuEh6TOcyHeKA" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_YvQ-S1TAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_YvQ-TFTAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_YvQ-TVTAEeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvQ-TlTAEeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_YvMFwFTAEeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YvQ-QVTAEeuEh6TOcyHeKA" x="320" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_roJIwFTAEeuEh6TOcyHeKA" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_roJIwlTAEeuEh6TOcyHeKA" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_roJIw1TAEeuEh6TOcyHeKA" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_roJIxFTAEeuEh6TOcyHeKA" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_roJIxVTAEeuEh6TOcyHeKA" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_uHsUYFTAEeuEh6TOcyHeKA" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="speedcontrol.servicedef.uml#_uG9UkFTAEeuEh6TOcyHeKA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_uHsUYVTAEeuEh6TOcyHeKA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_roJIxlTAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_roJIx1TAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_roJIyFTAEeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_roJIyVTAEeuEh6TOcyHeKA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_roJIylTAEeuEh6TOcyHeKA" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_roJIy1TAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_roJIzFTAEeuEh6TOcyHeKA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_roJIzVTAEeuEh6TOcyHeKA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_roJIzlTAEeuEh6TOcyHeKA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_roEQQFTAEeuEh6TOcyHeKA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_roJIwVTAEeuEh6TOcyHeKA" x="800" y="220" width="181" height="121"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_mK8QEFotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mK8QEVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mK8QE1otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_SUR_MFS9EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mK8QElotEeuDz9PbhVKlDA" x="720" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_mMAAAFotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mMAAAVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mMAAA1otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_7h4wAFS9EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mMAAAlotEeuDz9PbhVKlDA" x="780" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_mMyqMFotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mMyqMVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mMyqM1otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Enumeration" href="speedcontrol.servicedef.uml#_IiH2sFS_EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mMyqMlotEeuDz9PbhVKlDA" x="800" y="340"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_mNl7cFotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mNl7cVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mNl7c1otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_YvMFwFTAEeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mNl7clotEeuDz9PbhVKlDA" x="520" y="220"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_mOG40FotEeuDz9PbhVKlDA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_mOG40VotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mOG401otEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_roEQQFTAEeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mOG40lotEeuDz9PbhVKlDA" x="1000" y="220"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_PGE90VS9EeuEh6TOcyHeKA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_PGE90lS9EeuEh6TOcyHeKA"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_PGE901S9EeuEh6TOcyHeKA" diagramKindId="org.eclipse.papyrus.robotics.diagram.data">
+      <owner xmi:type="uml:Package" href="speedcontrol.servicedef.uml#__qyUgFS8EeuEh6TOcyHeKA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="speedcontrol.servicedef.uml#__qyUgFS8EeuEh6TOcyHeKA"/>
+    <edges xmi:type="notation:Connector" xmi:id="_mK83IFotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_SUW3sFS9EeuEh6TOcyHeKA" target="_mK8QEFotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_mK83IVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mK9eMVotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_SUR_MFS9EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mK83IlotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mK83I1otEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mK9eMFotEeuDz9PbhVKlDA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mMAABFotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_7h-2oFS9EeuEh6TOcyHeKA" target="_mMAAAFotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_mMAABVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mMAACVotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_7h4wAFS9EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mMAABlotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mMAAB1otEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mMAACFotEeuDz9PbhVKlDA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mMyqNFotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_IiNWQFS_EeuEh6TOcyHeKA" target="_mMyqMFotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_mMyqNVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mMyqOVotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Enumeration" href="speedcontrol.servicedef.uml#_IiH2sFS_EeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mMyqNlotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mMyqN1otEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mMyqOFotEeuDz9PbhVKlDA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mNl7dFotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_YvQ-QFTAEeuEh6TOcyHeKA" target="_mNl7cFotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_mNl7dVotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mNmiglotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_YvMFwFTAEeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mNl7dlotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mNmigFotEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mNmigVotEeuDz9PbhVKlDA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_mOG41FotEeuDz9PbhVKlDA" type="StereotypeCommentLink" source="_roJIwFTAEeuEh6TOcyHeKA" target="_mOG40FotEeuDz9PbhVKlDA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_mOG41VotEeuDz9PbhVKlDA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_mOG42VotEeuDz9PbhVKlDA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="speedcontrol.servicedef.uml#_roEQQFTAEeuEh6TOcyHeKA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mOG41lotEeuDz9PbhVKlDA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mOG411otEeuDz9PbhVKlDA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mOG42FotEeuDz9PbhVKlDA"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
