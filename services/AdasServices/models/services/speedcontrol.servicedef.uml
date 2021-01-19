@@ -67,8 +67,8 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMap"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_roEQQFTAEeuEh6TOcyHeKA" name="Odometer">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_uG9UkFTAEeuEh6TOcyHeKA" name="WheelRotation">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_roEQQFTAEeuEh6TOcyHeKA" name="Speed">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uG9UkFTAEeuEh6TOcyHeKA" name="Speed">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
