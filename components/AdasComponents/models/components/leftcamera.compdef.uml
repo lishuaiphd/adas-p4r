@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.functions="http://www.eclipse.org/papyrus/robotics/functions/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/functions/1 http://www.eclipse.org/papyrus/robotics/1#//functions http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
   <uml:Model xmi:id="_GjXWsFlvEeuV3PQBT7TM0Q" name="LeftcameraCompdef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_GjXWsVlvEeuV3PQBT7TM0Q">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -7,8 +7,37 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_GjXWsllvEeuV3PQBT7TM0Q">
       <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIBRARY/ros2.primitive.uml#_T7frkG-0EeiX6ta975XXMg"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_9tpLwFo1EeuoydCyRY1rGQ">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_GjXWs1lvEeuV3PQBT7TM0Q" name="Leftcamera">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_6BlJsFo1EeuoydCyRY1rGQ" name="leftcameraPort" type="_9t31QFo1EeuoydCyRY1rGQ" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_G2bVMFo2EeuoydCyRY1rGQ" name="activity1" type="_G2NSwFo2EeuoydCyRY1rGQ"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_EmhdMFo4EeuoydCyRY1rGQ" name="Connects6">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_EmscUFo4EeuoydCyRY1rGQ" partWithPort="_G2bVMFo2EeuoydCyRY1rGQ" role="_CeR-UFo4EeuoydCyRY1rGQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_EmtDYFo4EeuoydCyRY1rGQ" role="_6BlJsFo1EeuoydCyRY1rGQ"/>
+      </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_GjXWtFlvEeuV3PQBT7TM0Q"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_9t31QFo1EeuoydCyRY1rGQ">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_9uL-UFo1EeuoydCyRY1rGQ" client="_9t31QFo1EeuoydCyRY1rGQ">
+          <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_vt-dcFAlEeuQn4VMJWeC_w"/>
+          <contract xmi:type="uml:Interface" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_vt-dcFAlEeuQn4VMJWeC_w"/>
+        </interfaceRealization>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_G2NSwFo2EeuoydCyRY1rGQ" name="DetectImage">
+        <generalization xmi:type="uml:Generalization" xmi:id="_G2Q9IFo2EeuoydCyRY1rGQ">
+          <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_CeR-UFo4EeuoydCyRY1rGQ" name="ActivityPort3" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QalrsFo5EeuoydCyRY1rGQ" name="" type="_QaaFgFo5EeuoydCyRY1rGQ"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_yAgu4Fo4EeuoydCyRY1rGQ" name="clock"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_m0iJMFo5EeuoydCyRY1rGQ" name="phase"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_sw6oEFo5EeuoydCyRY1rGQ" name="trigger"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_QaaFgFo5EeuoydCyRY1rGQ" name="fNewFunction">
+      <language>C++</language>
+      <body></body>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GjXWtVlvEeuV3PQBT7TM0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GjXWtllvEeuV3PQBT7TM0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -74,4 +103,14 @@
   <robotics.components:ComponentDefinitionModel xmi:id="_GjXWyVlvEeuV3PQBT7TM0Q" base_Package="_GjXWsFlvEeuV3PQBT7TM0Q"/>
   <robotics.components:ComponentDefinition xmi:id="_GjXWyllvEeuV3PQBT7TM0Q" base_Class="_GjXWs1lvEeuV3PQBT7TM0Q"/>
   <robotics.parameters:Parameter xmi:id="_GjXWy1lvEeuV3PQBT7TM0Q" base_Class="_GjXWtFlvEeuV3PQBT7TM0Q"/>
+  <robotics.components:ComponentService xmi:id="_9t_KAFo1EeuoydCyRY1rGQ" base_Class="_9t31QFo1EeuoydCyRY1rGQ"/>
+  <robotics.components:ComponentPort xmi:id="_9uUhMFo1EeuoydCyRY1rGQ" base_Port="_6BlJsFo1EeuoydCyRY1rGQ"/>
+  <robotics.components:Activity xmi:id="_G2Y48Fo2EeuoydCyRY1rGQ" base_Class="_G2NSwFo2EeuoydCyRY1rGQ"/>
+  <robotics.components:ActivityInstance xmi:id="_G2jRAFo2EeuoydCyRY1rGQ" base_Property="_G2bVMFo2EeuoydCyRY1rGQ"/>
+  <robotics.components:ActivityPort xmi:id="_CeYE8Fo4EeuoydCyRY1rGQ" base_Port="_CeR-UFo4EeuoydCyRY1rGQ"/>
+  <robotics.generics:Connects xmi:id="_EmuRgFo4EeuoydCyRY1rGQ" base_Connector="_EmhdMFo4EeuoydCyRY1rGQ"/>
+  <robotics.components:PeriodicTimer xmi:id="_yAoDoFo4EeuoydCyRY1rGQ" base_Class="_yAgu4Fo4EeuoydCyRY1rGQ" period="10ms"/>
+  <robotics.functions:Function xmi:id="_QagMIFo5EeuoydCyRY1rGQ" base_Class="_QaaFgFo5EeuoydCyRY1rGQ"/>
+  <robotics.components:PeriodicTimer xmi:id="_m0maoFo5EeuoydCyRY1rGQ" base_Class="_m0iJMFo5EeuoydCyRY1rGQ" period="0"/>
+  <robotics.components:PeriodicTimer xmi:id="_sxAHoFo5EeuoydCyRY1rGQ" base_Class="_sw6oEFo5EeuoydCyRY1rGQ" period="100ms"/>
 </xmi:XMI>
