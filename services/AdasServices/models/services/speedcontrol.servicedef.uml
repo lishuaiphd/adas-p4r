@@ -1,11 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_zPwYcE8wEeuf54tkkZK0ow" name="SpeedcontrolServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_zPwYcU8wEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPwYck8wEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_zPwYc08wEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_zPwYc08wEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_o6Y94FAyEeuZLb0AfzNybw" name="Publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_e9tyAFA1EeuZLb0AfzNybw" name="SpeedControl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_sJva8FS1EeuEh6TOcyHeKA" name="Speed" type="_f50MUFSzEeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_NLfLUFS7EeuEh6TOcyHeKA" name="Motor" type="_zd6hQFS3EeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RVtwEFS7EeuEh6TOcyHeKA" name="Brake" type="_IlWYkFS5EeuEh6TOcyHeKA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_f50MUFSzEeuEh6TOcyHeKA" name="Speed">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rMgokFSzEeuEh6TOcyHeKA" name="Speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Rm98UFS0EeuEh6TOcyHeKA" name="Time">
+            <type xmi:type="uml:Enumeration" href="pathmap://Papyrus_LIBRARIES/MARTE_Library.library.uml#_MDyyoA-KEdyNj8xzjk-DoA"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_zd6hQFS3EeuEh6TOcyHeKA" name="Motor">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Dshd4FS4EeuEh6TOcyHeKA" name="InjectFuel">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cMc7AFS5EeuEh6TOcyHeKA" name="Rotation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IlWYkFS5EeuEh6TOcyHeKA" name="Brakes">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_NIWpsFS5EeuEh6TOcyHeKA" name="State">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EAHn8FS7EeuEh6TOcyHeKA" name="Pressure">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_JfI1YFS7EeuEh6TOcyHeKA" name="ABS">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="__qyUgFS8EeuEh6TOcyHeKA" name="Subscribe">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_SUR_MFS9EeuEh6TOcyHeKA" name="SpeedControl">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Q17DcFTAEeuEh6TOcyHeKA" name="Obstacle" type="_YvMFwFTAEeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_UFmrgFTAEeuEh6TOcyHeKA" name="Signs" type="_7h4wAFS9EeuEh6TOcyHeKA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_7h4wAFS9EeuEh6TOcyHeKA" name="TrafficSigns">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Fq8qsFS-EeuEh6TOcyHeKA" name="State">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_J0tVYFS-EeuEh6TOcyHeKA" name="Coordonate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMap"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_S56mYFS-EeuEh6TOcyHeKA" name="Type" type="_IiH2sFS_EeuEh6TOcyHeKA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_IiH2sFS_EeuEh6TOcyHeKA" name="Signs">
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_RACeMFS_EeuEh6TOcyHeKA" name="STOP"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_UZnCEFS_EeuEh6TOcyHeKA" name="SpeedLimit"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_XOvcIFS_EeuEh6TOcyHeKA" name="Danger"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_YvMFwFTAEeuEh6TOcyHeKA" name="ObstacleDetection">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_b84w0FTAEeuEh6TOcyHeKA" name="ObstacleState">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gKrm8FTAEeuEh6TOcyHeKA" name="ObstacleCoordonate">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMap"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_roEQQFTAEeuEh6TOcyHeKA" name="Odometer">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uG9UkFTAEeuEh6TOcyHeKA" name="WheelRotation">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_zPwYdE8wEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zPwYdU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -66,8 +134,56 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_tii_UFAzEeuZLb0AfzNybw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tik0gFAzEeuZLb0AfzNybw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Annexes/VSL/DataTypes"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_LIBRARIES/MARTE.profile.uml#_9FdqwA-MEdyLh7muGbCqMw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FzDgYFA1EeuZLb0AfzNybw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FzEHcFA1EeuZLb0AfzNybw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Foundations/NFPs"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_LIBRARIES/MARTE.profile.uml#_U_GAoAPMEdyuUt-4qHuVvQ"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MATNwFS_EeuEh6TOcyHeKA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MAUb4FS_EeuEh6TOcyHeKA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_zPwYiE8wEeuf54tkkZK0ow" base_Package="_zPwYcE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_zPwYiU8wEeuf54tkkZK0ow" base_Package="_zPwYc08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_zPwYik8wEeuf54tkkZK0ow" base_Package="_zPwYck8wEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_e9yDcFA1EeuZLb0AfzNybw" base_DataType="_e9tyAFA1EeuZLb0AfzNybw"/>
+  <robotics.commobject:DataType xmi:id="_f6FSEFSzEeuEh6TOcyHeKA" base_DataType="_f50MUFSzEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_rMurAFSzEeuEh6TOcyHeKA" base_Property="_rMgokFSzEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_RnCNwFS0EeuEh6TOcyHeKA" base_Property="_Rm98UFS0EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_sJ0TcFS1EeuEh6TOcyHeKA" base_Property="_sJva8FS1EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_zeAA0FS3EeuEh6TOcyHeKA" base_DataType="_zd6hQFS3EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_DslIQFS4EeuEh6TOcyHeKA" base_Property="_Dshd4FS4EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_IlbREFS5EeuEh6TOcyHeKA" base_DataType="_IlWYkFS5EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_NIa7IFS5EeuEh6TOcyHeKA" base_Property="_NIWpsFS5EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_cMglYFS5EeuEh6TOcyHeKA" base_Property="_cMc7AFS5EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_EALSUFS7EeuEh6TOcyHeKA" base_Property="_EAHn8FS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_JfL4sFS7EeuEh6TOcyHeKA" base_Property="_JfI1YFS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_NLiOoFS7EeuEh6TOcyHeKA" base_Property="_NLfLUFS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_RVxacFS7EeuEh6TOcyHeKA" base_Property="_RVtwEFS7EeuEh6TOcyHeKA"/>
+  <robotics.commobject:CommunicationObject xmi:id="_SUVpkFS9EeuEh6TOcyHeKA" base_DataType="_SUR_MFS9EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_7h9BcFS9EeuEh6TOcyHeKA" base_DataType="_7h4wAFS9EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_Fq_uAFS-EeuEh6TOcyHeKA" base_Property="_Fq8qsFS-EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_J0wYsFS-EeuEh6TOcyHeKA" base_Property="_J0tVYFS-EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_S59psFS-EeuEh6TOcyHeKA" base_Property="_S56mYFS-EeuEh6TOcyHeKA"/>
+  <robotics.commobject:Enumeration xmi:id="_IiLhEFS_EeuEh6TOcyHeKA" base_DataType="_IiH2sFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_RAFhgFS_EeuEh6TOcyHeKA" base_EnumerationLiteral="_RACeMFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_UZpeUFS_EeuEh6TOcyHeKA" base_EnumerationLiteral="_UZnCEFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_XOx4YFS_EeuEh6TOcyHeKA" base_EnumerationLiteral="_XOvcIFS_EeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_Q2BKEFTAEeuEh6TOcyHeKA" base_Property="_Q17DcFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_UFsyIFTAEeuEh6TOcyHeKA" base_Property="_UFmrgFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_YvPJEFTAEeuEh6TOcyHeKA" base_DataType="_YvMFwFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_b87NEFTAEeuEh6TOcyHeKA" base_Property="_b84w0FTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_gKuDMFTAEeuEh6TOcyHeKA" base_Property="_gKrm8FTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataType xmi:id="_roHTkFTAEeuEh6TOcyHeKA" base_DataType="_roEQQFTAEeuEh6TOcyHeKA"/>
+  <robotics.commobject:DataAttribute xmi:id="_uG_w0FTAEeuEh6TOcyHeKA" base_Property="_uG9UkFTAEeuEh6TOcyHeKA"/>
 </xmi:XMI>

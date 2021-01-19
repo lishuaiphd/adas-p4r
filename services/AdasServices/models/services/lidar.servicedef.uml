@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_ibmewE8wEeuf54tkkZK0ow" name="LidarServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_ibmewU8wEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_ibmewk8wEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_ibmew08wEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ibmew08wEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_VHB6YFAtEeuMRt809dAxfw" name="Publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_s5oBUFA3EeuN0MABJzfdCw" name="donnees">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_2xHq4FA3EeuN0MABJzfdCw" name="distance" type="_RioEUFSzEeuU77FJedd79A"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_RioEUFSzEeuU77FJedd79A" name="Lidar">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_X3BakFSzEeuU77FJedd79A" name="distances">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z9C0oFS0EeuU77FJedd79A"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ynrkMFS0EeuU77FJedd79A" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Yq1nsFS0EeuU77FJedd79A" name="nb_points">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_bLtpAFS0EeuU77FJedd79A" name="angle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_6rbpIFS9EeuU77FJedd79A" name="vitesse d'utilisation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7xOzkFS9EeuU77FJedd79A" name="process_speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7tThYFSzEeuU77FJedd79A" name="Suscribe">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_ZfTDIFS3EeuU77FJedd79A" name="rotation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dv9AAFS3EeuU77FJedd79A" name="vitesse">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ibmexE8wEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ibmexU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -66,8 +97,30 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fJ2i0FAwEeuN0MABJzfdCw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fKCwEFAwEeuN0MABJzfdCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Ej1mIFAzEeuN0MABJzfdCw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ej3bUFAzEeuN0MABJzfdCw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/MARTE/1#//MARTE_Annexes/VSL/DataTypes"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Papyrus_LIBRARIES/MARTE.profile.uml#_9FdqwA-MEdyLh7muGbCqMw"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_ibme2E8wEeuf54tkkZK0ow" base_Package="_ibmewE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_ibme2U8wEeuf54tkkZK0ow" base_Package="_ibmew08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_ibme2k8wEeuf54tkkZK0ow" base_Package="_ibmewk8wEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_s568QFA3EeuN0MABJzfdCw" description="données créées par le capteur&#xA;" base_DataType="_s5oBUFA3EeuN0MABJzfdCw"/>
+  <robotics.commobject:DataAttribute xmi:id="_2xbz8FA3EeuN0MABJzfdCw" base_Property="_2xHq4FA3EeuN0MABJzfdCw"/>
+  <robotics.commobject:DataType xmi:id="_RjPvYFSzEeuU77FJedd79A" description="" base_DataType="_RioEUFSzEeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_X3ZOAFSzEeuU77FJedd79A" base_Property="_X3BakFSzEeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_YrRFgFS0EeuU77FJedd79A" base_Property="_Yq1nsFS0EeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_bL52QFS0EeuU77FJedd79A" base_Property="_bLtpAFS0EeuU77FJedd79A"/>
+  <robotics.commobject:CommunicationObject xmi:id="_ZfiTsFS3EeuU77FJedd79A" description="selection de la vitesse de rotation&#xA;" base_DataType="_ZfTDIFS3EeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_dwHYEFS3EeuU77FJedd79A" base_Property="_dv9AAFS3EeuU77FJedd79A"/>
+  <robotics.commobject:CommunicationObject xmi:id="_6rtV8FS9EeuU77FJedd79A" description="vitesse de processing" base_DataType="_6rbpIFS9EeuU77FJedd79A"/>
+  <robotics.commobject:DataAttribute xmi:id="_7xmnAFS9EeuU77FJedd79A" base_Property="_7xOzkFS9EeuU77FJedd79A"/>
 </xmi:XMI>
