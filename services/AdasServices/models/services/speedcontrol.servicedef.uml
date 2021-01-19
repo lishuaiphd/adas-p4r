@@ -10,7 +10,7 @@
         <packagedElement xmi:type="uml:DataType" xmi:id="_e9tyAFA1EeuZLb0AfzNybw" name="SpeedControl">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_sJva8FS1EeuEh6TOcyHeKA" name="Speed" type="_f50MUFSzEeuEh6TOcyHeKA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_NLfLUFS7EeuEh6TOcyHeKA" name="Motor" type="_zd6hQFS3EeuEh6TOcyHeKA"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_RVtwEFS7EeuEh6TOcyHeKA" name="Breaks" type="_IlWYkFS5EeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RVtwEFS7EeuEh6TOcyHeKA" name="Brake" type="_IlWYkFS5EeuEh6TOcyHeKA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_f50MUFSzEeuEh6TOcyHeKA" name="Speed">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_rMgokFSzEeuEh6TOcyHeKA" name="Speed">
@@ -28,7 +28,7 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_IlWYkFS5EeuEh6TOcyHeKA" name="Breaks">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_IlWYkFS5EeuEh6TOcyHeKA" name="Brakes">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_NIWpsFS5EeuEh6TOcyHeKA" name="State">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedAttribute>
