@@ -19,9 +19,8 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_jQOjw1lvEeuV3PQBT7TM0Q" name="Pedestriandetection">
       <ownedAttribute xmi:type="uml:Port" xmi:id="_60tPwFo1EeuDtPhnD2Fvdg" name="pedestrianport" type="_AONrEFo2EeuDtPhnD2Fvdg" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_J4ew8Fo2EeuDtPhnD2Fvdg" name="activity1" type="_J4RVkFo2EeuDtPhnD2Fvdg"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_GZZ6oFo5EeuDtPhnD2Fvdg" name="Port" type="_JV5g8Fo5EeuDtPhnD2Fvdg" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_PKvNYFo5EeuDtPhnD2Fvdg" name="PortLeftCamera" type="_TcpugFo5EeuDtPhnD2Fvdg" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_1fOxIFo7EeuDtPhnD2Fvdg" name="PortSpeed" type="_3lLJ8Fo7EeuDtPhnD2Fvdg" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_PKvNYFo5EeuDtPhnD2Fvdg" name="portLeftCamera" type="_TcpugFo5EeuDtPhnD2Fvdg" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_1fOxIFo7EeuDtPhnD2Fvdg" name="portSpeed" type="_3lLJ8Fo7EeuDtPhnD2Fvdg" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_uLBcUFo-EeuDtPhnD2Fvdg" name="activity1" type="_uJ6CAFo-EeuDtPhnD2Fvdg"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_LDtUUFo-EeuDtPhnD2Fvdg" name="Connects12">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_LD_oMFo-EeuDtPhnD2Fvdg" partWithPort="_J4ew8Fo2EeuDtPhnD2Fvdg" role="_JYd6gFo-EeuDtPhnD2Fvdg"/>
@@ -30,10 +29,6 @@
       <ownedConnector xmi:type="uml:Connector" xmi:id="_MFYzwFo-EeuDtPhnD2Fvdg" name="Connects13">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_MFceIFo-EeuDtPhnD2Fvdg" role="_1fOxIFo7EeuDtPhnD2Fvdg"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_MFdFMFo-EeuDtPhnD2Fvdg" role="_T0tacFo_EeuDtPhnD2Fvdg"/>
-      </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_NFMq8Fo-EeuDtPhnD2Fvdg" name="Connects14">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_NFSxkFo-EeuDtPhnD2Fvdg" partWithPort="_J4ew8Fo2EeuDtPhnD2Fvdg" role="__uRtIFo9EeuDtPhnD2Fvdg"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_NFSxkVo-EeuDtPhnD2Fvdg" role="_GZZ6oFo5EeuDtPhnD2Fvdg"/>
       </ownedConnector>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_N63HoFo-EeuDtPhnD2Fvdg" name="Connects15">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_N69OQFo-EeuDtPhnD2Fvdg" partWithPort="_J4ew8Fo2EeuDtPhnD2Fvdg" role="_ITSbIFo-EeuDtPhnD2Fvdg"/>
@@ -50,18 +45,11 @@
         <generalization xmi:type="uml:Generalization" xmi:id="_J4U_8Fo2EeuDtPhnD2Fvdg">
           <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
         </generalization>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="__uRtIFo9EeuDtPhnD2Fvdg" name="ActivityPort3" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_ITSbIFo-EeuDtPhnD2Fvdg" name="ActivityPort5" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_JYd6gFo-EeuDtPhnD2Fvdg" name="ActivityPort6" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_LEQt8Fo-EeuDtPhnD2Fvdg" name="" type="_LELOYFo-EeuDtPhnD2Fvdg"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_MFjy4Fo-EeuDtPhnD2Fvdg" name="" type="_MFfhcFo-EeuDtPhnD2Fvdg"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_oJyr8Fo5EeuDtPhnD2Fvdg" name="PeriodicTimePedestrian"/>
-      </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_JV5g8Fo5EeuDtPhnD2Fvdg">
-        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_JWFuMFo5EeuDtPhnD2Fvdg" client="_JV5g8Fo5EeuDtPhnD2Fvdg">
-          <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/pedestrian.servicedef.uml#_of-gkFRVEeuFB7VlL5LR-w"/>
-          <contract xmi:type="uml:Interface" href="../../../AdasServices/models/services/pedestrian.servicedef.uml#_of-gkFRVEeuFB7VlL5LR-w"/>
-        </interfaceRealization>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NUSb4FtnEeu-uu0Sg2Jm0w" name="" type="_NUID0FtnEeu-uu0Sg2Jm0w"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_oJyr8Fo5EeuDtPhnD2Fvdg" name="Period"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_TcpugFo5EeuDtPhnD2Fvdg"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_3lLJ8Fo7EeuDtPhnD2Fvdg"/>
@@ -70,6 +58,8 @@
           <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_T0tacFo_EeuDtPhnD2Fvdg" name="ActivityPort2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uMQXcFtnEeu-uu0Sg2Jm0w" name="" type="_uMH0kFtnEeu-uu0Sg2Jm0w"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_HKkWgFtlEeu-uu0Sg2Jm0w" name="Period"/>
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_TdA64Fo5EeuDtPhnD2Fvdg" client="_TcpugFo5EeuDtPhnD2Fvdg">
@@ -78,11 +68,19 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_3lViAFo7EeuDtPhnD2Fvdg" client="_3lLJ8Fo7EeuDtPhnD2Fvdg">
       <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/speed.servicedef.uml#_N4NqQFTCEeunjeKkmcG6Xw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_LELOYFo-EeuDtPhnD2Fvdg" name="PortLeftCamera_handler">
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_LELOYFo-EeuDtPhnD2Fvdg" name="fPortLeftCamera">
       <language>C++</language>
       <body></body>
     </packagedElement>
-    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_MFfhcFo-EeuDtPhnD2Fvdg" name="PortSpeed_handler">
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_MFfhcFo-EeuDtPhnD2Fvdg" name="fPortSpeed">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_NUID0FtnEeu-uu0Sg2Jm0w" name="fPortPedestrian">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_uMH0kFtnEeu-uu0Sg2Jm0w" name="fSpeed">
       <language>C++</language>
       <body></body>
     </packagedElement>
@@ -154,23 +152,22 @@
   <robotics.components:ComponentPort xmi:id="_APvVEFo2EeuDtPhnD2Fvdg" base_Port="_60tPwFo1EeuDtPhnD2Fvdg"/>
   <robotics.components:Activity xmi:id="_J4c7wFo2EeuDtPhnD2Fvdg" base_Class="_J4RVkFo2EeuDtPhnD2Fvdg"/>
   <robotics.components:ActivityInstance xmi:id="_J4k3kFo2EeuDtPhnD2Fvdg" base_Property="_J4ew8Fo2EeuDtPhnD2Fvdg"/>
-  <robotics.components:ComponentService xmi:id="_JWA1sFo5EeuDtPhnD2Fvdg" base_Class="_JV5g8Fo5EeuDtPhnD2Fvdg"/>
-  <robotics.components:ComponentPort xmi:id="_JWHjYFo5EeuDtPhnD2Fvdg" base_Port="_GZZ6oFo5EeuDtPhnD2Fvdg"/>
   <robotics.components:ComponentService xmi:id="_TcwcMFo5EeuDtPhnD2Fvdg" base_Class="_TcpugFo5EeuDtPhnD2Fvdg"/>
   <robotics.components:ComponentPort xmi:id="_TdCwEFo5EeuDtPhnD2Fvdg" base_Port="_PKvNYFo5EeuDtPhnD2Fvdg"/>
   <robotics.components:PeriodicTimer xmi:id="_oJ6nwFo5EeuDtPhnD2Fvdg" base_Class="_oJyr8Fo5EeuDtPhnD2Fvdg" period="100ms"/>
   <robotics.components:ComponentService xmi:id="_3lRQkFo7EeuDtPhnD2Fvdg" base_Class="_3lLJ8Fo7EeuDtPhnD2Fvdg"/>
   <robotics.components:ComponentPort xmi:id="_3lX-QFo7EeuDtPhnD2Fvdg" base_Port="_1fOxIFo7EeuDtPhnD2Fvdg"/>
-  <robotics.components:ActivityPort xmi:id="__uYa0Fo9EeuDtPhnD2Fvdg" base_Port="__uRtIFo9EeuDtPhnD2Fvdg"/>
   <robotics.components:ActivityPort xmi:id="_ITZv4Fo-EeuDtPhnD2Fvdg" base_Port="_ITSbIFo-EeuDtPhnD2Fvdg"/>
   <robotics.components:ActivityPort xmi:id="_JYizAFo-EeuDtPhnD2Fvdg" base_Port="_JYd6gFo-EeuDtPhnD2Fvdg"/>
   <robotics.generics:Connects xmi:id="_LECrgFo-EeuDtPhnD2Fvdg" base_Connector="_LDtUUFo-EeuDtPhnD2Fvdg"/>
   <robotics.functions:Function xmi:id="_LEQG4Fo-EeuDtPhnD2Fvdg" base_Class="_LELOYFo-EeuDtPhnD2Fvdg" activityPort="_JYizAFo-EeuDtPhnD2Fvdg"/>
   <robotics.generics:Connects xmi:id="_MFdFMVo-EeuDtPhnD2Fvdg" base_Connector="_MFYzwFo-EeuDtPhnD2Fvdg"/>
-  <robotics.functions:Function xmi:id="_MFjL0Fo-EeuDtPhnD2Fvdg" base_Class="_MFfhcFo-EeuDtPhnD2Fvdg"/>
-  <robotics.generics:Connects xmi:id="_NFTYoFo-EeuDtPhnD2Fvdg" base_Connector="_NFMq8Fo-EeuDtPhnD2Fvdg"/>
+  <robotics.functions:Function xmi:id="_MFjL0Fo-EeuDtPhnD2Fvdg" base_Class="_MFfhcFo-EeuDtPhnD2Fvdg" activityPort="_T00vMFo_EeuDtPhnD2Fvdg"/>
   <robotics.generics:Connects xmi:id="_N6-cYFo-EeuDtPhnD2Fvdg" base_Connector="_N63HoFo-EeuDtPhnD2Fvdg"/>
   <robotics.components:Activity xmi:id="_uJ_hkFo-EeuDtPhnD2Fvdg" base_Class="_uJ6CAFo-EeuDtPhnD2Fvdg"/>
   <robotics.components:ActivityInstance xmi:id="_uLG74Fo-EeuDtPhnD2Fvdg" base_Property="_uLBcUFo-EeuDtPhnD2Fvdg"/>
   <robotics.components:ActivityPort xmi:id="_T00vMFo_EeuDtPhnD2Fvdg" base_Port="_T0tacFo_EeuDtPhnD2Fvdg"/>
+  <robotics.components:PeriodicTimer xmi:id="_HK9_IFtlEeu-uu0Sg2Jm0w" base_Class="_HKkWgFtlEeu-uu0Sg2Jm0w" period="100ms"/>
+  <robotics.functions:Function xmi:id="_NUNjYFtnEeu-uu0Sg2Jm0w" base_Class="_NUID0FtnEeu-uu0Sg2Jm0w" kind="PERIODIC" activityPort="_ITZv4Fo-EeuDtPhnD2Fvdg"/>
+  <robotics.functions:Function xmi:id="_uMLe8FtnEeu-uu0Sg2Jm0w" base_Class="_uMH0kFtnEeu-uu0Sg2Jm0w" activityPort="_T00vMFo_EeuDtPhnD2Fvdg"/>
 </xmi:XMI>
