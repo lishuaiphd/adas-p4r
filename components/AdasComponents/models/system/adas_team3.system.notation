@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qJM_wF7rEeuI_MoNIwX5mQ" type="CompositeStructure" name="Adas_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_qJM_wV7rEeuI_MoNIwX5mQ" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qJM_wl7rEeuI_MoNIwX5mQ" type="Class_NameLabel">
+      <element xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qJM_w17rEeuI_MoNIwX5mQ" type="Class_FloatingNameLabel">
+      <element xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qJON4F7rEeuI_MoNIwX5mQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_qJON4V7rEeuI_MoNIwX5mQ" type="Class_StructureCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_qJON4l7rEeuI_MoNIwX5mQ"/>
+      <element xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJON417rEeuI_MoNIwX5mQ"/>
+    </children>
+    <element xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJON5F7rEeuI_MoNIwX5mQ" x="40" y="40" width="781" height="421"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qJON5V7rEeuI_MoNIwX5mQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_qJON5l7rEeuI_MoNIwX5mQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qJON517rEeuI_MoNIwX5mQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJON6F7rEeuI_MoNIwX5mQ" x="240" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qJON6V7rEeuI_MoNIwX5mQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_qJON6l7rEeuI_MoNIwX5mQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qJON617rEeuI_MoNIwX5mQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJON7F7rEeuI_MoNIwX5mQ" x="240" y="40"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_qJON7V7rEeuI_MoNIwX5mQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_qJON7l7rEeuI_MoNIwX5mQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_qJON717rEeuI_MoNIwX5mQ" diagramKindId="org.eclipse.papyrus.robotics.diagram.assembly">
+    <owner xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+  </styles>
+  <element xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_qJON8F7rEeuI_MoNIwX5mQ" type="StereotypeCommentLink" source="_qJM_wV7rEeuI_MoNIwX5mQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qJON8V7rEeuI_MoNIwX5mQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qJON8l7rEeuI_MoNIwX5mQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qJON817rEeuI_MoNIwX5mQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJON9F7rEeuI_MoNIwX5mQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJON9V7rEeuI_MoNIwX5mQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qJON9l7rEeuI_MoNIwX5mQ" type="StereotypeCommentLink" source="_qJM_wV7rEeuI_MoNIwX5mQ" target="_qJON5V7rEeuI_MoNIwX5mQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qJON917rEeuI_MoNIwX5mQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qJON-F7rEeuI_MoNIwX5mQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qJON-V7rEeuI_MoNIwX5mQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJON-l7rEeuI_MoNIwX5mQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJON-17rEeuI_MoNIwX5mQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_qJON_F7rEeuI_MoNIwX5mQ" type="StereotypeCommentLink" source="_qJM_wV7rEeuI_MoNIwX5mQ" target="_qJON6V7rEeuI_MoNIwX5mQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_qJON_V7rEeuI_MoNIwX5mQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_qJON_l7rEeuI_MoNIwX5mQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="adas_team3.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qJON_17rEeuI_MoNIwX5mQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJOOAF7rEeuI_MoNIwX5mQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJOOAV7rEeuI_MoNIwX5mQ"/>
+  </edges>
+</notation:Diagram>

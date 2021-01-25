@@ -9,6 +9,7 @@
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_pYwoQ1lvEeuV3PQBT7TM0Q" name="Roaddetection">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_pYwoRFlvEeuV3PQBT7TM0Q"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_5LFbAFo_EeuXmsDhYsJ_5Q" name="DetectRoad"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pYwoRVlvEeuV3PQBT7TM0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pYwoRllvEeuV3PQBT7TM0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">

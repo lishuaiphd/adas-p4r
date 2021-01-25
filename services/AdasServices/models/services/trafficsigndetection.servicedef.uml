@@ -1,11 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_X8W4sE8wEeuf54tkkZK0ow" name="TrafficsigndetectionServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_X8W4sU8wEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_X8W4sk8wEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_X8W4s08wEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_X8W4sk8wEeuf54tkkZK0ow" name="svcdefs">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_Ho79MFTFEeunjeKkmcG6Xw" name="Push_TrafficSignDetection">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_IkltIFTFEeunjeKkmcG6Xw">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_IkltIVTFEeunjeKkmcG6Xw" actual="_PB9hkFS3EeunjeKkmcG6Xw">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_X8W4s08wEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_1_v2wFS1EeunjeKkmcG6Xw" name="Publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_PB9hkFS3EeunjeKkmcG6Xw" name="TrafficSignDetection">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Uo97cFS5EeunjeKkmcG6Xw" name="Image" type="_6LYe0FS3EeunjeKkmcG6Xw">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uo97cVS5EeunjeKkmcG6Xw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uo97clS5EeunjeKkmcG6Xw" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lxmWcFpCEeuXmsDhYsJ_5Q" name="Sign"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_6LYe0FS3EeunjeKkmcG6Xw" name="Image">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kezoMFS4EeunjeKkmcG6Xw" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kezoMVS4EeunjeKkmcG6Xw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kezoMlS4EeunjeKkmcG6Xw" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EMYpsFS4EeunjeKkmcG6Xw" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EMYpsVS4EeunjeKkmcG6Xw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EMYpslS4EeunjeKkmcG6Xw" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kevWwFS4EeunjeKkmcG6Xw" name="data">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_5lVhgBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kevWwVS4EeunjeKkmcG6Xw"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kevWwlS4EeunjeKkmcG6Xw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kexzAFS4EeunjeKkmcG6Xw" name="encoding">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_5lVhgBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kexzAVS4EeunjeKkmcG6Xw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kexzAlS4EeunjeKkmcG6Xw" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ke1dYVS4EeunjeKkmcG6Xw" name="is_bigendian">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_5lVhgBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ke1dYlS4EeunjeKkmcG6Xw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ke1dY1S4EeunjeKkmcG6Xw" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kes6gFS4EeunjeKkmcG6Xw" name="step">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7wRIABydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kes6gVS4EeunjeKkmcG6Xw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kes6glS4EeunjeKkmcG6Xw" value="1"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_raiU4FpCEeuXmsDhYsJ_5Q" name="SignEnumeration">
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_e3rb0FpDEeuXmsDhYsJ_5Q" name="SpeedLimit"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_e3tRAVpDEeuXmsDhYsJ_5Q" name="Danger"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_erMCgFpEEeuXmsDhYsJ_5Q" name="Prohibition"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_3ScNsFS1EeunjeKkmcG6Xw" name="Subscribe">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_fitsMFS5EeunjeKkmcG6Xw" name="TrafficSignDetectionSubscribed">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kG4a8FS5EeunjeKkmcG6Xw" name="Speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7c3p8FS5EeunjeKkmcG6Xw" name="Image" type="_6LYe0FS3EeunjeKkmcG6Xw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_X8W4tE8wEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X8W4tU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -66,8 +130,32 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QE3JAFS3EeunjeKkmcG6Xw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QE3wEFS3EeunjeKkmcG6Xw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_X8W4yE8wEeuf54tkkZK0ow" base_Package="_X8W4sE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_X8W4yU8wEeuf54tkkZK0ow" base_Package="_X8W4s08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_X8W4yk8wEeuf54tkkZK0ow" base_Package="_X8W4sk8wEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_PCE2UFS3EeunjeKkmcG6Xw" base_DataType="_PB9hkFS3EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataType xmi:id="_6LelcFS3EeunjeKkmcG6Xw" base_DataType="_6LYe0FS3EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_EMbF8FS4EeunjeKkmcG6Xw" description="Image width, that is, number of columns" base_Property="_EMYpsFS4EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_keuIoFS4EeunjeKkmcG6Xw" description="Full row length in bytes" base_Property="_kes6gFS4EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_kexL8FS4EeunjeKkmcG6Xw" description="Actual matrix data, size is (step * rows)" base_Property="_kevWwFS4EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_kezBIFS4EeunjeKkmcG6Xw" description="Encoding of pixels -- channel meaning, ordering, size" base_Property="_kexzAFS4EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_ke1dYFS4EeunjeKkmcG6Xw" description="Image height, that is, number of rows" base_Property="_kezoMFS4EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_ke35oFS4EeunjeKkmcG6Xw" description="Is this data bigendian?" base_Property="_ke1dYVS4EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_UpAXsFS5EeunjeKkmcG6Xw" base_Property="_Uo97cFS5EeunjeKkmcG6Xw"/>
+  <robotics.commobject:CommunicationObject xmi:id="_fixWkFS5EeunjeKkmcG6Xw" base_DataType="_fitsMFS5EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_kG_vsFS5EeunjeKkmcG6Xw" base_Property="_kG4a8FS5EeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_7c6tQFS5EeunjeKkmcG6Xw" base_Property="_7c3p8FS5EeunjeKkmcG6Xw"/>
+  <robotics.services:ServiceDefinition xmi:id="_Ikm7QFTFEeunjeKkmcG6Xw" base_Interface="_Ho79MFTFEeunjeKkmcG6Xw"/>
+  <robotics.commobject:DataAttribute xmi:id="_lxpZwFpCEeuXmsDhYsJ_5Q" base_Property="_lxmWcFpCEeuXmsDhYsJ_5Q"/>
+  <robotics.commobject:Enumeration xmi:id="_ralYMFpCEeuXmsDhYsJ_5Q" base_DataType="_raiU4FpCEeuXmsDhYsJ_5Q"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_e3tRAFpDEeuXmsDhYsJ_5Q" base_EnumerationLiteral="_e3rb0FpDEeuXmsDhYsJ_5Q"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_e3ufIFpDEeuXmsDhYsJ_5Q" base_EnumerationLiteral="_e3tRAVpDEeuXmsDhYsJ_5Q"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_erN3sFpEEeuXmsDhYsJ_5Q" base_EnumerationLiteral="_erMCgFpEEeuXmsDhYsJ_5Q"/>
 </xmi:XMI>

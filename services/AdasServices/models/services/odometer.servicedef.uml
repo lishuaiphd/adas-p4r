@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_s05qUE8vEeuf54tkkZK0ow" name="OdometerServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_s05qUU8vEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_s05qUk8vEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_s05qU08vEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_s05qUk8vEeuf54tkkZK0ow" name="svcdefs">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_HO9rYFNvEeuQhfTHhMdrVQ" name="Push_Odometer1">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_IWhJUFNvEeuQhfTHhMdrVQ">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_IWhwYFNvEeuQhfTHhMdrVQ" actual="_3DXmgFNuEeuQhfTHhMdrVQ">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_s05qU08vEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_spfBkFNuEeuQhfTHhMdrVQ" name="Publish">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Fc2_IFNwEeuQhfTHhMdrVQ"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_3DXmgFNuEeuQhfTHhMdrVQ" name="Odometer">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7M3ygFNuEeuQhfTHhMdrVQ" name="Distance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_GIXaQFNwEeuQhfTHhMdrVQ" name="Package4"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_HQlmkFNwEeuQhfTHhMdrVQ" name="Package5"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_JAHqgFNwEeuQhfTHhMdrVQ" name="Package6"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_SW5MoFNwEeuQhfTHhMdrVQ" name="Package7"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_uAZxMFNuEeuQhfTHhMdrVQ" name="Subscribe"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_s05qVE8vEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s05qVU8vEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -66,8 +89,17 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_-sRRkFNuEeuQhfTHhMdrVQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-sabgFNuEeuQhfTHhMdrVQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_s05qaE8vEeuf54tkkZK0ow" base_Package="_s05qUE8vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_s05qaU8vEeuf54tkkZK0ow" base_Package="_s05qU08vEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_s05qak8vEeuf54tkkZK0ow" base_Package="_s05qUk8vEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_3FEPoFNuEeuQhfTHhMdrVQ" base_DataType="_3DXmgFNuEeuQhfTHhMdrVQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_7NMioFNuEeuQhfTHhMdrVQ" base_Property="_7M3ygFNuEeuQhfTHhMdrVQ"/>
+  <robotics.services:ServiceDefinition xmi:id="_IWuksFNvEeuQhfTHhMdrVQ" base_Interface="_HO9rYFNvEeuQhfTHhMdrVQ"/>
 </xmi:XMI>

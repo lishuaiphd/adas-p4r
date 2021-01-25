@@ -1,9 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_X8Yt4E8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Trafficsigndetection diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_X8Yt4U8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_X8Yt4k8wEeuf54tkkZK0ow"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_X8Yt408wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
-    <owner href="trafficsigndetection.servicedef.uml#_X8W4sE8wEeuf54tkkZK0ow"/>
-  </styles>
-  <element href="trafficsigndetection.servicedef.uml#_X8W4sk8wEeuf54tkkZK0ow"/>
-</notation:Diagram>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_X8Yt4E8wEeuf54tkkZK0ow" type="PapyrusUMLClassDiagram" name="Trafficsigndetection diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_IkwFMFTFEeunjeKkmcG6Xw" type="Interface_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IkwFMlTFEeunjeKkmcG6Xw" type="Interface_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IkwFM1TFEeunjeKkmcG6Xw" type="Interface_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IkwFNFTFEeunjeKkmcG6Xw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IkwFNVTFEeunjeKkmcG6Xw" type="Interface_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IkwFNlTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IkwFN1TFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IkwFOFTFEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IkwFOVTFEeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IkwFOlTFEeunjeKkmcG6Xw" type="Interface_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IkwFO1TFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IkwFPFTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IkwFPVTFEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IkwFPlTFEeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IkwFP1TFEeunjeKkmcG6Xw" type="Interface_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IkwFQFTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IkwFQVTFEeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IkwFQlTFEeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IkwFQ1TFEeunjeKkmcG6Xw"/>
+      </children>
+      <element xmi:type="uml:Interface" href="trafficsigndetection.servicedef.uml#_Ho79MFTFEeunjeKkmcG6Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IkwFMVTFEeunjeKkmcG6Xw" x="140" y="60" width="221" height="141"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-HO6C1pBEeuXmsDhYsJ_5Q" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_-HO6DFpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-HO6DlpBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Interface" href="trafficsigndetection.servicedef.uml#_Ho79MFTFEeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-HO6DVpBEeuXmsDhYsJ_5Q" x="340" y="60"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_X8Yt4U8wEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_X8Yt4k8wEeuf54tkkZK0ow"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_X8Yt408wEeuf54tkkZK0ow" diagramKindId="org.eclipse.papyrus.robotics.diagram.service">
+      <owner xmi:type="uml:Model" href="trafficsigndetection.servicedef.uml#_X8W4sE8wEeuf54tkkZK0ow"/>
+    </styles>
+    <element xmi:type="uml:Package" href="trafficsigndetection.servicedef.uml#_X8W4sk8wEeuf54tkkZK0ow"/>
+    <edges xmi:type="notation:Connector" xmi:id="_-HO6D1pBEeuXmsDhYsJ_5Q" type="StereotypeCommentLink" source="_IkwFMFTFEeunjeKkmcG6Xw" target="_-HO6C1pBEeuXmsDhYsJ_5Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_-HO6EFpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-HO6FFpBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Interface" href="trafficsigndetection.servicedef.uml#_Ho79MFTFEeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-HO6EVpBEeuXmsDhYsJ_5Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-HO6ElpBEeuXmsDhYsJ_5Q"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-HO6E1pBEeuXmsDhYsJ_5Q"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_M6rE8FS3EeunjeKkmcG6Xw" type="PapyrusUMLClassDiagram" name="TrafficSignDetectionPublished" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_PCH5oFS3EeunjeKkmcG6Xw" type="DataType_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1zJHsFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1zJHsVTBEeunjeKkmcG6Xw" key="canonical" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PCH5olS3EeunjeKkmcG6Xw" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PCH5o1S3EeunjeKkmcG6Xw" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PCH5pFS3EeunjeKkmcG6Xw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PCH5pVS3EeunjeKkmcG6Xw" type="DataType_AttributeCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_10ADUFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_10ADUVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_1zKV0FTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_10ADUlTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_10ADU1TBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_Uo97cFS5EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_1zKV0VTBEeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_lx__EFpCEeuXmsDhYsJ_5Q" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_lxmWcFpCEeuXmsDhYsJ_5Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_lx__EVpCEeuXmsDhYsJ_5Q"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PCH5plS3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PCH5p1S3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PCH5qFS3EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PCH5qVS3EeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PCH5qlS3EeunjeKkmcG6Xw" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PCH5q1S3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PCH5rFS3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PCH5rVS3EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PCH5rlS3EeunjeKkmcG6Xw"/>
+      </children>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_1zIgoFTBEeunjeKkmcG6Xw"/>
+      <element xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PCH5oVS3EeunjeKkmcG6Xw" x="40" y="100" width="241" height="101"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_6LgaoFS3EeunjeKkmcG6Xw" type="DataType_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2pwmoVTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2pwmolTBEeunjeKkmcG6Xw" key="canonical" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6LhBsFS3EeunjeKkmcG6Xw" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6LhBsVS3EeunjeKkmcG6Xw" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6LhBslS3EeunjeKkmcG6Xw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6LhBs1S3EeunjeKkmcG6Xw" type="DataType_AttributeCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rqrIFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rqrIVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_2pxNsFTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rqrIlTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rqrI1TBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_kezoMFS4EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2pxNsVTBEeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2px0wFTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rqrJFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rqrJVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_EMYpsFS4EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2px0wVTBEeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2px0wlTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rqrJlTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rqrJ1TBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_kevWwFS4EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2px0w1TBEeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2px0xFTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rqrKFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rqrKVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_kexzAFS4EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2px0xVTBEeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2px0xlTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rqrKlTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rqrK1TBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_ke1dYVS4EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2px0x1TBEeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2pyb0FTBEeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2rqrLFTBEeunjeKkmcG6Xw" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2rqrLVTBEeunjeKkmcG6Xw" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_kes6gFS4EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2pyb0VTBEeunjeKkmcG6Xw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6LhBtFS3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6LhBtVS3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6LhBtlS3EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6LhBt1S3EeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6LhBuFS3EeunjeKkmcG6Xw" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6LhBuVS3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6LhBulS3EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6LhBu1S3EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6LhBvFS3EeunjeKkmcG6Xw"/>
+      </children>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_2pwmoFTBEeunjeKkmcG6Xw"/>
+      <element xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_6LYe0FS3EeunjeKkmcG6Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6LgaoVS3EeunjeKkmcG6Xw" x="400" y="100" width="181" height="161"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-HkRO1pBEeuXmsDhYsJ_5Q" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_-HkRPFpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-Hk4QFpBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-HkRPVpBEeuXmsDhYsJ_5Q" x="240" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-HpwzVpBEeuXmsDhYsJ_5Q" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_-HpwzlpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-Hpw0FpBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_6LYe0FS3EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Hpwz1pBEeuXmsDhYsJ_5Q" x="600" y="100"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_ranNYFpCEeuXmsDhYsJ_5Q" type="Enumeration_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g3EEMFpEEeuXmsDhYsJ_5Q" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g3EEMVpEEeuXmsDhYsJ_5Q" key="canonical" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ran0cFpCEeuXmsDhYsJ_5Q" type="Enumeration_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ran0cVpCEeuXmsDhYsJ_5Q" type="Enumeration_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ran0clpCEeuXmsDhYsJ_5Q" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ran0c1pCEeuXmsDhYsJ_5Q" type="Enumeration_LiteralCompartment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g5EPUFpEEeuXmsDhYsJ_5Q" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g5EPUVpEEeuXmsDhYsJ_5Q" key="mutable" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_g3N1MFpEEeuXmsDhYsJ_5Q" type="EnumerationLiteral_LiteralLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g5EPUlpEEeuXmsDhYsJ_5Q" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g5EPU1pEEeuXmsDhYsJ_5Q" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:EnumerationLiteral" href="trafficsigndetection.servicedef.uml#_e3rb0FpDEeuXmsDhYsJ_5Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_g3N1MVpEEeuXmsDhYsJ_5Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_g3N1MlpEEeuXmsDhYsJ_5Q" type="EnumerationLiteral_LiteralLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g5EPVFpEEeuXmsDhYsJ_5Q" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g5EPVVpEEeuXmsDhYsJ_5Q" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:EnumerationLiteral" href="trafficsigndetection.servicedef.uml#_e3tRAVpDEeuXmsDhYsJ_5Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_g3N1M1pEEeuXmsDhYsJ_5Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_g3N1NFpEEeuXmsDhYsJ_5Q" type="EnumerationLiteral_LiteralLabel">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g5E2YFpEEeuXmsDhYsJ_5Q" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g5E2YVpEEeuXmsDhYsJ_5Q" key="mutable" value="true"/>
+          </eAnnotations>
+          <element xmi:type="uml:EnumerationLiteral" href="trafficsigndetection.servicedef.uml#_erMCgFpEEeuXmsDhYsJ_5Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_g3N1NVpEEeuXmsDhYsJ_5Q"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ran0dFpCEeuXmsDhYsJ_5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ran0dVpCEeuXmsDhYsJ_5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ran0dlpCEeuXmsDhYsJ_5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ran0d1pCEeuXmsDhYsJ_5Q"/>
+      </children>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_g3DdIFpEEeuXmsDhYsJ_5Q"/>
+      <element xmi:type="uml:Enumeration" href="trafficsigndetection.servicedef.uml#_raiU4FpCEeuXmsDhYsJ_5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ranNYVpCEeuXmsDhYsJ_5Q" x="640" y="100" width="121" height="161"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_rat7GVpCEeuXmsDhYsJ_5Q" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_rat7GlpCEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_rat7HFpCEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Enumeration" href="trafficsigndetection.servicedef.uml#_raiU4FpCEeuXmsDhYsJ_5Q"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rat7G1pCEeuXmsDhYsJ_5Q" x="200"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_M6rE8VS3EeunjeKkmcG6Xw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_M6rE8lS3EeunjeKkmcG6Xw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_M6rE81S3EeunjeKkmcG6Xw" diagramKindId="org.eclipse.papyrus.robotics.diagram.data">
+      <owner xmi:type="uml:Package" href="trafficsigndetection.servicedef.uml#_1_v2wFS1EeunjeKkmcG6Xw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="trafficsigndetection.servicedef.uml#_1_v2wFS1EeunjeKkmcG6Xw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_-Hk4QVpBEeuXmsDhYsJ_5Q" type="StereotypeCommentLink" source="_PCH5oFS3EeunjeKkmcG6Xw" target="_-HkRO1pBEeuXmsDhYsJ_5Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_-Hk4QlpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-Hk4RlpBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Hk4Q1pBEeuXmsDhYsJ_5Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Hk4RFpBEeuXmsDhYsJ_5Q"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Hk4RVpBEeuXmsDhYsJ_5Q"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-HqX0FpBEeuXmsDhYsJ_5Q" type="StereotypeCommentLink" source="_6LgaoFS3EeunjeKkmcG6Xw" target="_-HpwzVpBEeuXmsDhYsJ_5Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_-HqX0VpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-HqX1VpBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_6LYe0FS3EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-HqX0lpBEeuXmsDhYsJ_5Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-HqX01pBEeuXmsDhYsJ_5Q"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-HqX1FpBEeuXmsDhYsJ_5Q"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_rat7HVpCEeuXmsDhYsJ_5Q" type="StereotypeCommentLink" source="_ranNYFpCEeuXmsDhYsJ_5Q" target="_rat7GVpCEeuXmsDhYsJ_5Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_rat7HlpCEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_rat7IlpCEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Enumeration" href="trafficsigndetection.servicedef.uml#_raiU4FpCEeuXmsDhYsJ_5Q"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rat7H1pCEeuXmsDhYsJ_5Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rat7IFpCEeuXmsDhYsJ_5Q"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rat7IVpCEeuXmsDhYsJ_5Q"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_eZSmAFS5EeunjeKkmcG6Xw" type="PapyrusUMLClassDiagram" name="TrafficSignDetectionSubscribed" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_fizLwFS5EeunjeKkmcG6Xw" type="DataType_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_fizLwlS5EeunjeKkmcG6Xw" type="DataType_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fizLw1S5EeunjeKkmcG6Xw" type="DataType_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_fizLxFS5EeunjeKkmcG6Xw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_fizLxVS5EeunjeKkmcG6Xw" type="DataType_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_kHGdYFS5EeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_kG4a8FS5EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kHGdYVS5EeunjeKkmcG6Xw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7dGTcFS5EeunjeKkmcG6Xw" type="Property_DataTypeAttributeLabel">
+          <element xmi:type="uml:Property" href="trafficsigndetection.servicedef.uml#_7c3p8FS5EeunjeKkmcG6Xw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7dGTcVS5EeunjeKkmcG6Xw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_fizLxlS5EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_fizLx1S5EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_fizLyFS5EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fizLyVS5EeunjeKkmcG6Xw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_fizy0FS5EeunjeKkmcG6Xw" type="DataType_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_fizy0VS5EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_fizy0lS5EeunjeKkmcG6Xw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_fizy01S5EeunjeKkmcG6Xw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fizy1FS5EeunjeKkmcG6Xw"/>
+      </children>
+      <element xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_fitsMFS5EeunjeKkmcG6Xw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fizLwVS5EeunjeKkmcG6Xw" x="160" y="60" width="281" height="121"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-Gvx0FpBEeuXmsDhYsJ_5Q" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_-Gvx0VpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-Gvx01pBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_fitsMFS5EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-Gvx0lpBEeuXmsDhYsJ_5Q" x="360" y="60"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_eZSmAVS5EeunjeKkmcG6Xw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_eZSmAlS5EeunjeKkmcG6Xw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_eZSmA1S5EeunjeKkmcG6Xw" diagramKindId="org.eclipse.papyrus.robotics.diagram.data">
+      <owner xmi:type="uml:Package" href="trafficsigndetection.servicedef.uml#_3ScNsFS1EeunjeKkmcG6Xw"/>
+    </styles>
+    <element xmi:type="uml:Package" href="trafficsigndetection.servicedef.uml#_3ScNsFS1EeunjeKkmcG6Xw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_-Gvx1FpBEeuXmsDhYsJ_5Q" type="StereotypeCommentLink" source="_fizLwFS5EeunjeKkmcG6Xw" target="_-Gvx0FpBEeuXmsDhYsJ_5Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_-Gvx1VpBEeuXmsDhYsJ_5Q"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_-Gvx2VpBEeuXmsDhYsJ_5Q" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="trafficsigndetection.servicedef.uml#_fitsMFS5EeunjeKkmcG6Xw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-Gvx1lpBEeuXmsDhYsJ_5Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Gvx11pBEeuXmsDhYsJ_5Q"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Gvx2FpBEeuXmsDhYsJ_5Q"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

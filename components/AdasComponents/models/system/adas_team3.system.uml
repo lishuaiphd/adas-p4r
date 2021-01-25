@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components">
+  <uml:Model xmi:id="_qJKjgF7rEeuI_MoNIwX5mQ" name="AdasSystem">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_qJKjgV7rEeuI_MoNIwX5mQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_qJKjgl7rEeuI_MoNIwX5mQ" name="Adas"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjg17rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjhF7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjhV7rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjhl7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjh17rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjiF7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//components"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_EZ1TgJZ2Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjiV7rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjil7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commpattern"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_8Z6x8Je6EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKji17rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjjF7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//deployment"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_tu6OsJe9EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjjV7rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjjl7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//services"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SlbOAJe_EeeiCOWsEr9OuA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjj17rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjkF7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//commobject"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_bz5AcPCaEeee6ab5J_C5Dg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjkV7rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjkl7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//functions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_SV7GwC6LEei0V9-WLHIyvg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjk17rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjlF7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//parameters"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_-pU5oDmpEei--ZsfKWaFtw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjlV7rEeuI_MoNIwX5mQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjll7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.components:SystemComponentArchitectureModel xmi:id="_qJKjl17rEeuI_MoNIwX5mQ" base_Package="_qJKjgF7rEeuI_MoNIwX5mQ"/>
+  <robotics.components:System xmi:id="_qJKjmF7rEeuI_MoNIwX5mQ" base_Class="_qJKjgl7rEeuI_MoNIwX5mQ"/>
+</xmi:XMI>
