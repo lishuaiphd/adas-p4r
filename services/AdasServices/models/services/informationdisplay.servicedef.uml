@@ -15,7 +15,6 @@
         <packagedElement xmi:type="uml:DataType" xmi:id="_SPjCYF9AEeuhMuB_t-XsHw" name="OdometerMsg"/>
         <packagedElement xmi:type="uml:DataType" xmi:id="_YBqyAF9AEeuhMuB_t-XsHw" name="TrafficSignDetection"/>
         <packagedElement xmi:type="uml:DataType" xmi:id="_aYT5QF9AEeuhMuB_t-XsHw" name="SpeedMsg"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_GB0PUF9CEeuhMuB_t-XsHw" name="Test"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1qZ19E8wEeuf54tkkZK0ow">
@@ -89,5 +88,4 @@
   <robotics.commobject:CommunicationObject xmi:id="_SPpwEF9AEeuhMuB_t-XsHw" base_DataType="_SPjCYF9AEeuhMuB_t-XsHw"/>
   <robotics.commobject:CommunicationObject xmi:id="_YBzU4F9AEeuhMuB_t-XsHw" base_DataType="_YBqyAF9AEeuhMuB_t-XsHw"/>
   <robotics.commobject:CommunicationObject xmi:id="_aYXjoF9AEeuhMuB_t-XsHw" base_DataType="_aYT5QF9AEeuhMuB_t-XsHw"/>
-  <robotics.commobject:CommunicationObject xmi:id="_GB4gwF9CEeuhMuB_t-XsHw" base_DataType="_GB0PUF9CEeuhMuB_t-XsHw"/>
 </xmi:XMI>
