@@ -26,9 +26,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_FZcicF5rEeuz8tGjcPSUEA" name="activity1" type="_FZSKYF5rEeuz8tGjcPSUEA"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_w-4-QF50Eeuz8tGjcPSUEA" name="activity1"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ofKjcF51Eeuz8tGjcPSUEA" name="activity1" type="_ofD1wF51Eeuz8tGjcPSUEA"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_tI6gUF52Eeuz8tGjcPSUEA" name="On/Off" aggregation="composite">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_eS9TcF9MEeuE35TPHDHWsw" name="OnOff" type="_gqo8gF9MEeuE35TPHDHWsw" aggregation="composite"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_Wx77cF5vEeuz8tGjcPSUEA" name="Connects10">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_WyCCEF5vEeuz8tGjcPSUEA" partWithPort="_ZL49sFpDEeusn6680tN4Qw" role="_QNWNEF5vEeuz8tGjcPSUEA"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_WyCCEV5vEeuz8tGjcPSUEA" role="_5AQZIFpBEeusn6680tN4Qw"/>
@@ -37,9 +35,9 @@
         <end xmi:type="uml:ConnectorEnd" xmi:id="_eSeUsF5vEeuz8tGjcPSUEA" partWithPort="_FZcicF5rEeuz8tGjcPSUEA" role="_amOFYF5vEeuz8tGjcPSUEA"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_eSeUsV5vEeuz8tGjcPSUEA" role="_uKwPMFpBEeusn6680tN4Qw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_mQhPsF53Eeuz8tGjcPSUEA" name="Connects18">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_mQkTAF53Eeuz8tGjcPSUEA" partWithPort="_ofKjcF51Eeuz8tGjcPSUEA" role="_YKE5cF53Eeuz8tGjcPSUEA"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_mQkTAV53Eeuz8tGjcPSUEA" role="_tI6gUF52Eeuz8tGjcPSUEA"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_lOsWgF9MEeuE35TPHDHWsw" name="Connects23">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_lOxPAF9MEeuE35TPHDHWsw" partWithPort="_ofKjcF51Eeuz8tGjcPSUEA" role="_YKE5cF53Eeuz8tGjcPSUEA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_lOx2EF9MEeuE35TPHDHWsw" role="_eS9TcF9MEeuE35TPHDHWsw"/>
       </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_fXszBFlvEeuV3PQBT7TM0Q"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_0BFwcFpBEeusn6680tN4Qw"/>
@@ -73,6 +71,16 @@
         </interfaceRealization>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_9TQA8F52Eeuz8tGjcPSUEA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_M3-qUF9MEeuE35TPHDHWsw"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_M_7scF9MEeuE35TPHDHWsw"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_OBi6cF9MEeuE35TPHDHWsw"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_OKk6oF9MEeuE35TPHDHWsw"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_gqo8gF9MEeuE35TPHDHWsw">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gqyGcF9MEeuE35TPHDHWsw" client="_gqo8gF9MEeuE35TPHDHWsw">
+          <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/lanedetection.servicedef.uml#_uhDW8FS9EeuFRKNJ5FlKHw"/>
+          <contract xmi:type="uml:Interface" href="../../../AdasServices/models/services/lanedetection.servicedef.uml#_uhDW8FS9EeuFRKNJ5FlKHw"/>
+        </interfaceRealization>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_0Bc80FpBEeusn6680tN4Qw" client="_0BFwcFpBEeusn6680tN4Qw">
       <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_vt-dcFAlEeuQn4VMJWeC_w"/>
@@ -85,6 +93,14 @@
       <body></body>
     </packagedElement>
     <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_eSgJ4F5vEeuz8tGjcPSUEA" name="LeftCameraPort_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_nrJnUF9LEeuE35TPHDHWsw" name="fNewFunction">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_sMDmsF9LEeuE35TPHDHWsw" name="fNewFunction">
       <language>C++</language>
       <body></body>
     </packagedElement>
@@ -172,7 +188,10 @@
   <robotics.components:Activity xmi:id="_ofJVUF51Eeuz8tGjcPSUEA" base_Class="_ofD1wF51Eeuz8tGjcPSUEA"/>
   <robotics.components:ActivityInstance xmi:id="_ofNmwF51Eeuz8tGjcPSUEA" base_Property="_ofKjcF51Eeuz8tGjcPSUEA"/>
   <robotics.components:ComponentService xmi:id="_zdvUYF52Eeuz8tGjcPSUEA" base_Class="_zds4IF52Eeuz8tGjcPSUEA"/>
-  <robotics.components:ComponentPort xmi:id="_zdzl0F52Eeuz8tGjcPSUEA" base_Port="_tI6gUF52Eeuz8tGjcPSUEA"/>
   <robotics.components:ActivityPort xmi:id="_YKH8wF53Eeuz8tGjcPSUEA" base_Port="_YKE5cF53Eeuz8tGjcPSUEA"/>
-  <robotics.generics:Connects xmi:id="_mQk6EF53Eeuz8tGjcPSUEA" base_Connector="_mQhPsF53Eeuz8tGjcPSUEA"/>
+  <robotics.functions:Function xmi:id="_nrVNgF9LEeuE35TPHDHWsw" base_Class="_nrJnUF9LEeuE35TPHDHWsw"/>
+  <robotics.functions:Function xmi:id="_sMKUYF9LEeuE35TPHDHWsw" base_Class="_sMDmsF9LEeuE35TPHDHWsw"/>
+  <robotics.components:ComponentService xmi:id="_gqtN8F9MEeuE35TPHDHWsw" base_Class="_gqo8gF9MEeuE35TPHDHWsw"/>
+  <robotics.components:ComponentPort xmi:id="_gqz7oF9MEeuE35TPHDHWsw" base_Port="_eS9TcF9MEeuE35TPHDHWsw"/>
+  <robotics.generics:Connects xmi:id="_lOx2EV9MEeuE35TPHDHWsw" base_Connector="_lOsWgF9MEeuE35TPHDHWsw"/>
 </xmi:XMI>
