@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.commobject="http://www.eclipse.org/papyrus/robotics/commobject/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.services="http://www.eclipse.org/papyrus/robotics/services/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/commobject/1 http://www.eclipse.org/papyrus/robotics/1#//commobject http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/services/1 http://www.eclipse.org/papyrus/robotics/1#//services">
   <uml:Model xmi:id="_gIArgE8wEeuf54tkkZK0ow" name="FusionServicedef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_gIArgU8wEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_gIArgk8wEeuf54tkkZK0ow" name="svcdefs"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_gIArg08wEeuf54tkkZK0ow" name="msg"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_gIArg08wEeuf54tkkZK0ow" name="msg">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WlahgF9jEeu7PLqzaxKaUg" name="Publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_kNNiAF9lEeu7PLqzaxKaUg" name="Steering"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nMpHkF9lEeu7PLqzaxKaUg" name="Throttle"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_4Fi-YF9lEeu7PLqzaxKaUg" name="Braking"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_UljbMF9mEeu7PLqzaxKaUg" name="Alarm"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YHWOUF9jEeu7PLqzaxKaUg" name="Subscribe"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gIArhE8wEeuf54tkkZK0ow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gIArhU8wEeuf54tkkZK0ow" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
@@ -66,8 +74,18 @@
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1K2H0F9lEeu7PLqzaxKaUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1LKQ4F9lEeu7PLqzaxKaUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <robotics.services:ServiceDefinitionModel xmi:id="_gIArmE8wEeuf54tkkZK0ow" base_Package="_gIArgE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_gIArmU8wEeuf54tkkZK0ow" base_Package="_gIArg08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_gIArmk8wEeuf54tkkZK0ow" base_Package="_gIArgk8wEeuf54tkkZK0ow"/>
+  <robotics.commobject:CommunicationObject xmi:id="_kP4bgF9lEeu7PLqzaxKaUg" base_DataType="_kNNiAF9lEeu7PLqzaxKaUg"/>
+  <robotics.commobject:CommunicationObject xmi:id="_nMrj0F9lEeu7PLqzaxKaUg" base_DataType="_nMpHkF9lEeu7PLqzaxKaUg"/>
+  <robotics.commobject:CommunicationObject xmi:id="_4FmowF9lEeu7PLqzaxKaUg" base_DataType="_4Fi-YF9lEeu7PLqzaxKaUg"/>
+  <robotics.commobject:CommunicationObject xmi:id="_UlmegF9mEeu7PLqzaxKaUg" base_DataType="_UljbMF9mEeu7PLqzaxKaUg"/>
 </xmi:XMI>
