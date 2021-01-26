@@ -17,9 +17,15 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ETBOMFo_EeuwkYz9E6qJ8A" name="activity1"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_l-AiIFo_EeuwkYz9E6qJ8A" name="activity1" type="_l9j2MFo_EeuwkYz9E6qJ8A"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_PQBMMF-uEeuam-wfkQaMVw" name="donnees" type="_StSkUF-uEeuam-wfkQaMVw" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FnzlsF-3Eeuam-wfkQaMVw" name="activity1" type="_FnqbwF-3Eeuam-wfkQaMVw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_X-OjYF-3Eeuam-wfkQaMVw" name="vitesse" type="_aFGJQF-3Eeuam-wfkQaMVw" aggregation="composite"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_gYz5IF-uEeuam-wfkQaMVw" name="Connects7">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_gZWrsF-uEeuam-wfkQaMVw" partWithPort="_l-AiIFo_EeuwkYz9E6qJ8A" role="_qLvG0Fo_EeuwkYz9E6qJ8A"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_gZXSwF-uEeuam-wfkQaMVw" role="_PQBMMF-uEeuam-wfkQaMVw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_b36KsF-3Eeuam-wfkQaMVw" name="Connects12">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_b3_DMF-3Eeuam-wfkQaMVw" role="_X-OjYF-3Eeuam-wfkQaMVw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_b3_qQF-3Eeuam-wfkQaMVw" partWithPort="_FnzlsF-3Eeuam-wfkQaMVw" role="_WW71cF-3Eeuam-wfkQaMVw"/>
       </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_tKhCpFlvEeuV3PQBT7TM0Q">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_vUwZoFpAEeuwkYz9E6qJ8A" name="lidarObject">
@@ -31,7 +37,6 @@
           <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_qLvG0Fo_EeuwkYz9E6qJ8A" name="données" aggregation="composite"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_vkAMAFo_EeuwkYz9E6qJ8A" name="mesure des distances"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_StSkUF-uEeuam-wfkQaMVw">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_St62cF-uEeuam-wfkQaMVw" client="_StSkUF-uEeuam-wfkQaMVw">
@@ -39,8 +44,24 @@
           <contract xmi:type="uml:Interface" href="../../../AdasServices/models/services/lidar.servicedef.uml#_ox_UYFo5EeuwkYz9E6qJ8A"/>
         </interfaceRealization>
       </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_FnqbwF-3Eeuam-wfkQaMVw" name="calcul des distances">
+        <generalization xmi:type="uml:Generalization" xmi:id="_Fnrp4F-3Eeuam-wfkQaMVw">
+          <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_WW71cF-3Eeuam-wfkQaMVw" name="vitesse" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_b4Fw4V-3Eeuam-wfkQaMVw" name="" type="_b4CtkF-3Eeuam-wfkQaMVw"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_vkAMAFo_EeuwkYz9E6qJ8A" name="mesure des distances"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_aFGJQF-3Eeuam-wfkQaMVw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_gGmp4Fo_EeuwkYz9E6qJ8A" name="rotation_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_aFS9kF-3Eeuam-wfkQaMVw" client="_aFGJQF-3Eeuam-wfkQaMVw">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/lidar.servicedef.uml#_nHEAMF-2Eeuam-wfkQaMVw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_b4CtkF-3Eeuam-wfkQaMVw" name="vitesse_handler">
       <language>C++</language>
       <body></body>
     </packagedElement>
@@ -110,7 +131,7 @@
   <robotics.parameters:Parameter xmi:id="_tKhCu1lvEeuV3PQBT7TM0Q" base_Class="_tKhCpFlvEeuV3PQBT7TM0Q"/>
   <robotics.components:ActivityInstance xmi:id="_ETST8Fo_EeuwkYz9E6qJ8A" base_Property="_ETBOMFo_EeuwkYz9E6qJ8A"/>
   <robotics.functions:Function xmi:id="_gHokoFo_EeuwkYz9E6qJ8A" base_Class="_gGmp4Fo_EeuwkYz9E6qJ8A"/>
-  <robotics.components:Activity xmi:id="_l98QsFo_EeuwkYz9E6qJ8A" base_Class="_l9j2MFo_EeuwkYz9E6qJ8A"/>
+  <robotics.components:Activity xmi:id="_l98QsFo_EeuwkYz9E6qJ8A" description="" base_Class="_l9j2MFo_EeuwkYz9E6qJ8A"/>
   <robotics.components:ActivityInstance xmi:id="_l-XugFo_EeuwkYz9E6qJ8A" base_Property="_l-AiIFo_EeuwkYz9E6qJ8A"/>
   <robotics.components:ActivityPort xmi:id="_qMRSUFo_EeuwkYz9E6qJ8A" base_Port="_qLvG0Fo_EeuwkYz9E6qJ8A"/>
   <robotics.components:PeriodicTimer xmi:id="_vk6yAFo_EeuwkYz9E6qJ8A" base_Class="_vkAMAFo_EeuwkYz9E6qJ8A"/>
@@ -118,4 +139,11 @@
   <robotics.components:ComponentService xmi:id="_SthN0F-uEeuam-wfkQaMVw" base_Class="_StSkUF-uEeuam-wfkQaMVw"/>
   <robotics.components:ComponentPort xmi:id="_SualsF-uEeuam-wfkQaMVw" base_Port="_PQBMMF-uEeuam-wfkQaMVw"/>
   <robotics.generics:Connects xmi:id="_gZX50F-uEeuam-wfkQaMVw" base_Connector="_gYz5IF-uEeuam-wfkQaMVw"/>
+  <robotics.components:Activity xmi:id="_FnxJcF-3Eeuam-wfkQaMVw" description="calcul des distances en fonctions de la vitesse" base_Class="_FnqbwF-3Eeuam-wfkQaMVw"/>
+  <robotics.components:ActivityInstance xmi:id="_Fn_L4F-3Eeuam-wfkQaMVw" base_Property="_FnzlsF-3Eeuam-wfkQaMVw"/>
+  <robotics.components:ActivityPort xmi:id="_WW_f0F-3Eeuam-wfkQaMVw" base_Port="_WW71cF-3Eeuam-wfkQaMVw"/>
+  <robotics.components:ComponentService xmi:id="_aFNeAF-3Eeuam-wfkQaMVw" base_Class="_aFGJQF-3Eeuam-wfkQaMVw"/>
+  <robotics.components:ComponentPort xmi:id="_aFXPAF-3Eeuam-wfkQaMVw" base_Port="_X-OjYF-3Eeuam-wfkQaMVw"/>
+  <robotics.generics:Connects xmi:id="_b3_qQV-3Eeuam-wfkQaMVw" base_Connector="_b36KsF-3Eeuam-wfkQaMVw"/>
+  <robotics.functions:Function xmi:id="_b4Fw4F-3Eeuam-wfkQaMVw" base_Class="_b4CtkF-3Eeuam-wfkQaMVw" activityPort="_WW_f0F-3Eeuam-wfkQaMVw"/>
 </xmi:XMI>

@@ -48,25 +48,13 @@
           <layoutConstraint xmi:type="notation:Location" xmi:id="_mCL3glo_EeuwkYz9E6qJ8A" y="15"/>
         </children>
         <children xmi:type="notation:BasicCompartment" xmi:id="_mCL3g1o_EeuwkYz9E6qJ8A" type="Class_StructureCompartment_CN">
-          <children xmi:type="notation:Shape" xmi:id="_vtBlIFo_EeuwkYz9E6qJ8A" type="Class_Shape_CN">
-            <children xmi:type="notation:DecorationNode" xmi:id="_vtCMMFo_EeuwkYz9E6qJ8A" type="Class_NameLabel_CN"/>
-            <children xmi:type="notation:DecorationNode" xmi:id="_vtCMMVo_EeuwkYz9E6qJ8A" type="Class_FloatingNameLabel_CN">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_vtCMMlo_EeuwkYz9E6qJ8A" y="15"/>
-            </children>
-            <children xmi:type="notation:BasicCompartment" xmi:id="_vtCMM1o_EeuwkYz9E6qJ8A" type="Class_StructureCompartment_CN">
-              <styles xmi:type="notation:TitleStyle" xmi:id="_vtCMNFo_EeuwkYz9E6qJ8A"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtCMNVo_EeuwkYz9E6qJ8A"/>
-            </children>
-            <element xmi:type="uml:Class" href="lidar.compdef.uml#_vkAMAFo_EeuwkYz9E6qJ8A"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtBlIVo_EeuwkYz9E6qJ8A" x="14" y="1"/>
-          </children>
-          <children xmi:type="notation:Shape" xmi:id="_HV7qgF-uEeuam-wfkQaMVw" type="StereotypeComment">
-            <styles xmi:type="notation:TitleStyle" xmi:id="_HV7qgV-uEeuam-wfkQaMVw"/>
-            <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HV7qg1-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
+          <children xmi:type="notation:Shape" xmi:id="_A8kloF-3Eeuam-wfkQaMVw" type="StereotypeComment">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_A8kloV-3Eeuam-wfkQaMVw"/>
+            <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8klo1-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
               <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_vkAMAFo_EeuwkYz9E6qJ8A"/>
             </styles>
             <element xsi:nil="true"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HV7qgl-uEeuam-wfkQaMVw" x="214" y="1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A8klol-3Eeuam-wfkQaMVw" x="214" y="1"/>
           </children>
           <styles xmi:type="notation:TitleStyle" xmi:id="_mCL3hFo_EeuwkYz9E6qJ8A"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mCL3hVo_EeuwkYz9E6qJ8A"/>
@@ -103,7 +91,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qQN-MVo_EeuwkYz9E6qJ8A" x="91" y="111"/>
         </children>
         <element xmi:type="uml:Class" href="lidar.compdef.uml#_l9j2MFo_EeuwkYz9E6qJ8A"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mCLQcVo_EeuwkYz9E6qJ8A" x="194" y="101" width="221" height="121"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mCLQcVo_EeuwkYz9E6qJ8A" x="314" y="95" width="321" height="121"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_HVVNkF-uEeuam-wfkQaMVw" type="StereotypeComment">
         <styles xmi:type="notation:TitleStyle" xmi:id="_HVVNkV-uEeuam-wfkQaMVw"/>
@@ -113,29 +101,108 @@
         <element xsi:nil="true"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HVVNkl-uEeuam-wfkQaMVw" x="454" y="1"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_HVgzwF-uEeuam-wfkQaMVw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_HVgzwV-uEeuam-wfkQaMVw"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HVgzw1-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <children xmi:type="notation:Shape" xmi:id="_A8ZmgF-3Eeuam-wfkQaMVw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_A8ZmgV-3Eeuam-wfkQaMVw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8Zmg1-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_tKhCpFlvEeuV3PQBT7TM0Q"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A8Zmgl-3Eeuam-wfkQaMVw" x="454" y="1"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_A8dQ7F-3Eeuam-wfkQaMVw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_A8dQ7V-3Eeuam-wfkQaMVw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8dQ71-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
           <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_l9j2MFo_EeuwkYz9E6qJ8A"/>
         </styles>
         <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HVgzwl-uEeuam-wfkQaMVw" x="394" y="101"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A8dQ7l-3Eeuam-wfkQaMVw" x="394" y="101"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_HWaLoF-uEeuam-wfkQaMVw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_HWaLoV-uEeuam-wfkQaMVw"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HWaysF-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <children xmi:type="notation:Shape" xmi:id="_A8r6YF-3Eeuam-wfkQaMVw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_A8r6YV-3Eeuam-wfkQaMVw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8r6Y1-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
           <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_qLvG0Fo_EeuwkYz9E6qJ8A"/>
         </styles>
         <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HWaLol-uEeuam-wfkQaMVw" x="290" y="111"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A8r6Yl-3Eeuam-wfkQaMVw" x="291" y="111"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_gcYKgF-uEeuam-wfkQaMVw" type="StereotypeComment">
-        <styles xmi:type="notation:TitleStyle" xmi:id="_gcYKgV-uEeuam-wfkQaMVw"/>
-        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_gcYKg1-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <children xmi:type="notation:Shape" xmi:id="_A8yoEF-3Eeuam-wfkQaMVw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_A8yoEV-3Eeuam-wfkQaMVw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8yoE1-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
           <eObjectValue xmi:type="uml:Connector" href="lidar.compdef.uml#_gYz5IF-uEeuam-wfkQaMVw"/>
         </styles>
         <element xsi:nil="true"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcYKgl-uEeuam-wfkQaMVw" x="100" y="100"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A8yoEl-3Eeuam-wfkQaMVw" x="100" y="100"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FpNT4F-3Eeuam-wfkQaMVw" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_FpNT4l-3Eeuam-wfkQaMVw" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_FpN68F-3Eeuam-wfkQaMVw" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_FpN68V-3Eeuam-wfkQaMVw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_FpN68l-3Eeuam-wfkQaMVw" type="Class_StructureCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_vtBlIFo_EeuwkYz9E6qJ8A" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_vtCMMFo_EeuwkYz9E6qJ8A" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_vtCMMVo_EeuwkYz9E6qJ8A" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_vtCMMlo_EeuwkYz9E6qJ8A" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_vtCMM1o_EeuwkYz9E6qJ8A" type="Class_StructureCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_vtCMNFo_EeuwkYz9E6qJ8A"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtCMNVo_EeuwkYz9E6qJ8A"/>
+            </children>
+            <element xmi:type="uml:Class" href="lidar.compdef.uml#_vkAMAFo_EeuwkYz9E6qJ8A"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vtBlIVo_EeuwkYz9E6qJ8A" x="14" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_FpN681-3Eeuam-wfkQaMVw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FpN69F-3Eeuam-wfkQaMVw"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Fphc8F-3Eeuam-wfkQaMVw" type="StereotypeLabel">
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_Fphc8V-3Eeuam-wfkQaMVw" name="stereotype" stringValue="robotics::components::Activity"/>
+          <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_VoeJwJZ2Eeeq1f8hGgKVzA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fphc8l-3Eeuam-wfkQaMVw"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_FpiEAF-3Eeuam-wfkQaMVw" type="StereotypeBrace">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_FpiEAV-3Eeuam-wfkQaMVw"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_FpiEAl-3Eeuam-wfkQaMVw" name="stereotype" stringValue="robotics::components::Activity"/>
+          <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_VoeJwJZ2Eeeq1f8hGgKVzA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FpiEA1-3Eeuam-wfkQaMVw"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Fpj5NF-3Eeuam-wfkQaMVw" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Fpj5NV-3Eeuam-wfkQaMVw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fpj5Nl-3Eeuam-wfkQaMVw"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_FpmVdF-3Eeuam-wfkQaMVw" type="StereotypeCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_FpmVdV-3Eeuam-wfkQaMVw"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_FpmVdl-3Eeuam-wfkQaMVw" name="stereotype" stringValue="robotics::components::Activity"/>
+          <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_VoeJwJZ2Eeeq1f8hGgKVzA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FpmVd1-3Eeuam-wfkQaMVw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WXvtwF-3Eeuam-wfkQaMVw" type="Port_Shape">
+          <children xmi:type="notation:DecorationNode" xmi:id="_WXwU0F-3Eeuam-wfkQaMVw" type="Port_NameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WXwU0V-3Eeuam-wfkQaMVw" x="25" y="3"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_WXwU0l-3Eeuam-wfkQaMVw" type="Port_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WXwU01-3Eeuam-wfkQaMVw" x="25" y="-10"/>
+          </children>
+          <element xmi:type="uml:Port" href="lidar.compdef.uml#_WW71cF-3Eeuam-wfkQaMVw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WXvtwV-3Eeuam-wfkQaMVw" x="90" y="111"/>
+        </children>
+        <element xmi:type="uml:Class" href="lidar.compdef.uml#_FnqbwF-3Eeuam-wfkQaMVw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FpNT4V-3Eeuam-wfkQaMVw" x="54" y="95" width="221" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Fpj5N1-3Eeuam-wfkQaMVw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Fpj5OF-3Eeuam-wfkQaMVw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Fpj5Ol-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_FnqbwF-3Eeuam-wfkQaMVw"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Fpj5OV-3Eeuam-wfkQaMVw" x="200"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WYacIF-3Eeuam-wfkQaMVw" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WYacIV-3Eeuam-wfkQaMVw"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_WYacI1-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_WW71cF-3Eeuam-wfkQaMVw"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WYacIl-3Eeuam-wfkQaMVw" x="200"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_tKhCzllvEeuV3PQBT7TM0Q"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tKhCz1lvEeuV3PQBT7TM0Q"/>
@@ -169,10 +236,20 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Sx1tIV-uEeuam-wfkQaMVw" x="25" y="-10"/>
       </children>
       <element xmi:type="uml:Port" href="lidar.compdef.uml#_PQBMMF-uEeuam-wfkQaMVw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sxyp0V-uEeuam-wfkQaMVw" x="290" y="311"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Sxyp0V-uEeuam-wfkQaMVw" x="410" y="311"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_aGvvEF-3Eeuam-wfkQaMVw" type="Port_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_aGvvEl-3Eeuam-wfkQaMVw" type="Port_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aGvvE1-3Eeuam-wfkQaMVw" x="25" y="3"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_aGvvFF-3Eeuam-wfkQaMVw" type="Port_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_aGvvFV-3Eeuam-wfkQaMVw" x="25" y="-10"/>
+      </children>
+      <element xmi:type="uml:Port" href="lidar.compdef.uml#_X-OjYF-3Eeuam-wfkQaMVw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aGvvEV-3Eeuam-wfkQaMVw" x="149" y="311"/>
     </children>
     <element xmi:type="uml:Class" href="lidar.compdef.uml#_tKhCo1lvEeuV3PQBT7TM0Q"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tKhC0FlvEeuV3PQBT7TM0Q" x="80" y="80" width="601" height="321"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tKhC0FlvEeuV3PQBT7TM0Q" x="80" y="80" width="761" height="321"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_tKhC0VlvEeuV3PQBT7TM0Q" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_tKhC0llvEeuV3PQBT7TM0Q"/>
@@ -222,13 +299,37 @@
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HVC5tF-uEeuam-wfkQaMVw" x="280" y="80"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_SyemU1-uEeuam-wfkQaMVw" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_SyemVF-uEeuam-wfkQaMVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_SyfNYF-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_A8UG-F-3Eeuam-wfkQaMVw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_A8UG-V-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8UG-1-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_tKhCo1lvEeuV3PQBT7TM0Q"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A8UG-l-3Eeuam-wfkQaMVw" x="280" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_A9DGwF-3Eeuam-wfkQaMVw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_A9DGwV-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A9Dt0F-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_PQBMMF-uEeuam-wfkQaMVw"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SyemVV-uEeuam-wfkQaMVw" x="640" y="311"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A9DGwl-3Eeuam-wfkQaMVw" x="490" y="311"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_aHA021-3Eeuam-wfkQaMVw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_aHA03F-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aHBb4F-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_X-OjYF-3Eeuam-wfkQaMVw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aHA03V-3Eeuam-wfkQaMVw" x="340" y="311"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_b6uOI1-3Eeuam-wfkQaMVw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_b6uOJF-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_b6u1MF-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Connector" href="lidar.compdef.uml#_b36KsF-3Eeuam-wfkQaMVw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_b6uOJV-3Eeuam-wfkQaMVw" x="349" y="211"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_tKhC3VlvEeuV3PQBT7TM0Q" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_tKhC3llvEeuV3PQBT7TM0Q"/>
@@ -356,71 +457,152 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HVVNl1-uEeuam-wfkQaMVw"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HVVNmF-uEeuam-wfkQaMVw"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_HVgzxF-uEeuam-wfkQaMVw" type="StereotypeCommentLink" source="_mCLQcFo_EeuwkYz9E6qJ8A" target="_HVgzwF-uEeuam-wfkQaMVw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_HVgzxV-uEeuam-wfkQaMVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HVgzyV-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_l9j2MFo_EeuwkYz9E6qJ8A"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HVgzxl-uEeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HVgzx1-uEeuam-wfkQaMVw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HVgzyF-uEeuam-wfkQaMVw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_HV7qhF-uEeuam-wfkQaMVw" type="StereotypeCommentLink" source="_vtBlIFo_EeuwkYz9E6qJ8A" target="_HV7qgF-uEeuam-wfkQaMVw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_HV7qhV-uEeuam-wfkQaMVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HV7qiV-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_vkAMAFo_EeuwkYz9E6qJ8A"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HV7qhl-uEeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HV7qh1-uEeuam-wfkQaMVw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HV7qiF-uEeuam-wfkQaMVw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_HWaysV-uEeuam-wfkQaMVw" type="StereotypeCommentLink" source="_qQN-MFo_EeuwkYz9E6qJ8A" target="_HWaLoF-uEeuam-wfkQaMVw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_HWaysl-uEeuam-wfkQaMVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_HWaytl-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_qLvG0Fo_EeuwkYz9E6qJ8A"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HWays1-uEeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HWaytF-uEeuam-wfkQaMVw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HWaytV-uEeuam-wfkQaMVw"/>
-  </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_SyfNYV-uEeuam-wfkQaMVw" type="StereotypeCommentLink" source="_Sxyp0F-uEeuam-wfkQaMVw" target="_SyemU1-uEeuam-wfkQaMVw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_SyfNYl-uEeuam-wfkQaMVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Syf0cF-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
-      <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_PQBMMF-uEeuam-wfkQaMVw"/>
-    </styles>
-    <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SyfNY1-uEeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SyfNZF-uEeuam-wfkQaMVw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SyfNZV-uEeuam-wfkQaMVw"/>
-  </edges>
   <edges xmi:type="notation:Connector" xmi:id="_gahJUF-uEeuam-wfkQaMVw" type="Connector_Edge" source="_qQN-MFo_EeuwkYz9E6qJ8A" target="_Sxyp0F-uEeuam-wfkQaMVw">
     <children xmi:type="notation:DecorationNode" xmi:id="_gahwYF-uEeuam-wfkQaMVw" type="Connector_StereotypeLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_gahwYV-uEeuam-wfkQaMVw" y="60"/>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_CztGYF-3Eeuam-wfkQaMVw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gahwYV-uEeuam-wfkQaMVw" x="-1" y="58"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_gaiXcF-uEeuam-wfkQaMVw" type="Connector_NameLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_gaiXcV-uEeuam-wfkQaMVw" y="-20"/>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_C0M1oF-3Eeuam-wfkQaMVw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gaiXcV-uEeuam-wfkQaMVw" y="-18"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_gaiXcl-uEeuam-wfkQaMVw" type="Connector_SourceMultiplicityLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_gaiXc1-uEeuam-wfkQaMVw" y="20"/>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_C0tL8F-3Eeuam-wfkQaMVw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gaiXc1-uEeuam-wfkQaMVw" x="-18" y="17"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_gaiXdF-uEeuam-wfkQaMVw" type="Connector_TargetMultiplicityLabel">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_gaiXdV-uEeuam-wfkQaMVw" y="20"/>
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_C1M7MF-3Eeuam-wfkQaMVw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gaiXdV-uEeuam-wfkQaMVw" x="15" y="17"/>
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_gahJUV-uEeuam-wfkQaMVw"/>
     <element xmi:type="uml:Connector" href="lidar.compdef.uml#_gYz5IF-uEeuam-wfkQaMVw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gahJUl-uEeuam-wfkQaMVw" points="[383, 357, -643984, -643984]$[383, 391, -643984, -643984]"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_gcYxkF-uEeuam-wfkQaMVw" type="StereotypeCommentLink" source="_gahJUF-uEeuam-wfkQaMVw" target="_gcYKgF-uEeuam-wfkQaMVw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_gcYxkV-uEeuam-wfkQaMVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_gcZYol-uEeuam-wfkQaMVw" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_A8UG_F-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_tKhCvVlvEeuV3PQBT7TM0Q" target="_A8UG-F-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A8UG_V-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8UHAV-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_tKhCo1lvEeuV3PQBT7TM0Q"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A8UG_l-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8UG_1-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8UHAF-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A8ZmhF-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_tKhCwllvEeuV3PQBT7TM0Q" target="_A8ZmgF-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A8ZmhV-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8ZmiV-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_tKhCpFlvEeuV3PQBT7TM0Q"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A8Zmhl-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8Zmh1-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8ZmiF-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A8dQ8F-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_mCLQcFo_EeuwkYz9E6qJ8A" target="_A8dQ7F-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A8dQ8V-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8dQ9V-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_l9j2MFo_EeuwkYz9E6qJ8A"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A8dQ8l-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8dQ81-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8dQ9F-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A8klpF-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_vtBlIFo_EeuwkYz9E6qJ8A" target="_A8kloF-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A8klpV-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8klqV-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_vkAMAFo_EeuwkYz9E6qJ8A"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A8klpl-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8klp1-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8klqF-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A8r6ZF-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_qQN-MFo_EeuwkYz9E6qJ8A" target="_A8r6YF-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A8r6ZV-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8r6aV-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_qLvG0Fo_EeuwkYz9E6qJ8A"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A8r6Zl-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8r6Z1-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8r6aF-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A8yoFF-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_gahJUF-uEeuam-wfkQaMVw" target="_A8yoEF-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A8yoFV-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A8yoGV-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Connector" href="lidar.compdef.uml#_gYz5IF-uEeuam-wfkQaMVw"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gcYxkl-uEeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gcZYoF-uEeuam-wfkQaMVw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gcZYoV-uEeuam-wfkQaMVw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A8yoFl-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8yoF1-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A8yoGF-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A9Dt0V-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_Sxyp0F-uEeuam-wfkQaMVw" target="_A9DGwF-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A9Dt0l-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A9Dt1l-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_PQBMMF-uEeuam-wfkQaMVw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A9Dt01-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A9Dt1F-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A9Dt1V-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Fpj5O1-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_FpNT4F-3Eeuam-wfkQaMVw" target="_Fpj5N1-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Fpj5PF-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_FpkgQl-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="lidar.compdef.uml#_FnqbwF-3Eeuam-wfkQaMVw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Fpj5PV-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FpkgQF-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_FpkgQV-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WYacJF-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_WXvtwF-3Eeuam-wfkQaMVw" target="_WYacIF-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_WYacJV-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_WYacKV-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_WW71cF-3Eeuam-wfkQaMVw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WYacJl-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WYacJ1-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WYacKF-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_aHBb4V-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_aGvvEF-3Eeuam-wfkQaMVw" target="_aHA021-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_aHBb4l-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aHBb5l-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="lidar.compdef.uml#_X-OjYF-3Eeuam-wfkQaMVw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aHBb41-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aHBb5F-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aHBb5V-3Eeuam-wfkQaMVw"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_b5AW4F-3Eeuam-wfkQaMVw" type="Connector_Edge" source="_aGvvEF-3Eeuam-wfkQaMVw" target="_WXvtwF-3Eeuam-wfkQaMVw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_b5A98F-3Eeuam-wfkQaMVw" type="Connector_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_b5A98V-3Eeuam-wfkQaMVw" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_b5A98l-3Eeuam-wfkQaMVw" type="Connector_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_b5A981-3Eeuam-wfkQaMVw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_b5A99F-3Eeuam-wfkQaMVw" type="Connector_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_b5A99V-3Eeuam-wfkQaMVw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_b5A99l-3Eeuam-wfkQaMVw" type="Connector_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_b5A991-3Eeuam-wfkQaMVw" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_b5AW4V-3Eeuam-wfkQaMVw"/>
+    <element xmi:type="uml:Connector" href="lidar.compdef.uml#_b36KsF-3Eeuam-wfkQaMVw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b5AW4l-3Eeuam-wfkQaMVw" points="[241, 391, -643984, -643984]$[250, 341, -643984, -643984]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_b6u1MV-3Eeuam-wfkQaMVw" type="StereotypeCommentLink" source="_b5AW4F-3Eeuam-wfkQaMVw" target="_b6uOI1-3Eeuam-wfkQaMVw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_b6u1Ml-3Eeuam-wfkQaMVw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_b6u1Nl-3Eeuam-wfkQaMVw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Connector" href="lidar.compdef.uml#_b36KsF-3Eeuam-wfkQaMVw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b6u1M1-3Eeuam-wfkQaMVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b6u1NF-3Eeuam-wfkQaMVw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b6u1NV-3Eeuam-wfkQaMVw"/>
   </edges>
 </notation:Diagram>
