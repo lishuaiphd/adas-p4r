@@ -353,7 +353,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_faxsLV_FEeuHVdN9a43_WA" x="70" y="-10"/>
         </children>
         <element xmi:type="uml:Property" href="adas_team2.system.uml#_ft6oYF-2EeuHVdN9a43_WA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gbEpUV-2EeuHVdN9a43_WA" x="374" y="460" width="101" height="101"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gbEpUV-2EeuHVdN9a43_WA" x="394" y="460" width="101" height="101"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_hjUq0F-2EeuHVdN9a43_WA" type="Property_Shape">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fuZLsF_FEeuHVdN9a43_WA" source="PapyrusCSSForceValue">
@@ -2633,7 +2633,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_vU3KQV_FEeuHVdN9a43_WA"/>
     <element xmi:type="uml:Connector" href="adas_team2.system.uml#_vSCfwF_FEeuHVdN9a43_WA"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vU3KQl_FEeuHVdN9a43_WA" points="[435, 431, -643984, -643984]$[498, 530, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vU3KQl_FEeuHVdN9a43_WA" points="[436, 451, -643984, -643984]$[436, 490, -643984, -643984]$[492, 490, -643984, -643984]$[492, 530, -643984, -643984]"/>
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_vZ-Tx1_FEeuHVdN9a43_WA" type="StereotypeCommentLink" source="_vU3KQF_FEeuHVdN9a43_WA" target="_vZ-Tw1_FEeuHVdN9a43_WA">
     <styles xmi:type="notation:FontStyle" xmi:id="_vZ-TyF_FEeuHVdN9a43_WA"/>
