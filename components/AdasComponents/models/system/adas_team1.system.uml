@@ -145,6 +145,54 @@
           <role xmi:type="uml:Port" href="../components/speed.compdef.uml#_JcwW4Fo5EeuXmsDhYsJ_5Q"/>
         </end>
       </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_vWptQF-1EeuBIc-MwkHDng" name="Connects22">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vW0sYF-1EeuBIc-MwkHDng" partWithPort="_KOBxoF-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/roaddetection.compdef.uml#_x4b3UFpAEeuXmsDhYsJ_5Q"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vW0sYV-1EeuBIc-MwkHDng" partWithPort="_X56vUF-wEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/speed.compdef.uml#_JcwW4Fo5EeuXmsDhYsJ_5Q"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_1rzRcF-1EeuBIc-MwkHDng" name="Connects23">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_1r5YEF-1EeuBIc-MwkHDng" partWithPort="_KOBxoF-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/roaddetection.compdef.uml#_-uCQwFpAEeuXmsDhYsJ_5Q"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_1r5_IF-1EeuBIc-MwkHDng" partWithPort="_IddBUF-wEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/leftcamera.compdef.uml#_6BlJsFo1EeuoydCyRY1rGQ"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_TfRhQF-2EeuBIc-MwkHDng" name="Connects24">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_TfWZwF-2EeuBIc-MwkHDng" partWithPort="_4SNP0F-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/speedcontrol.compdef.uml#_D5c3oFo_EeuDz9PbhVKlDA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_TfWZwV-2EeuBIc-MwkHDng" partWithPort="_X56vUF-wEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/speed.compdef.uml#_JcwW4Fo5EeuXmsDhYsJ_5Q"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_XZrhUF-2EeuBIc-MwkHDng" name="Connects25">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XZukoF-2EeuBIc-MwkHDng" partWithPort="_4SNP0F-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/speedcontrol.compdef.uml#_PPuMUFo_EeuDz9PbhVKlDA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XZvLsF-2EeuBIc-MwkHDng" partWithPort="_YmqrIF-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/trafficsigndetection.compdef.uml#__KxXcFo9EeuXmsDhYsJ_5Q"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_bEatsF-2EeuBIc-MwkHDng" name="Connects26">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_bEdJ8F-2EeuBIc-MwkHDng" partWithPort="_4SNP0F-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/speedcontrol.compdef.uml#_VfolkF-tEeugA6QbO5RAfA"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_bEdJ8V-2EeuBIc-MwkHDng" partWithPort="_yPI6IF-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/obstacledetection.compdef.uml#_qVYnoFsnEeuLZ7SUgQROrw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_gaxHUF-2EeuBIc-MwkHDng" name="Connects27">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ga0xsF-2EeuBIc-MwkHDng" partWithPort="_z6NxUF-wEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/lidar.compdef.uml#_PQBMMF-uEeuam-wfkQaMVw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ga0xsV-2EeuBIc-MwkHDng" partWithPort="_yPI6IF-xEeuBIc-MwkHDng">
+          <role xmi:type="uml:Port" href="../components/obstacledetection.compdef.uml#_kFHcEFsqEeuLZ7SUgQROrw"/>
+        </end>
+      </ownedConnector>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjg17rEeuI_MoNIwX5mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjhF7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -230,4 +278,10 @@
   <robotics.generics:Connects xmi:id="_CiLY4F-0EeuBIc-MwkHDng" base_Connector="_CiC2AF-0EeuBIc-MwkHDng"/>
   <robotics.generics:Connects xmi:id="_VzkKAF-0EeuBIc-MwkHDng" base_Connector="_VzbAEF-0EeuBIc-MwkHDng"/>
   <robotics.generics:Connects xmi:id="_tf7RoF-0EeuBIc-MwkHDng" base_Connector="_tfyuwF-0EeuBIc-MwkHDng"/>
+  <robotics.generics:Connects xmi:id="_vW16gF-1EeuBIc-MwkHDng" base_Connector="_vWptQF-1EeuBIc-MwkHDng"/>
+  <robotics.generics:Connects xmi:id="_1r6mMF-1EeuBIc-MwkHDng" base_Connector="_1rzRcF-1EeuBIc-MwkHDng"/>
+  <robotics.generics:Connects xmi:id="_TfXA0F-2EeuBIc-MwkHDng" base_Connector="_TfRhQF-2EeuBIc-MwkHDng"/>
+  <robotics.generics:Connects xmi:id="_XZvLsV-2EeuBIc-MwkHDng" base_Connector="_XZrhUF-2EeuBIc-MwkHDng"/>
+  <robotics.generics:Connects xmi:id="_bEdxAF-2EeuBIc-MwkHDng" base_Connector="_bEatsF-2EeuBIc-MwkHDng"/>
+  <robotics.generics:Connects xmi:id="_ga1YwF-2EeuBIc-MwkHDng" base_Connector="_gaxHUF-2EeuBIc-MwkHDng"/>
 </xmi:XMI>
