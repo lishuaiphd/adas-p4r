@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.functions="http://www.eclipse.org/papyrus/robotics/functions/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/functions/1 http://www.eclipse.org/papyrus/robotics/1#//functions http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
   <uml:Model xmi:id="_pYwoQFlvEeuV3PQBT7TM0Q" name="RoaddetectionCompdef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_pYwoQVlvEeuV3PQBT7TM0Q">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -7,9 +7,73 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_pYwoQllvEeuV3PQBT7TM0Q">
       <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIBRARY/ros2.primitive.uml#_T7frkG-0EeiX6ta975XXMg"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_rGJEIFpAEeuXmsDhYsJ_5Q">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/roaddetection.servicedef.uml#_U8FloE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_y_pXAFpAEeuXmsDhYsJ_5Q">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_AB4eQFpBEeuXmsDhYsJ_5Q">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_pYwoQ1lvEeuV3PQBT7TM0Q" name="Roaddetection">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_p5Mv4FpAEeuXmsDhYsJ_5Q" name="road" type="_rHuYgFpAEeuXmsDhYsJ_5Q" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wUBeQFpAEeuXmsDhYsJ_5Q" name="activity1" type="_wT-a8FpAEeuXmsDhYsJ_5Q"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_x4b3UFpAEeuXmsDhYsJ_5Q" name="Speed" type="_y_rzQFpAEeuXmsDhYsJ_5Q" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8HFcoFpAEeuXmsDhYsJ_5Q" name="activity1" type="_8HCZUFpAEeuXmsDhYsJ_5Q"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_-uCQwFpAEeuXmsDhYsJ_5Q" name="Image" type="_AB6TcFpBEeuXmsDhYsJ_5Q" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_uyZTcFpAEeuXmsDhYsJ_5Q" name="Connects5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uyahkFpAEeuXmsDhYsJ_5Q" role="_s9Ia8FpAEeuXmsDhYsJ_5Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uyahkVpAEeuXmsDhYsJ_5Q" role="_p5Mv4FpAEeuXmsDhYsJ_5Q"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_6tjd4FpAEeuXmsDhYsJ_5Q" name="Connects10">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_6tlTEFpAEeuXmsDhYsJ_5Q" partWithPort="_wUBeQFpAEeuXmsDhYsJ_5Q" role="_5Gs00FpAEeuXmsDhYsJ_5Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_6tlTEVpAEeuXmsDhYsJ_5Q" role="_x4b3UFpAEeuXmsDhYsJ_5Q"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_CKeicFpBEeuXmsDhYsJ_5Q" name="Connects15">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_CKgXoFpBEeuXmsDhYsJ_5Q" partWithPort="_8HFcoFpAEeuXmsDhYsJ_5Q" role="_91Sq4FpAEeuXmsDhYsJ_5Q"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_CKgXoVpBEeuXmsDhYsJ_5Q" role="_-uCQwFpAEeuXmsDhYsJ_5Q"/>
+      </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_pYwoRFlvEeuV3PQBT7TM0Q"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_5LFbAFo_EeuXmsDhYsJ_5Q" name="DetectRoad"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_5LFbAFo_EeuXmsDhYsJ_5Q" name="DetectRoad">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_s9Ia8FpAEeuXmsDhYsJ_5Q" name="ActivityPort_road" aggregation="composite"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_rHuYgFpAEeuXmsDhYsJ_5Q">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_rHyC4FpAEeuXmsDhYsJ_5Q" client="_rHuYgFpAEeuXmsDhYsJ_5Q">
+          <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/roaddetection.servicedef.uml#_CFzEwFTFEeunjeKkmcG6Xw"/>
+          <contract xmi:type="uml:Interface" href="../../../AdasServices/models/services/roaddetection.servicedef.uml#_CFzEwFTFEeunjeKkmcG6Xw"/>
+        </interfaceRealization>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_wT-a8FpAEeuXmsDhYsJ_5Q" name="HandleSpeedData">
+        <generalization xmi:type="uml:Generalization" xmi:id="_wT_CAFpAEeuXmsDhYsJ_5Q">
+          <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_5Gs00FpAEeuXmsDhYsJ_5Q" name="ActivityPort_speed" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_6toWYVpAEeuXmsDhYsJ_5Q" name="" type="_6tmhMFpAEeuXmsDhYsJ_5Q"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_y_rzQFpAEeuXmsDhYsJ_5Q"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_8HCZUFpAEeuXmsDhYsJ_5Q" name="HandleCameraData">
+        <generalization xmi:type="uml:Generalization" xmi:id="_8HDAYFpAEeuXmsDhYsJ_5Q">
+          <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_91Sq4FpAEeuXmsDhYsJ_5Q" name="ActivityPort2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CKkCAVpBEeuXmsDhYsJ_5Q" name="" type="_CKiz4FpBEeuXmsDhYsJ_5Q"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_AB6TcFpBEeuXmsDhYsJ_5Q"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_y_xS0FpAEeuXmsDhYsJ_5Q" client="_y_rzQFpAEeuXmsDhYsJ_5Q">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/speed.servicedef.uml#_N4NqQFTCEeunjeKkmcG6Xw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_6tmhMFpAEeuXmsDhYsJ_5Q" name="speed_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_AB990FpBEeuXmsDhYsJ_5Q" client="_AB6TcFpBEeuXmsDhYsJ_5Q">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_vt-dcFAlEeuQn4VMJWeC_w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_CKiz4FpBEeuXmsDhYsJ_5Q" name="Image_handler">
+      <language>C++</language>
+      <body></body>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pYwoRVlvEeuV3PQBT7TM0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pYwoRllvEeuV3PQBT7TM0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -75,4 +139,22 @@
   <robotics.components:ComponentDefinitionModel xmi:id="_pYwoWVlvEeuV3PQBT7TM0Q" base_Package="_pYwoQFlvEeuV3PQBT7TM0Q"/>
   <robotics.components:ComponentDefinition xmi:id="_pYwoWllvEeuV3PQBT7TM0Q" base_Class="_pYwoQ1lvEeuV3PQBT7TM0Q"/>
   <robotics.parameters:Parameter xmi:id="_pYwoW1lvEeuV3PQBT7TM0Q" base_Class="_pYwoRFlvEeuV3PQBT7TM0Q"/>
+  <robotics.components:ComponentService xmi:id="_rHwNsFpAEeuXmsDhYsJ_5Q" base_Class="_rHuYgFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ComponentPort xmi:id="_rHyp8FpAEeuXmsDhYsJ_5Q" base_Port="_p5Mv4FpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ActivityPort xmi:id="_s9KQIFpAEeuXmsDhYsJ_5Q" base_Port="_s9Ia8FpAEeuXmsDhYsJ_5Q"/>
+  <robotics.generics:Connects xmi:id="_uybIoFpAEeuXmsDhYsJ_5Q" base_Connector="_uyZTcFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:Activity xmi:id="_wUAQIFpAEeuXmsDhYsJ_5Q" base_Class="_wT-a8FpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ActivityInstance xmi:id="_wUCsYFpAEeuXmsDhYsJ_5Q" base_Property="_wUBeQFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ComponentService xmi:id="_y_tocFpAEeuXmsDhYsJ_5Q" base_Class="_y_rzQFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ComponentPort xmi:id="_y_x54FpAEeuXmsDhYsJ_5Q" base_Port="_x4b3UFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ActivityPort xmi:id="_5GvREFpAEeuXmsDhYsJ_5Q" base_Port="_5Gs00FpAEeuXmsDhYsJ_5Q"/>
+  <robotics.generics:Connects xmi:id="_6tlTElpAEeuXmsDhYsJ_5Q" base_Connector="_6tjd4FpAEeuXmsDhYsJ_5Q"/>
+  <robotics.functions:Function xmi:id="_6toWYFpAEeuXmsDhYsJ_5Q" base_Class="_6tmhMFpAEeuXmsDhYsJ_5Q" activityPort="_5GvREFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:Activity xmi:id="_8HEOgFpAEeuXmsDhYsJ_5Q" base_Class="_8HCZUFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ActivityInstance xmi:id="_8HGqwFpAEeuXmsDhYsJ_5Q" base_Property="_8HFcoFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ActivityPort xmi:id="_91VHIFpAEeuXmsDhYsJ_5Q" base_Port="_91Sq4FpAEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ComponentService xmi:id="_AB7hkFpBEeuXmsDhYsJ_5Q" base_Class="_AB6TcFpBEeuXmsDhYsJ_5Q"/>
+  <robotics.components:ComponentPort xmi:id="_AB-k4FpBEeuXmsDhYsJ_5Q" base_Port="_-uCQwFpAEeuXmsDhYsJ_5Q"/>
+  <robotics.generics:Connects xmi:id="_CKgXolpBEeuXmsDhYsJ_5Q" base_Connector="_CKeicFpBEeuXmsDhYsJ_5Q"/>
+  <robotics.functions:Function xmi:id="_CKkCAFpBEeuXmsDhYsJ_5Q" base_Class="_CKiz4FpBEeuXmsDhYsJ_5Q" activityPort="_91VHIFpAEeuXmsDhYsJ_5Q"/>
 </xmi:XMI>
