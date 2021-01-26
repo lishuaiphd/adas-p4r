@@ -7,8 +7,56 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_yyh0AllvEeuV3PQBT7TM0Q">
       <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIBRARY/ros2.primitive.uml#_T7frkG-0EeiX6ta975XXMg"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_32fqkF-5Eeu3UplPVMacQA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/odometer.servicedef.uml#_s05qUE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Aoz0wF-6Eeu3UplPVMacQA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_eqtiIF-6Eeu3UplPVMacQA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/lanedetection.servicedef.uml#_enLnYE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_w3BhkF-6Eeu3UplPVMacQA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_SUTwsF-7Eeu3UplPVMacQA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/speedcontrol.servicedef.uml#_zPwYcE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zWhNYF-7Eeu3UplPVMacQA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/trafficsigndetection.servicedef.uml#_X8W4sE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_yyh0A1lvEeuV3PQBT7TM0Q" name="Informationdisplay">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_8I9lUF-5Eeu3UplPVMacQA" name="leftcamera" type="_Apg_YF-6Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Gx7IEF-6Eeu3UplPVMacQA" name="lanedection" type="_eq2sEF-6Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_hnqbcF-6Eeu3UplPVMacQA" name="odometere" type="_kxnO8F-6Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_n6coIF-6Eeu3UplPVMacQA" name="Port" type="_w3KEcF-6Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_x044AF-6Eeu3UplPVMacQA" name="speedcontrol" type="_SUglAF-7Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_vVgPAF-7Eeu3UplPVMacQA" name="Traficsigndetection" type="_zWpJMF-7Eeu3UplPVMacQA" aggregation="composite"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_yyh0BFlvEeuV3PQBT7TM0Q"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_Apg_YF-6Eeu3UplPVMacQA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_eq2sEF-6Eeu3UplPVMacQA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_kxnO8F-6Eeu3UplPVMacQA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_w3KEcF-6Eeu3UplPVMacQA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_SUglAF-7Eeu3UplPVMacQA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_zWpJMF-7Eeu3UplPVMacQA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Ap29oF-6Eeu3UplPVMacQA" client="_Apg_YF-6Eeu3UplPVMacQA">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_vt-dcFAlEeuQn4VMJWeC_w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_erEHcF-6Eeu3UplPVMacQA" client="_eq2sEF-6Eeu3UplPVMacQA">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/lanedetection.servicedef.uml#_uhDW8FS9EeuFRKNJ5FlKHw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_kx90QF-6Eeu3UplPVMacQA" client="_kxnO8F-6Eeu3UplPVMacQA">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/odometer.servicedef.uml#_HO9rYFNvEeuQhfTHhMdrVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_w3YG4F-6Eeu3UplPVMacQA" client="_w3KEcF-6Eeu3UplPVMacQA">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/speed.servicedef.uml#_N4NqQFTCEeunjeKkmcG6Xw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_SUxDsF-7Eeu3UplPVMacQA" client="_SUglAF-7Eeu3UplPVMacQA">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/speedcontrol.servicedef.uml#_N7pKwFo-EeuDz9PbhVKlDA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_zW3LoF-7Eeu3UplPVMacQA" client="_zWpJMF-7Eeu3UplPVMacQA">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/trafficsigndetection.servicedef.uml#_Ho79MFTFEeunjeKkmcG6Xw"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yyh0BVlvEeuV3PQBT7TM0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yyh0BllvEeuV3PQBT7TM0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -74,4 +122,16 @@
   <robotics.components:ComponentDefinitionModel xmi:id="_yyh0GVlvEeuV3PQBT7TM0Q" base_Package="_yyh0AFlvEeuV3PQBT7TM0Q"/>
   <robotics.components:ComponentDefinition xmi:id="_yyh0GllvEeuV3PQBT7TM0Q" base_Class="_yyh0A1lvEeuV3PQBT7TM0Q"/>
   <robotics.parameters:Parameter xmi:id="_yyh0G1lvEeuV3PQBT7TM0Q" base_Class="_yyh0BFlvEeuV3PQBT7TM0Q"/>
+  <robotics.components:ComponentService xmi:id="_ApslkF-6Eeu3UplPVMacQA" base_Class="_Apg_YF-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentPort xmi:id="_Ap8dMF-6Eeu3UplPVMacQA" base_Port="_8I9lUF-5Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentService xmi:id="_eq-n4F-6Eeu3UplPVMacQA" base_Class="_eq2sEF-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentPort xmi:id="_erHx0F-6Eeu3UplPVMacQA" base_Port="_Gx7IEF-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentService xmi:id="_kxw_8F-6Eeu3UplPVMacQA" base_Class="_kxnO8F-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentPort xmi:id="_kyBeoF-6Eeu3UplPVMacQA" base_Port="_hnqbcF-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentService xmi:id="_w3QyIF-6Eeu3UplPVMacQA" base_Class="_w3KEcF-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentPort xmi:id="_w3Z8EF-6Eeu3UplPVMacQA" base_Port="_n6coIF-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentService xmi:id="_SUpH4F-7Eeu3UplPVMacQA" base_Class="_SUglAF-7Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentPort xmi:id="_SU0HAF-7Eeu3UplPVMacQA" base_Port="_x044AF-6Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentService xmi:id="_zWvP0F-7Eeu3UplPVMacQA" base_Class="_zWpJMF-7Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentPort xmi:id="_zW5A0F-7Eeu3UplPVMacQA" base_Port="_vVgPAF-7Eeu3UplPVMacQA"/>
 </xmi:XMI>

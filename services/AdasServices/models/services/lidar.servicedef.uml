@@ -4,6 +4,12 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_ibmewU8wEeuf54tkkZK0ow">
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_DV8nkBv8EduZN5aJJITI5w"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_M3NdkF-1Eeuam-wfkQaMVw">
+      <importedPackage xmi:type="uml:Model" href="../AdasServices/models/services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_W3pAsF-1Eeuam-wfkQaMVw">
+      <importedPackage xmi:type="uml:Model" href="../AdasServices/models/services/lidar.servicedef.uml#_ibmewE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_ibmewk8wEeuf54tkkZK0ow" name="svcdefs">
       <packagedElement xmi:type="uml:Interface" xmi:id="_ox_UYFo5EeuwkYz9E6qJ8A" name="Push_donnees">
         <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_0qw5MFo5EeuwkYz9E6qJ8A">
@@ -13,17 +19,10 @@
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
         </templateBinding>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_2hGIsFo5EeuwkYz9E6qJ8A" name="Push_vitesse d'utilisation">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_4cxyQFo5EeuwkYz9E6qJ8A">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_4czAYFo5EeuwkYz9E6qJ8A" actual="_6rbpIFS9EeuU77FJedd79A">
-            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
-          </parameterSubstitution>
-          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
-        </templateBinding>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_avWjQFo9EeuwkYz9E6qJ8A" name="Push_rotation">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_crp34Fo9EeuwkYz9E6qJ8A">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_cr6WkFo9EeuwkYz9E6qJ8A" actual="_ZfTDIFS3EeuU77FJedd79A">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_nHEAMF-2Eeuam-wfkQaMVw" name="Push_vitesse">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_pp9awF-2Eeuam-wfkQaMVw">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_pp9awV-2Eeuam-wfkQaMVw">
+            <actual xmi:type="uml:DataType" href="../AdasServices/models/services/lidar.servicedef.uml#_ZfTDIFS3EeuU77FJedd79A"/>
             <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
           </parameterSubstitution>
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
@@ -48,14 +47,9 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_6rbpIFS9EeuU77FJedd79A" name="vitesse d'utilisation">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_7xOzkFS9EeuU77FJedd79A" name="process_speed">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-          </ownedAttribute>
-        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_7tThYFSzEeuU77FJedd79A" name="Suscribe">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_ZfTDIFS3EeuU77FJedd79A" name="rotation">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_ZfTDIFS3EeuU77FJedd79A" name="vitesse">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_dv9AAFS3EeuU77FJedd79A" name="vitesse">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedAttribute>
@@ -144,11 +138,8 @@
   <robotics.commobject:DataAttribute xmi:id="_X3ZOAFSzEeuU77FJedd79A" base_Property="_X3BakFSzEeuU77FJedd79A"/>
   <robotics.commobject:DataAttribute xmi:id="_YrRFgFS0EeuU77FJedd79A" base_Property="_Yq1nsFS0EeuU77FJedd79A"/>
   <robotics.commobject:DataAttribute xmi:id="_bL52QFS0EeuU77FJedd79A" base_Property="_bLtpAFS0EeuU77FJedd79A"/>
-  <robotics.commobject:CommunicationObject xmi:id="_ZfiTsFS3EeuU77FJedd79A" description="selection de la vitesse de rotation&#xA;" base_DataType="_ZfTDIFS3EeuU77FJedd79A"/>
+  <robotics.commobject:CommunicationObject xmi:id="_ZfiTsFS3EeuU77FJedd79A" description="vitesse du véhicule&#xD;&#xA;" base_DataType="_ZfTDIFS3EeuU77FJedd79A"/>
   <robotics.commobject:DataAttribute xmi:id="_dwHYEFS3EeuU77FJedd79A" base_Property="_dv9AAFS3EeuU77FJedd79A"/>
-  <robotics.commobject:CommunicationObject xmi:id="_6rtV8FS9EeuU77FJedd79A" description="vitesse de processing" base_DataType="_6rbpIFS9EeuU77FJedd79A"/>
-  <robotics.commobject:DataAttribute xmi:id="_7xmnAFS9EeuU77FJedd79A" base_Property="_7xOzkFS9EeuU77FJedd79A"/>
   <robotics.services:ServiceDefinition xmi:id="_0sMckFo5EeuwkYz9E6qJ8A" base_Interface="_ox_UYFo5EeuwkYz9E6qJ8A"/>
-  <robotics.services:ServiceDefinition xmi:id="_4eSOIFo5EeuwkYz9E6qJ8A" base_Interface="_2hGIsFo5EeuwkYz9E6qJ8A"/>
-  <robotics.services:ServiceDefinition xmi:id="_cs_UoFo9EeuwkYz9E6qJ8A" base_Interface="_avWjQFo9EeuwkYz9E6qJ8A"/>
+  <robotics.services:ServiceDefinition xmi:id="_pqC6UF-2Eeuam-wfkQaMVw" base_Interface="_nHEAMF-2Eeuam-wfkQaMVw"/>
 </xmi:XMI>
