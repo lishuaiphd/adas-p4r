@@ -8,26 +8,23 @@
       <importedPackage xmi:type="uml:Model" href="pathmap://ROS2_LIBRARY/ros2.primitive.uml#_T7frkG-0EeiX6ta975XXMg"/>
     </packageImport>
     <packageImport xmi:type="uml:PackageImport" xmi:id="_G80XcFo-EeuwkYz9E6qJ8A">
-      <importedPackage xmi:type="uml:Model" href="../../../../../AdasServices/models/services/lidar.servicedef.uml#_ibmewE8wEeuf54tkkZK0ow"/>
+      <importedPackage xmi:type="uml:Model" href="platform:/../AdasServices/models/services/lidar.servicedef.uml#_ibmewE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_SsZzgF-uEeuam-wfkQaMVw">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/lidar.servicedef.uml#_ibmewE8wEeuf54tkkZK0ow"/>
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_tKhCo1lvEeuV3PQBT7TM0Q" name="Lidar">
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_XP6ygFo-EeuwkYz9E6qJ8A" name="données" type="_Y-f0MFo-EeuwkYz9E6qJ8A" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ETBOMFo_EeuwkYz9E6qJ8A" name="activity1"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_l-AiIFo_EeuwkYz9E6qJ8A" name="activity1" type="_l9j2MFo_EeuwkYz9E6qJ8A"/>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_uZbPQFo_EeuwkYz9E6qJ8A" name="Connects14">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_uZ_P8Fo_EeuwkYz9E6qJ8A" partWithPort="_l-AiIFo_EeuwkYz9E6qJ8A" role="_qLvG0Fo_EeuwkYz9E6qJ8A"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_uZ_3AFo_EeuwkYz9E6qJ8A" role="_XP6ygFo-EeuwkYz9E6qJ8A"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_PQBMMF-uEeuam-wfkQaMVw" name="donnees" type="_StSkUF-uEeuam-wfkQaMVw" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_gYz5IF-uEeuam-wfkQaMVw" name="Connects7">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gZWrsF-uEeuam-wfkQaMVw" partWithPort="_l-AiIFo_EeuwkYz9E6qJ8A" role="_qLvG0Fo_EeuwkYz9E6qJ8A"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gZXSwF-uEeuam-wfkQaMVw" role="_PQBMMF-uEeuam-wfkQaMVw"/>
       </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_tKhCpFlvEeuV3PQBT7TM0Q">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_vUwZoFpAEeuwkYz9E6qJ8A" name="lidarObject">
-          <type xmi:type="uml:DataType" href="../../../../../AdasServices/models/services/lidar.servicedef.uml#_RioEUFSzEeuU77FJedd79A"/>
+          <type xmi:type="uml:DataType" href="platform:/../AdasServices/models/services/lidar.servicedef.uml#_RioEUFSzEeuU77FJedd79A"/>
         </ownedAttribute>
-      </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_Y-f0MFo-EeuwkYz9E6qJ8A">
-        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Y_Wv0Fo-EeuwkYz9E6qJ8A" client="_Y-f0MFo-EeuwkYz9E6qJ8A">
-          <supplier xmi:type="uml:Interface" href="../../../../../AdasServices/models/services/lidar.servicedef.uml#_ox_UYFo5EeuwkYz9E6qJ8A"/>
-          <contract xmi:type="uml:Interface" href="../../../../../AdasServices/models/services/lidar.servicedef.uml#_ox_UYFo5EeuwkYz9E6qJ8A"/>
-        </interfaceRealization>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_l9j2MFo_EeuwkYz9E6qJ8A" name="création d'un tableau de données">
         <generalization xmi:type="uml:Generalization" xmi:id="_l9wDcFo_EeuwkYz9E6qJ8A">
@@ -35,6 +32,12 @@
         </generalization>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_qLvG0Fo_EeuwkYz9E6qJ8A" name="données" aggregation="composite"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_vkAMAFo_EeuwkYz9E6qJ8A" name="mesure des distances"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_StSkUF-uEeuam-wfkQaMVw">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_St62cF-uEeuam-wfkQaMVw" client="_StSkUF-uEeuam-wfkQaMVw">
+          <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/lidar.servicedef.uml#_ox_UYFo5EeuwkYz9E6qJ8A"/>
+          <contract xmi:type="uml:Interface" href="../../../AdasServices/models/services/lidar.servicedef.uml#_ox_UYFo5EeuwkYz9E6qJ8A"/>
+        </interfaceRealization>
       </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_gGmp4Fo_EeuwkYz9E6qJ8A" name="rotation_handler">
@@ -105,14 +108,14 @@
   <robotics.components:ComponentDefinitionModel xmi:id="_tKhCuVlvEeuV3PQBT7TM0Q" base_Package="_tKhCoFlvEeuV3PQBT7TM0Q"/>
   <robotics.components:ComponentDefinition xmi:id="_tKhCullvEeuV3PQBT7TM0Q" base_Class="_tKhCo1lvEeuV3PQBT7TM0Q"/>
   <robotics.parameters:Parameter xmi:id="_tKhCu1lvEeuV3PQBT7TM0Q" base_Class="_tKhCpFlvEeuV3PQBT7TM0Q"/>
-  <robotics.components:ComponentService xmi:id="_Y_JUcFo-EeuwkYz9E6qJ8A" base_Class="_Y-f0MFo-EeuwkYz9E6qJ8A"/>
-  <robotics.components:ComponentPort xmi:id="_Y_f5wFo-EeuwkYz9E6qJ8A" base_Port="_XP6ygFo-EeuwkYz9E6qJ8A"/>
   <robotics.components:ActivityInstance xmi:id="_ETST8Fo_EeuwkYz9E6qJ8A" base_Property="_ETBOMFo_EeuwkYz9E6qJ8A"/>
   <robotics.functions:Function xmi:id="_gHokoFo_EeuwkYz9E6qJ8A" base_Class="_gGmp4Fo_EeuwkYz9E6qJ8A"/>
   <robotics.components:Activity xmi:id="_l98QsFo_EeuwkYz9E6qJ8A" base_Class="_l9j2MFo_EeuwkYz9E6qJ8A"/>
   <robotics.components:ActivityInstance xmi:id="_l-XugFo_EeuwkYz9E6qJ8A" base_Property="_l-AiIFo_EeuwkYz9E6qJ8A"/>
   <robotics.components:ActivityPort xmi:id="_qMRSUFo_EeuwkYz9E6qJ8A" base_Port="_qLvG0Fo_EeuwkYz9E6qJ8A"/>
-  <robotics.generics:Connects xmi:id="_uaBFIFo_EeuwkYz9E6qJ8A" base_Connector="_uZbPQFo_EeuwkYz9E6qJ8A"/>
   <robotics.components:PeriodicTimer xmi:id="_vk6yAFo_EeuwkYz9E6qJ8A" base_Class="_vkAMAFo_EeuwkYz9E6qJ8A"/>
   <robotics.parameters:ParameterEntry xmi:id="_zlgdIFpAEeuwkYz9E6qJ8A" base_Property="_vUwZoFpAEeuwkYz9E6qJ8A"/>
+  <robotics.components:ComponentService xmi:id="_SthN0F-uEeuam-wfkQaMVw" base_Class="_StSkUF-uEeuam-wfkQaMVw"/>
+  <robotics.components:ComponentPort xmi:id="_SualsF-uEeuam-wfkQaMVw" base_Port="_PQBMMF-uEeuam-wfkQaMVw"/>
+  <robotics.generics:Connects xmi:id="_gZX50F-uEeuam-wfkQaMVw" base_Connector="_gYz5IF-uEeuam-wfkQaMVw"/>
 </xmi:XMI>
