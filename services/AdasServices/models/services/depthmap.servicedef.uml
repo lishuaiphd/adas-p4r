@@ -8,27 +8,43 @@
       <importedPackage xmi:type="uml:Model" href="pathmap://PapyrusC_Cpp_LIBRARIES/STL.uml#_vc-DEDWoEea5ROkfuvcZmg"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_d-5p8k8wEeuf54tkkZK0ow" name="svcdefs">
-      <packagedElement xmi:type="uml:Interface" xmi:id="_7pF6cF9hEeu7PLqzaxKaUg" name="Push_DepthMap">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_9oIaAF9hEeu7PLqzaxKaUg">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_9oIaAV9hEeu7PLqzaxKaUg" actual="_IrFd0FpDEeuo0rRLh24f4Q">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_XOUm4F-rEeug4qV42C4qHQ" name="Push_DepthMap">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_YnpxUF-rEeug4qV42C4qHQ">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_YnpxUV-rEeug4qV42C4qHQ" actual="_IrFd0FpDEeuo0rRLh24f4Q">
             <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
           </parameterSubstitution>
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
         </templateBinding>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_-uzHIF9hEeu7PLqzaxKaUg" name="DisparityImage" type="_nx7_QF9gEeu7PLqzaxKaUg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_awu9sF-rEeug4qV42C4qHQ" name="DisparityImage" type="_nx7_QF9gEeu7PLqzaxKaUg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_N8BfoF-sEeug4qV42C4qHQ" name="Push_RightImage_raw">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_PUUIQF-sEeug4qV42C4qHQ">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_PUUvUF-sEeug4qV42C4qHQ" actual="_pCEr4FpGEeuo0rRLh24f4Q">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TNIz8F-sEeug4qV42C4qHQ" name="RightImage" type="_nx7_QF9gEeu7PLqzaxKaUg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_b08XQF-sEeug4qV42C4qHQ" name="Push_RightCameraInfo">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_dHouMF-sEeug4qV42C4qHQ">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_dHouMV-sEeug4qV42C4qHQ" actual="_HFdnAFpHEeuo0rRLh24f4Q">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ePjYgF-sEeug4qV42C4qHQ" name="RightCamera" type="_nx7_QF9gEeu7PLqzaxKaUg"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_d-5p808wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_kUYwAFneEeulN90HlATXmw" name="publish">
         <packagedElement xmi:type="uml:DataType" xmi:id="_IrFd0FpDEeuo0rRLh24f4Q" name="DepthMap">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_euBSQF9hEeu7PLqzaxKaUg">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_u3NjwF-rEeug4qV42C4qHQ">
             <body>CommObject DepthMap {&#xD;
 	attribute min_disparity : AnsiCLibrary::float&#xD;
 	attribute max_disparity : AnsiCLibrary::float&#xD;
 	attribute delta_d : AnsiCLibrary::float&#xD;
-	attribute f : AnsiCLibrary::float&#xD;
-	attribute T : AnsiCLibrary::float&#xD;
-	attribute DisparityImage : DepthmapServicedef::msg::Publish::Image	// &#xD;
+	attribute DisparityImage : DepthmapServicedef::msg::Publish::Image&#xD;
 }&#xD;
 </body>
           </ownedComment>
@@ -47,19 +63,10 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WAnfEFpEEeuo0rRLh24f4Q" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WAnfEVpEEeuo0rRLh24f4Q" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_KEUsMFpEEeuo0rRLh24f4Q" name="f">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WBDj8FpEEeuo0rRLh24f4Q" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WBDj8VpEEeuo0rRLh24f4Q" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_aBCnkFpEEeuo0rRLh24f4Q" name="T">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cJzD0FpEEeuo0rRLh24f4Q" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cJzD0VpEEeuo0rRLh24f4Q" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_VlNToF9hEeu7PLqzaxKaUg" name="DataAttribute6"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_mcR-0F-rEeug4qV42C4qHQ" name="DisparityImage"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_jC3C0FpDEeuo0rRLh24f4Q" name="RegionOfInterest">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_jC3C0FpDEeuo0rRLh24f4Q" name="RegionOfInterestk">
+          <generalization xmi:type="uml:Generalization" xmi:id="_0Z1e0F-rEeug4qV42C4qHQ" general="_IrFd0FpDEeuo0rRLh24f4Q"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_u4o-AFpDEeuo0rRLh24f4Q" name="x_offset">
             <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_1q1SoOmJEeG_gcDHG3asaQ"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3ZHxUFpDEeuo0rRLh24f4Q" value="1"/>
@@ -120,8 +127,24 @@
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_l2PkUFneEeulN90HlATXmw" name="subscribe">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_pCEr4FpGEeuo0rRLh24f4Q" name="RightImage_raw"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_HFdnAFpHEeuo0rRLh24f4Q" name="RightCameraInfo"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_pCEr4FpGEeuo0rRLh24f4Q" name="RightImage_raw">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Wl64MF-tEeug4qV42C4qHQ">
+            <body>CommObject RightImage_raw {&#xD;
+	attribute RightImage : DepthmapServicedef::msg::Publish::Image&#xD;
+}&#xD;
+</body>
+          </ownedComment>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_QYu9MF-tEeug4qV42C4qHQ" name="RightImage"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_HFdnAFpHEeuo0rRLh24f4Q" name="RightCameraInfo">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_P0KQgF-tEeug4qV42C4qHQ">
+            <body>CommObject RightCameraInfo {&#xD;
+	attribute Info : DepthmapServicedef::msg::Publish::CameraInfo &#xD;
+}&#xD;
+</body>
+          </ownedComment>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7SQ5wF-sEeug4qV42C4qHQ" name="CameraInfo"/>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ixXeEFneEeulN90HlATXmw" name="Package14"/>
@@ -205,8 +228,6 @@
   <robotics.commobject:DataAttribute xmi:id="_I4z7UFpEEeuo0rRLh24f4Q" base_Property="_I4nuEFpEEeuo0rRLh24f4Q"/>
   <robotics.commobject:DataAttribute xmi:id="_JO1OoFpEEeuo0rRLh24f4Q" base_Property="_JOwWIFpEEeuo0rRLh24f4Q"/>
   <robotics.commobject:DataAttribute xmi:id="_Jn6dAFpEEeuo0rRLh24f4Q" base_Property="_Jn09cFpEEeuo0rRLh24f4Q"/>
-  <robotics.commobject:DataAttribute xmi:id="_KEZksFpEEeuo0rRLh24f4Q" base_Property="_KEUsMFpEEeuo0rRLh24f4Q"/>
-  <robotics.commobject:DataAttribute xmi:id="_aBO00FpEEeuo0rRLh24f4Q" base_Property="_aBCnkFpEEeuo0rRLh24f4Q"/>
   <robotics.commobject:CommunicationObject xmi:id="_pCJkYFpGEeuo0rRLh24f4Q" base_DataType="_pCEr4FpGEeuo0rRLh24f4Q"/>
   <robotics.commobject:CommunicationObject xmi:id="_HFh4cFpHEeuo0rRLh24f4Q" base_DataType="_HFdnAFpHEeuo0rRLh24f4Q"/>
   <robotics.commobject:DataType xmi:id="_nx_CkF9gEeu7PLqzaxKaUg" base_DataType="_nx7_QF9gEeu7PLqzaxKaUg"/>
@@ -216,8 +237,17 @@
   <robotics.commobject:DataAttribute xmi:id="_1iygAF9gEeu7PLqzaxKaUg" base_Property="_1iwDwF9gEeu7PLqzaxKaUg"/>
   <robotics.commobject:DataAttribute xmi:id="_17c3oF9gEeu7PLqzaxKaUg" base_Property="_17abYF9gEeu7PLqzaxKaUg"/>
   <robotics.commobject:DataAttribute xmi:id="_2agLIF9gEeu7PLqzaxKaUg" base_Property="_2adu4F9gEeu7PLqzaxKaUg"/>
-  <robotics.commobject:DataAttribute xmi:id="_Vlr0wF9hEeu7PLqzaxKaUg" base_Property="_VlNToF9hEeu7PLqzaxKaUg"/>
-  <ActionLanguage:TextualRepresentation xmi:id="_euHY4F9hEeu7PLqzaxKaUg" base_Comment="_euBSQF9hEeu7PLqzaxKaUg" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
-  <robotics.services:ServiceDefinition xmi:id="_9oMrcF9hEeu7PLqzaxKaUg" base_Interface="_7pF6cF9hEeu7PLqzaxKaUg"/>
-  <robotics.services:ServiceProperty xmi:id="_-u2KcF9hEeu7PLqzaxKaUg" base_Property="_-uzHIF9hEeu7PLqzaxKaUg"/>
+  <robotics.services:ServiceDefinition xmi:id="_YntbsF-rEeug4qV42C4qHQ" base_Interface="_XOUm4F-rEeug4qV42C4qHQ"/>
+  <robotics.services:ServiceProperty xmi:id="_awyBAF-rEeug4qV42C4qHQ" base_Property="_awu9sF-rEeug4qV42C4qHQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_mc0KUF-rEeug4qV42C4qHQ" base_Property="_mcR-0F-rEeug4qV42C4qHQ"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_u3ScQF-rEeug4qV42C4qHQ" base_Comment="_u3NjwF-rEeug4qV42C4qHQ" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
+  <robotics.generics:Is_a xmi:id="_0Z6-YF-rEeug4qV42C4qHQ" base_Generalization="_0Z1e0F-rEeug4qV42C4qHQ"/>
+  <robotics.services:ServiceDefinition xmi:id="_PUZAwF-sEeug4qV42C4qHQ" base_Interface="_N8BfoF-sEeug4qV42C4qHQ"/>
+  <robotics.services:ServiceProperty xmi:id="_TNO6kF-sEeug4qV42C4qHQ" base_Property="_TNIz8F-sEeug4qV42C4qHQ"/>
+  <robotics.services:ServiceDefinition xmi:id="_dHrKcF-sEeug4qV42C4qHQ" base_Interface="_b08XQF-sEeug4qV42C4qHQ"/>
+  <robotics.services:ServiceProperty xmi:id="_ePl0wF-sEeug4qV42C4qHQ" base_Property="_ePjYgF-sEeug4qV42C4qHQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_7SrwgF-sEeug4qV42C4qHQ" base_Property="_7SQ5wF-sEeug4qV42C4qHQ"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_P0Oh8F-tEeug4qV42C4qHQ" base_Comment="_P0KQgF-tEeug4qV42C4qHQ" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
+  <robotics.commobject:DataAttribute xmi:id="_QYxZcF-tEeug4qV42C4qHQ" base_Property="_QYu9MF-tEeug4qV42C4qHQ"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_Wl_wsF-tEeug4qV42C4qHQ" base_Comment="_Wl64MF-tEeug4qV42C4qHQ" language="org.eclipse.papyrus.robotics.xtext.datatypes.DTML"/>
 </xmi:XMI>
