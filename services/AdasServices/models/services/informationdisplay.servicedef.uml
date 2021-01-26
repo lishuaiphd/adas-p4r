@@ -6,7 +6,9 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_1qZ18k8wEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_1qZ1808wEeuf54tkkZK0ow" name="msg">
-      <packagedElement xmi:type="uml:Package" xmi:id="_8vHm0F8_EeuhMuB_t-XsHw" name="publish"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_8vHm0F8_EeuhMuB_t-XsHw" name="publish">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_rcawgF-uEeuhMuB_t-XsHw" name="DisplayMsg"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_-fCFQF8_EeuhMuB_t-XsHw" name="subscribe">
         <packagedElement xmi:type="uml:DataType" xmi:id="_KWSAEF9AEeuhMuB_t-XsHw" name="FusionMsg"/>
         <packagedElement xmi:type="uml:DataType" xmi:id="_LDqqgF9AEeuhMuB_t-XsHw" name="LeftCameraMsg"/>
@@ -88,4 +90,5 @@
   <robotics.commobject:CommunicationObject xmi:id="_SPpwEF9AEeuhMuB_t-XsHw" base_DataType="_SPjCYF9AEeuhMuB_t-XsHw"/>
   <robotics.commobject:CommunicationObject xmi:id="_YBzU4F9AEeuhMuB_t-XsHw" base_DataType="_YBqyAF9AEeuhMuB_t-XsHw"/>
   <robotics.commobject:CommunicationObject xmi:id="_aYXjoF9AEeuhMuB_t-XsHw" base_DataType="_aYT5QF9AEeuhMuB_t-XsHw"/>
+  <robotics.commobject:CommunicationObject xmi:id="_rciFQF-uEeuhMuB_t-XsHw" base_DataType="_rcawgF-uEeuhMuB_t-XsHw"/>
 </xmi:XMI>
