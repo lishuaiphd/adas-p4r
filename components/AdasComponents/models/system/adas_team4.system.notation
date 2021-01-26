@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qJM_wF7rEeuI_MoNIwX5mQ" type="CompositeStructure" name="Adas_diagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qJM_wF7rEeuI_MoNIwX5mQ" type="CompositeStructure" name="Adas_diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_qJM_wV7rEeuI_MoNIwX5mQ" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_qJM_wl7rEeuI_MoNIwX5mQ" type="Class_NameLabel">
       <element xmi:type="uml:Class" href="adas_team4.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
@@ -9,6 +9,71 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_qJON4F7rEeuI_MoNIwX5mQ" y="15"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_qJON4V7rEeuI_MoNIwX5mQ" type="Class_StructureCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_5TjaQF_AEeug4qV42C4qHQ" type="Property_Shape">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5bOvkF_AEeug4qV42C4qHQ" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5bOvkV_AEeug4qV42C4qHQ" key="mutable" value="true"/>
+        </eAnnotations>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5TkBUF_AEeug4qV42C4qHQ" type="Property_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5TkBUV_AEeug4qV42C4qHQ" type="Property_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_5TkBUl_AEeug4qV42C4qHQ" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_5TkoYF_AEeug4qV42C4qHQ" type="Property_StructureCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_5TkoYV_AEeug4qV42C4qHQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5TkoYl_AEeug4qV42C4qHQ"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_5VcQoF_AEeug4qV42C4qHQ" type="StereotypeLabel">
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_5VcQoV_AEeug4qV42C4qHQ" name="stereotype" stringValue="robotics::components::ComponentInstance"/>
+          <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_f-vFQBNBEei-CMVLY1Smdg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5VcQol_AEeug4qV42C4qHQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_5VcQo1_AEeug4qV42C4qHQ" type="StereotypeBrace">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_5VcQpF_AEeug4qV42C4qHQ"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_5VcQpV_AEeug4qV42C4qHQ" name="stereotype" stringValue="robotics::components::ComponentInstance"/>
+          <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_f-vFQBNBEei-CMVLY1Smdg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5VcQpl_AEeug4qV42C4qHQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_5VdewF_AEeug4qV42C4qHQ" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_5VdewV_AEeug4qV42C4qHQ"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Vdewl_AEeug4qV42C4qHQ"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_5Ves4F_AEeug4qV42C4qHQ" type="StereotypeCompartment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_5Ves4V_AEeug4qV42C4qHQ"/>
+          <styles xmi:type="notation:StringValueStyle" xmi:id="_5Ves4l_AEeug4qV42C4qHQ" name="stereotype" stringValue="robotics::components::ComponentInstance"/>
+          <element xmi:type="uml:Stereotype" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_f-vFQBNBEei-CMVLY1Smdg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5Ves41_AEeug4qV42C4qHQ"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_5V3ucF_AEeug4qV42C4qHQ" type="Port_Shape">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5bOvkl_AEeug4qV42C4qHQ" source="PapyrusCSSForceValue">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5bOvk1_AEeug4qV42C4qHQ" key="mutable" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_5V3ucl_AEeug4qV42C4qHQ" type="Port_NameLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5V3uc1_AEeug4qV42C4qHQ" x="25" y="3"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_5V3udF_AEeug4qV42C4qHQ" type="Port_StereotypeLabel">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5V3udV_AEeug4qV42C4qHQ" x="25" y="-10"/>
+          </children>
+          <element xmi:type="uml:Port" href="../components/rightcamera.compdef.uml#_NAVrYF9oEeu7PLqzaxKaUg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5V3ucV_AEeug4qV42C4qHQ" x="-10" y="-10"/>
+        </children>
+        <element xmi:type="uml:Property" href="adas_team4.system.uml#_1XjewF_AEeug4qV42C4qHQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5TjaQV_AEeug4qV42C4qHQ" x="240" y="112"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_5Vdew1_AEeug4qV42C4qHQ" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_5VdexF_AEeug4qV42C4qHQ"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5Vdexl_AEeug4qV42C4qHQ" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Property" href="adas_team4.system.uml#_1XjewF_AEeug4qV42C4qHQ"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5VdexV_AEeug4qV42C4qHQ" x="200"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_5WHmE1_AEeug4qV42C4qHQ" type="StereotypeComment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_5WHmFF_AEeug4qV42C4qHQ"/>
+        <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5WHmFl_AEeug4qV42C4qHQ" name="BASE_ELEMENT">
+          <eObjectValue xmi:type="uml:Port" href="../components/rightcamera.compdef.uml#_NAVrYF9oEeu7PLqzaxKaUg"/>
+        </styles>
+        <element xsi:nil="true"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5WHmFV_AEeug4qV42C4qHQ" x="190" y="-10"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_qJON4l7rEeuI_MoNIwX5mQ"/>
       <element xmi:type="uml:Class" href="adas_team4.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJON417rEeuI_MoNIwX5mQ"/>
@@ -31,6 +96,14 @@
     </styles>
     <element xsi:nil="true"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qJON7F7rEeuI_MoNIwX5mQ" x="240" y="40"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_z7-RkF_AEeug4qV42C4qHQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_z7-RkV_AEeug4qV42C4qHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_z7-Rk1_AEeug4qV42C4qHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="adas_team4.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z7-Rkl_AEeug4qV42C4qHQ" x="240" y="40"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_qJON7V7rEeuI_MoNIwX5mQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_qJON7l7rEeuI_MoNIwX5mQ"/>
@@ -67,5 +140,35 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qJON_17rEeuI_MoNIwX5mQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJOOAF7rEeuI_MoNIwX5mQ"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qJOOAV7rEeuI_MoNIwX5mQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_z7-RlF_AEeug4qV42C4qHQ" type="StereotypeCommentLink" source="_qJM_wV7rEeuI_MoNIwX5mQ" target="_z7-RkF_AEeug4qV42C4qHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_z7-RlV_AEeug4qV42C4qHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_z7-4ol_AEeug4qV42C4qHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Class" href="adas_team4.system.uml#_qJKjgl7rEeuI_MoNIwX5mQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_z7-Rll_AEeug4qV42C4qHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z7-4oF_AEeug4qV42C4qHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z7-4oV_AEeug4qV42C4qHQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_5Vdex1_AEeug4qV42C4qHQ" type="StereotypeCommentLink" source="_5TjaQF_AEeug4qV42C4qHQ" target="_5Vdew1_AEeug4qV42C4qHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_5VdeyF_AEeug4qV42C4qHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5VdezF_AEeug4qV42C4qHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Property" href="adas_team4.system.uml#_1XjewF_AEeug4qV42C4qHQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5VdeyV_AEeug4qV42C4qHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5Vdeyl_AEeug4qV42C4qHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5Vdey1_AEeug4qV42C4qHQ"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_5WHmF1_AEeug4qV42C4qHQ" type="StereotypeCommentLink" source="_5V3ucF_AEeug4qV42C4qHQ" target="_5WHmE1_AEeug4qV42C4qHQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_5WHmGF_AEeug4qV42C4qHQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5WHmHF_AEeug4qV42C4qHQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Port" href="../components/rightcamera.compdef.uml#_NAVrYF9oEeu7PLqzaxKaUg"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5WHmGV_AEeug4qV42C4qHQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5WHmGl_AEeug4qV42C4qHQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5WHmG1_AEeug4qV42C4qHQ"/>
   </edges>
 </notation:Diagram>

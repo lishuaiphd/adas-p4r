@@ -7,10 +7,25 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_gIArgk8wEeuf54tkkZK0ow" name="svcdefs"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_gIArg08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_WlahgF9jEeu7PLqzaxKaUg" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_kNNiAF9lEeu7PLqzaxKaUg" name="Steering"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_kNNiAF9lEeu7PLqzaxKaUg" name="Steering">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_GdURYF-3Eeug4qV42C4qHQ" name="Speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gFj24F-3Eeug4qV42C4qHQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gFj24V-3Eeug4qV42C4qHQ" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gF-GkF-3Eeug4qV42C4qHQ" name="Torque">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gF-GkV-3Eeug4qV42C4qHQ" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gF-Gkl-3Eeug4qV42C4qHQ" value="1"/>
+          </ownedAttribute>
+        </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_nMpHkF9lEeu7PLqzaxKaUg" name="Throttle"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_4Fi-YF9lEeu7PLqzaxKaUg" name="Braking"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_4Fi-YF9lEeu7PLqzaxKaUg" name="Braking">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1LVWwF-3Eeug4qV42C4qHQ" name="DataAttribute1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_22bmoF-3Eeug4qV42C4qHQ" name="DataAttribute2"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_UljbMF9mEeu7PLqzaxKaUg" name="Alarm"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_6E3moF-5Eeug4qV42C4qHQ" name="Location"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YHWOUF9jEeu7PLqzaxKaUg" name="Subscribe"/>
     </packagedElement>
@@ -88,4 +103,9 @@
   <robotics.commobject:CommunicationObject xmi:id="_nMrj0F9lEeu7PLqzaxKaUg" base_DataType="_nMpHkF9lEeu7PLqzaxKaUg"/>
   <robotics.commobject:CommunicationObject xmi:id="_4FmowF9lEeu7PLqzaxKaUg" base_DataType="_4Fi-YF9lEeu7PLqzaxKaUg"/>
   <robotics.commobject:CommunicationObject xmi:id="_UlmegF9mEeu7PLqzaxKaUg" base_DataType="_UljbMF9mEeu7PLqzaxKaUg"/>
+  <robotics.commobject:DataAttribute xmi:id="_GesxcF-3Eeug4qV42C4qHQ" base_Property="_GdURYF-3Eeug4qV42C4qHQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_gGAi0F-3Eeug4qV42C4qHQ" base_Property="_gF-GkF-3Eeug4qV42C4qHQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_1LqG4F-3Eeug4qV42C4qHQ" base_Property="_1LVWwF-3Eeug4qV42C4qHQ"/>
+  <robotics.commobject:DataAttribute xmi:id="_22fRAF-3Eeug4qV42C4qHQ" base_Property="_22bmoF-3Eeug4qV42C4qHQ"/>
+  <robotics.commobject:CommunicationObject xmi:id="_6E3moV-5Eeug4qV42C4qHQ" base_DataType="_6E3moF-5Eeug4qV42C4qHQ"/>
 </xmi:XMI>
