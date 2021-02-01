@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://www.eclipse.org/papyrus/robotics/bt/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.behavior="http://www.eclipse.org/papyrus/robotics/behavior/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/behavior/1 http://www.eclipse.org/papyrus/robotics/1#//behavior http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+  <uml:Model xmi:id="_xFxE0GRzEeufoscjYXqgTw" name="Adas_team1Bt">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_xFxE0WRzEeufoscjYXqgTw" name="Adas_team1"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xFxE0mRzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xFxE02RzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xFxE1GRzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xFxE1WRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xFxE1mRzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xFxE12RzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xFxE2GRzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xFxE2WRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xFxE2mRzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xFxE22RzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.behavior:Task xmi:id="_xFxE3GRzEeufoscjYXqgTw" base_Class="_xFxE0WRzEeufoscjYXqgTw" base_Behavior="_xFxE0WRzEeufoscjYXqgTw"/>
+  <bt:TreeRoot xmi:id="_xFxE3WRzEeufoscjYXqgTw" base_Activity="_xFxE0WRzEeufoscjYXqgTw"/>
+  <robotics.generics:Package xmi:id="_xFxE3mRzEeufoscjYXqgTw" base_Package="_xFxE0GRzEeufoscjYXqgTw"/>
+</xmi:XMI>

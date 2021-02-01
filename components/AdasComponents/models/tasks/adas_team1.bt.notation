@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_xFxE32RzEeufoscjYXqgTw" type="PapyrusUMLActivityDiagram" name="Adas_team1 diagram" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" xmi:id="_xFxE4GRzEeufoscjYXqgTw" type="Activity_Shape">
+    <children xsi:type="notation:DecorationNode" xmi:id="_xFxE4WRzEeufoscjYXqgTw" type="Activity_NameLabel"/>
+    <children xsi:type="notation:DecorationNode" xmi:id="_xFxE4mRzEeufoscjYXqgTw" type="Activity_KeywordLabel"/>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_xFxE42RzEeufoscjYXqgTw" type="Activity_ParameterCompartment">
+      <styles xsi:type="notation:SortingStyle" xmi:id="_xFxE5GRzEeufoscjYXqgTw"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_xFxE5WRzEeufoscjYXqgTw"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xFxE5mRzEeufoscjYXqgTw"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_xFxE52RzEeufoscjYXqgTw" type="Activity_PreconditionCompartment">
+      <styles xsi:type="notation:SortingStyle" xmi:id="_xFxE6GRzEeufoscjYXqgTw"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_xFxE6WRzEeufoscjYXqgTw"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xFxE6mRzEeufoscjYXqgTw"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_xFxE62RzEeufoscjYXqgTw" type="Activity_PostconditionCompartment">
+      <styles xsi:type="notation:SortingStyle" xmi:id="_xFxE7GRzEeufoscjYXqgTw"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_xFxE7WRzEeufoscjYXqgTw"/>
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xFxE7mRzEeufoscjYXqgTw"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_xFxE72RzEeufoscjYXqgTw" type="Activity_ActivityNodeCompartment">
+      <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xFxE8GRzEeufoscjYXqgTw"/>
+    </children>
+    <element href="adas_team1.bt.uml#_xFxE0WRzEeufoscjYXqgTw"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xFxE8WRzEeufoscjYXqgTw"/>
+  </children>
+  <children xsi:type="notation:Shape" xmi:id="_xFxE8mRzEeufoscjYXqgTw" type="StereotypeComment">
+    <styles xsi:type="notation:TitleStyle" xmi:id="_xFxE82RzEeufoscjYXqgTw"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_xFxE9GRzEeufoscjYXqgTw" name="BASE_ELEMENT">
+      <eObjectValue href="adas_team1.bt.uml#_xFxE0WRzEeufoscjYXqgTw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_xFxE9WRzEeufoscjYXqgTw" x="200"/>
+  </children>
+  <styles xsi:type="notation:StringValueStyle" xmi:id="_xFxE9mRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_xFxE92RzEeufoscjYXqgTw"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_xFxE-GRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.bt.architecture.definition.language.btml.diagram.btActivityDiagram">
+    <owner href="adas_team1.bt.uml#_xFxE0WRzEeufoscjYXqgTw"/>
+  </styles>
+  <element href="adas_team1.bt.uml#_xFxE0WRzEeufoscjYXqgTw"/>
+  <edges xsi:type="notation:Connector" xmi:id="_xFxE-WRzEeufoscjYXqgTw" type="StereotypeCommentLink" source="_xFxE4GRzEeufoscjYXqgTw" target="_xFxE8mRzEeufoscjYXqgTw">
+    <styles xsi:type="notation:FontStyle" xmi:id="_xFxE-mRzEeufoscjYXqgTw"/>
+    <styles xsi:type="notation:EObjectValueStyle" xmi:id="_xFxE-2RzEeufoscjYXqgTw" name="BASE_ELEMENT">
+      <eObjectValue href="adas_team1.bt.uml#_xFxE0WRzEeufoscjYXqgTw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_xFxE_GRzEeufoscjYXqgTw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xFxE_WRzEeufoscjYXqgTw"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_xFxE_mRzEeufoscjYXqgTw"/>
+  </edges>
+</notation:Diagram>

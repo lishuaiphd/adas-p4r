@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+  <uml:Model xmi:id="_bMY9wGRzEeufoscjYXqgTw" name="LidarSkills">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_bMY9wWRzEeufoscjYXqgTw">
+      <importedPackage xmi:type="uml:Package" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_ysOXAPjgEeqA4v_JqiO9QA"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_bMY9wmRzEeufoscjYXqgTw" name="defaultsemantics"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bMY9w2RzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bMY9xGRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bMY9xWRzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bMY9xmRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bMY9x2RzEeufoscjYXqgTw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bMY9yGRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/assertions/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_ASSERTIONS/assertions.profile.uml#_N9HP0HQPEeqOfoT8vF1-1w"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_bMY9yWRzEeufoscjYXqgTw" base_Package="_bMY9wGRzEeufoscjYXqgTw"/>
+  <robotics.generics:Package xmi:id="_bMY9ymRzEeufoscjYXqgTw" base_Package="_bMY9wmRzEeufoscjYXqgTw"/>
+</xmi:XMI>
