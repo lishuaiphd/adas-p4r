@@ -7,6 +7,9 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_lMiiEGU5EeuPV-OwkyB9JA">
       <importedPackage xmi:type="uml:Model" href="../services/speedcontrol.servicedef.uml#_zPwYcE8wEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_3odjcGU8EeuPV-OwkyB9JA">
+      <importedPackage xmi:type="uml:Model" href="../services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_eufLgmRzEeufoscjYXqgTw" name="defaultsemantics">
       <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="SpeedCalculDefaultFSM" specification="_bVdFAGU1EeuPV-OwkyB9JA">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
@@ -30,13 +33,13 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_xv71YGUyEeuPV-OwkyB9JA" name="SpeedControlSkills">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_bVdFAGU1EeuPV-OwkyB9JA" name="SpeedCalcul" method="_4Qge8PjgEeqA4v_JqiO9QA">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_iTqQcGU5EeuPV-OwkyB9JA">
-          <type xmi:type="uml:DataType" href="../services/speedcontrol.servicedef.uml#_SUR_MFS9EeuEh6TOcyHeKA"/>
-        </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_qqCskGU5EeuPV-OwkyB9JA" direction="out">
           <type xmi:type="uml:DataType" href="../services/speedcontrol.servicedef.uml#_e9tyAFA1EeuZLb0AfzNybw"/>
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_iwVv8GU6EeuPV-OwkyB9JA" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_oEuIwGU8EeuPV-OwkyB9JA">
+          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_eufLg2RzEeufoscjYXqgTw">
@@ -71,7 +74,7 @@
   <robotics.skills:SkillFailState xmi:id="_bWF-MGU1EeuPV-OwkyB9JA" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillSuccessState xmi:id="_bWGlQGU1EeuPV-OwkyB9JA" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillDefinition xmi:id="_bWNS8GU1EeuPV-OwkyB9JA" base_Operation="_bVdFAGU1EeuPV-OwkyB9JA"/>
-  <robotics.skills:InAttribute xmi:id="_iT0ogGU5EeuPV-OwkyB9JA" base_Parameter="_iTqQcGU5EeuPV-OwkyB9JA"/>
   <robotics.skills:OutAttribute xmi:id="_qqKBUGU5EeuPV-OwkyB9JA" base_Parameter="_qqCskGU5EeuPV-OwkyB9JA"/>
   <robotics.skills:SkillResult xmi:id="_iwdEsGU6EeuPV-OwkyB9JA" provenance="" base_Parameter="_iwVv8GU6EeuPV-OwkyB9JA"/>
+  <robotics.skills:InAttribute xmi:id="_oE0PYGU8EeuPV-OwkyB9JA" base_Parameter="_oEuIwGU8EeuPV-OwkyB9JA"/>
 </xmi:XMI>
