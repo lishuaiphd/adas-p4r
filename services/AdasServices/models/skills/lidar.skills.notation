@@ -16,6 +16,10 @@
         <element xmi:type="uml:Operation" href="lidar.skills.uml#_56qbIGUyEeu5O-q0VXTiKA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_59Dn0WUyEeu5O-q0VXTiKA"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_rkkTwGU8Eeu5O-q0VXTiKA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="lidar.skills.uml#_rj0s4GU8Eeu5O-q0VXTiKA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_rkkTwWU8Eeu5O-q0VXTiKA"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_whRC1mUyEeu5O-q0VXTiKA"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_whRC12UyEeu5O-q0VXTiKA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_whRC2GUyEeu5O-q0VXTiKA"/>
