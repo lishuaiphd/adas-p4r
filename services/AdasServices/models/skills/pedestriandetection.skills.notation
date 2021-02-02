@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_PdftsGRzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Pedestriandetection diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_PdftsWRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_PdftsmRzEeufoscjYXqgTw"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_Pdfts2RzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
-    <owner href="pedestriandetection.skills.uml#_PdV8sGRzEeufoscjYXqgTw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_PdftsGRzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Pedestriandetection diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_9Q_QAGUtEeuv5pRcTLDdJA" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9RBFMGUtEeuv5pRcTLDdJA" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_9RBFMWUtEeuv5pRcTLDdJA" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9RBFMmUtEeuv5pRcTLDdJA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9RBsQGUtEeuv5pRcTLDdJA" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9RBsQWUtEeuv5pRcTLDdJA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9RBsQmUtEeuv5pRcTLDdJA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9RBsQ2UtEeuv5pRcTLDdJA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9RBsRGUtEeuv5pRcTLDdJA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9RBsRWUtEeuv5pRcTLDdJA" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_paApEGUuEeuv5pRcTLDdJA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="pedestriandetection.skills.uml#_pYJA0GUuEeuv5pRcTLDdJA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_paApEWUuEeuv5pRcTLDdJA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9RBsRmUtEeuv5pRcTLDdJA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9RBsR2UtEeuv5pRcTLDdJA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9RBsSGUtEeuv5pRcTLDdJA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9RBsSWUtEeuv5pRcTLDdJA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_9RBsSmUtEeuv5pRcTLDdJA" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_9RBsS2UtEeuv5pRcTLDdJA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_9RBsTGUtEeuv5pRcTLDdJA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_9RBsTWUtEeuv5pRcTLDdJA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9RBsTmUtEeuv5pRcTLDdJA"/>
+    </children>
+    <element xmi:type="uml:Interface" href="pedestriandetection.skills.uml#_9LsgUGUtEeuv5pRcTLDdJA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Q_QAWUtEeuv5pRcTLDdJA" x="220" y="80"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_9S4GY2UtEeuv5pRcTLDdJA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_9S4GZGUtEeuv5pRcTLDdJA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_9S4GZmUtEeuv5pRcTLDdJA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="pedestriandetection.skills.uml#_9LsgUGUtEeuv5pRcTLDdJA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9S4GZWUtEeuv5pRcTLDdJA" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_PdftsWRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_PdftsmRzEeufoscjYXqgTw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Pdfts2RzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="pedestriandetection.skills.uml#_PdV8sGRzEeufoscjYXqgTw"/>
   </styles>
-  <element href="pedestriandetection.skills.uml#_PdV8sGRzEeufoscjYXqgTw"/>
+  <element xmi:type="uml:Model" href="pedestriandetection.skills.uml#_PdV8sGRzEeufoscjYXqgTw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_9S4GZ2UtEeuv5pRcTLDdJA" type="StereotypeCommentLink" source="_9Q_QAGUtEeuv5pRcTLDdJA" target="_9S4GY2UtEeuv5pRcTLDdJA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_9S4GaGUtEeuv5pRcTLDdJA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_9S4tcmUtEeuv5pRcTLDdJA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="pedestriandetection.skills.uml#_9LsgUGUtEeuv5pRcTLDdJA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9S4GaWUtEeuv5pRcTLDdJA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9S4tcGUtEeuv5pRcTLDdJA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9S4tcWUtEeuv5pRcTLDdJA"/>
+  </edges>
 </notation:Diagram>
