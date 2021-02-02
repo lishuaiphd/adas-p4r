@@ -8,7 +8,7 @@
       <importedPackage xmi:type="uml:Model" href="../services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_KFyCImRzEeufoscjYXqgTw" name="defaultsemantics">
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DisplayCameraDefaultFSM" specification="_JHFXcGUyEeudPMCtZy-xNQ">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DisplayLeftCameraDefaultFSM" specification="_JHFXcGUyEeudPMCtZy-xNQ">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
           <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
           <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
@@ -29,7 +29,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_EfbP0GUyEeudPMCtZy-xNQ" name="LeftCameraSkills">
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_JHFXcGUyEeudPMCtZy-xNQ" name="DisplayCamera" method="_4Qge8PjgEeqA4v_JqiO9QA">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_JHFXcGUyEeudPMCtZy-xNQ" name="DisplayLeftCamera" method="_4Qge8PjgEeqA4v_JqiO9QA">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_bDSzcGU0EeudPMCtZy-xNQ" direction="out">
           <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
         </ownedParameter>

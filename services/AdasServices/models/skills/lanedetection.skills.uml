@@ -36,13 +36,13 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_HBzhcGU8EeucYueNcfn0IA" name="LaneDetectionSkill">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_2ReF4GU9EeucYueNcfn0IA" name="DetectLane" method="_4Qge8PjgEeqA4v_JqiO9QA">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3cd5YGU9EeucYueNcfn0IA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3cd5YGU9EeucYueNcfn0IA" name="Image">
           <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="__308IGU9EeucYueNcfn0IA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="__308IGU9EeucYueNcfn0IA" name="Speed">
           <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_2-Yu4GVAEeucYueNcfn0IA" direction="out">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_2-Yu4GVAEeucYueNcfn0IA" name="Lane" direction="out">
           <type xmi:type="uml:DataType" href="../services/lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_SzpJEGVCEeucYueNcfn0IA" name="LaneisDetected" direction="return"/>
