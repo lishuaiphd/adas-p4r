@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_S9VRq2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Odometer diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_S9VRrGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_S9VRrWRzEeufoscjYXqgTw"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_S9VRrmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
-    <owner href="odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_S9VRq2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Odometer diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_VXLvwGU1Eeuko5tk88a-Ng" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VXLvwmU1Eeuko5tk88a-Ng" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VXMW0GU1Eeuko5tk88a-Ng" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VXMW0WU1Eeuko5tk88a-Ng" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_VXMW0mU1Eeuko5tk88a-Ng" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_VXMW02U1Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VXMW1GU1Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VXMW1WU1Eeuko5tk88a-Ng"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXMW1mU1Eeuko5tk88a-Ng"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_VXMW12U1Eeuko5tk88a-Ng" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_V4SRsGU1Eeuko5tk88a-Ng" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="odometer.skills.uml#_V3sb0GU1Eeuko5tk88a-Ng"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4SRsWU1Eeuko5tk88a-Ng"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_VXMW2GU1Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VXMW2WU1Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VXMW2mU1Eeuko5tk88a-Ng"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXMW22U1Eeuko5tk88a-Ng"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_VXMW3GU1Eeuko5tk88a-Ng" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_VXMW3WU1Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_VXMW3mU1Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_VXMW32U1Eeuko5tk88a-Ng"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXMW4GU1Eeuko5tk88a-Ng"/>
+    </children>
+    <element xmi:type="uml:Interface" href="odometer.skills.uml#_VVJvcGU1Eeuko5tk88a-Ng"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXLvwWU1Eeuko5tk88a-Ng" x="140" y="60" width="341" height="161"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_VXWH02U1Eeuko5tk88a-Ng" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_VXWH1GU1Eeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_VXWH1mU1Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="odometer.skills.uml#_VVJvcGU1Eeuko5tk88a-Ng"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXWH1WU1Eeuko5tk88a-Ng" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_S9VRrGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_S9VRrWRzEeufoscjYXqgTw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_S9VRrmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
   </styles>
-  <element href="odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
+  <element xmi:type="uml:Model" href="odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_VXWH12U1Eeuko5tk88a-Ng" type="StereotypeCommentLink" source="_VXLvwGU1Eeuko5tk88a-Ng" target="_VXWH02U1Eeuko5tk88a-Ng">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VXWH2GU1Eeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_VXWH3GU1Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="odometer.skills.uml#_VVJvcGU1Eeuko5tk88a-Ng"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VXWH2WU1Eeuko5tk88a-Ng" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VXWH2mU1Eeuko5tk88a-Ng"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VXWH22U1Eeuko5tk88a-Ng"/>
+  </edges>
 </notation:Diagram>

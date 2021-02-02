@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
   <uml:Model xmi:id="_S9VRoGRzEeufoscjYXqgTw" name="OdometerSkills">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_S9VRoWRzEeufoscjYXqgTw">
       <importedPackage xmi:type="uml:Package" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_ysOXAPjgEeqA4v_JqiO9QA"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_S9VRomRzEeufoscjYXqgTw" name="defaultsemantics"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_jEyIMGU1Eeuko5tk88a-Ng">
+      <importedPackage xmi:type="uml:Model" href="../services/odometer.servicedef.uml#_s05qUE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_S9VRomRzEeufoscjYXqgTw" name="defaultsemantics">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="MeasureDistanceDefaultFSM" specification="_V3sb0GU1Eeuko5tk88a-Ng">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_VVJvcGU1Eeuko5tk88a-Ng" name="OdometerSkillSet">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_V3sb0GU1Eeuko5tk88a-Ng" name="MeasureDistance" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_hxsvsGU1Eeuko5tk88a-Ng" direction="out">
+          <type xmi:type="uml:DataType" href="../services/odometer.servicedef.uml#_3DXmgFNuEeuQhfTHhMdrVQ"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_peyXMGU1Eeuko5tk88a-Ng" name="DistanceMeasured" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7wLq8GU1Eeuko5tk88a-Ng" name="DistanceNotMeasured" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_S9VRo2RzEeufoscjYXqgTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_S9VRpGRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
@@ -26,4 +58,18 @@
   </uml:Model>
   <robotics.generics:Package xmi:id="_S9VRqWRzEeufoscjYXqgTw" base_Package="_S9VRoGRzEeufoscjYXqgTw"/>
   <robotics.generics:Package xmi:id="_S9VRqmRzEeufoscjYXqgTw" base_Package="_S9VRomRzEeufoscjYXqgTw"/>
+  <robotics.skills:SkillDefinitionSet xmi:id="_VW_igGU1Eeuko5tk88a-Ng" base_Interface="_VVJvcGU1Eeuko5tk88a-Ng"/>
+  <robotics.skills:SkillSemantic xmi:id="_V4Ju0GU1Eeuko5tk88a-Ng" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_V4KV4GU1Eeuko5tk88a-Ng" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_V4K88GU1Eeuko5tk88a-Ng" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_V4K88WU1Eeuko5tk88a-Ng" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_V4LkAGU1Eeuko5tk88a-Ng" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_V4LkAWU1Eeuko5tk88a-Ng" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_V4LkAmU1Eeuko5tk88a-Ng" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_V4LkA2U1Eeuko5tk88a-Ng" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_V4MLEGU1Eeuko5tk88a-Ng" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_V4MyIGU1Eeuko5tk88a-Ng" base_Operation="_V3sb0GU1Eeuko5tk88a-Ng"/>
+  <robotics.skills:OutAttribute xmi:id="_hxyPQGU1Eeuko5tk88a-Ng" base_Parameter="_hxsvsGU1Eeuko5tk88a-Ng"/>
+  <robotics.skills:SkillResult xmi:id="_pe4d0GU1Eeuko5tk88a-Ng" base_Parameter="_peyXMGU1Eeuko5tk88a-Ng" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_7wQjcGU1Eeuko5tk88a-Ng" base_Parameter="_7wLq8GU1Eeuko5tk88a-Ng" kind="FAILURE"/>
 </xmi:XMI>

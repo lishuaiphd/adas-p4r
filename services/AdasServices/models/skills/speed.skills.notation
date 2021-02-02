@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_VIqgy2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Speed diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_VIqgzGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_VIqgzWRzEeufoscjYXqgTw"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_VIqgzmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
-    <owner href="speed.skills.uml#_VIqgwGRzEeufoscjYXqgTw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VIqgy2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Speed diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_nj0C0GU2Eeuko5tk88a-Ng" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nj0C0mU2Eeuko5tk88a-Ng" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nj0C02U2Eeuko5tk88a-Ng" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nj0C1GU2Eeuko5tk88a-Ng" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_nj0C1WU2Eeuko5tk88a-Ng" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nj0C1mU2Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_nj0C12U2Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_nj0C2GU2Eeuko5tk88a-Ng"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nj0C2WU2Eeuko5tk88a-Ng"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_nj0C2mU2Eeuko5tk88a-Ng" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_pQltsGU2Eeuko5tk88a-Ng" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="speed.skills.uml#_pQYSUGU2Eeuko5tk88a-Ng"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pQltsWU2Eeuko5tk88a-Ng"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nj0C22U2Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_nj0C3GU2Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_nj0C3WU2Eeuko5tk88a-Ng"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nj0C3mU2Eeuko5tk88a-Ng"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_nj0C32U2Eeuko5tk88a-Ng" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nj0C4GU2Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_nj0C4WU2Eeuko5tk88a-Ng"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_nj0C4mU2Eeuko5tk88a-Ng"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nj0C42U2Eeuko5tk88a-Ng"/>
+    </children>
+    <element xmi:type="uml:Interface" href="speed.skills.uml#_nh7zgGU2Eeuko5tk88a-Ng"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nj0C0WU2Eeuko5tk88a-Ng" x="120" y="40" width="201" height="141"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nj5ic2U2Eeuko5tk88a-Ng" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_nj5idGU2Eeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nj5idmU2Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="speed.skills.uml#_nh7zgGU2Eeuko5tk88a-Ng"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nj5idWU2Eeuko5tk88a-Ng" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_VIqgzGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_VIqgzWRzEeufoscjYXqgTw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_VIqgzmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="speed.skills.uml#_VIqgwGRzEeufoscjYXqgTw"/>
   </styles>
-  <element href="speed.skills.uml#_VIqgwGRzEeufoscjYXqgTw"/>
+  <element xmi:type="uml:Model" href="speed.skills.uml#_VIqgwGRzEeufoscjYXqgTw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_nj5id2U2Eeuko5tk88a-Ng" type="StereotypeCommentLink" source="_nj0C0GU2Eeuko5tk88a-Ng" target="_nj5ic2U2Eeuko5tk88a-Ng">
+    <styles xmi:type="notation:FontStyle" xmi:id="_nj5ieGU2Eeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nj5ifGU2Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="speed.skills.uml#_nh7zgGU2Eeuko5tk88a-Ng"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nj5ieWU2Eeuko5tk88a-Ng" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nj5iemU2Eeuko5tk88a-Ng"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nj5ie2U2Eeuko5tk88a-Ng"/>
+  </edges>
 </notation:Diagram>

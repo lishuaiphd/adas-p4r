@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
   <uml:Model xmi:id="_ZuSoEGRzEeufoscjYXqgTw" name="TrafficsigndetectionSkills">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_ZuSoEWRzEeufoscjYXqgTw">
       <importedPackage xmi:type="uml:Package" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_ysOXAPjgEeqA4v_JqiO9QA"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_ZuSoEmRzEeufoscjYXqgTw" name="defaultsemantics"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_gOdwcGU3Eeuko5tk88a-Ng">
+      <importedPackage xmi:type="uml:Model" href="../services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_h2I44GU3Eeuko5tk88a-Ng">
+      <importedPackage xmi:type="uml:Model" href="../services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_jb8ZEGU3Eeuko5tk88a-Ng">
+      <importedPackage xmi:type="uml:Model" href="../services/trafficsigndetection.servicedef.uml#_X8W4sE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZuSoEmRzEeufoscjYXqgTw" name="defaultsemantics">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectTrafficSignDefaultFSM" specification="_4AwWYGU2Eeuko5tk88a-Ng">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_1zAFYGU2Eeuko5tk88a-Ng" name="TrafficSignDetectionSkillSet">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4AwWYGU2Eeuko5tk88a-Ng" name="DetectTrafficSign" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6i478GU2Eeuko5tk88a-Ng">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_gv63sGU3Eeuko5tk88a-Ng">
+          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_iVr7oGU3Eeuko5tk88a-Ng" direction="out">
+          <type xmi:type="uml:DataType" href="../services/trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_jzAOMGU3Eeuko5tk88a-Ng" name="TrafficSignDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_l-YgoGU3Eeuko5tk88a-Ng" name="TrafficSignNotDetected" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZuSoE2RzEeufoscjYXqgTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZuSoFGRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
@@ -26,4 +70,20 @@
   </uml:Model>
   <robotics.generics:Package xmi:id="_ZuSoGWRzEeufoscjYXqgTw" base_Package="_ZuSoEGRzEeufoscjYXqgTw"/>
   <robotics.generics:Package xmi:id="_ZuSoGmRzEeufoscjYXqgTw" base_Package="_ZuSoEmRzEeufoscjYXqgTw"/>
+  <robotics.skills:SkillDefinitionSet xmi:id="_10mn4GU2Eeuko5tk88a-Ng" base_Interface="_1zAFYGU2Eeuko5tk88a-Ng"/>
+  <robotics.skills:SkillSemantic xmi:id="_4A1O4GU2Eeuko5tk88a-Ng" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_4A118GU2Eeuko5tk88a-Ng" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_4A118WU2Eeuko5tk88a-Ng" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_4A2dAGU2Eeuko5tk88a-Ng" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_4A2dAWU2Eeuko5tk88a-Ng" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_4A3EEGU2Eeuko5tk88a-Ng" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_4A3EEWU2Eeuko5tk88a-Ng" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_4A3EEmU2Eeuko5tk88a-Ng" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_4A3EE2U2Eeuko5tk88a-Ng" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_4A4SMGU2Eeuko5tk88a-Ng" base_Operation="_4AwWYGU2Eeuko5tk88a-Ng"/>
+  <robotics.skills:InAttribute xmi:id="_6jA3wGU2Eeuko5tk88a-Ng" base_Parameter="_6i478GU2Eeuko5tk88a-Ng"/>
+  <robotics.skills:InAttribute xmi:id="_gv-iEGU3Eeuko5tk88a-Ng" base_Parameter="_gv63sGU3Eeuko5tk88a-Ng"/>
+  <robotics.skills:OutAttribute xmi:id="_iVwNEGU3Eeuko5tk88a-Ng" base_Parameter="_iVr7oGU3Eeuko5tk88a-Ng"/>
+  <robotics.skills:SkillResult xmi:id="_jzFGsGU3Eeuko5tk88a-Ng" base_Parameter="_jzAOMGU3Eeuko5tk88a-Ng" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_l-cyEGU3Eeuko5tk88a-Ng" base_Parameter="_l-YgoGU3Eeuko5tk88a-Ng" kind="FAILURE"/>
 </xmi:XMI>
