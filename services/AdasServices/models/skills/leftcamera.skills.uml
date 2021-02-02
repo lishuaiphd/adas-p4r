@@ -31,7 +31,7 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_EfbP0GUyEeudPMCtZy-xNQ" name="LeftCameraSkills">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_JHFXcGUyEeudPMCtZy-xNQ" name="DisplayCamera" method="_4Qge8PjgEeqA4v_JqiO9QA">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_bDSzcGU0EeudPMCtZy-xNQ" direction="out">
-          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_SL3qUGU1EeudPMCtZy-xNQ" name="Display" direction="return"/>
       </ownedOperation>
