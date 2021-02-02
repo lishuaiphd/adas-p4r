@@ -28,15 +28,15 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXMW4GU1Eeuko5tk88a-Ng"/>
     </children>
     <element xmi:type="uml:Interface" href="odometer.skills.uml#_VVJvcGU1Eeuko5tk88a-Ng"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXLvwWU1Eeuko5tk88a-Ng" x="140" y="60" width="341" height="161"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXLvwWU1Eeuko5tk88a-Ng" x="140" y="60" width="341" height="181"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_VXWH02U1Eeuko5tk88a-Ng" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_VXWH1GU1Eeuko5tk88a-Ng"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_VXWH1mU1Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_L50Zg2VhEeuko5tk88a-Ng" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_L50ZhGVhEeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_L50ZhmVhEeuko5tk88a-Ng" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="odometer.skills.uml#_VVJvcGU1Eeuko5tk88a-Ng"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VXWH1WU1Eeuko5tk88a-Ng" x="200"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L50ZhWVhEeuko5tk88a-Ng" x="340" y="60"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_S9VRrGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_S9VRrWRzEeufoscjYXqgTw"/>
@@ -44,14 +44,14 @@
     <owner xmi:type="uml:Model" href="odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
   </styles>
   <element xmi:type="uml:Model" href="odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
-  <edges xmi:type="notation:Connector" xmi:id="_VXWH12U1Eeuko5tk88a-Ng" type="StereotypeCommentLink" source="_VXLvwGU1Eeuko5tk88a-Ng" target="_VXWH02U1Eeuko5tk88a-Ng">
-    <styles xmi:type="notation:FontStyle" xmi:id="_VXWH2GU1Eeuko5tk88a-Ng"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_VXWH3GU1Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_L50Zh2VhEeuko5tk88a-Ng" type="StereotypeCommentLink" source="_VXLvwGU1Eeuko5tk88a-Ng" target="_L50Zg2VhEeuko5tk88a-Ng">
+    <styles xmi:type="notation:FontStyle" xmi:id="_L50ZiGVhEeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_L50ZjGVhEeuko5tk88a-Ng" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="odometer.skills.uml#_VVJvcGU1Eeuko5tk88a-Ng"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VXWH2WU1Eeuko5tk88a-Ng" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VXWH2mU1Eeuko5tk88a-Ng"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VXWH22U1Eeuko5tk88a-Ng"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_L50ZiWVhEeuko5tk88a-Ng" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L50ZimVhEeuko5tk88a-Ng"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L50Zi2VhEeuko5tk88a-Ng"/>
   </edges>
 </notation:Diagram>

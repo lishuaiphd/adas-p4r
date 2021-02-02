@@ -28,15 +28,15 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_10sukWU2Eeuko5tk88a-Ng"/>
     </children>
     <element xmi:type="uml:Interface" href="trafficsigndetection.skills.uml#_1zAFYGU2Eeuko5tk88a-Ng"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_10sHcWU2Eeuko5tk88a-Ng" x="100" y="20" width="301" height="161"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_10sHcWU2Eeuko5tk88a-Ng" x="100" y="20" width="321" height="161"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_10y1I2U2Eeuko5tk88a-Ng" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_10y1JGU2Eeuko5tk88a-Ng"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_10y1JmU2Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_Whzr0GVhEeuko5tk88a-Ng" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Whzr0WVhEeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Whzr02VhEeuko5tk88a-Ng" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="trafficsigndetection.skills.uml#_1zAFYGU2Eeuko5tk88a-Ng"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_10y1JWU2Eeuko5tk88a-Ng" x="200"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Whzr0mVhEeuko5tk88a-Ng" x="300" y="20"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_ZuSoHGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_ZuSoHWRzEeufoscjYXqgTw"/>
@@ -44,14 +44,14 @@
     <owner xmi:type="uml:Model" href="trafficsigndetection.skills.uml#_ZuSoEGRzEeufoscjYXqgTw"/>
   </styles>
   <element xmi:type="uml:Model" href="trafficsigndetection.skills.uml#_ZuSoEGRzEeufoscjYXqgTw"/>
-  <edges xmi:type="notation:Connector" xmi:id="_10y1J2U2Eeuko5tk88a-Ng" type="StereotypeCommentLink" source="_10sHcGU2Eeuko5tk88a-Ng" target="_10y1I2U2Eeuko5tk88a-Ng">
-    <styles xmi:type="notation:FontStyle" xmi:id="_10y1KGU2Eeuko5tk88a-Ng"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_10y1LGU2Eeuko5tk88a-Ng" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_Whzr1GVhEeuko5tk88a-Ng" type="StereotypeCommentLink" source="_10sHcGU2Eeuko5tk88a-Ng" target="_Whzr0GVhEeuko5tk88a-Ng">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Whzr1WVhEeuko5tk88a-Ng"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Whzr2WVhEeuko5tk88a-Ng" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="trafficsigndetection.skills.uml#_1zAFYGU2Eeuko5tk88a-Ng"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_10y1KWU2Eeuko5tk88a-Ng" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_10y1KmU2Eeuko5tk88a-Ng"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_10y1K2U2Eeuko5tk88a-Ng"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Whzr1mVhEeuko5tk88a-Ng" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Whzr12VhEeuko5tk88a-Ng"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Whzr2GVhEeuko5tk88a-Ng"/>
   </edges>
 </notation:Diagram>
