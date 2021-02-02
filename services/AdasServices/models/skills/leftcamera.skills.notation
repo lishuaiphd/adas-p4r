@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_KFyCK2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Leftcamera diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_KFyCLGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_KFyCLWRzEeufoscjYXqgTw"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_KFyCLmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
-    <owner href="leftcamera.skills.uml#_KFyCIGRzEeufoscjYXqgTw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KFyCK2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Leftcamera diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_EfgvYGUyEeudPMCtZy-xNQ" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_EfhWcGUyEeudPMCtZy-xNQ" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_EfhWcWUyEeudPMCtZy-xNQ" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_EfhWcmUyEeudPMCtZy-xNQ" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_EfhWc2UyEeudPMCtZy-xNQ" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_EfhWdGUyEeudPMCtZy-xNQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_EfhWdWUyEeudPMCtZy-xNQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_EfhWdmUyEeudPMCtZy-xNQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfhWd2UyEeudPMCtZy-xNQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Efh9gGUyEeudPMCtZy-xNQ" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_JHsbcGUyEeudPMCtZy-xNQ" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="leftcamera.skills.uml#_JHFXcGUyEeudPMCtZy-xNQ"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_JHsbcWUyEeudPMCtZy-xNQ"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Efh9gWUyEeudPMCtZy-xNQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Efh9gmUyEeudPMCtZy-xNQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Efh9g2UyEeudPMCtZy-xNQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Efh9hGUyEeudPMCtZy-xNQ"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Efh9hWUyEeudPMCtZy-xNQ" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Efh9hmUyEeudPMCtZy-xNQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_Efh9h2UyEeudPMCtZy-xNQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_Efh9iGUyEeudPMCtZy-xNQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Efh9iWUyEeudPMCtZy-xNQ"/>
+    </children>
+    <element xmi:type="uml:Interface" href="leftcamera.skills.uml#_EfbP0GUyEeudPMCtZy-xNQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EfgvYWUyEeudPMCtZy-xNQ" x="260" y="80" width="381" height="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_EforNWUyEeudPMCtZy-xNQ" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_EforNmUyEeudPMCtZy-xNQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_EfpSQGUyEeudPMCtZy-xNQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="leftcamera.skills.uml#_EfbP0GUyEeudPMCtZy-xNQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EforN2UyEeudPMCtZy-xNQ" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_KFyCLGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KFyCLWRzEeufoscjYXqgTw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_KFyCLmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="leftcamera.skills.uml#_KFyCIGRzEeufoscjYXqgTw"/>
   </styles>
-  <element href="leftcamera.skills.uml#_KFyCIGRzEeufoscjYXqgTw"/>
+  <element xmi:type="uml:Model" href="leftcamera.skills.uml#_KFyCIGRzEeufoscjYXqgTw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_EfpSQWUyEeudPMCtZy-xNQ" type="StereotypeCommentLink" source="_EfgvYGUyEeudPMCtZy-xNQ" target="_EforNWUyEeudPMCtZy-xNQ">
+    <styles xmi:type="notation:FontStyle" xmi:id="_EfpSQmUyEeudPMCtZy-xNQ"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_EfpSRmUyEeudPMCtZy-xNQ" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="leftcamera.skills.uml#_EfbP0GUyEeudPMCtZy-xNQ"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EfpSQ2UyEeudPMCtZy-xNQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EfpSRGUyEeudPMCtZy-xNQ"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EfpSRWUyEeudPMCtZy-xNQ"/>
+  </edges>
 </notation:Diagram>
