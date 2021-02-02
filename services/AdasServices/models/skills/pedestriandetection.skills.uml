@@ -34,7 +34,7 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_9LsgUGUtEeuv5pRcTLDdJA" name="PedestrianDetectionSkills">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_pYJA0GUuEeuv5pRcTLDdJA" name="DetectPedestrian" method="_4Qge8PjgEeqA4v_JqiO9QA">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_8uMkoGUwEeuv5pRcTLDdJA" name="donneLeftCamera">
-          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_DuYC0GUxEeuv5pRcTLDdJA" name="Pedestrian" direction="out">
           <type xmi:type="uml:DataType" href="../services/pedestrian.servicedef.uml#_hCg1AFRLEeuFB7VlL5LR-w"/>
