@@ -409,6 +409,10 @@
         </children>
         <children xmi:type="notation:Shape" xmi:id="_5AJSsDr4Eeu3KuzfvF94vQ" type="Lifeline_Shape">
           <children xmi:type="notation:DecorationNode" xmi:id="_5AJSsjr4Eeu3KuzfvF94vQ" type="Lifeline_NameLabel"/>
+          <children xmi:type="notation:Shape" xmi:id="_i7OT0GVGEeuN9eQX4DFFvQ" type="ActionExecutionSpecification_Shape">
+            <element xmi:type="uml:ActionExecutionSpecification" href="ADAS_Requirements.uml#_i6hJMGVGEeuN9eQX4DFFvQ"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i7OT0WVGEeuN9eQX4DFFvQ" x="40" y="121" width="20" height="100"/>
+          </children>
           <element xmi:type="uml:Lifeline" href="ADAS_Requirements.uml#_5ADMEDr4Eeu3KuzfvF94vQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5AJSsTr4Eeu3KuzfvF94vQ" x="294" y="10"/>
         </children>
@@ -423,6 +427,32 @@
       <owner xmi:type="uml:Package" href="ADAS_Requirements.uml#_UGzmwDokEeuDR-FZDkAqqw"/>
     </styles>
     <element xmi:type="uml:Interaction" href="ADAS_Requirements.uml#_u6FBoDr4Eeu3KuzfvF94vQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_S82LkGVGEeuN9eQX4DFFvQ" type="Message_AsynchEdge" source="_3ohYcDr4Eeu3KuzfvF94vQ" target="_5AJSsDr4Eeu3KuzfvF94vQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_S82Lk2VGEeuN9eQX4DFFvQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S82LlGVGEeuN9eQX4DFFvQ" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_S82yoGVGEeuN9eQX4DFFvQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S82yoWVGEeuN9eQX4DFFvQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_S82LkWVGEeuN9eQX4DFFvQ"/>
+      <element xmi:type="uml:Message" href="ADAS_Requirements.uml#_S8m7AGVGEeuN9eQX4DFFvQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_S82LkmVGEeuN9eQX4DFFvQ" points="[0, 0, -200, 0]$[200, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S9PNIGVGEeuN9eQX4DFFvQ" id="(0.5,0.17285714285714285)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S9PNIWVGEeuN9eQX4DFFvQ" id="(0.5,0.17285714285714285)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_pO1m8GVGEeuN9eQX4DFFvQ" type="Message_AsynchEdge" source="_5AJSsDr4Eeu3KuzfvF94vQ" target="_3ohYcDr4Eeu3KuzfvF94vQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_pO2OAGVGEeuN9eQX4DFFvQ" type="Message_AsynchNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pO2OAWVGEeuN9eQX4DFFvQ" x="1" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_pO2OAmVGEeuN9eQX4DFFvQ" type="Message_AsynchStereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pO2OA2VGEeuN9eQX4DFFvQ" x="1" y="-33"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_pO1m8WVGEeuN9eQX4DFFvQ"/>
+      <element xmi:type="uml:Message" href="ADAS_Requirements.uml#_pCHZkGVGEeuN9eQX4DFFvQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pO1m8mVGEeuN9eQX4DFFvQ" points="[0, 0, 200, 0]$[-200, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pPmb8GVGEeuN9eQX4DFFvQ" id="(0.5,0.3157142857142857)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pPmb8WVGEeuN9eQX4DFFvQ" id="(0.5,0.3157142857142857)"/>
+    </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_gnqnwFD4EeuG9Nr4YNqGaQ" name="FeedbackRequirement" currentRowAxisProvider="_gnqnxFD4EeuG9Nr4YNqGaQ" currentColumnAxisProvider="_gnqnwVD4EeuG9Nr4YNqGaQ" tableKindId="org.eclipse.papyrus.sysml14.table.requirement">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_goH6wFD4EeuG9Nr4YNqGaQ" source="http://www.eclipse.org/papyrus/infra/nattable/version">
