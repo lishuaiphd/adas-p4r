@@ -30,19 +30,40 @@
           <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
         </region>
       </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="vitesse_echantillonngeDefaultFSM" specification="_rj0s4GU8Eeu5O-q0VXTiKA">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_wdMbIGUyEeu5O-q0VXTiKA" name="skill du lidar">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_56qbIGUyEeu5O-q0VXTiKA" name="creation_des_distances" method="_4Qge8PjgEeqA4v_JqiO9QA">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Dbe0oGU0Eeu5O-q0VXTiKA" name="vitesse_vehicule">
-          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
-        </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_W_7EoGU0Eeu5O-q0VXTiKA" name="echant_rapide" direction="return"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_q5IDsGU0Eeu5O-q0VXTiKA" name="echant_moyen" direction="return"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yUu5oGU0Eeu5O-q0VXTiKA" name="echant_lent" direction="return"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_pMMV4GU2Eeu5O-q0VXTiKA" direction="out">
           <type xmi:type="uml:DataType" href="../services/lidar.servicedef.uml#_s5oBUFA3EeuN0MABJzfdCw"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_EvrYsGU6Eeu5O-q0VXTiKA" name="echec_mesure" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rj0s4GU8Eeu5O-q0VXTiKA" name="vitesse_echantillonnge" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_x1TSAGU8Eeu5O-q0VXTiKA">
+          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_0WEloGU8Eeu5O-q0VXTiKA" name="lent" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3mOu0GU8Eeu5O-q0VXTiKA" name="moyen" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5U86cGU8Eeu5O-q0VXTiKA" name="rapide" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7FGpcGU8Eeu5O-q0VXTiKA" name="echec" direction="return"/>
       </ownedOperation>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bMY9w2RzEeufoscjYXqgTw">
@@ -77,10 +98,20 @@
   <robotics.skills:SkillFailState xmi:id="_58TZ4GUyEeu5O-q0VXTiKA" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillSuccessState xmi:id="_58UoAGUyEeu5O-q0VXTiKA" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillDefinition xmi:id="_58kfoGUyEeu5O-q0VXTiKA" description="récupère la vitesse de déplacement du véhicule puis construit un tableau de distance et le lidar et les obstacles en fonctions de la fréquence d'echantillonnage" provenance="" base_Operation="_56qbIGUyEeu5O-q0VXTiKA"/>
-  <robotics.skills:InAttribute xmi:id="_DbjGEGU0Eeu5O-q0VXTiKA" description="la vitesse du vehicule" base_Parameter="_Dbe0oGU0Eeu5O-q0VXTiKA"/>
-  <robotics.skills:SkillResult xmi:id="_XAAkMGU0Eeu5O-q0VXTiKA" description="l'echantillannage rapide du lidar pour plus de precision" base_Parameter="_W_7EoGU0Eeu5O-q0VXTiKA" kind="SUCCESS" value="vitesse d'échantillonnage rapide"/>
-  <robotics.skills:SkillResult xmi:id="_q5NjQGU0Eeu5O-q0VXTiKA" description="echantillonnage moyen du lidar, pour une precision moyenne" base_Parameter="_q5IDsGU0Eeu5O-q0VXTiKA" kind="SUCCESS" value="vitesse d'echantillonnage moyen"/>
-  <robotics.skills:SkillResult xmi:id="_yUzyIGU0Eeu5O-q0VXTiKA" description="vitesse de l'echantillonnage du lidar lent." base_Parameter="_yUu5oGU0Eeu5O-q0VXTiKA" kind="SUCCESS" value="vitesse d'echantillonnage len"/>
   <robotics.skills:OutAttribute xmi:id="_pMVf0GU2Eeu5O-q0VXTiKA" base_Parameter="_pMMV4GU2Eeu5O-q0VXTiKA"/>
-  <robotics.skills:SkillResult xmi:id="_EvxfUGU6Eeu5O-q0VXTiKA" description="" base_Parameter="_EvrYsGU6Eeu5O-q0VXTiKA" kind="FAILURE"/>
+  <robotics.skills:SkillSemantic xmi:id="_rj8BoGU8Eeu5O-q0VXTiKA" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_rj920GU8Eeu5O-q0VXTiKA" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_rj_E8GU8Eeu5O-q0VXTiKA" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_rj_E8WU8Eeu5O-q0VXTiKA" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_rj_sAGU8Eeu5O-q0VXTiKA" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_rkATEGU8Eeu5O-q0VXTiKA" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_rkA6IGU8Eeu5O-q0VXTiKA" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_rkBhMGU8Eeu5O-q0VXTiKA" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_rkCIQGU8Eeu5O-q0VXTiKA" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_rkFLkGU8Eeu5O-q0VXTiKA" base_Operation="_rj0s4GU8Eeu5O-q0VXTiKA"/>
+  <robotics.skills:InAttribute xmi:id="_x1YxkGU8Eeu5O-q0VXTiKA" base_Parameter="_x1TSAGU8Eeu5O-q0VXTiKA"/>
+  <robotics.skills:SkillResult xmi:id="_0WJeIGU8Eeu5O-q0VXTiKA" base_Parameter="_0WEloGU8Eeu5O-q0VXTiKA" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_3mU1cGU8Eeu5O-q0VXTiKA" base_Parameter="_3mOu0GU8Eeu5O-q0VXTiKA" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_5VCaAGU8Eeu5O-q0VXTiKA" base_Parameter="_5U86cGU8Eeu5O-q0VXTiKA" kind="FAILURE"/>
+  <robotics.skills:SkillResult xmi:id="_7FLh8GU8Eeu5O-q0VXTiKA" base_Parameter="_7FGpcGU8Eeu5O-q0VXTiKA" kind="FAILURE"/>
 </xmi:XMI>
