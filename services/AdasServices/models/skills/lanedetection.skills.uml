@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
   <uml:Model xmi:id="_MyjKYGRzEeufoscjYXqgTw" name="LanedetectionSkills">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_MyjKYWRzEeufoscjYXqgTw">
       <importedPackage xmi:type="uml:Package" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_ysOXAPjgEeqA4v_JqiO9QA"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_MyjKYmRzEeufoscjYXqgTw" name="defaultsemantics"/>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_xhVNIGU8EeucYueNcfn0IA">
+      <importedPackage xmi:type="uml:Model" href="../services/lanedetection.servicedef.uml#_enLnYE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="__GlscGU9EeucYueNcfn0IA">
+      <importedPackage xmi:type="uml:Model" href="../services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_KsexgGU-EeucYueNcfn0IA">
+      <importedPackage xmi:type="uml:Model" href="../services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MyjKYmRzEeufoscjYXqgTw" name="defaultsemantics">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectLaneDefaultFSM" specification="_2ReF4GU9EeucYueNcfn0IA">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_HBzhcGU8EeucYueNcfn0IA" name="LaneDetectionSkill">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_2ReF4GU9EeucYueNcfn0IA" name="DetectLane" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3cd5YGU9EeucYueNcfn0IA">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="__308IGU9EeucYueNcfn0IA">
+          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_2-Yu4GVAEeucYueNcfn0IA" direction="out">
+          <type xmi:type="uml:DataType" href="../services/lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_SzpJEGVCEeucYueNcfn0IA" name="LaneisDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_iJhG4GVCEeucYueNcfn0IA" name="LaneisNotDetected" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MyjKY2RzEeufoscjYXqgTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MyjKZGRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
@@ -26,4 +70,20 @@
   </uml:Model>
   <robotics.generics:Package xmi:id="_MyjKaWRzEeufoscjYXqgTw" base_Package="_MyjKYGRzEeufoscjYXqgTw"/>
   <robotics.generics:Package xmi:id="_MyjKamRzEeufoscjYXqgTw" base_Package="_MyjKYmRzEeufoscjYXqgTw"/>
+  <robotics.skills:SkillDefinitionSet xmi:id="_HB3y4GU8EeucYueNcfn0IA" base_Interface="_HBzhcGU8EeucYueNcfn0IA"/>
+  <robotics.skills:SkillSemantic xmi:id="_2RmowGU9EeucYueNcfn0IA" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_2Rn24GU9EeucYueNcfn0IA" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_2Rn24WU9EeucYueNcfn0IA" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_2Rod8GU9EeucYueNcfn0IA" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_2RpFAGU9EeucYueNcfn0IA" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_2RpsEGU9EeucYueNcfn0IA" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_2RpsEWU9EeucYueNcfn0IA" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_2RqTIGU9EeucYueNcfn0IA" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_2Rq6MGU9EeucYueNcfn0IA" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_2Rt9gGU9EeucYueNcfn0IA" base_Operation="_2ReF4GU9EeucYueNcfn0IA"/>
+  <robotics.skills:InAttribute xmi:id="_3cjY8GU9EeucYueNcfn0IA" base_Parameter="_3cd5YGU9EeucYueNcfn0IA"/>
+  <robotics.skills:InAttribute xmi:id="__3838GU9EeucYueNcfn0IA" base_Parameter="__308IGU9EeucYueNcfn0IA"/>
+  <robotics.skills:OutAttribute xmi:id="_2-e1gGVAEeucYueNcfn0IA" base_Parameter="_2-Yu4GVAEeucYueNcfn0IA"/>
+  <robotics.skills:SkillResult xmi:id="_SzvPsGVCEeucYueNcfn0IA" description="" base_Parameter="_SzpJEGVCEeucYueNcfn0IA" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_iJnNgGVCEeucYueNcfn0IA" description="" base_Parameter="_iJhG4GVCEeucYueNcfn0IA" kind="FAILURE"/>
 </xmi:XMI>

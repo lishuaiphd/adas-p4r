@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_MyjKa2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Lanedetection diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_MyjKbGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_MyjKbWRzEeufoscjYXqgTw"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_MyjKbmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
-    <owner href="lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MyjKa2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Lanedetection diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_HB6PIGU8EeucYueNcfn0IA" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HB6PImU8EeucYueNcfn0IA" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HB62MGU8EeucYueNcfn0IA" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HB62MWU8EeucYueNcfn0IA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HB62MmU8EeucYueNcfn0IA" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_HB62M2U8EeucYueNcfn0IA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HB62NGU8EeucYueNcfn0IA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HB62NWU8EeucYueNcfn0IA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HB62NmU8EeucYueNcfn0IA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HB62N2U8EeucYueNcfn0IA" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_2R15UGU9EeucYueNcfn0IA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="lanedetection.skills.uml#_2ReF4GU9EeucYueNcfn0IA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_2R15UWU9EeucYueNcfn0IA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_HB62OGU8EeucYueNcfn0IA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HB62OWU8EeucYueNcfn0IA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HB62OmU8EeucYueNcfn0IA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HB62O2U8EeucYueNcfn0IA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_HB62PGU8EeucYueNcfn0IA" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_HB62PWU8EeucYueNcfn0IA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_HB62PmU8EeucYueNcfn0IA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_HB62P2U8EeucYueNcfn0IA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HB62QGU8EeucYueNcfn0IA"/>
+    </children>
+    <element xmi:type="uml:Interface" href="lanedetection.skills.uml#_HBzhcGU8EeucYueNcfn0IA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HB6PIWU8EeucYueNcfn0IA" x="420" y="60" width="661" height="401"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_pwa4wGVAEeucYueNcfn0IA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_pwa4wWVAEeucYueNcfn0IA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_pwbf0GVAEeucYueNcfn0IA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="lanedetection.skills.uml#_HBzhcGU8EeucYueNcfn0IA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pwa4wmVAEeucYueNcfn0IA" x="460" y="60"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_MyjKbGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MyjKbWRzEeufoscjYXqgTw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_MyjKbmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
   </styles>
-  <element href="lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
+  <element xmi:type="uml:Model" href="lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_pwbf0WVAEeucYueNcfn0IA" type="StereotypeCommentLink" source="_HB6PIGU8EeucYueNcfn0IA" target="_pwa4wGVAEeucYueNcfn0IA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_pwbf0mVAEeucYueNcfn0IA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_pwbf1mVAEeucYueNcfn0IA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="lanedetection.skills.uml#_HBzhcGU8EeucYueNcfn0IA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pwbf02VAEeucYueNcfn0IA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pwbf1GVAEeucYueNcfn0IA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pwbf1WVAEeucYueNcfn0IA"/>
+  </edges>
 </notation:Diagram>
