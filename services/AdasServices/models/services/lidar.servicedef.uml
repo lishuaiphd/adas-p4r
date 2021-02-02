@@ -31,7 +31,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ibmew08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_VHB6YFAtEeuMRt809dAxfw" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_s5oBUFA3EeuN0MABJzfdCw" name="donnees">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_s5oBUFA3EeuN0MABJzfdCw" name="distances laser">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_2xHq4FA3EeuN0MABJzfdCw" name="distance" type="_RioEUFSzEeuU77FJedd79A"/>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_RioEUFSzEeuU77FJedd79A" name="Lidar">

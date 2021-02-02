@@ -19,7 +19,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_tKhCo1lvEeuV3PQBT7TM0Q" name="Lidar">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ETBOMFo_EeuwkYz9E6qJ8A" name="activity1"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_l-AiIFo_EeuwkYz9E6qJ8A" name="activity1" type="_l9j2MFo_EeuwkYz9E6qJ8A"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_PQBMMF-uEeuam-wfkQaMVw" name="donnees" type="_StSkUF-uEeuam-wfkQaMVw" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_PQBMMF-uEeuam-wfkQaMVw" name="distances_laser" type="_StSkUF-uEeuam-wfkQaMVw" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_FnzlsF-3Eeuam-wfkQaMVw" name="activity1" type="_FnqbwF-3Eeuam-wfkQaMVw"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_ou5R8F-8Eeuam-wfkQaMVw" name="vitesse" type="_rPUAQF-8Eeuam-wfkQaMVw" aggregation="composite"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_gYz5IF-uEeuam-wfkQaMVw" name="Connects7">
