@@ -10,23 +10,34 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_hNks8GVLEeu9_ad_niJaAg">
       <importedPackage xmi:type="uml:Model" href="../../../services/AdasServices/models/skills/lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_m_aJsGVAEeu9DdkwohXNjA" name="FollowLane" node="_2PYzgGVDEeu9DdkwohXNjA _R_UBwGVFEeu9DdkwohXNjA _ntRJsGVKEeu9_ad_niJaAg _HJ0lQGVNEeu9_ad_niJaAg _HuKocGVNEeu9_ad_niJaAg _QXWEwGVNEeu9_ad_niJaAg">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_HqEwoGfUEeu1s8FOAgJV7A">
+      <importedPackage xmi:type="uml:Model" href="../../../services/AdasServices/models/skills/speed.skills.uml#_VIqgwGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_PmAFYGfUEeu1s8FOAgJV7A">
+      <importedPackage xmi:type="uml:Model" href="../../../services/AdasServices/models/skills/odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_xe55gGfUEeu1s8FOAgJV7A">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/skills/odometer.skills.uml#_S9VRoGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_m_aJsGVAEeu9DdkwohXNjA" name="FollowLane" node="_2PYzgGVDEeu9DdkwohXNjA _R_UBwGVFEeu9DdkwohXNjA _HuKocGVNEeu9_ad_niJaAg _GZ0CoGfUEeu1s8FOAgJV7A _OhZNwGfUEeu1s8FOAgJV7A">
       <edge xmi:type="uml:ControlFlow" xmi:id="_JYnYEGVNEeu9_ad_niJaAg" name="ControlFlowEdge6" target="_HuKocGVNEeu9_ad_niJaAg" source="_2PYzgGVDEeu9DdkwohXNjA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_KzezkGVNEeu9_ad_niJaAg" name="ControlFlowEdge7" target="_HJ0lQGVNEeu9_ad_niJaAg" source="_2PYzgGVDEeu9DdkwohXNjA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_LzUf8GVNEeu9_ad_niJaAg" name="ControlFlowEdge8" target="_R_UBwGVFEeu9DdkwohXNjA" source="_HJ0lQGVNEeu9_ad_niJaAg"/>
-      <edge xmi:type="uml:ObjectFlow" xmi:id="_PAxTYGVNEeu9_ad_niJaAg" name="DataFlowEdge9" target="_Is9zAGVNEeu9_ad_niJaAg" source="_ntd-AGVKEeu9_ad_niJaAg">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_PBnA4GVNEeu9_ad_niJaAg" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_PBnn8GVNEeu9_ad_niJaAg" value="1"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_VINJsGfUEeu1s8FOAgJV7A" name="DataFlowEdge14" target="_HqWdcGfUEeu1s8FOAgJV7A" source="_PmIBMGfUEeu1s8FOAgJV7A">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_VI1b0GfUEeu1s8FOAgJV7A" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_VI2C4GfUEeu1s8FOAgJV7A" value="1"/>
       </edge>
-      <edge xmi:type="uml:ObjectFlow" xmi:id="_XM94wGVNEeu9_ad_niJaAg" name="DataFlowEdge11" target="_Is9L8GVNEeu9_ad_niJaAg" source="_QXlVUGVNEeu9_ad_niJaAg">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_XN_zgGVNEeu9_ad_niJaAg" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_XOAakGVNEeu9_ad_niJaAg" value="1"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_cjP-8GfUEeu1s8FOAgJV7A" name="DataFlowEdge8" target="_Is9L8GVNEeu9_ad_niJaAg" source="_TOyFkGVFEeu9DdkwohXNjA">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_cjnyYGfUEeu1s8FOAgJV7A" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_cjnyYWfUEeu1s8FOAgJV7A" value="1"/>
       </edge>
-      <node xmi:type="uml:CallBehaviorAction" xmi:id="_2PYzgGVDEeu9DdkwohXNjA" name="" outgoing="_JYnYEGVNEeu9_ad_niJaAg _KzezkGVNEeu9_ad_niJaAg">
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_d7pVQGfUEeu1s8FOAgJV7A" name="DataFlowEdge9" target="_Is9zAGVNEeu9_ad_niJaAg" source="_HqXEgGfUEeu1s8FOAgJV7A">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_d8Dk8GfUEeu1s8FOAgJV7A" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_d8Dk8WfUEeu1s8FOAgJV7A" value="1"/>
+      </edge>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_2PYzgGVDEeu9DdkwohXNjA" name="" outgoing="_JYnYEGVNEeu9_ad_niJaAg">
         <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
       </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_R_UBwGVFEeu9DdkwohXNjA" name="" incoming="_LzUf8GVNEeu9_ad_niJaAg">
-        <result xmi:type="uml:OutputPin" xmi:id="_TOyFkGVFEeu9DdkwohXNjA">
+      <node xmi:type="uml:CallOperationAction" xmi:id="_R_UBwGVFEeu9DdkwohXNjA" name="">
+        <result xmi:type="uml:OutputPin" xmi:id="_TOyFkGVFEeu9DdkwohXNjA" outgoing="_cjP-8GfUEeu1s8FOAgJV7A">
           <name xsi:nil="true"/>
           <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
           <upperBound xmi:type="uml:LiteralInteger" xmi:id="_TO7PgGVFEeu9DdkwohXNjA" value="1"/>
@@ -35,23 +46,13 @@
         </result>
         <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/leftcamera.skills.uml#_JHFXcGUyEeudPMCtZy-xNQ"/>
       </node>
-      <node xmi:type="uml:ValueSpecificationAction" xmi:id="_ntRJsGVKEeu9_ad_niJaAg" name="SPEED">
-        <result xmi:type="uml:OutputPin" xmi:id="_ntd-AGVKEeu9_ad_niJaAg" name="p" outgoing="_PAxTYGVNEeu9_ad_niJaAg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ntd-AWVKEeu9_ad_niJaAg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ntd-AmVKEeu9_ad_niJaAg" value="1"/>
-        </result>
-        <value xmi:type="uml:LiteralString" xmi:id="_qJulEGVKEeu9_ad_niJaAg" value="speed"/>
-      </node>
-      <node xmi:type="uml:CallBehaviorAction" xmi:id="_HJ0lQGVNEeu9_ad_niJaAg" name="" incoming="_KzezkGVNEeu9_ad_niJaAg" outgoing="_LzUf8GVNEeu9_ad_niJaAg">
-        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_BIq1QAboEeqCcYqBkTNorg"/>
-      </node>
       <node xmi:type="uml:CallOperationAction" xmi:id="_HuKocGVNEeu9_ad_niJaAg" name="" incoming="_JYnYEGVNEeu9_ad_niJaAg">
-        <argument xmi:type="uml:InputPin" xmi:id="_Is9L8GVNEeu9_ad_niJaAg" name="Image" incoming="_XM94wGVNEeu9_ad_niJaAg">
+        <argument xmi:type="uml:InputPin" xmi:id="_Is9L8GVNEeu9_ad_niJaAg" name="Image" incoming="_cjP-8GfUEeu1s8FOAgJV7A">
           <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Is9L8WVNEeu9_ad_niJaAg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Is9L8mVNEeu9_ad_niJaAg" value="1"/>
         </argument>
-        <argument xmi:type="uml:InputPin" xmi:id="_Is9zAGVNEeu9_ad_niJaAg" name="Speed" incoming="_PAxTYGVNEeu9_ad_niJaAg">
+        <argument xmi:type="uml:InputPin" xmi:id="_Is9zAGVNEeu9_ad_niJaAg" name="Speed" incoming="_d7pVQGfUEeu1s8FOAgJV7A">
           <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Is9zAWVNEeu9_ad_niJaAg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Is9zAmVNEeu9_ad_niJaAg" value="1"/>
@@ -64,48 +65,53 @@
         </result>
         <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/lanedetection.skills.uml#_2ReF4GU9EeucYueNcfn0IA"/>
       </node>
-      <node xmi:type="uml:ValueSpecificationAction" xmi:id="_QXWEwGVNEeu9_ad_niJaAg" name="ImageLeftCamera">
-        <result xmi:type="uml:OutputPin" xmi:id="_QXlVUGVNEeu9_ad_niJaAg" name="p" outgoing="_XM94wGVNEeu9_ad_niJaAg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QXlVUWVNEeu9_ad_niJaAg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QXlVUmVNEeu9_ad_niJaAg" value="1"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_GZ0CoGfUEeu1s8FOAgJV7A" name="">
+        <argument xmi:type="uml:InputPin" xmi:id="_HqWdcGfUEeu1s8FOAgJV7A" incoming="_VINJsGfUEeu1s8FOAgJV7A">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/odometer.servicedef.uml#_3DXmgFNuEeuQhfTHhMdrVQ"/>
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_HqnjMGfUEeu1s8FOAgJV7A" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HqWdcWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HqWdcmfUEeu1s8FOAgJV7A" value="1"/>
+        </argument>
+        <result xmi:type="uml:OutputPin" xmi:id="_HqXEgGfUEeu1s8FOAgJV7A" outgoing="_d7pVQGfUEeu1s8FOAgJV7A">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_HqoKQGfUEeu1s8FOAgJV7A" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HqXEgWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HqXEgmfUEeu1s8FOAgJV7A" value="1"/>
         </result>
-        <value xmi:type="uml:LiteralString" xmi:id="_VRUEYGVNEeu9_ad_niJaAg" value="image"/>
+        <operation xmi:type="uml:Operation" href="../../../services/AdasServices/models/skills/speed.skills.uml#_pQYSUGU2Eeuko5tk88a-Ng"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_OhZNwGfUEeu1s8FOAgJV7A" name="">
+        <result xmi:type="uml:OutputPin" xmi:id="_PmIBMGfUEeu1s8FOAgJV7A" outgoing="_VINJsGfUEeu1s8FOAgJV7A">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/odometer.servicedef.uml#_3DXmgFNuEeuQhfTHhMdrVQ"/>
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_PmMSoGfUEeu1s8FOAgJV7A" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PmIBMWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PmIBMmfUEeu1s8FOAgJV7A" value="1"/>
+        </result>
+        <operation xmi:type="uml:Operation" href="../../../services/AdasServices/models/skills/odometer.skills.uml#_V3sb0GU1Eeuko5tk88a-Ng"/>
       </node>
     </packagedElement>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_rL1t4GVAEeu9DdkwohXNjA" name="DetectPedestrian" node="_pfGeQGVLEeu9_ad_niJaAg _p4Dw0GVLEeu9_ad_niJaAg _tXFccGVLEeu9_ad_niJaAg _xy-Y8GVLEeu9_ad_niJaAg">
-      <edge xmi:type="uml:ControlFlow" xmi:id="_szausGVLEeu9_ad_niJaAg" name="ControlFlowEdge3" target="_p4Dw0GVLEeu9_ad_niJaAg" source="_pfGeQGVLEeu9_ad_niJaAg"/>
-      <edge xmi:type="uml:ObjectFlow" xmi:id="_vPGuAGVLEeu9_ad_niJaAg" name="DataFlowEdge5" target="_qzxyMGVLEeu9_ad_niJaAg" source="_uX9DkGVLEeu9_ad_niJaAg">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_vPWloGVLEeu9_ad_niJaAg" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_vPWloWVLEeu9_ad_niJaAg" value="1"/>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_rL1t4GVAEeu9DdkwohXNjA" name="DetectPedestrian" node="_pfGeQGVLEeu9_ad_niJaAg _tXFccGVLEeu9_ad_niJaAg _pBfoUGfUEeu1s8FOAgJV7A _t8jNEGfUEeu1s8FOAgJV7A _wjINwGfUEeu1s8FOAgJV7A">
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_r4H3MGfUEeu1s8FOAgJV7A" name="DataFlowEdge4" target="_qNPCsGfUEeu1s8FOAgJV7A" source="_uX9DkGVLEeu9_ad_niJaAg">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_r4aLEGfUEeu1s8FOAgJV7A" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_r4aLEWfUEeu1s8FOAgJV7A" value="1"/>
       </edge>
-      <edge xmi:type="uml:ObjectFlow" xmi:id="_16Uo0GVLEeu9_ad_niJaAg" name="DataFlowEdge7" target="_qzxyM2VLEeu9_ad_niJaAg" source="_xzEfkGVLEeu9_ad_niJaAg">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_16lukGVLEeu9_ad_niJaAg" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_16lukWVLEeu9_ad_niJaAg" value="1"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_wEHWgGfUEeu1s8FOAgJV7A" name="DataFlowEdge6" target="_qNPCs2fUEeu1s8FOAgJV7A" source="_u8rNUGfUEeu1s8FOAgJV7A">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_wEZqYGfUEeu1s8FOAgJV7A" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_wEaRcGfUEeu1s8FOAgJV7A" value="1"/>
       </edge>
-      <node xmi:type="uml:CallBehaviorAction" xmi:id="_pfGeQGVLEeu9_ad_niJaAg" name="" outgoing="_szausGVLEeu9_ad_niJaAg">
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_yeV9QGfUEeu1s8FOAgJV7A" name="DataFlowEdge8" target="_u8qmQGfUEeu1s8FOAgJV7A" source="_xfAnMGfUEeu1s8FOAgJV7A">
+        <guard xmi:type="uml:LiteralBoolean" xmi:id="_yesikGfUEeu1s8FOAgJV7A" value="true"/>
+        <weight xmi:type="uml:LiteralInteger" xmi:id="_yesikWfUEeu1s8FOAgJV7A" value="1"/>
+      </edge>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_7qcgcGfUEeu1s8FOAgJV7A" name="ControlFlowEdge9" target="_pBfoUGfUEeu1s8FOAgJV7A" source="_pfGeQGVLEeu9_ad_niJaAg"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_pfGeQGVLEeu9_ad_niJaAg" name="" outgoing="_7qcgcGfUEeu1s8FOAgJV7A">
         <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
       </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_p4Dw0GVLEeu9_ad_niJaAg" name="" incoming="_szausGVLEeu9_ad_niJaAg">
-        <argument xmi:type="uml:InputPin" xmi:id="_qzxyMGVLEeu9_ad_niJaAg" name="Image" incoming="_vPGuAGVLEeu9_ad_niJaAg">
-          <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzxyMWVLEeu9_ad_niJaAg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzxyMmVLEeu9_ad_niJaAg" value="1"/>
-        </argument>
-        <argument xmi:type="uml:InputPin" xmi:id="_qzxyM2VLEeu9_ad_niJaAg" name="Speed" incoming="_16Uo0GVLEeu9_ad_niJaAg">
-          <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzxyNGVLEeu9_ad_niJaAg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzxyNWVLEeu9_ad_niJaAg" value="1"/>
-        </argument>
-        <result xmi:type="uml:OutputPin" xmi:id="_qzxyNmVLEeu9_ad_niJaAg" name="Lane">
-          <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
-          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_qz5uAGVLEeu9_ad_niJaAg" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qzxyN2VLEeu9_ad_niJaAg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qzxyOGVLEeu9_ad_niJaAg" value="1"/>
-        </result>
-        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/lanedetection.skills.uml#_2ReF4GU9EeucYueNcfn0IA"/>
-      </node>
       <node xmi:type="uml:CallOperationAction" xmi:id="_tXFccGVLEeu9_ad_niJaAg" name="">
-        <result xmi:type="uml:OutputPin" xmi:id="_uX9DkGVLEeu9_ad_niJaAg" outgoing="_vPGuAGVLEeu9_ad_niJaAg">
+        <result xmi:type="uml:OutputPin" xmi:id="_uX9DkGVLEeu9_ad_niJaAg" outgoing="_r4H3MGfUEeu1s8FOAgJV7A">
           <name xsi:nil="true"/>
           <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
           <upperBound xmi:type="uml:LiteralInteger" xmi:id="_uYAG4GVLEeu9_ad_niJaAg" value="1"/>
@@ -114,12 +120,66 @@
         </result>
         <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/leftcamera.skills.uml#_JHFXcGUyEeudPMCtZy-xNQ"/>
       </node>
-      <node xmi:type="uml:ValueSpecificationAction" xmi:id="_xy-Y8GVLEeu9_ad_niJaAg" name="SPEED">
-        <result xmi:type="uml:OutputPin" xmi:id="_xzEfkGVLEeu9_ad_niJaAg" name="p" outgoing="_16Uo0GVLEeu9_ad_niJaAg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xzEfkWVLEeu9_ad_niJaAg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xzEfkmVLEeu9_ad_niJaAg" value="1"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_pBfoUGfUEeu1s8FOAgJV7A" name="" incoming="_7qcgcGfUEeu1s8FOAgJV7A">
+        <argument xmi:type="uml:InputPin" xmi:id="_qNPCsGfUEeu1s8FOAgJV7A" name="Image" incoming="_r4H3MGfUEeu1s8FOAgJV7A">
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qNPCsWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qNPCsmfUEeu1s8FOAgJV7A" value="1"/>
+        </argument>
+        <argument xmi:type="uml:InputPin" xmi:id="_qNPCs2fUEeu1s8FOAgJV7A" name="Speed" incoming="_wEHWgGfUEeu1s8FOAgJV7A">
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qNPCtGfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qNPCtWfUEeu1s8FOAgJV7A" value="1"/>
+        </argument>
+        <result xmi:type="uml:OutputPin" xmi:id="_qNPpwGfUEeu1s8FOAgJV7A" name="Lane">
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_qNYzsGfUEeu1s8FOAgJV7A" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qNPpwWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qNPpwmfUEeu1s8FOAgJV7A" value="1"/>
         </result>
-        <value xmi:type="uml:LiteralString" xmi:id="_0tTcEGVLEeu9_ad_niJaAg" value="speed"/>
+        <operation xmi:type="uml:Operation" href="../../../services/AdasServices/models/skills/lanedetection.skills.uml#_2ReF4GU9EeucYueNcfn0IA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_t8jNEGfUEeu1s8FOAgJV7A" name="">
+        <argument xmi:type="uml:InputPin" xmi:id="_u8qmQGfUEeu1s8FOAgJV7A" incoming="_yeV9QGfUEeu1s8FOAgJV7A">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/odometer.servicedef.uml#_3DXmgFNuEeuQhfTHhMdrVQ"/>
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_u8xT8GfUEeu1s8FOAgJV7A" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u8qmQWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8qmQmfUEeu1s8FOAgJV7A" value="1"/>
+        </argument>
+        <result xmi:type="uml:OutputPin" xmi:id="_u8rNUGfUEeu1s8FOAgJV7A" outgoing="_wEHWgGfUEeu1s8FOAgJV7A">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_u8xT8WfUEeu1s8FOAgJV7A" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u8rNUWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8rNUmfUEeu1s8FOAgJV7A" value="1"/>
+        </result>
+        <operation xmi:type="uml:Operation" href="../../../services/AdasServices/models/skills/speed.skills.uml#_pQYSUGU2Eeuko5tk88a-Ng"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_wjINwGfUEeu1s8FOAgJV7A" name="">
+        <result xmi:type="uml:OutputPin" xmi:id="_xfAnMGfUEeu1s8FOAgJV7A" outgoing="_yeV9QGfUEeu1s8FOAgJV7A">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/odometer.servicedef.uml#_3DXmgFNuEeuQhfTHhMdrVQ"/>
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_xfDqgGfUEeu1s8FOAgJV7A" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xfAnMWfUEeu1s8FOAgJV7A" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xfAnMmfUEeu1s8FOAgJV7A" value="1"/>
+        </result>
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/odometer.skills.uml#_V3sb0GU1Eeuko5tk88a-Ng"/>
+      </node>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_GAl04GfVEeu1s8FOAgJV7A" name="FollowRoad" node="_S-zXwGfVEeu1s8FOAgJV7A">
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_S-zXwGfVEeu1s8FOAgJV7A" name="">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
+      </node>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_s2i8YGfWEeu1s8FOAgJV7A" name="DetectTrafficSign" node="_ymIVYGfWEeu1s8FOAgJV7A">
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_ymIVYGfWEeu1s8FOAgJV7A" name="">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
+      </node>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_zsoDYGfWEeu1s8FOAgJV7A" name="DetectObstacle" node="_1toR0GfWEeu1s8FOAgJV7A">
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_1toR0GfWEeu1s8FOAgJV7A" name="">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
       </node>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xFxE0mRzEeufoscjYXqgTw">
@@ -164,42 +224,45 @@
   <bt:TreeRoot xmi:id="_qcgisGVAEeu9DdkwohXNjA" base_Activity="_m_aJsGVAEeu9DdkwohXNjA"/>
   <robotics.behavior:Task xmi:id="_sXfosGVAEeu9DdkwohXNjA" base_Class="_rL1t4GVAEeu9DdkwohXNjA" base_Behavior="_rL1t4GVAEeu9DdkwohXNjA"/>
   <bt:TreeRoot xmi:id="_sXrO4GVAEeu9DdkwohXNjA" base_Activity="_rL1t4GVAEeu9DdkwohXNjA"/>
-  <bt:ControlFlowEdge xmi:id="_LiHcMGVCEeu9DdkwohXNjA"/>
   <bt:Fallback xmi:id="_2PkZsGVDEeu9DdkwohXNjA" base_Action="_2PYzgGVDEeu9DdkwohXNjA"/>
   <bt:Action xmi:id="_TOqw0GVFEeu9DdkwohXNjA" base_Action="_R_UBwGVFEeu9DdkwohXNjA"/>
   <bt:OutFlowPort xmi:id="_TO6BYGVFEeu9DdkwohXNjA" base_OutputPin="_TOyFkGVFEeu9DdkwohXNjA"/>
-  <bt:ControlFlowEdge xmi:id="_imEjMGVGEeu9_ad_niJaAg"/>
-  <bt:ControlFlowEdge xmi:id="_j662QGVGEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_jspz8GVKEeu9_ad_niJaAg"/>
-  <bt:Parameter xmi:id="_ntZFgGVKEeu9_ad_niJaAg" base_ValueSpecificationAction="_ntRJsGVKEeu9_ad_niJaAg"/>
-  <bt:OutFlowPort xmi:id="_ntkrsGVKEeu9_ad_niJaAg" base_OutputPin="_ntd-AGVKEeu9_ad_niJaAg"/>
-  <bt:ControlFlowEdge xmi:id="_vGy8AGVKEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_yqAkEGVKEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_i_RUEGVLEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_jhIrAGVLEeu9_ad_niJaAg"/>
-  <bt:ControlFlowEdge xmi:id="_k83CIGVLEeu9_ad_niJaAg"/>
   <bt:Fallback xmi:id="_pfKIoGVLEeu9_ad_niJaAg" base_Action="_pfGeQGVLEeu9_ad_niJaAg"/>
-  <bt:Action xmi:id="_qzuH0GVLEeu9_ad_niJaAg" base_Action="_p4Dw0GVLEeu9_ad_niJaAg"/>
-  <bt:InFlowPort xmi:id="_qz0OcGVLEeu9_ad_niJaAg" base_InputPin="_qzxyMGVLEeu9_ad_niJaAg"/>
-  <bt:InFlowPort xmi:id="_qz2qsGVLEeu9_ad_niJaAg" base_InputPin="_qzxyM2VLEeu9_ad_niJaAg"/>
-  <bt:OutFlowPort xmi:id="_qz5G8GVLEeu9_ad_niJaAg" base_OutputPin="_qzxyNmVLEeu9_ad_niJaAg"/>
-  <bt:ControlFlowEdge xmi:id="_szdyAGVLEeu9_ad_niJaAg" base_ControlFlow="_szausGVLEeu9_ad_niJaAg"/>
   <bt:Action xmi:id="_uX5ZMGVLEeu9_ad_niJaAg" base_Action="_tXFccGVLEeu9_ad_niJaAg"/>
   <bt:OutFlowPort xmi:id="_uX_f0GVLEeu9_ad_niJaAg" base_OutputPin="_uX9DkGVLEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_vPKYYGVLEeu9_ad_niJaAg" base_ObjectFlow="_vPGuAGVLEeu9_ad_niJaAg"/>
-  <bt:Parameter xmi:id="_xzBcQGVLEeu9_ad_niJaAg" base_ValueSpecificationAction="_xy-Y8GVLEeu9_ad_niJaAg"/>
-  <bt:OutFlowPort xmi:id="_xzG70GVLEeu9_ad_niJaAg" base_OutputPin="_xzEfkGVLEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_16XFEGVLEeu9_ad_niJaAg" base_ObjectFlow="_16Uo0GVLEeu9_ad_niJaAg"/>
-  <bt:Sequence xmi:id="_HJ8hEGVNEeu9_ad_niJaAg" base_Action="_HJ0lQGVNEeu9_ad_niJaAg"/>
   <bt:Action xmi:id="_IsvJgGVNEeu9_ad_niJaAg" base_Action="_HuKocGVNEeu9_ad_niJaAg"/>
   <bt:InFlowPort xmi:id="_ItFHwGVNEeu9_ad_niJaAg" base_InputPin="_Is9L8GVNEeu9_ad_niJaAg"/>
   <bt:InFlowPort xmi:id="_ItKAQGVNEeu9_ad_niJaAg" base_InputPin="_Is9zAGVNEeu9_ad_niJaAg"/>
   <bt:OutFlowPort xmi:id="_ItPf0GVNEeu9_ad_niJaAg" base_OutputPin="_Is9zA2VNEeu9_ad_niJaAg"/>
   <bt:ControlFlowEdge xmi:id="_JYuFwGVNEeu9_ad_niJaAg" base_ControlFlow="_JYnYEGVNEeu9_ad_niJaAg"/>
-  <bt:ControlFlowEdge xmi:id="_KzlhQGVNEeu9_ad_niJaAg" base_ControlFlow="_KzezkGVNEeu9_ad_niJaAg"/>
-  <bt:ControlFlowEdge xmi:id="_Lzb0sGVNEeu9_ad_niJaAg" base_ControlFlow="_LzUf8GVNEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_PA6dUGVNEeu9_ad_niJaAg" base_ObjectFlow="_PAxTYGVNEeu9_ad_niJaAg"/>
-  <bt:Parameter xmi:id="_QXcycGVNEeu9_ad_niJaAg" base_ValueSpecificationAction="_QXWEwGVNEeu9_ad_niJaAg"/>
-  <bt:OutFlowPort xmi:id="_QXqN0GVNEeu9_ad_niJaAg" base_OutputPin="_QXlVUGVNEeu9_ad_niJaAg"/>
-  <bt:DataFlowEdge xmi:id="_XNEmcGVNEeu9_ad_niJaAg" base_ObjectFlow="_XM94wGVNEeu9_ad_niJaAg"/>
+  <bt:Action xmi:id="_HqNTgGfUEeu1s8FOAgJV7A" base_Action="_GZ0CoGfUEeu1s8FOAgJV7A"/>
+  <bt:InFlowPort xmi:id="_Hqau4GfUEeu1s8FOAgJV7A" base_InputPin="_HqWdcGfUEeu1s8FOAgJV7A"/>
+  <bt:OutFlowPort xmi:id="_HqeZQGfUEeu1s8FOAgJV7A" base_OutputPin="_HqXEgGfUEeu1s8FOAgJV7A"/>
+  <bt:Action xmi:id="_PmB6kGfUEeu1s8FOAgJV7A" base_Action="_OhZNwGfUEeu1s8FOAgJV7A"/>
+  <bt:OutFlowPort xmi:id="_PmLEgGfUEeu1s8FOAgJV7A" base_OutputPin="_PmIBMGfUEeu1s8FOAgJV7A"/>
+  <bt:DataFlowEdge xmi:id="_VIW6sGfUEeu1s8FOAgJV7A" base_ObjectFlow="_VINJsGfUEeu1s8FOAgJV7A"/>
+  <bt:DataFlowEdge xmi:id="_cjTpUGfUEeu1s8FOAgJV7A" base_ObjectFlow="_cjP-8GfUEeu1s8FOAgJV7A"/>
+  <bt:DataFlowEdge xmi:id="_d7s_oGfUEeu1s8FOAgJV7A" base_ObjectFlow="_d7pVQGfUEeu1s8FOAgJV7A"/>
+  <bt:Action xmi:id="_qNI8EGfUEeu1s8FOAgJV7A" base_Action="_pBfoUGfUEeu1s8FOAgJV7A"/>
+  <bt:InFlowPort xmi:id="_qNStEGfUEeu1s8FOAgJV7A" base_InputPin="_qNPCsGfUEeu1s8FOAgJV7A"/>
+  <bt:InFlowPort xmi:id="_qNVJUGfUEeu1s8FOAgJV7A" base_InputPin="_qNPCs2fUEeu1s8FOAgJV7A"/>
+  <bt:OutFlowPort xmi:id="_qNYMoGfUEeu1s8FOAgJV7A" base_OutputPin="_qNPpwGfUEeu1s8FOAgJV7A"/>
+  <bt:DataFlowEdge xmi:id="_r4LhkGfUEeu1s8FOAgJV7A" base_ObjectFlow="_r4H3MGfUEeu1s8FOAgJV7A"/>
+  <bt:Action xmi:id="_u8kfoGfUEeu1s8FOAgJV7A" base_Action="_t8jNEGfUEeu1s8FOAgJV7A"/>
+  <bt:InFlowPort xmi:id="_u8tpkGfUEeu1s8FOAgJV7A" base_InputPin="_u8qmQGfUEeu1s8FOAgJV7A"/>
+  <bt:OutFlowPort xmi:id="_u8wF0GfUEeu1s8FOAgJV7A" base_OutputPin="_u8rNUGfUEeu1s8FOAgJV7A"/>
+  <bt:DataFlowEdge xmi:id="_wEKZ0GfUEeu1s8FOAgJV7A" base_ObjectFlow="_wEHWgGfUEeu1s8FOAgJV7A"/>
+  <bt:Action xmi:id="_xe7HoGfUEeu1s8FOAgJV7A" base_Action="_wjINwGfUEeu1s8FOAgJV7A"/>
+  <bt:OutFlowPort xmi:id="_xfDDcGfUEeu1s8FOAgJV7A" base_OutputPin="_xfAnMGfUEeu1s8FOAgJV7A"/>
+  <bt:DataFlowEdge xmi:id="_yeZnoGfUEeu1s8FOAgJV7A" base_ObjectFlow="_yeV9QGfUEeu1s8FOAgJV7A"/>
+  <bt:ControlFlowEdge xmi:id="_7qgK0GfUEeu1s8FOAgJV7A" base_ControlFlow="_7qcgcGfUEeu1s8FOAgJV7A"/>
+  <robotics.behavior:Task xmi:id="_PMwCcGfVEeu1s8FOAgJV7A" base_Class="_GAl04GfVEeu1s8FOAgJV7A" base_Behavior="_GAl04GfVEeu1s8FOAgJV7A"/>
+  <bt:TreeRoot xmi:id="_PM3-QGfVEeu1s8FOAgJV7A" base_Activity="_GAl04GfVEeu1s8FOAgJV7A"/>
+  <bt:Fallback xmi:id="_S-7TkGfVEeu1s8FOAgJV7A" base_Action="_S-zXwGfVEeu1s8FOAgJV7A"/>
+  <robotics.behavior:Task xmi:id="_yBq9cGfWEeu1s8FOAgJV7A" base_Class="_s2i8YGfWEeu1s8FOAgJV7A" base_Behavior="_s2i8YGfWEeu1s8FOAgJV7A"/>
+  <bt:TreeRoot xmi:id="_yBySMGfWEeu1s8FOAgJV7A" base_Activity="_s2i8YGfWEeu1s8FOAgJV7A"/>
+  <bt:Fallback xmi:id="_ymMm0GfWEeu1s8FOAgJV7A" base_Action="_ymIVYGfWEeu1s8FOAgJV7A"/>
+  <robotics.behavior:Task xmi:id="_1SvsoGfWEeu1s8FOAgJV7A" base_Class="_zsoDYGfWEeu1s8FOAgJV7A" base_Behavior="_zsoDYGfWEeu1s8FOAgJV7A"/>
+  <bt:TreeRoot xmi:id="_1S3ocGfWEeu1s8FOAgJV7A" base_Activity="_zsoDYGfWEeu1s8FOAgJV7A"/>
+  <bt:Fallback xmi:id="_1tr8MGfWEeu1s8FOAgJV7A" base_Action="_1toR0GfWEeu1s8FOAgJV7A"/>
 </xmi:XMI>
