@@ -33,7 +33,6 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_bDSzcGU0EeudPMCtZy-xNQ" direction="out">
           <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_SL3qUGU1EeudPMCtZy-xNQ" name="Display" direction="return"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_jDJ6EGVBEeu9DdkwohXNjA" name="ImageDetected" direction="return"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_lnthgGVBEeu9DdkwohXNjA" name="ImageNoDetected" direction="return"/>
       </ownedOperation>
@@ -71,7 +70,6 @@
   <robotics.skills:SkillSuccessState xmi:id="_JHaHkGUyEeudPMCtZy-xNQ" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillDefinition xmi:id="_JHeZAGUyEeudPMCtZy-xNQ" base_Operation="_JHFXcGUyEeudPMCtZy-xNQ"/>
   <robotics.skills:OutAttribute xmi:id="_bDY6EGU0EeudPMCtZy-xNQ" base_Parameter="_bDSzcGU0EeudPMCtZy-xNQ"/>
-  <robotics.skills:SkillResult xmi:id="_SL_mIGU1EeudPMCtZy-xNQ" base_Parameter="_SL3qUGU1EeudPMCtZy-xNQ" value="Camera qui capte l'image et envoie "/>
   <robotics.skills:SkillResult xmi:id="_jDdcEGVBEeu9DdkwohXNjA" base_Parameter="_jDJ6EGVBEeu9DdkwohXNjA" kind="SUCCESS"/>
   <robotics.skills:SkillResult xmi:id="_ln-AMGVBEeu9DdkwohXNjA" base_Parameter="_lnthgGVBEeu9DdkwohXNjA" kind="FAILURE"/>
 </xmi:XMI>
