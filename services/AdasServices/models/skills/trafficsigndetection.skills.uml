@@ -33,6 +33,101 @@
           <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
         </region>
       </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectStopSignDefaultFSM" specification="_BNWEAGlkEeueJv3-WDzOVw">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectTurnRightDefaultFSM" specification="_IRrM8GllEeueJv3-WDzOVw">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectTurnLeftDefaultFSM" specification="_IUjsYGlmEeueJv3-WDzOVw">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectSpeedLimitDefaultFSM">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectSpeedLimitSignDefaultFSM" specification="_deQNgGlnEeueJv3-WDzOVw">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_1zAFYGU2Eeuko5tk88a-Ng" name="TrafficSignDetectionSkillSet">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_4AwWYGU2Eeuko5tk88a-Ng" name="DetectTrafficSign" method="_4Qge8PjgEeqA4v_JqiO9QA">
@@ -47,6 +142,46 @@
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_jzAOMGU3Eeuko5tk88a-Ng" name="TrafficSignDetected" direction="return"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_l-YgoGU3Eeuko5tk88a-Ng" name="TrafficSignNotDetected" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BNWEAGlkEeueJv3-WDzOVw" name="DetectStopSign" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ENQKsGlkEeueJv3-WDzOVw">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_GnW1oGlkEeueJv3-WDzOVw" direction="out">
+          <type xmi:type="uml:DataType" href="../services/trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Luu_IGlkEeueJv3-WDzOVw" name="StopTrafficSignDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kJpO0GlkEeueJv3-WDzOVw" name="StopTrafficSignNotDetected" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_IRrM8GllEeueJv3-WDzOVw" name="DetectTurnRight" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_242qgGllEeueJv3-WDzOVw">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4rKVoGllEeueJv3-WDzOVw" direction="out">
+          <type xmi:type="uml:DataType" href="../services/trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6kRMUGllEeueJv3-WDzOVw" name="TurnRightSignDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_DC5lgGlmEeueJv3-WDzOVw" name="TurnRightSignNotDetected" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_IUjsYGlmEeueJv3-WDzOVw" name="DetectTurnLeft" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_KWw0sGlmEeueJv3-WDzOVw">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MbE10GlmEeueJv3-WDzOVw" direction="out">
+          <type xmi:type="uml:DataType" href="../services/trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_OKXpMGlmEeueJv3-WDzOVw" name="TurnLeftSignDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_RFIxMGlmEeueJv3-WDzOVw" name="TurnLeftSignNotDetected" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_deQNgGlnEeueJv3-WDzOVw" name="DetectSpeedLimitSign" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fTpo4GlnEeueJv3-WDzOVw">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_hU8LMGlnEeueJv3-WDzOVw" direction="out">
+          <type xmi:type="uml:DataType" href="../services/trafficsigndetection.servicedef.uml#_PB9hkFS3EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_jLZ9kGlnEeueJv3-WDzOVw" name="SpeedLimitSignDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_loOlUGlnEeueJv3-WDzOVw" name="SpeedLimitSignNotDetected" direction="return"/>
       </ownedOperation>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZuSoE2RzEeufoscjYXqgTw">
@@ -86,4 +221,69 @@
   <robotics.skills:OutAttribute xmi:id="_iVwNEGU3Eeuko5tk88a-Ng" base_Parameter="_iVr7oGU3Eeuko5tk88a-Ng"/>
   <robotics.skills:SkillResult xmi:id="_jzFGsGU3Eeuko5tk88a-Ng" base_Parameter="_jzAOMGU3Eeuko5tk88a-Ng" kind="SUCCESS"/>
   <robotics.skills:SkillResult xmi:id="_l-cyEGU3Eeuko5tk88a-Ng" base_Parameter="_l-YgoGU3Eeuko5tk88a-Ng" kind="FAILURE"/>
+  <robotics.skills:SkillSemantic xmi:id="_BNaVcGlkEeueJv3-WDzOVw" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_BNcxsGlkEeueJv3-WDzOVw" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_BNcxsWlkEeueJv3-WDzOVw" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_BNdYwGlkEeueJv3-WDzOVw" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_BNdYwWlkEeueJv3-WDzOVw" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_BNdYwmlkEeueJv3-WDzOVw" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_BNdYw2lkEeueJv3-WDzOVw" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_BNd_0GlkEeueJv3-WDzOVw" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_BNd_0WlkEeueJv3-WDzOVw" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_BNfN8GlkEeueJv3-WDzOVw" base_Operation="_BNWEAGlkEeueJv3-WDzOVw"/>
+  <robotics.skills:InAttribute xmi:id="_ENVDMGlkEeueJv3-WDzOVw" base_Parameter="_ENQKsGlkEeueJv3-WDzOVw"/>
+  <robotics.skills:OutAttribute xmi:id="_GnbuIGlkEeueJv3-WDzOVw" base_Parameter="_GnW1oGlkEeueJv3-WDzOVw"/>
+  <robotics.skills:SkillResult xmi:id="_Lu0esGlkEeueJv3-WDzOVw" base_Parameter="_Luu_IGlkEeueJv3-WDzOVw" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_kJuHUGlkEeueJv3-WDzOVw" base_Parameter="_kJpO0GlkEeueJv3-WDzOVw" kind="FAILURE"/>
+  <robotics.skills:SkillSemantic xmi:id="_IRuQQGllEeueJv3-WDzOVw" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_IRwsgGllEeueJv3-WDzOVw" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_IRwsgWllEeueJv3-WDzOVw" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_IRwsgmllEeueJv3-WDzOVw" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_IRxTkGllEeueJv3-WDzOVw" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_IRxTkWllEeueJv3-WDzOVw" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_IRxTkmllEeueJv3-WDzOVw" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_IRxTk2llEeueJv3-WDzOVw" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_IRx6oGllEeueJv3-WDzOVw" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_IRyhsGllEeueJv3-WDzOVw" base_Operation="_IRrM8GllEeueJv3-WDzOVw"/>
+  <robotics.skills:InAttribute xmi:id="_248KEGllEeueJv3-WDzOVw" base_Parameter="_242qgGllEeueJv3-WDzOVw"/>
+  <robotics.skills:OutAttribute xmi:id="_4rP1MGllEeueJv3-WDzOVw" base_Parameter="_4rKVoGllEeueJv3-WDzOVw"/>
+  <robotics.skills:SkillResult xmi:id="_6kWE0GllEeueJv3-WDzOVw" base_Parameter="_6kRMUGllEeueJv3-WDzOVw" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_DC-eAGlmEeueJv3-WDzOVw" base_Parameter="_DC5lgGlmEeueJv3-WDzOVw" kind="FAILURE"/>
+  <robotics.skills:SkillSemantic xmi:id="_IUmvsGlmEeueJv3-WDzOVw" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_IUpL8GlmEeueJv3-WDzOVw" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_IUpL8WlmEeueJv3-WDzOVw" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_IUpL8mlmEeueJv3-WDzOVw" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_IUpL82lmEeueJv3-WDzOVw" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_IUpzAGlmEeueJv3-WDzOVw" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_IUxHwGlmEeueJv3-WDzOVw" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_IUxHwWlmEeueJv3-WDzOVw" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_IUxHwmlmEeueJv3-WDzOVw" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_IUyV4GlmEeueJv3-WDzOVw" base_Operation="_IUjsYGlmEeueJv3-WDzOVw"/>
+  <robotics.skills:InAttribute xmi:id="_KW1tMGlmEeueJv3-WDzOVw" base_Parameter="_KWw0sGlmEeueJv3-WDzOVw"/>
+  <robotics.skills:OutAttribute xmi:id="_MbJuUGlmEeueJv3-WDzOVw" base_Parameter="_MbE10GlmEeueJv3-WDzOVw"/>
+  <robotics.skills:SkillResult xmi:id="_OKchsGlmEeueJv3-WDzOVw" base_Parameter="_OKXpMGlmEeueJv3-WDzOVw" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_RFOQwGlmEeueJv3-WDzOVw" base_Parameter="_RFIxMGlmEeueJv3-WDzOVw" kind="FAILURE"/>
+  <robotics.skills:SkillSemantic xmi:id="_Z3KAcGlmEeueJv3-WDzOVw" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_Z3McsGlmEeueJv3-WDzOVw" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_Z3McsWlmEeueJv3-WDzOVw" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_Z3McsmlmEeueJv3-WDzOVw" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_Z3NDwGlmEeueJv3-WDzOVw" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_Z3NDwWlmEeueJv3-WDzOVw" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_Z3NDwmlmEeueJv3-WDzOVw" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_Z3Nq0GlmEeueJv3-WDzOVw" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_Z3Nq0WlmEeueJv3-WDzOVw" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSemantic xmi:id="_deT34GlnEeueJv3-WDzOVw" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_deWUIGlnEeueJv3-WDzOVw" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_deWUIWlnEeueJv3-WDzOVw" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_deWUImlnEeueJv3-WDzOVw" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_deW7MGlnEeueJv3-WDzOVw" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_deW7MWlnEeueJv3-WDzOVw" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_deW7MmlnEeueJv3-WDzOVw" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_deW7M2lnEeueJv3-WDzOVw" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_deXiQGlnEeueJv3-WDzOVw" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_deYJUGlnEeueJv3-WDzOVw" base_Operation="_deQNgGlnEeueJv3-WDzOVw"/>
+  <robotics.skills:InAttribute xmi:id="_fTreEGlnEeueJv3-WDzOVw" base_Parameter="_fTpo4GlnEeueJv3-WDzOVw"/>
+  <robotics.skills:OutAttribute xmi:id="_hU_OgGlnEeueJv3-WDzOVw" base_Parameter="_hU8LMGlnEeueJv3-WDzOVw"/>
+  <robotics.skills:SkillResult xmi:id="_jLcZ0GlnEeueJv3-WDzOVw" base_Parameter="_jLZ9kGlnEeueJv3-WDzOVw" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_loS2wGlnEeueJv3-WDzOVw" base_Parameter="_loOlUGlnEeueJv3-WDzOVw" kind="FAILURE"/>
 </xmi:XMI>

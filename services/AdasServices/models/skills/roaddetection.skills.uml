@@ -42,9 +42,6 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_SHMJMGU2Eeuko5tk88a-Ng" direction="out">
           <type xmi:type="uml:DataType" href="../services/roaddetection.servicedef.uml#_kFhE0FTAEeunjeKkmcG6Xw"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_UQ0IIGU2Eeuko5tk88a-Ng">
-          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
-        </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z5PJMGU2Eeuko5tk88a-Ng" name="RoadDetected" direction="return"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_cgam0GU2Eeuko5tk88a-Ng" name="RoadNotDetected" direction="return"/>
       </ownedOperation>
@@ -83,7 +80,6 @@
   <robotics.skills:SkillDefinition xmi:id="_67Xi0GU1Eeuko5tk88a-Ng" base_Operation="_67QOEGU1Eeuko5tk88a-Ng"/>
   <robotics.skills:InAttribute xmi:id="_Ge86wGU2Eeuko5tk88a-Ng" base_Parameter="_Ge3bMGU2Eeuko5tk88a-Ng"/>
   <robotics.skills:OutAttribute xmi:id="_SHQaoGU2Eeuko5tk88a-Ng" base_Parameter="_SHMJMGU2Eeuko5tk88a-Ng"/>
-  <robotics.skills:InAttribute xmi:id="_UQ5AoGU2Eeuko5tk88a-Ng" base_Parameter="_UQ0IIGU2Eeuko5tk88a-Ng"/>
-  <robotics.skills:SkillResult xmi:id="_Z5UBsGU2Eeuko5tk88a-Ng" base_Parameter="_Z5PJMGU2Eeuko5tk88a-Ng" kind="SUCCESS"/>
-  <robotics.skills:SkillResult xmi:id="_cgffUGU2Eeuko5tk88a-Ng" base_Parameter="_cgam0GU2Eeuko5tk88a-Ng" kind="FAILURE"/>
+  <robotics.skills:SkillResult xmi:id="_Z5UBsGU2Eeuko5tk88a-Ng" base_Parameter="_Z5PJMGU2Eeuko5tk88a-Ng" kind="FAILURE"/>
+  <robotics.skills:SkillResult xmi:id="_cgffUGU2Eeuko5tk88a-Ng" base_Parameter="_cgam0GU2Eeuko5tk88a-Ng" kind="SUCCESS"/>
 </xmi:XMI>

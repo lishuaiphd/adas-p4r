@@ -21,7 +21,15 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uo97cVS5EeunjeKkmcG6Xw" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uo97clS5EeunjeKkmcG6Xw" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_lxmWcFpCEeuXmsDhYsJ_5Q" name="Sign"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lxmWcFpCEeuXmsDhYsJ_5Q" name="Sign" type="_raiU4FpCEeuXmsDhYsJ_5Q">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AEyycGliEeueJv3-WDzOVw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AEyycWliEeueJv3-WDzOVw" value="1"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_xfRTgGlhEeueJv3-WDzOVw" name="Speedlimitvalue">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AFPeYGliEeueJv3-WDzOVw" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AFPeYWliEeueJv3-WDzOVw" value="1"/>
+          </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_6LYe0FS3EeunjeKkmcG6Xw" name="Image">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_kezoMFS4EeunjeKkmcG6Xw" name="height">
@@ -57,8 +65,13 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Enumeration" xmi:id="_raiU4FpCEeuXmsDhYsJ_5Q" name="SignEnumeration">
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_e3rb0FpDEeuXmsDhYsJ_5Q" name="SpeedLimit"/>
-          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_e3tRAVpDEeuXmsDhYsJ_5Q" name="Danger"/>
-          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_erMCgFpEEeuXmsDhYsJ_5Q" name="Prohibition"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_itvOUGlgEeueJv3-WDzOVw" name="RedTrafficLight"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_itxDgWlgEeueJv3-WDzOVw" name="GreenTrafficLight"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ity4sWlgEeueJv3-WDzOVw" name="OrangeTrafficLight"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_FvG0cGljEeueJv3-WDzOVw" name="StopSign"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_TfA6AGljEeueJv3-WDzOVw" name="TurnLeftSign"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_T7CHoGljEeueJv3-WDzOVw" name="TurnRightSign"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_WtoLEGljEeueJv3-WDzOVw" name="PedestrianSign"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_3ScNsFS1EeunjeKkmcG6Xw" name="Subscribe">
@@ -156,6 +169,12 @@
   <robotics.commobject:DataAttribute xmi:id="_lxpZwFpCEeuXmsDhYsJ_5Q" base_Property="_lxmWcFpCEeuXmsDhYsJ_5Q"/>
   <robotics.commobject:Enumeration xmi:id="_ralYMFpCEeuXmsDhYsJ_5Q" base_DataType="_raiU4FpCEeuXmsDhYsJ_5Q"/>
   <robotics.commobject:EnumerationLiteral xmi:id="_e3tRAFpDEeuXmsDhYsJ_5Q" base_EnumerationLiteral="_e3rb0FpDEeuXmsDhYsJ_5Q"/>
-  <robotics.commobject:EnumerationLiteral xmi:id="_e3ufIFpDEeuXmsDhYsJ_5Q" base_EnumerationLiteral="_e3tRAVpDEeuXmsDhYsJ_5Q"/>
-  <robotics.commobject:EnumerationLiteral xmi:id="_erN3sFpEEeuXmsDhYsJ_5Q" base_EnumerationLiteral="_erMCgFpEEeuXmsDhYsJ_5Q"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_itxDgGlgEeueJv3-WDzOVw" base_EnumerationLiteral="_itvOUGlgEeueJv3-WDzOVw"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_ity4sGlgEeueJv3-WDzOVw" base_EnumerationLiteral="_itxDgWlgEeueJv3-WDzOVw"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_it1U8GlgEeueJv3-WDzOVw" base_EnumerationLiteral="_ity4sWlgEeueJv3-WDzOVw"/>
+  <robotics.commobject:DataAttribute xmi:id="_xfTvwGlhEeueJv3-WDzOVw" base_Property="_xfRTgGlhEeueJv3-WDzOVw"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_FvJQsGljEeueJv3-WDzOVw" base_EnumerationLiteral="_FvG0cGljEeueJv3-WDzOVw"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_TfDWQGljEeueJv3-WDzOVw" base_EnumerationLiteral="_TfA6AGljEeueJv3-WDzOVw"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_T7Ej4GljEeueJv3-WDzOVw" base_EnumerationLiteral="_T7CHoGljEeueJv3-WDzOVw"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_WtqnUGljEeueJv3-WDzOVw" base_EnumerationLiteral="_WtoLEGljEeueJv3-WDzOVw"/>
 </xmi:XMI>
