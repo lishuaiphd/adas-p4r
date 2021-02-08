@@ -10,6 +10,9 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_IpPaUGUxEeuv5pRcTLDdJA">
       <importedPackage xmi:type="uml:Model" href="../services/pedestrian.servicedef.uml#_pcQTgE8vEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_N88GkGopEeuyLphI0JJOjA">
+      <importedPackage xmi:type="uml:Model" href="../services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_PdV8smRzEeufoscjYXqgTw" name="defaultsemantics">
       <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectPedestrianDefaultFSM" specification="_pYJA0GUuEeuv5pRcTLDdJA">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
@@ -33,7 +36,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_9LsgUGUtEeuv5pRcTLDdJA" name="PedestrianDetectionSkills">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_pYJA0GUuEeuv5pRcTLDdJA" name="DetectPedestrian" method="_4Qge8PjgEeqA4v_JqiO9QA">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8uMkoGUwEeuv5pRcTLDdJA" name="donneLeftCamera">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8uMkoGUwEeuv5pRcTLDdJA" name="DataLeftCamera">
           <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_DuYC0GUxEeuv5pRcTLDdJA" name="Pedestrian" direction="out">
@@ -41,6 +44,9 @@
         </ownedParameter>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_LkKTUGUxEeuv5pRcTLDdJA" name="noPedestrian" direction="return"/>
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_Oz93MGUxEeuv5pRcTLDdJA" name="PedestrianDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Jpjl0GopEeuyLphI0JJOjA" name="Speed">
+          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PdV8s2RzEeufoscjYXqgTw">
@@ -77,6 +83,7 @@
   <robotics.skills:SkillDefinition xmi:id="_pZo1oGUuEeuv5pRcTLDdJA" base_Operation="_pYJA0GUuEeuv5pRcTLDdJA"/>
   <robotics.skills:InAttribute xmi:id="_8uYK0GUwEeuv5pRcTLDdJA" base_Parameter="_8uMkoGUwEeuv5pRcTLDdJA"/>
   <robotics.skills:OutAttribute xmi:id="_DuleMGUxEeuv5pRcTLDdJA" base_Parameter="_DuYC0GUxEeuv5pRcTLDdJA"/>
-  <robotics.skills:SkillResult xmi:id="_LkXusGUxEeuv5pRcTLDdJA" authorship="" base_Parameter="_LkKTUGUxEeuv5pRcTLDdJA" kind="SUCCESS"/>
-  <robotics.skills:SkillResult xmi:id="_O0HBIGUxEeuv5pRcTLDdJA" base_Parameter="_Oz93MGUxEeuv5pRcTLDdJA" kind="FAILURE"/>
+  <robotics.skills:SkillResult xmi:id="_LkXusGUxEeuv5pRcTLDdJA" authorship="" base_Parameter="_LkKTUGUxEeuv5pRcTLDdJA" kind="FAILURE"/>
+  <robotics.skills:SkillResult xmi:id="_O0HBIGUxEeuv5pRcTLDdJA" base_Parameter="_Oz93MGUxEeuv5pRcTLDdJA" kind="SUCCESS"/>
+  <robotics.skills:InAttribute xmi:id="_JpxBMGopEeuyLphI0JJOjA" base_Parameter="_Jpjl0GopEeuyLphI0JJOjA"/>
 </xmi:XMI>
