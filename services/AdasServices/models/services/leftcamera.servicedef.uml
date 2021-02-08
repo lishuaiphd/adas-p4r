@@ -18,10 +18,10 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_bGS6k08vEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_1hxdgFAkEeuQn4VMJWeC_w" name="Publish">
         <packagedElement xmi:type="uml:DataType" xmi:id="_OxRL0FAlEeuQn4VMJWeC_w" name="Camera">
+          <generalization xmi:type="uml:Generalization" xmi:id="_iNaBAGonEeuyLphI0JJOjA" general="_-voe0FRDEeuHcITk3ae9JA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Awr6IFRQEeuHn4gYbqpl3w" name="LeftImage" type="_o6h9UFRPEeuHn4gYbqpl3w"/>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_-voe0FRDEeuHcITk3ae9JA" name="CompressedImage">
-          <generalization xmi:type="uml:Generalization" xmi:id="_sifI0FtdEeu-1Iaq2xpVTw" general="_OxRL0FAlEeuQn4VMJWeC_w"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_LGPPIFREEeuHcITk3ae9JA" name="format">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedAttribute>
@@ -164,6 +164,6 @@
   <robotics.commobject:DataType xmi:id="_o6orAFRPEeuHn4gYbqpl3w" base_DataType="_o6h9UFRPEeuHn4gYbqpl3w"/>
   <robotics.commobject:DataAttribute xmi:id="_Aw0dAFRQEeuHn4gYbqpl3w" description="" base_Property="_Awr6IFRQEeuHn4gYbqpl3w"/>
   <robotics.services:ServiceProperty xmi:id="_02RYIFSzEeuFRKNJ5FlKHw" base_Property="_02HAEFSzEeuFRKNJ5FlKHw"/>
-  <robotics.generics:Is_a xmi:id="_siskMFtdEeu-1Iaq2xpVTw" base_Generalization="_sifI0FtdEeu-1Iaq2xpVTw"/>
   <robotics.generics:Is_a xmi:id="_ut7ssFtdEeu-1Iaq2xpVTw" base_Generalization="_ut4CUFtdEeu-1Iaq2xpVTw"/>
+  <robotics.generics:Is_a xmi:id="_iNgHoGonEeuyLphI0JJOjA" base_Generalization="_iNaBAGonEeuyLphI0JJOjA"/>
 </xmi:XMI>

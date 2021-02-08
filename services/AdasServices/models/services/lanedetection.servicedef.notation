@@ -7,6 +7,10 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_0S9EJFS9EeuFRKNJ5FlKHw" y="15"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_0S9rMFS9EeuFRKNJ5FlKHw" type="Interface_AttributeCompartment">
+        <children xmi:type="notation:Shape" xmi:id="_ScJSQGooEeuyLphI0JJOjA" type="Property_InterfaceAttributeLabel">
+          <element xmi:type="uml:Property" href="lanedetection.servicedef.uml#_Sb6BsGooEeuyLphI0JJOjA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ScJSQWooEeuyLphI0JJOjA"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_0S9rMVS9EeuFRKNJ5FlKHw"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_0S9rMlS9EeuFRKNJ5FlKHw"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_0S9rM1S9EeuFRKNJ5FlKHw"/>
@@ -27,13 +31,13 @@
       <element xmi:type="uml:Interface" href="lanedetection.servicedef.uml#_uhDW8FS9EeuFRKNJ5FlKHw"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0S9EIVS9EeuFRKNJ5FlKHw" x="200" y="80"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_0TDx01S9EeuFRKNJ5FlKHw" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_0TDx1FS9EeuFRKNJ5FlKHw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_0TDx1lS9EeuFRKNJ5FlKHw" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_OMqaEGooEeuyLphI0JJOjA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_OMqaEWooEeuyLphI0JJOjA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_OMqaE2ooEeuyLphI0JJOjA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Interface" href="lanedetection.servicedef.uml#_uhDW8FS9EeuFRKNJ5FlKHw"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0TDx1VS9EeuFRKNJ5FlKHw" x="200"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OMqaEmooEeuyLphI0JJOjA" x="400" y="80"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_enM1gU8vEeuf54tkkZK0ow" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_enM1gk8vEeuf54tkkZK0ow"/>
@@ -41,15 +45,15 @@
       <owner xmi:type="uml:Model" href="lanedetection.servicedef.uml#_enLnYE8vEeuf54tkkZK0ow"/>
     </styles>
     <element xmi:type="uml:Package" href="lanedetection.servicedef.uml#_enLnYk8vEeuf54tkkZK0ow"/>
-    <edges xmi:type="notation:Connector" xmi:id="_0TDx11S9EeuFRKNJ5FlKHw" type="StereotypeCommentLink" source="_0S9EIFS9EeuFRKNJ5FlKHw" target="_0TDx01S9EeuFRKNJ5FlKHw">
-      <styles xmi:type="notation:FontStyle" xmi:id="_0TDx2FS9EeuFRKNJ5FlKHw"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_0TEY4lS9EeuFRKNJ5FlKHw" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_OMqaFGooEeuyLphI0JJOjA" type="StereotypeCommentLink" source="_0S9EIFS9EeuFRKNJ5FlKHw" target="_OMqaEGooEeuyLphI0JJOjA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_OMqaFWooEeuyLphI0JJOjA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_OMqaGWooEeuyLphI0JJOjA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Interface" href="lanedetection.servicedef.uml#_uhDW8FS9EeuFRKNJ5FlKHw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0TDx2VS9EeuFRKNJ5FlKHw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0TEY4FS9EeuFRKNJ5FlKHw"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0TEY4VS9EeuFRKNJ5FlKHw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OMqaFmooEeuyLphI0JJOjA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OMqaF2ooEeuyLphI0JJOjA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OMqaGGooEeuyLphI0JJOjA"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_wY6sUFAvEeuwUYbf04lBzQ" type="PapyrusUMLClassDiagram" name="LaneDetection published msg" measurementUnit="Pixel">
@@ -76,14 +80,6 @@
       </children>
       <element xmi:type="uml:DataType" href="lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CgTiYVS4EeuZaLX8s8LTGQ" x="680" y="80" width="301" height="141"/>
-    </children>
-    <children xmi:type="notation:Shape" xmi:id="_0w4AYGU-EeucYueNcfn0IA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_0w4AYWU-EeucYueNcfn0IA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_0w4AY2U-EeucYueNcfn0IA" name="BASE_ELEMENT">
-        <eObjectValue xmi:type="uml:DataType" href="lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
-      </styles>
-      <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0w4AYmU-EeucYueNcfn0IA" x="1040" y="20"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_GGOtMGVAEeucYueNcfn0IA" type="DataType_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_GGPUQGVAEeucYueNcfn0IA" type="DataType_NameLabel"/>
@@ -117,13 +113,21 @@
       <element xmi:type="uml:DataType" href="lanedetection.servicedef.uml#_GGHYcGVAEeucYueNcfn0IA"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GGOtMWVAEeucYueNcfn0IA" x="540" y="300"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_GGcIk2VAEeucYueNcfn0IA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_GGcIlGVAEeucYueNcfn0IA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_GGcIlmVAEeucYueNcfn0IA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_Pc1BcGooEeuyLphI0JJOjA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Pc1BcWooEeuyLphI0JJOjA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Pc1Bc2ooEeuyLphI0JJOjA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:DataType" href="lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pc1BcmooEeuyLphI0JJOjA" x="880" y="80"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Pc-ycGooEeuyLphI0JJOjA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Pc-ycWooEeuyLphI0JJOjA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Pc-yc2ooEeuyLphI0JJOjA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:DataType" href="lanedetection.servicedef.uml#_GGHYcGVAEeucYueNcfn0IA"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GGcIlWVAEeucYueNcfn0IA" x="200"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pc-ycmooEeuyLphI0JJOjA" x="740" y="300"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_wY6sUVAvEeuwUYbf04lBzQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_wY6sUlAvEeuwUYbf04lBzQ"/>
@@ -131,25 +135,25 @@
       <owner xmi:type="uml:Package" href="lanedetection.servicedef.uml#_NgU80FAvEeuwUYbf04lBzQ"/>
     </styles>
     <element xmi:type="uml:Package" href="lanedetection.servicedef.uml#_NgU80FAvEeuwUYbf04lBzQ"/>
-    <edges xmi:type="notation:Connector" xmi:id="_0w4AZGU-EeucYueNcfn0IA" type="StereotypeCommentLink" source="_CgTiYFS4EeuZaLX8s8LTGQ" target="_0w4AYGU-EeucYueNcfn0IA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_0w4AZWU-EeucYueNcfn0IA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_0w4AaWU-EeucYueNcfn0IA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_Pc1BdGooEeuyLphI0JJOjA" type="StereotypeCommentLink" source="_CgTiYFS4EeuZaLX8s8LTGQ" target="_Pc1BcGooEeuyLphI0JJOjA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Pc1BdWooEeuyLphI0JJOjA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Pc1BeWooEeuyLphI0JJOjA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:DataType" href="lanedetection.servicedef.uml#_CgOC0FS4EeuZaLX8s8LTGQ"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0w4AZmU-EeucYueNcfn0IA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0w4AZ2U-EeucYueNcfn0IA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0w4AaGU-EeucYueNcfn0IA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Pc1BdmooEeuyLphI0JJOjA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pc1Bd2ooEeuyLphI0JJOjA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pc1BeGooEeuyLphI0JJOjA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_GGcIl2VAEeucYueNcfn0IA" type="StereotypeCommentLink" source="_GGOtMGVAEeucYueNcfn0IA" target="_GGcIk2VAEeucYueNcfn0IA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_GGcImGVAEeucYueNcfn0IA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_GGcvoGVAEeucYueNcfn0IA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_Pc-ydGooEeuyLphI0JJOjA" type="StereotypeCommentLink" source="_GGOtMGVAEeucYueNcfn0IA" target="_Pc-ycGooEeuyLphI0JJOjA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Pc-ydWooEeuyLphI0JJOjA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Pc-yeWooEeuyLphI0JJOjA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:DataType" href="lanedetection.servicedef.uml#_GGHYcGVAEeucYueNcfn0IA"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GGcImWVAEeucYueNcfn0IA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GGcImmVAEeucYueNcfn0IA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GGcIm2VAEeucYueNcfn0IA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Pc-ydmooEeuyLphI0JJOjA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pc-yd2ooEeuyLphI0JJOjA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Pc-yeGooEeuyLphI0JJOjA"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>

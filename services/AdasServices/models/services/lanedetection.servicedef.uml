@@ -12,6 +12,7 @@
           </parameterSubstitution>
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
         </templateBinding>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Sb6BsGooEeuyLphI0JJOjA" name="LaneDetection" type="_CgOC0FS4EeuZaLX8s8LTGQ"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_enLnY08vEeuf54tkkZK0ow" name="msg">
@@ -110,4 +111,5 @@
   <robotics.commobject:DataAttribute xmi:id="_ex-OMGVAEeucYueNcfn0IA" base_Property="_ex7K4GVAEeucYueNcfn0IA"/>
   <robotics.commobject:DataAttribute xmi:id="_iDozQGVAEeucYueNcfn0IA" base_Property="_iDkh0GVAEeucYueNcfn0IA"/>
   <robotics.commobject:DataAttribute xmi:id="_k1iTIGVAEeucYueNcfn0IA" base_Property="_k1eowGVAEeucYueNcfn0IA"/>
+  <robotics.services:ServiceProperty xmi:id="_Sb_hQGooEeuyLphI0JJOjA" base_Property="_Sb6BsGooEeuyLphI0JJOjA"/>
 </xmi:XMI>
