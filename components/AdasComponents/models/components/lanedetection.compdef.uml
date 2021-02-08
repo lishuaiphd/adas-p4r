@@ -21,12 +21,12 @@
     </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_fXszA1lvEeuV3PQBT7TM0Q" name="Lanedetection">
       <ownedAttribute xmi:type="uml:Port" xmi:id="_uKwPMFpBEeusn6680tN4Qw" name="LeftCameraPort" type="_0BFwcFpBEeusn6680tN4Qw" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_5AQZIFpBEeusn6680tN4Qw" name="Speed" type="_BxzuUFpCEeusn6680tN4Qw" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_5AQZIFpBEeusn6680tN4Qw" name="SpeedPort" type="_BxzuUFpCEeusn6680tN4Qw" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ZL49sFpDEeusn6680tN4Qw" name="activity1" type="_ZLt-kFpDEeusn6680tN4Qw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_FZcicF5rEeuz8tGjcPSUEA" name="activity1" type="_FZSKYF5rEeuz8tGjcPSUEA"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_w-4-QF50Eeuz8tGjcPSUEA" name="activity1"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ofKjcF51Eeuz8tGjcPSUEA" name="activity1" type="_ofD1wF51Eeuz8tGjcPSUEA"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_eS9TcF9MEeuE35TPHDHWsw" name="OnOff" type="_gqo8gF9MEeuE35TPHDHWsw" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ofKjcF51Eeuz8tGjcPSUEA" name="activity1"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_eS9TcF9MEeuE35TPHDHWsw" name="LaneDetectionPort" type="_gqo8gF9MEeuE35TPHDHWsw" aggregation="composite"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_Wx77cF5vEeuz8tGjcPSUEA" name="Connects10">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_WyCCEF5vEeuz8tGjcPSUEA" partWithPort="_ZL49sFpDEeusn6680tN4Qw" role="_QNWNEF5vEeuz8tGjcPSUEA"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_WyCCEV5vEeuz8tGjcPSUEA" role="_5AQZIFpBEeusn6680tN4Qw"/>
@@ -35,34 +35,29 @@
         <end xmi:type="uml:ConnectorEnd" xmi:id="_eSeUsF5vEeuz8tGjcPSUEA" partWithPort="_FZcicF5rEeuz8tGjcPSUEA" role="_amOFYF5vEeuz8tGjcPSUEA"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_eSeUsV5vEeuz8tGjcPSUEA" role="_uKwPMFpBEeusn6680tN4Qw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_lOsWgF9MEeuE35TPHDHWsw" name="Connects23">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_lOxPAF9MEeuE35TPHDHWsw" partWithPort="_ofKjcF51Eeuz8tGjcPSUEA" role="_YKE5cF53Eeuz8tGjcPSUEA"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_lOx2EF9MEeuE35TPHDHWsw" role="_eS9TcF9MEeuE35TPHDHWsw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_vV0eMGomEeuyLphI0JJOjA" name="Connects22">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vV-2QGomEeuyLphI0JJOjA" partWithPort="_FZcicF5rEeuz8tGjcPSUEA" role="_st2WYGomEeuyLphI0JJOjA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vWAEYGomEeuyLphI0JJOjA" role="_eS9TcF9MEeuE35TPHDHWsw"/>
       </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_fXszBFlvEeuV3PQBT7TM0Q"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_0BFwcFpBEeusn6680tN4Qw"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_BxzuUFpCEeusn6680tN4Qw"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_ZLt-kFpDEeusn6680tN4Qw" name="Acquisition de la Vitesse">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_ZLt-kFpDEeusn6680tN4Qw" name="Speed">
         <generalization xmi:type="uml:Generalization" xmi:id="_ZLxB4FpDEeusn6680tN4Qw">
           <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_QNWNEF5vEeuz8tGjcPSUEA" name="AddSpeed" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_WyLzEF5vEeuz8tGjcPSUEA" name="" type="_WyG6kF5vEeuz8tGjcPSUEA"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_K1gMYF50Eeuz8tGjcPSUEA" name="Traitement"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_K1gMYF50Eeuz8tGjcPSUEA" name="Period"/>
       </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_FZSKYF5rEeuz8tGjcPSUEA" name="Acquisition de l'image">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_FZSKYF5rEeuz8tGjcPSUEA" name="Image">
         <generalization xmi:type="uml:Generalization" xmi:id="_FZVNsF5rEeuz8tGjcPSUEA">
           <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_amOFYF5vEeuz8tGjcPSUEA" name="ActivityPort2" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_eSimIV5vEeuz8tGjcPSUEA" name="" type="_eSgJ4F5vEeuz8tGjcPSUEA"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_TGnjcF5zEeuz8tGjcPSUEA" name="Traitement"/>
-      </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_ofD1wF51Eeuz8tGjcPSUEA" name="Activation">
-        <generalization xmi:type="uml:Generalization" xmi:id="_ofFD4F51Eeuz8tGjcPSUEA">
-          <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
-        </generalization>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_YKE5cF53Eeuz8tGjcPSUEA" name="On/Off" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_st2WYGomEeuyLphI0JJOjA" name="ActivityPort5" aggregation="composite"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_TGnjcF5zEeuz8tGjcPSUEA" name="Period"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_zds4IF52Eeuz8tGjcPSUEA">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_zdyXsF52Eeuz8tGjcPSUEA" client="_zds4IF52Eeuz8tGjcPSUEA">
@@ -185,13 +180,12 @@
   <robotics.components:PeriodicTimer xmi:id="_TGtDAF5zEeuz8tGjcPSUEA" base_Class="_TGnjcF5zEeuz8tGjcPSUEA" period="5ms"/>
   <robotics.components:PeriodicTimer xmi:id="_K1jPsF50Eeuz8tGjcPSUEA" base_Class="_K1gMYF50Eeuz8tGjcPSUEA" period="1ms"/>
   <robotics.components:ActivityInstance xmi:id="_w-8BkF50Eeuz8tGjcPSUEA" base_Property="_w-4-QF50Eeuz8tGjcPSUEA"/>
-  <robotics.components:Activity xmi:id="_ofJVUF51Eeuz8tGjcPSUEA" base_Class="_ofD1wF51Eeuz8tGjcPSUEA"/>
   <robotics.components:ActivityInstance xmi:id="_ofNmwF51Eeuz8tGjcPSUEA" base_Property="_ofKjcF51Eeuz8tGjcPSUEA"/>
   <robotics.components:ComponentService xmi:id="_zdvUYF52Eeuz8tGjcPSUEA" base_Class="_zds4IF52Eeuz8tGjcPSUEA"/>
-  <robotics.components:ActivityPort xmi:id="_YKH8wF53Eeuz8tGjcPSUEA" base_Port="_YKE5cF53Eeuz8tGjcPSUEA"/>
   <robotics.functions:Function xmi:id="_nrVNgF9LEeuE35TPHDHWsw" base_Class="_nrJnUF9LEeuE35TPHDHWsw"/>
   <robotics.functions:Function xmi:id="_sMKUYF9LEeuE35TPHDHWsw" base_Class="_sMDmsF9LEeuE35TPHDHWsw"/>
   <robotics.components:ComponentService xmi:id="_gqtN8F9MEeuE35TPHDHWsw" base_Class="_gqo8gF9MEeuE35TPHDHWsw"/>
   <robotics.components:ComponentPort xmi:id="_gqz7oF9MEeuE35TPHDHWsw" base_Port="_eS9TcF9MEeuE35TPHDHWsw"/>
-  <robotics.generics:Connects xmi:id="_lOx2EV9MEeuE35TPHDHWsw" base_Connector="_lOsWgF9MEeuE35TPHDHWsw"/>
+  <robotics.components:ActivityPort xmi:id="_suDxwGomEeuyLphI0JJOjA" base_Port="_st2WYGomEeuyLphI0JJOjA"/>
+  <robotics.generics:Connects xmi:id="_vWBSgGomEeuyLphI0JJOjA" base_Connector="_vV0eMGomEeuyLphI0JJOjA"/>
 </xmi:XMI>
