@@ -89,6 +89,13 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_dmV5wVAREeuyucgwnE4nkA" name="managerpedestriandetection" type="_Z80OUFAREeuyucgwnE4nkA" association="_dmUroFAREeuyucgwnE4nkA"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_dmV5wlAREeuyucgwnE4nkA" name="pedestrian" type="_iiOHcDokEeuDR-FZDkAqqw" association="_dmUroFAREeuyucgwnE4nkA"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_gPHFIGojEeurzZo0QFSc2g" memberEnd="_gPJhYGojEeurzZo0QFSc2g _gPJhYWojEeurzZo0QFSc2g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gPITQGojEeurzZo0QFSc2g" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gPITQWojEeurzZo0QFSc2g" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_gPJhYGojEeurzZo0QFSc2g" name="managerleftcamera" type="_TbjAMDsJEeuK2K6rYvhOcA" association="_gPHFIGojEeurzZo0QFSc2g"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_gPJhYWojEeurzZo0QFSc2g" name="vehicle" type="_gSL-gDokEeuDR-FZDkAqqw" association="_gPHFIGojEeurzZo0QFSc2g"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VqEwUDokEeuDR-FZDkAqqw" name="Scenarios">
       <packagedElement xmi:type="uml:Class" xmi:id="_XKuDsDokEeuDR-FZDkAqqw" name="Context">
@@ -113,17 +120,18 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_94lAIFATEeuyucgwnE4nkA" name="Message12SendEvent" covered="_SgnzkDsKEeuK2K6rYvhOcA" message="_94jyAFATEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_94lnMFATEeuyucgwnE4nkA" name="Message12ReceiveEvent" covered="_SgnzkDsKEeuK2K6rYvhOcA" message="_94jyAFATEeuyucgwnE4nkA"/>
         <message xmi:type="uml:Message" xmi:id="_uZJZoDsKEeuK2K6rYvhOcA" name="Startup" messageSort="asynchCall" receiveEvent="_uZLO0DsKEeuK2K6rYvhOcA" sendEvent="_uZKnwDsKEeuK2K6rYvhOcA"/>
-        <message xmi:type="uml:Message" xmi:id="_wb4tcDsKEeuK2K6rYvhOcA" name="Start Pedestrian Detection " messageSort="asynchCall" receiveEvent="_wb6ioDsKEeuK2K6rYvhOcA" sendEvent="_wb57kDsKEeuK2K6rYvhOcA"/>
+        <message xmi:type="uml:Message" xmi:id="_wb4tcDsKEeuK2K6rYvhOcA" name="Start Left Camera" messageSort="asynchCall" receiveEvent="_wb6ioDsKEeuK2K6rYvhOcA" sendEvent="_wb57kDsKEeuK2K6rYvhOcA"/>
         <message xmi:type="uml:Message" xmi:id="_qmRpAFATEeuyucgwnE4nkA" name="Start Lane Detection" messageSort="asynchCall" receiveEvent="_qmTeMFATEeuyucgwnE4nkA" sendEvent="_qmS3IFATEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_94jyAFATEeuyucgwnE4nkA" name="Start Left Camera" messageSort="asynchCall" receiveEvent="_94lnMFATEeuyucgwnE4nkA" sendEvent="_94lAIFATEeuyucgwnE4nkA"/>
+        <message xmi:type="uml:Message" xmi:id="_94jyAFATEeuyucgwnE4nkA" name="Start Pedestrian Detection" messageSort="asynchCall" receiveEvent="_94lnMFATEeuyucgwnE4nkA" sendEvent="_94lAIFATEeuyucgwnE4nkA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interaction" xmi:id="_5XHjEDsKEeuK2K6rYvhOcA" name="LeftCameraManagement">
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_-eQqoFAUEeuyucgwnE4nkA" name="ADAS" coveredBy="_u4PikFAVEeuyucgwnE4nkA _JgCgkFAWEeuyucgwnE4nkA _QsXkYFAWEeuyucgwnE4nkA _TLsGgFAWEeuyucgwnE4nkA _T3GbAFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_JUo-UFAVEeuyucgwnE4nkA" name="Obstacle" coveredBy="_u4QJoFAVEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_PylSIFAVEeuyucgwnE4nkA" name="TrafficSign" coveredBy="_JgDHoFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_STrV4FAVEeuyucgwnE4nkA" name="Pedestrian" coveredBy="_QsYLcFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_VWqlwFAVEeuyucgwnE4nkA" name="Road" coveredBy="_TLstkFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_iiQdUFAVEeuyucgwnE4nkA" name="Lane" coveredBy="_T3HCEFAWEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_-eQqoFAUEeuyucgwnE4nkA" name="LeftCamera" coveredBy="_u4PikFAVEeuyucgwnE4nkA _JgCgkFAWEeuyucgwnE4nkA _QsXkYFAWEeuyucgwnE4nkA _TLsGgFAWEeuyucgwnE4nkA _T3GbAFAWEeuyucgwnE4nkA __JiycGoiEeurzZo0QFSc2g"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_JUo-UFAVEeuyucgwnE4nkA" name="DepthMap" coveredBy="_u4QJoFAVEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_PylSIFAVEeuyucgwnE4nkA" name="TrafficSignDetection" coveredBy="_JgDHoFAWEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_STrV4FAVEeuyucgwnE4nkA" name="PedestrianDetection" coveredBy="_QsYLcFAWEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_VWqlwFAVEeuyucgwnE4nkA" name="RoadDetection" coveredBy="_TLstkFAWEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_iiQdUFAVEeuyucgwnE4nkA" name="LaneDetection" coveredBy="_T3HCEFAWEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_5eO1cGoiEeurzZo0QFSc2g" name="InformationDisplay" coveredBy="__JiycWoiEeurzZo0QFSc2g"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u4PikFAVEeuyucgwnE4nkA" name="Message7SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_u4OUcFAVEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u4QJoFAVEeuyucgwnE4nkA" name="Message7ReceiveEvent" covered="_JUo-UFAVEeuyucgwnE4nkA" message="_u4OUcFAVEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JgCgkFAWEeuyucgwnE4nkA" name="Message10SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_JgB5gFAWEeuyucgwnE4nkA"/>
@@ -134,11 +142,14 @@
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TLstkFAWEeuyucgwnE4nkA" name="Message16ReceiveEvent" covered="_VWqlwFAVEeuyucgwnE4nkA" message="_TLq4YFAWEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T3GbAFAWEeuyucgwnE4nkA" name="Message19SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_T3Fz8FAWEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T3HCEFAWEeuyucgwnE4nkA" name="Message19ReceiveEvent" covered="_iiQdUFAVEeuyucgwnE4nkA" message="_T3Fz8FAWEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_u4OUcFAVEeuyucgwnE4nkA" name="ObstacleDetection" messageSort="asynchCall" receiveEvent="_u4QJoFAVEeuyucgwnE4nkA" sendEvent="_u4PikFAVEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_JgB5gFAWEeuyucgwnE4nkA" name="TrafficSignDetection" messageSort="asynchCall" receiveEvent="_JgDHoFAWEeuyucgwnE4nkA" sendEvent="_JgCgkFAWEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_QsWWQFAWEeuyucgwnE4nkA" name="PedestrianDetection" messageSort="asynchCall" receiveEvent="_QsYLcFAWEeuyucgwnE4nkA" sendEvent="_QsXkYFAWEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_TLq4YFAWEeuyucgwnE4nkA" name="RoadDetection" messageSort="asynchCall" receiveEvent="_TLstkFAWEeuyucgwnE4nkA" sendEvent="_TLsGgFAWEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_T3Fz8FAWEeuyucgwnE4nkA" name="LaneDetection" messageSort="asynchCall" receiveEvent="_T3HCEFAWEeuyucgwnE4nkA" sendEvent="_T3GbAFAWEeuyucgwnE4nkA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__JiycGoiEeurzZo0QFSc2g" name="Message23SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="__JiLYGoiEeurzZo0QFSc2g"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__JiycWoiEeurzZo0QFSc2g" name="Message23ReceiveEvent" covered="_5eO1cGoiEeurzZo0QFSc2g" message="__JiLYGoiEeurzZo0QFSc2g"/>
+        <message xmi:type="uml:Message" xmi:id="_u4OUcFAVEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_u4QJoFAVEeuyucgwnE4nkA" sendEvent="_u4PikFAVEeuyucgwnE4nkA"/>
+        <message xmi:type="uml:Message" xmi:id="_JgB5gFAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_JgDHoFAWEeuyucgwnE4nkA" sendEvent="_JgCgkFAWEeuyucgwnE4nkA"/>
+        <message xmi:type="uml:Message" xmi:id="_QsWWQFAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_QsYLcFAWEeuyucgwnE4nkA" sendEvent="_QsXkYFAWEeuyucgwnE4nkA"/>
+        <message xmi:type="uml:Message" xmi:id="_TLq4YFAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_TLstkFAWEeuyucgwnE4nkA" sendEvent="_TLsGgFAWEeuyucgwnE4nkA"/>
+        <message xmi:type="uml:Message" xmi:id="_T3Fz8FAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_T3HCEFAWEeuyucgwnE4nkA" sendEvent="_T3GbAFAWEeuyucgwnE4nkA"/>
+        <message xmi:type="uml:Message" xmi:id="__JiLYGoiEeurzZo0QFSc2g" name="CompressedImage" messageSort="asynchCall" receiveEvent="__JiycWoiEeurzZo0QFSc2g" sendEvent="__JiycGoiEeurzZo0QFSc2g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interaction" xmi:id="_uWze4FAUEeuyucgwnE4nkA" name="LaneDetectionManagement">
         <lifeline xmi:type="uml:Lifeline" xmi:id="_EmMK0FAYEeuyucgwnE4nkA" name="LeftCamera" coveredBy="_kBc30FAYEeuyucgwnE4nkA"/>
@@ -153,7 +164,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Interaction" xmi:id="_1T1icFAUEeuyucgwnE4nkA" name="PedestrianDetectionManagement">
         <lifeline xmi:type="uml:Lifeline" xmi:id="_Gtwe0FAZEeuyucgwnE4nkA" name="LeftCamera" coveredBy="_U7yq0FAZEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_Ibxf0FAZEeuyucgwnE4nkA" name="Odoroter" coveredBy="_UX8W4FAZEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_Ibxf0FAZEeuyucgwnE4nkA" name="Odometer" coveredBy="_UX8W4FAZEeuyucgwnE4nkA"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_KMFm4FAZEeuyucgwnE4nkA" name="PedestrianDetection" coveredBy="_UX898FAZEeuyucgwnE4nkA _U7zR4FAZEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UX8W4FAZEeuyucgwnE4nkA" name="Message4SendEvent" covered="_Ibxf0FAZEeuyucgwnE4nkA" message="_UX7IwFAZEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UX898FAZEeuyucgwnE4nkA" name="Message4ReceiveEvent" covered="_KMFm4FAZEeuyucgwnE4nkA" message="_UX7IwFAZEeuyucgwnE4nkA"/>
