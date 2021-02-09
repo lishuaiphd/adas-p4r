@@ -71,6 +71,25 @@
           <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
         </region>
       </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="TrafficSignsDefaultFSM" specification="_pBx-8GrDEeu-JY2ZjxfCrQ">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_AFOz0GrBEeu-JY2ZjxfCrQ" name="InformationDisplaySkills">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_C60g4GrBEeu-JY2ZjxfCrQ" name="DisplayInfoSpeed" method="_4Qge8PjgEeqA4v_JqiO9QA">
@@ -88,6 +107,7 @@
           <type xmi:type="uml:DataType" href="../../../adas-p4r/services/AdasServices/models/services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_pBx-8GrDEeu-JY2ZjxfCrQ" name="TrafficSigns" method="_4Qge8PjgEeqA4v_JqiO9QA"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_gyXHw2RzEeufoscjYXqgTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gyXHxGRzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -144,4 +164,14 @@
   <robotics.skills:InAttribute xmi:id="_rP7jcGrBEeu-JY2ZjxfCrQ" base_Parameter="_rPyZgGrBEeu-JY2ZjxfCrQ"/>
   <robotics.skills:InAttribute xmi:id="_1hf54GrBEeu-JY2ZjxfCrQ" base_Parameter="_1hM-8GrBEeu-JY2ZjxfCrQ"/>
   <robotics.skills:InAttribute xmi:id="_7Py5cGrBEeu-JY2ZjxfCrQ" base_Parameter="_7PpIcGrBEeu-JY2ZjxfCrQ"/>
+  <robotics.skills:SkillSemantic xmi:id="_pB23cGrDEeu-JY2ZjxfCrQ" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_pB4soGrDEeu-JY2ZjxfCrQ" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_pB4soWrDEeu-JY2ZjxfCrQ" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_pB5TsGrDEeu-JY2ZjxfCrQ" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_pB56wGrDEeu-JY2ZjxfCrQ" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_pB6h0GrDEeu-JY2ZjxfCrQ" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_pB7I4GrDEeu-JY2ZjxfCrQ" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_pB7v8GrDEeu-JY2ZjxfCrQ" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_pB8XAGrDEeu-JY2ZjxfCrQ" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_pB9lIGrDEeu-JY2ZjxfCrQ" base_Operation="_pBx-8GrDEeu-JY2ZjxfCrQ"/>
 </xmi:XMI>
