@@ -28,15 +28,15 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6K-nw2U1Eeuko5tk88a-Ng"/>
     </children>
     <element xmi:type="uml:Interface" href="roaddetection.skills.uml#_6JFxUGU1Eeuko5tk88a-Ng"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6K-nsWU1Eeuko5tk88a-Ng" x="60" y="40" width="541" height="161"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6K-nsWU1Eeuko5tk88a-Ng" x="60" y="40" width="421" height="161"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_JCK_I2lMEeueJv3-WDzOVw" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_JCK_JGlMEeueJv3-WDzOVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_JCK_JmlMEeueJv3-WDzOVw" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_E0Caa2rDEeuFyMP3XyhAFA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_E0CabGrDEeuFyMP3XyhAFA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_E0DBcGrDEeuFyMP3XyhAFA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="roaddetection.skills.uml#_6JFxUGU1Eeuko5tk88a-Ng"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JCK_JWlMEeueJv3-WDzOVw" x="260" y="40"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E0CabWrDEeuFyMP3XyhAFA" x="260" y="40"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_XieQzGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_XieQzWRzEeufoscjYXqgTw"/>
@@ -44,14 +44,14 @@
     <owner xmi:type="uml:Model" href="roaddetection.skills.uml#_XieQwGRzEeufoscjYXqgTw"/>
   </styles>
   <element xmi:type="uml:Model" href="roaddetection.skills.uml#_XieQwGRzEeufoscjYXqgTw"/>
-  <edges xmi:type="notation:Connector" xmi:id="_JCK_J2lMEeueJv3-WDzOVw" type="StereotypeCommentLink" source="_6K-nsGU1Eeuko5tk88a-Ng" target="_JCK_I2lMEeueJv3-WDzOVw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_JCK_KGlMEeueJv3-WDzOVw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_JCK_LGlMEeueJv3-WDzOVw" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_E0DBcWrDEeuFyMP3XyhAFA" type="StereotypeCommentLink" source="_6K-nsGU1Eeuko5tk88a-Ng" target="_E0Caa2rDEeuFyMP3XyhAFA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_E0DBcmrDEeuFyMP3XyhAFA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_E0DBdmrDEeuFyMP3XyhAFA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="roaddetection.skills.uml#_6JFxUGU1Eeuko5tk88a-Ng"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JCK_KWlMEeueJv3-WDzOVw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JCK_KmlMEeueJv3-WDzOVw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JCK_K2lMEeueJv3-WDzOVw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E0DBc2rDEeuFyMP3XyhAFA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E0DBdGrDEeuFyMP3XyhAFA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E0DBdWrDEeuFyMP3XyhAFA"/>
   </edges>
 </notation:Diagram>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zR6_wGrIEeuFyMP3XyhAFA" type="PapyrusUMLClassDiagram" name="Skills diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_A0GyYGrJEeuFyMP3XyhAFA" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_A0GyYmrJEeuFyMP3XyhAFA" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_A0GyY2rJEeuFyMP3XyhAFA" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_A0GyZGrJEeuFyMP3XyhAFA" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_A0GyZWrJEeuFyMP3XyhAFA" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_A0GyZmrJEeuFyMP3XyhAFA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_A0GyZ2rJEeuFyMP3XyhAFA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_A0GyaGrJEeuFyMP3XyhAFA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A0GyaWrJEeuFyMP3XyhAFA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_A0GyamrJEeuFyMP3XyhAFA" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_CC3EgGrJEeuFyMP3XyhAFA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="speedcontrol2.skills.uml#_CCsFYGrJEeuFyMP3XyhAFA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_CC3EgWrJEeuFyMP3XyhAFA"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_A0Gya2rJEeuFyMP3XyhAFA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_A0GybGrJEeuFyMP3XyhAFA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_A0GybWrJEeuFyMP3XyhAFA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A0GybmrJEeuFyMP3XyhAFA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_A0Gyb2rJEeuFyMP3XyhAFA" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_A0GycGrJEeuFyMP3XyhAFA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_A0GycWrJEeuFyMP3XyhAFA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_A0GycmrJEeuFyMP3XyhAFA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A0Gyc2rJEeuFyMP3XyhAFA"/>
+    </children>
+    <element xmi:type="uml:Interface" href="speedcontrol2.skills.uml#_Ay1nEGrJEeuFyMP3XyhAFA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A0GyYWrJEeuFyMP3XyhAFA" x="140" y="80" width="341" height="121"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_A0Kc12rJEeuFyMP3XyhAFA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_A0Kc2GrJEeuFyMP3XyhAFA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A0Kc2mrJEeuFyMP3XyhAFA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="speedcontrol2.skills.uml#_Ay1nEGrJEeuFyMP3XyhAFA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A0Kc2WrJEeuFyMP3XyhAFA" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_zR6_wWrIEeuFyMP3XyhAFA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zR6_wmrIEeuFyMP3XyhAFA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_zR6_w2rIEeuFyMP3XyhAFA" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="speedcontrol2.skills.uml#_zR2HQGrIEeuFyMP3XyhAFA"/>
+  </styles>
+  <element xmi:type="uml:Model" href="speedcontrol2.skills.uml#_zR2HQGrIEeuFyMP3XyhAFA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_A0Kc22rJEeuFyMP3XyhAFA" type="StereotypeCommentLink" source="_A0GyYGrJEeuFyMP3XyhAFA" target="_A0Kc12rJEeuFyMP3XyhAFA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_A0Kc3GrJEeuFyMP3XyhAFA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_A0Kc4GrJEeuFyMP3XyhAFA" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="speedcontrol2.skills.uml#_Ay1nEGrJEeuFyMP3XyhAFA"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A0Kc3WrJEeuFyMP3XyhAFA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A0Kc3mrJEeuFyMP3XyhAFA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A0Kc32rJEeuFyMP3XyhAFA"/>
+  </edges>
+</notation:Diagram>
