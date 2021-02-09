@@ -479,15 +479,12 @@
   <bt:Action xmi:id="_PmB6kGfUEeu1s8FOAgJV7A" base_Action="_OhZNwGfUEeu1s8FOAgJV7A"/>
   <bt:OutFlowPort xmi:id="_PmLEgGfUEeu1s8FOAgJV7A" base_OutputPin="_PmIBMGfUEeu1s8FOAgJV7A"/>
   <bt:DataFlowEdge xmi:id="_VIW6sGfUEeu1s8FOAgJV7A" base_ObjectFlow="_VINJsGfUEeu1s8FOAgJV7A"/>
-  <bt:DataFlowEdge xmi:id="_r4LhkGfUEeu1s8FOAgJV7A"/>
   <bt:Action xmi:id="_u8kfoGfUEeu1s8FOAgJV7A" base_Action="_t8jNEGfUEeu1s8FOAgJV7A"/>
   <bt:InFlowPort xmi:id="_u8tpkGfUEeu1s8FOAgJV7A" base_InputPin="_u8qmQGfUEeu1s8FOAgJV7A"/>
   <bt:OutFlowPort xmi:id="_u8wF0GfUEeu1s8FOAgJV7A" base_OutputPin="_u8rNUGfUEeu1s8FOAgJV7A"/>
-  <bt:DataFlowEdge xmi:id="_wEKZ0GfUEeu1s8FOAgJV7A"/>
   <bt:Action xmi:id="_xe7HoGfUEeu1s8FOAgJV7A" base_Action="_wjINwGfUEeu1s8FOAgJV7A"/>
   <bt:OutFlowPort xmi:id="_xfDDcGfUEeu1s8FOAgJV7A" base_OutputPin="_xfAnMGfUEeu1s8FOAgJV7A"/>
   <bt:DataFlowEdge xmi:id="_yeZnoGfUEeu1s8FOAgJV7A" base_ObjectFlow="_yeV9QGfUEeu1s8FOAgJV7A"/>
-  <bt:ControlFlowEdge xmi:id="_7qgK0GfUEeu1s8FOAgJV7A"/>
   <robotics.behavior:Task xmi:id="_PMwCcGfVEeu1s8FOAgJV7A" base_Class="_GAl04GfVEeu1s8FOAgJV7A" base_Behavior="_GAl04GfVEeu1s8FOAgJV7A"/>
   <bt:TreeRoot xmi:id="_PM3-QGfVEeu1s8FOAgJV7A" base_Activity="_GAl04GfVEeu1s8FOAgJV7A"/>
   <bt:Fallback xmi:id="_S-7TkGfVEeu1s8FOAgJV7A" base_Action="_S-zXwGfVEeu1s8FOAgJV7A"/>
@@ -539,7 +536,6 @@
   <bt:OutFlowPort xmi:id="_pjHCQGoyEeuyLphI0JJOjA" base_OutputPin="_pjBis2oyEeuyLphI0JJOjA"/>
   <bt:Sequence xmi:id="_rq2x4GoyEeuyLphI0JJOjA" base_Action="_rqzukGoyEeuyLphI0JJOjA"/>
   <bt:ControlFlowEdge xmi:id="_syd6MGoyEeuyLphI0JJOjA" base_ControlFlow="_sya24GoyEeuyLphI0JJOjA"/>
-  <bt:ControlFlowEdge xmi:id="_tRta8GoyEeuyLphI0JJOjA"/>
   <bt:ControlFlowEdge xmi:id="_t761kGoyEeuyLphI0JJOjA" base_ControlFlow="_t74ZUGoyEeuyLphI0JJOjA"/>
   <bt:ControlFlowEdge xmi:id="_u3peAGoyEeuyLphI0JJOjA" base_ControlFlow="_u3nBwGoyEeuyLphI0JJOjA"/>
   <bt:DataFlowEdge xmi:id="_vSkfcGoyEeuyLphI0JJOjA" base_ObjectFlow="_vSiDMGoyEeuyLphI0JJOjA"/>
