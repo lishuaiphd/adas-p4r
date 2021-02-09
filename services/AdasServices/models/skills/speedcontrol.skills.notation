@@ -16,6 +16,14 @@
         <element xmi:type="uml:Operation" href="speedcontrol.skills.uml#_bVdFAGU1EeuPV-OwkyB9JA"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_bWfm0WU1EeuPV-OwkyB9JA"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_NXliEGq-EeuT89nIG34gmA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="speedcontrol.skills.uml#_NWc5oGq-EeuT89nIG34gmA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_NXliEWq-EeuT89nIG34gmA"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_QKvmMGq-EeuT89nIG34gmA" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="speedcontrol.skills.uml#_QKKXYGq-EeuT89nIG34gmA"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QKvmMWq-EeuT89nIG34gmA"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_x0bT12UyEeuPV-OwkyB9JA"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_x0bT2GUyEeuPV-OwkyB9JA"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_x0bT2WUyEeuPV-OwkyB9JA"/>
@@ -30,13 +38,13 @@
     <element xmi:type="uml:Interface" href="speedcontrol.skills.uml#_xv71YGUyEeuPV-OwkyB9JA"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x0ZeoWUyEeuPV-OwkyB9JA" x="320" y="160" width="581" height="321"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_x08RM2UyEeuPV-OwkyB9JA" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_x08RNGUyEeuPV-OwkyB9JA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_x08RNmUyEeuPV-OwkyB9JA" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_Lb9i4Gq-EeuT89nIG34gmA" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_Lb9i4Wq-EeuT89nIG34gmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Lb-J8Gq-EeuT89nIG34gmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="speedcontrol.skills.uml#_xv71YGUyEeuPV-OwkyB9JA"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x08RNWUyEeuPV-OwkyB9JA" x="200"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lb9i4mq-EeuT89nIG34gmA" x="520" y="160"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_eufLjGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_eufLjWRzEeufoscjYXqgTw"/>
@@ -44,14 +52,14 @@
     <owner xmi:type="uml:Model" href="speedcontrol.skills.uml#_eufLgGRzEeufoscjYXqgTw"/>
   </styles>
   <element xmi:type="uml:Model" href="speedcontrol.skills.uml#_eufLgGRzEeufoscjYXqgTw"/>
-  <edges xmi:type="notation:Connector" xmi:id="_x08RN2UyEeuPV-OwkyB9JA" type="StereotypeCommentLink" source="_x0ZeoGUyEeuPV-OwkyB9JA" target="_x08RM2UyEeuPV-OwkyB9JA">
-    <styles xmi:type="notation:FontStyle" xmi:id="_x08ROGUyEeuPV-OwkyB9JA"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_x084QGUyEeuPV-OwkyB9JA" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_Lb-J8Wq-EeuT89nIG34gmA" type="StereotypeCommentLink" source="_x0ZeoGUyEeuPV-OwkyB9JA" target="_Lb9i4Gq-EeuT89nIG34gmA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Lb-J8mq-EeuT89nIG34gmA"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Lb-J9mq-EeuT89nIG34gmA" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="speedcontrol.skills.uml#_xv71YGUyEeuPV-OwkyB9JA"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x08ROWUyEeuPV-OwkyB9JA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x08ROmUyEeuPV-OwkyB9JA"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x08RO2UyEeuPV-OwkyB9JA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Lb-J82q-EeuT89nIG34gmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lb-J9Gq-EeuT89nIG34gmA"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lb-J9Wq-EeuT89nIG34gmA"/>
   </edges>
 </notation:Diagram>
