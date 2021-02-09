@@ -31,6 +31,9 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_8f6vcGq_EeuwTI0FcunWYA">
       <importedPackage xmi:type="uml:Model" href="../../../adas-p4r/services/AdasServices/models/skills/speedcontrol.skills.uml#_eufLgGRzEeufoscjYXqgTw"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_SVfCoGrCEeuwTI0FcunWYA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/skills/lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Activity" xmi:id="_0KqZMWRzEeufoscjYXqgTw" name="acceleration possible" node="_bb1cwGq6EeuwTI0FcunWYA _wqd9sGq6EeuwTI0FcunWYA _xe4LQGq8EeuwTI0FcunWYA _x342QGq-EeuwTI0FcunWYA _42Yc8Gq_EeuwTI0FcunWYA">
       <edge xmi:type="uml:ControlFlow" xmi:id="_Cj_coGq-EeuwTI0FcunWYA" name="ControlFlowEdge5" target="_xe4LQGq8EeuwTI0FcunWYA" source="_wqd9sGq6EeuwTI0FcunWYA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_ajCPsGq-EeuwTI0FcunWYA" name="ControlFlowEdge9" target="_wqd9sGq6EeuwTI0FcunWYA" source="_bb1cwGq6EeuwTI0FcunWYA"/>
@@ -53,6 +56,23 @@
       </node>
     </packagedElement>
     <packagedElement xmi:type="uml:Activity" xmi:id="_Xx5MgGq4EeuwTI0FcunWYA" name="Activity7"/>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_xBmAEGrBEeuwTI0FcunWYA" name="tourner" node="_DE5NcGrCEeuwTI0FcunWYA _HYFg8GrCEeuwTI0FcunWYA _Q8wVIGrCEeuwTI0FcunWYA _CtwDUGrDEeuwTI0FcunWYA">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_U21IkGrDEeuwTI0FcunWYA" name="ControlFlowEdge5" target="_CtwDUGrDEeuwTI0FcunWYA" source="_DE5NcGrCEeuwTI0FcunWYA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_WFf7IGrDEeuwTI0FcunWYA" name="ControlFlowEdge6" target="_HYFg8GrCEeuwTI0FcunWYA" source="_DE5NcGrCEeuwTI0FcunWYA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XTEhgGrDEeuwTI0FcunWYA" name="ControlFlowEdge7" target="_Q8wVIGrCEeuwTI0FcunWYA" source="_HYFg8GrCEeuwTI0FcunWYA"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_DE5NcGrCEeuwTI0FcunWYA" name="" outgoing="_U21IkGrDEeuwTI0FcunWYA _WFf7IGrDEeuwTI0FcunWYA">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_HYFg8GrCEeuwTI0FcunWYA" name="changer voie" incoming="_WFf7IGrDEeuwTI0FcunWYA" outgoing="_XTEhgGrDEeuwTI0FcunWYA">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_BIq1QAboEeqCcYqBkTNorg"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_Q8wVIGrCEeuwTI0FcunWYA" name="" incoming="_XTEhgGrDEeuwTI0FcunWYA">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/lanedetection.skills.uml#_2ReF4GU9EeucYueNcfn0IA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_CtwDUGrDEeuwTI0FcunWYA" name="" incoming="_U21IkGrDEeuwTI0FcunWYA">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/trafficsigndetection.skills.uml#_4AwWYGU2Eeuko5tk88a-Ng"/>
+      </node>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0KqZMmRzEeufoscjYXqgTw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0KqZM2RzEeufoscjYXqgTw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
@@ -98,4 +118,13 @@
   <bt:ControlFlowEdge xmi:id="_36QoYGq-EeuwTI0FcunWYA" base_ControlFlow="_36Lv4Gq-EeuwTI0FcunWYA"/>
   <bt:Action xmi:id="_8f79kGq_EeuwTI0FcunWYA" base_Action="_42Yc8Gq_EeuwTI0FcunWYA"/>
   <bt:ControlFlowEdge xmi:id="_-a088Gq_EeuwTI0FcunWYA" base_ControlFlow="_-awrgGq_EeuwTI0FcunWYA"/>
+  <robotics.behavior:Task xmi:id="_8MfLMGrBEeuwTI0FcunWYA" base_Class="_xBmAEGrBEeuwTI0FcunWYA" base_Behavior="_xBmAEGrBEeuwTI0FcunWYA"/>
+  <bt:TreeRoot xmi:id="_8NOLAGrBEeuwTI0FcunWYA" base_Activity="_xBmAEGrBEeuwTI0FcunWYA"/>
+  <bt:Fallback xmi:id="_DE_UEGrCEeuwTI0FcunWYA" base_Action="_DE5NcGrCEeuwTI0FcunWYA"/>
+  <bt:Sequence xmi:id="_HYJyYGrCEeuwTI0FcunWYA" base_Action="_HYFg8GrCEeuwTI0FcunWYA"/>
+  <bt:Action xmi:id="_SVgQwGrCEeuwTI0FcunWYA" base_Action="_Q8wVIGrCEeuwTI0FcunWYA"/>
+  <bt:Action xmi:id="_FatY0GrDEeuwTI0FcunWYA" base_Action="_CtwDUGrDEeuwTI0FcunWYA"/>
+  <bt:ControlFlowEdge xmi:id="_U24L4GrDEeuwTI0FcunWYA" base_ControlFlow="_U21IkGrDEeuwTI0FcunWYA"/>
+  <bt:ControlFlowEdge xmi:id="_WFjlgGrDEeuwTI0FcunWYA" base_ControlFlow="_WFf7IGrDEeuwTI0FcunWYA"/>
+  <bt:ControlFlowEdge xmi:id="_XTJaAGrDEeuwTI0FcunWYA" base_ControlFlow="_XTEhgGrDEeuwTI0FcunWYA"/>
 </xmi:XMI>
