@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
+  <uml:Model xmi:id="_rHEiYGrBEeuV1qKt5qT6YQ" name="DetectPedestrian_team1Thara">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zPkTgGrBEeuV1qKt5qT6YQ">
+      <importedPackage xmi:type="uml:Model" href="../tasks/adas_team1.bt.uml#_xFxE0GRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_rHEiYWrBEeuV1qKt5qT6YQ" name="DetectPedestrian_team1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ASR74GrCEeuV1qKt5qT6YQ" name="Left camera no stream"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3pbPsGrBEeuV1qKt5qT6YQ" name="Pedestrian no detected"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vYq9oGrFEeuV1qKt5qT6YQ" name="Fast speed"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_p9BiYGrHEeuV1qKt5qT6YQ" name="Incorrectly calculated distance"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rHEiYmrBEeuV1qKt5qT6YQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rHEiY2rBEeuV1qKt5qT6YQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rHEiZGrBEeuV1qKt5qT6YQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rHEiZWrBEeuV1qKt5qT6YQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rHEiZmrBEeuV1qKt5qT6YQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rHEiZ2rBEeuV1qKt5qT6YQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rHEiaGrBEeuV1qKt5qT6YQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rHEiaWrBEeuV1qKt5qT6YQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rHEiamrBEeuV1qKt5qT6YQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rHEia2rBEeuV1qKt5qT6YQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rHEibGrBEeuV1qKt5qT6YQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rHEibWrBEeuV1qKt5qT6YQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_HARA/TaskBasedRiskAnalysis.profile.uml#_VoagkD9eEemSWsc0fABanw"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_rHEibmrBEeuV1qKt5qT6YQ" base_Package="_rHEiYGrBEeuV1qKt5qT6YQ"/>
+  <RiskAnalysis:HazardAnalysisContext xmi:id="_rHEib2rBEeuV1qKt5qT6YQ" base_Interface="_rHEiYWrBEeuV1qKt5qT6YQ"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_3razwGrBEeuV1qKt5qT6YQ" Origin="Bad recognition." HazardousSituation="Deformed pedestrian, urban locomotion" HazardousEvent="Wheelchair, bicycle..." Initial_Occurence="3" Initial_Frequency="2" Initial_Severity="2" Initial_RiskReduction="Improve the algorithm." Final_Severity="2" base_Property="_3pbPsGrBEeuV1qKt5qT6YQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/pedestriandetection.skills.uml#_pZo1oGUuEeuv5pRcTLDdJA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_ASSi8GrCEeuV1qKt5qT6YQ" instance_uid="_EiA3QGq4EeuV1qKt5qT6YQ" Origin="The camera got hit." HazardousSituation="Hidden vision, electronic failure, broken camera" HazardousEvent="Snow, dirty" Initial_Severity="2" Initial_RiskReduction="Duplicate the left camera component." Final_Severity="2" Final_RiskReduction="" base_Property="_ASR74GrCEeuV1qKt5qT6YQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../services/AdasServices/models/skills/leftcamera.skills.uml#_JHeZAGUyEeudPMCtZy-xNQ"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_vYuoAGrFEeuV1qKt5qT6YQ" Origin="No adapted speed." HazardousSituation="Don't have time to recognize pedestrian" HazardousEvent="Pedestrian does't respect the  traffic light" Initial_Occurence="3" Initial_Severity="2" Initial_RiskReduction="Improved processing time of algorithm" Final_Severity="2" base_Property="_vYq9oGrFEeuV1qKt5qT6YQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/speed.skills.uml#_pQg1MGU2Eeuko5tk88a-Ng"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_p9ElsGrHEeuV1qKt5qT6YQ" Origin="Lidar failing." HazardousSituation="Bad calculated distance to pedestrian" HazardousEvent="Fog" Initial_Severity="2" Initial_RiskReduction="Duplicate the lidar component and lidar more reliable. " Final_Severity="2" base_Property="_p9BiYGrHEeuV1qKt5qT6YQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/lidar.skills.uml#_58kfoGUyEeu5O-q0VXTiKA"/>
+  </RiskAnalysis:HazardAnalysis>
+</xmi:XMI>
