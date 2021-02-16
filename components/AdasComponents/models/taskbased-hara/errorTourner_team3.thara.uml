@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
   <uml:Model xmi:id="_HFwvsHBFEeuezu6kvhmnow" name="ErrorTourner_team3Thara">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_LUINkHBFEeuezu6kvhmnow">
       <importedPackage xmi:type="uml:Model" href="../tasks/adas_team3.bt.uml#_0KqZMGRzEeufoscjYXqgTw"/>
     </packageImport>
     <packagedElement xmi:type="uml:Interface" xmi:id="_HFwvsXBFEeuezu6kvhmnow" name="ErrorTourner_team3">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_TEEUwHBFEeuezu6kvhmnow" name="Property1"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TEEUwHBFEeuezu6kvhmnow" name="le lidar n'envoye pas de donnée"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HFwvsnBFEeuezu6kvhmnow">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HFwvs3BFEeuezu6kvhmnow" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -46,4 +46,7 @@
   </uml:Model>
   <robotics.generics:Package xmi:id="_HFwvvnBFEeuezu6kvhmnow" base_Package="_HFwvsHBFEeuezu6kvhmnow"/>
   <RiskAnalysis:HazardAnalysisContext xmi:id="_HFwvv3BFEeuezu6kvhmnow" base_Interface="_HFwvsXBFEeuezu6kvhmnow"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_sZ6GMHBGEeuezu6kvhmnow" description="" Origin="le lidar à une erreur interne" HazardousSituation="ADAS ne voit détecte plus les obstacle" HazardousEvent="ADAS ne réagit pas en fonction des obstacles" PossibleHarm="danger d'impact avec un obstacle" Initial_Avoidance="2" Initial_Severity="2" Initial_RiskReduction="laisser la main au conducteur" base_Property="_TEEUwHBFEeuezu6kvhmnow">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/lidar.skills.uml#_58kfoGUyEeu5O-q0VXTiKA"/>
+  </RiskAnalysis:HazardAnalysis>
 </xmi:XMI>
