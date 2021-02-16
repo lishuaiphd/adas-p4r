@@ -47,10 +47,10 @@
   </uml:Model>
   <robotics.generics:Package xmi:id="_Y4rD3mq3EeuV1qKt5qT6YQ" base_Package="_Y4rD0Gq3EeuV1qKt5qT6YQ"/>
   <RiskAnalysis:HazardAnalysisContext xmi:id="_Y4rD32q3EeuV1qKt5qT6YQ" base_Interface="_Y4rD0Wq3EeuV1qKt5qT6YQ"/>
-  <RiskAnalysis:HazardAnalysis xmi:id="_EiA3QGq4EeuV1qKt5qT6YQ" Origin="The camera got hit." HazardousSituation="Hidden vision, electronic failure, broken camera" HazardousEvent="Snow, dirty" Initial_Severity="2" Initial_RiskReduction="Duplicate the left camera component." Final_RiskReduction="No problem." base_Property="_EfCbwGq4EeuV1qKt5qT6YQ">
+  <RiskAnalysis:HazardAnalysis xmi:id="_EiA3QGq4EeuV1qKt5qT6YQ" Origin="The camera got hit." HazardousSituation="Hidden vision, electronic failure, broken camera" HazardousEvent="Snow, dirty" Initial_Severity="2" Initial_RiskReduction="Duplicate the left camera component." Final_Severity="2" Final_RiskReduction="" base_Property="_EfCbwGq4EeuV1qKt5qT6YQ">
     <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../services/AdasServices/models/skills/leftcamera.skills.uml#_JHeZAGUyEeudPMCtZy-xNQ"/>
   </RiskAnalysis:HazardAnalysis>
-  <RiskAnalysis:HazardAnalysis xmi:id="_gk6Z8Gq7EeuV1qKt5qT6YQ" Origin="Marking defect." HazardousSituation="Deformed line, absent line, worn line, different line from one country to another, yellow line" HazardousEvent="Bad weather, time, road works" Initial_Occurence="3" Initial_Severity="2" Initial_RiskReduction="Algorithm training." Final_Occurence="3" Final_RiskReduction="Make the markings on the ground" base_Property="_gkzFMGq7EeuV1qKt5qT6YQ">
+  <RiskAnalysis:HazardAnalysis xmi:id="_gk6Z8Gq7EeuV1qKt5qT6YQ" Origin="Marking defect." HazardousSituation="Deformed line, absent line, worn line, different line from one country to another, yellow line" HazardousEvent="Bad weather, time, road works" Initial_Occurence="3" Initial_Severity="2" Initial_RiskReduction="Algorithm training." Final_Occurence="3" Final_Severity="2" Final_RiskReduction="Make the markings on the ground" base_Property="_gkzFMGq7EeuV1qKt5qT6YQ">
     <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../services/AdasServices/models/skills/lanedetection.skills.uml#_2Rt9gGU9EeucYueNcfn0IA"/>
   </RiskAnalysis:HazardAnalysis>
 </xmi:XMI>

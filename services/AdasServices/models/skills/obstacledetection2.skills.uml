@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
+  <uml:Model xmi:id="_w5BEIGrHEeuFyMP3XyhAFA" name="SkillsSkills">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_w5BEIWrHEeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Package" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_ysOXAPjgEeqA4v_JqiO9QA"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_9mwiEGrHEeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Model" href="../services/lidar.servicedef.uml#_ibmewE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="__wZvIGrHEeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Model" href="../services/obstacledetection.servicedef.uml#_uNmGIE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ec7G0GrIEeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Model" href="../services/speedcontrol.servicedef.uml#_zPwYcE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_w5BEImrHEeuFyMP3XyhAFA" name="defaultsemantics">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectObstacleDefaultFSM" specification="_6PCYUGrHEeuFyMP3XyhAFA">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_47lzcGrHEeuFyMP3XyhAFA" name="ObstacleDetectionSkillSet">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_6PCYUGrHEeuFyMP3XyhAFA" name="DetectObstacle" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7nD7MGrHEeuFyMP3XyhAFA">
+          <type xmi:type="uml:DataType" href="../services/lidar.servicedef.uml#_s5oBUFA3EeuN0MABJzfdCw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-HwWUGrHEeuFyMP3XyhAFA" direction="out">
+          <type xmi:type="uml:DataType" href="../services/obstacledetection.servicedef.uml#_AAbaYFXbEeuv-d3PD1mVRQ"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_AOpKUGrIEeuFyMP3XyhAFA" name="ObstacleDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_B7Xx4GrIEeuFyMP3XyhAFA" name="ObstacleNotDetected" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_w5BEI2rHEeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w5BEJGrHEeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_w5BEJWrHEeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w5BEJmrHEeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_w5BEJ2rHEeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w5BEKGrHEeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/assertions/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_ASSERTIONS/assertions.profile.uml#_N9HP0HQPEeqOfoT8vF1-1w"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_w5BEKWrHEeuFyMP3XyhAFA" base_Package="_w5BEIGrHEeuFyMP3XyhAFA"/>
+  <robotics.generics:Package xmi:id="_w5BEKmrHEeuFyMP3XyhAFA" base_Package="_w5BEImrHEeuFyMP3XyhAFA"/>
+  <robotics.skills:SkillDefinitionSet xmi:id="_47nBkGrHEeuFyMP3XyhAFA" base_Interface="_47lzcGrHEeuFyMP3XyhAFA"/>
+  <robotics.skills:SkillDefinition xmi:id="_6PH34GrHEeuFyMP3XyhAFA" base_Operation="_6PCYUGrHEeuFyMP3XyhAFA"/>
+  <robotics.skills:InAttribute xmi:id="_7nKB0GrHEeuFyMP3XyhAFA" base_Parameter="_7nD7MGrHEeuFyMP3XyhAFA"/>
+  <robotics.skills:OutAttribute xmi:id="_-H1O0GrHEeuFyMP3XyhAFA" base_Parameter="_-HwWUGrHEeuFyMP3XyhAFA"/>
+  <robotics.skills:SkillResult xmi:id="_AOvQ8GrIEeuFyMP3XyhAFA" base_Parameter="_AOpKUGrIEeuFyMP3XyhAFA" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_B7d4gGrIEeuFyMP3XyhAFA" base_Parameter="_B7Xx4GrIEeuFyMP3XyhAFA" kind="FAILURE"/>
+</xmi:XMI>

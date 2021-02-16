@@ -13,6 +13,15 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_VerCYGU2Eeuko5tk88a-Ng">
       <importedPackage xmi:type="uml:Model" href="../services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_IoyeYGrDEeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Model" href="../services/lidar.servicedef.uml#_ibmewE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ZOGDwGrDEeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Model" href="../services/obstacledetection.servicedef.uml#_uNmGIE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_bTzhIGrFEeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Model" href="../../../services/roaddetection.servicedef.uml#_U8FloE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_XieQwmRzEeufoscjYXqgTw" name="defaultsemantics">
       <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetectRoadDefaultFSM" specification="_67QOEGU1Eeuko5tk88a-Ng">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
