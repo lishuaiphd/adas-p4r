@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+  <uml:Model xmi:id="_VxGLcHA0Eeu4U629dBwRkQ" name="ErrorCorrection_team3Thara">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_VxGLcXA0Eeu4U629dBwRkQ" name="ErrorCorrection_team3"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VxGLcnA0Eeu4U629dBwRkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxGLc3A0Eeu4U629dBwRkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VxGLdHA0Eeu4U629dBwRkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxGLdXA0Eeu4U629dBwRkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VxGLdnA0Eeu4U629dBwRkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxGLd3A0Eeu4U629dBwRkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VxGLeHA0Eeu4U629dBwRkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxGLeXA0Eeu4U629dBwRkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VxGLenA0Eeu4U629dBwRkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxGLe3A0Eeu4U629dBwRkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VxGLfHA0Eeu4U629dBwRkQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxGLfXA0Eeu4U629dBwRkQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_HARA/TaskBasedRiskAnalysis.profile.uml#_VoagkD9eEemSWsc0fABanw"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_VxGLfnA0Eeu4U629dBwRkQ" base_Package="_VxGLcHA0Eeu4U629dBwRkQ"/>
+  <RiskAnalysis:HazardAnalysisContext xmi:id="_VxGLf3A0Eeu4U629dBwRkQ" base_Interface="_VxGLcXA0Eeu4U629dBwRkQ"/>
+</xmi:XMI>
