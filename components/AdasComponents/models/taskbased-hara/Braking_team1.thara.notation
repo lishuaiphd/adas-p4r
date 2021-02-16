@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nattable:Table xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle" xmi:id="_WXYA8HA3EeuJnpf4fp3i8g" name="HazardAnalysisTable" currentRowAxisProvider="_WXYBCHA3EeuJnpf4fp3i8g" currentColumnAxisProvider="_WXYA9HA3EeuJnpf4fp3i8g" tableKindId="org.eclipse.papyrus.robotics.safety.riskanalysis.table.HazardAnalysisTableType">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WXYA8XA3EeuJnpf4fp3i8g" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WXYA8nA3EeuJnpf4fp3i8g" key="version" value="1.3.0"/>
+  </eAnnotations>
+  <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_WXYA83A3EeuJnpf4fp3i8g" name="hiddenCategoriesByDepth">
+    <intListValue>0</intListValue>
+  </styles>
+  <context xmi:type="uml:Interface" href="Braking_team1.thara.uml#_WXUWkXA3EeuJnpf4fp3i8g"/>
+  <owner xmi:type="uml:Interface" href="Braking_team1.thara.uml#_WXUWkXA3EeuJnpf4fp3i8g"/>
+  <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.robotics.safety.riskanalysis.table/tableConfiguration/HazardAnalysisTableType.nattableconfiguration#_4sLZQEWIEem1bPXeAqLfZw"/>
+  <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_WXYA9HA3EeuJnpf4fp3i8g" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA9XA3EeuJnpf4fp3i8g" alias="Skill" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Skill">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_WXYA9nA3EeuJnpf4fp3i8g" alias="Hazard">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBDzQEei_1txcmoHe_A"/>
+      <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//NamedElement/name"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA93A3EeuJnpf4fp3i8g" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Origin">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_zPkFgHA9EeuJnpf4fp3i8g" name="axisWidth" intValue="260"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA-HA3EeuJnpf4fp3i8g" alias="Hazardous Situation" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::HazardousSituation">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_aaJZMHA_EeuJnpf4fp3i8g" name="axisWidth" intValue="272"/>
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA-XA3EeuJnpf4fp3i8g" alias="Hazardous Event" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::HazardousEvent">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA-nA3EeuJnpf4fp3i8g" alias="Possible Harm" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::PossibleHarm">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA-3A3EeuJnpf4fp3i8g" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Comment">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA_HA3EeuJnpf4fp3i8g" alias="Initial Occurence" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Initial_Occurence">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA_XA3EeuJnpf4fp3i8g" alias="Initial Avoidance" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Initial_Avoidance">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA_nA3EeuJnpf4fp3i8g" alias="Initial Frequency" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Initial_Frequency">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYA_3A3EeuJnpf4fp3i8g" alias="Initial Severity" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Initial_Severity">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBAHA3EeuJnpf4fp3i8g" alias="Initial Criticality" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Initial_Criticality">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBAXA3EeuJnpf4fp3i8g" alias="Initial Risk Reduction" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Initial_RiskReduction">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBAnA3EeuJnpf4fp3i8g" alias="Final Occurence" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Final_Occurence">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBA3A3EeuJnpf4fp3i8g" alias="Final Avoidance" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Final_Avoidance">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBBHA3EeuJnpf4fp3i8g" alias="Final Frequency" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Final_Frequency">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBBXA3EeuJnpf4fp3i8g" alias="Final Severity" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Final_Severity">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBBnA3EeuJnpf4fp3i8g" alias="Final Criticality" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Final_Criticality">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+    <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_WXYBB3A3EeuJnpf4fp3i8g" alias="Final Risk Reduction" element="property_of_stereotype:/TaskBasedRiskAnalysis::HazardAnalysis::Final_RiskReduction">
+      <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable/configs/genericTreeTable.nattableconfiguration#_Wa4BBTzQEei_1txcmoHe_A"/>
+    </axis>
+  </columnAxisProvidersHistory>
+  <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_WXYBCHA3EeuJnpf4fp3i8g" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_WXYBCXA3EeuJnpf4fp3i8g" indexStyle="NUMERIC" displayIndex="false">
+    <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_1VzA8HA3EeuJnpf4fp3i8g" name="rowLabelWidth" intValue="253"/>
+  </localRowHeaderAxisConfiguration>
+  <localColumnHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_WXYBCnA3EeuJnpf4fp3i8g" displayIndex="false"/>
+</nattable:Table>
