@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
   <uml:Model xmi:id="_pkyzkDl6Eeu2uO8BpxUrEw" name="ADAS_Requirements">
     <packagedElement xmi:type="uml:Package" xmi:id="_SUEd0DokEeuDR-FZDkAqqw" name="Requirements">
       <packageImport xmi:type="uml:PackageImport" xmi:id="_pnp6YDl6Eeu2uO8BpxUrEw">
@@ -8,13 +8,22 @@
       <packageImport xmi:type="uml:PackageImport" xmi:id="_pnzrUDl6Eeu2uO8BpxUrEw">
         <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
       </packageImport>
-      <packagedElement xmi:type="uml:Package" xmi:id="_0SBhIDoQEeuDR-FZDkAqqw" name="MotionAssistance"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_0SBhIDoQEeuDR-FZDkAqqw" name="MotionAssistance">
+        <packagedElement xmi:type="uml:Class" xmi:id="_uVrHAHRyEeuvj8F-LkYwwA" name="RightCamera"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_u83C0HRyEeuvj8F-LkYwwA" name="DepthMap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vq50kHRyEeuvj8F-LkYwwA" name="Fusion"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_8MfdUDoQEeuDR-FZDkAqqw" name="SteeringAssistance"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_9NCUUDoQEeuDR-FZDkAqqw" name="Feedback"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_gpLXoDojEeuDR-FZDkAqqw" name="EnvironmentAwareness"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_UGzmwDokEeuDR-FZDkAqqw" name="Usecases">
-      <packagedElement xmi:type="uml:Class" xmi:id="_eYZyYDokEeuDR-FZDkAqqw" name="ADAS"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_eYZyYDokEeuDR-FZDkAqqw" name="ADAS" useCase="_QCniwHRzEeuvj8F-LkYwwA _lJRzcHRzEeuvj8F-LkYwwA _nJbGQHRzEeuvj8F-LkYwwA _qOINYHRzEeuvj8F-LkYwwA">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_QCniwHRzEeuvj8F-LkYwwA" name="Startup" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_lJRzcHRzEeuvj8F-LkYwwA" name="ManagerRightCamera" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_nJbGQHRzEeuvj8F-LkYwwA" name="ManagerDepthMap" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qOINYHRzEeuvj8F-LkYwwA" name="ManagerFusion" subject="_eYZyYDokEeuDR-FZDkAqqw"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_firNIDokEeuDR-FZDkAqqw" name="Driver"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_gSL-gDokEeuDR-FZDkAqqw" name="Vehicle"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_hoQZkDokEeuDR-FZDkAqqw" name="TrafficSign"/>
@@ -22,6 +31,97 @@
       <packagedElement xmi:type="uml:Actor" xmi:id="_mh_IoDokEeuDR-FZDkAqqw" name="Lane"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_Iih10DolEeuDR-FZDkAqqw" name="Obstacle"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_MIQmYDolEeuDR-FZDkAqqw" name="Road"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_wkyNcHRzEeuvj8F-LkYwwA" memberEnd="_wkyNc3RzEeuvj8F-LkYwwA _wkyNdHRzEeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wkyNcXRzEeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wkyNcnRzEeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_wkyNc3RzEeuvj8F-LkYwwA" name="pedestrian" type="_iiOHcDokEeuDR-FZDkAqqw" association="_wkyNcHRzEeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_wkyNdHRzEeuvj8F-LkYwwA" name="managerrightcamera" type="_lJRzcHRzEeuvj8F-LkYwwA" association="_wkyNcHRzEeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xaIhEHRzEeuvj8F-LkYwwA" memberEnd="_xaIhE3RzEeuvj8F-LkYwwA _xaIhFHRzEeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xaIhEXRzEeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xaIhEnRzEeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xaIhE3RzEeuvj8F-LkYwwA" name="obstacle" type="_Iih10DolEeuDR-FZDkAqqw" association="_xaIhEHRzEeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xaIhFHRzEeuvj8F-LkYwwA" name="managerrightcamera" type="_lJRzcHRzEeuvj8F-LkYwwA" association="_xaIhEHRzEeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yxA0cHRzEeuvj8F-LkYwwA" memberEnd="_yxA0c3RzEeuvj8F-LkYwwA _yxA0dHRzEeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yxA0cXRzEeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yxA0cnRzEeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yxA0c3RzEeuvj8F-LkYwwA" name="road" type="_MIQmYDolEeuDR-FZDkAqqw" association="_yxA0cHRzEeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yxA0dHRzEeuvj8F-LkYwwA" name="managerrightcamera" type="_lJRzcHRzEeuvj8F-LkYwwA" association="_yxA0cHRzEeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_z0EM4HRzEeuvj8F-LkYwwA" memberEnd="_z0EM43RzEeuvj8F-LkYwwA _z0EM5HRzEeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z0EM4XRzEeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z0EM4nRzEeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_z0EM43RzEeuvj8F-LkYwwA" name="lane" type="_mh_IoDokEeuDR-FZDkAqqw" association="_z0EM4HRzEeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_z0EM5HRzEeuvj8F-LkYwwA" name="managerrightcamera" type="_lJRzcHRzEeuvj8F-LkYwwA" association="_z0EM4HRzEeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_2MW58HRzEeuvj8F-LkYwwA" memberEnd="_2MW583RzEeuvj8F-LkYwwA _2MW59HRzEeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2MW58XRzEeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2MW58nRzEeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2MW583RzEeuvj8F-LkYwwA" name="trafficsign" type="_hoQZkDokEeuDR-FZDkAqqw" association="_2MW58HRzEeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_2MW59HRzEeuvj8F-LkYwwA" name="managerrightcamera" type="_lJRzcHRzEeuvj8F-LkYwwA" association="_2MW58HRzEeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8Vjs0HRzEeuvj8F-LkYwwA" memberEnd="_8Vjs03RzEeuvj8F-LkYwwA _8Vjs1HRzEeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Vjs0XRzEeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Vjs0nRzEeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_8Vjs03RzEeuvj8F-LkYwwA" name="startup" type="_QCniwHRzEeuvj8F-LkYwwA" association="_8Vjs0HRzEeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_8Vjs1HRzEeuvj8F-LkYwwA" name="driver" type="_firNIDokEeuDR-FZDkAqqw" association="_8Vjs0HRzEeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_COoZAHR0Eeuvj8F-LkYwwA" memberEnd="_COoZA3R0Eeuvj8F-LkYwwA _COoZBHR0Eeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_COoZAXR0Eeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_COoZAnR0Eeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_COoZA3R0Eeuvj8F-LkYwwA" name="vehicle" type="_gSL-gDokEeuDR-FZDkAqqw" association="_COoZAHR0Eeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_COoZBHR0Eeuvj8F-LkYwwA" name="managerrightcamera" type="_lJRzcHRzEeuvj8F-LkYwwA" association="_COoZAHR0Eeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Dho5AHR0Eeuvj8F-LkYwwA" memberEnd="_Dho5A3R0Eeuvj8F-LkYwwA _Dho5BHR0Eeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dho5AXR0Eeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dho5AnR0Eeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Dho5A3R0Eeuvj8F-LkYwwA" name="managerdepthmap" type="_nJbGQHRzEeuvj8F-LkYwwA" association="_Dho5AHR0Eeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Dho5BHR0Eeuvj8F-LkYwwA" name="vehicle" type="_gSL-gDokEeuDR-FZDkAqqw" association="_Dho5AHR0Eeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IYvx4HR0Eeuvj8F-LkYwwA" memberEnd="_IYvx43R0Eeuvj8F-LkYwwA _IYvx5HR0Eeuvj8F-LkYwwA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IYvx4XR0Eeuvj8F-LkYwwA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IYvx4nR0Eeuvj8F-LkYwwA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_IYvx43R0Eeuvj8F-LkYwwA" name="vehicle" type="_gSL-gDokEeuDR-FZDkAqqw" association="_IYvx4HR0Eeuvj8F-LkYwwA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_IYvx5HR0Eeuvj8F-LkYwwA" name="managerfusion" type="_qOINYHRzEeuvj8F-LkYwwA" association="_IYvx4HR0Eeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_I-buEHUSEeuoeq5DPfvXwQ" memberEnd="_I_WUEHUSEeuoeq5DPfvXwQ _I_W7IHUSEeuoeq5DPfvXwQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I_O_UHUSEeuoeq5DPfvXwQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I_T30HUSEeuoeq5DPfvXwQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_I_WUEHUSEeuoeq5DPfvXwQ" name="pedestrian" type="_iiOHcDokEeuDR-FZDkAqqw" association="_I-buEHUSEeuoeq5DPfvXwQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_I_W7IHUSEeuoeq5DPfvXwQ" name="managerdepthmap" type="_nJbGQHRzEeuvj8F-LkYwwA" association="_I-buEHUSEeuoeq5DPfvXwQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MMkeAHUSEeuoeq5DPfvXwQ" memberEnd="_MMrLsHUSEeuoeq5DPfvXwQ _MMrywHUSEeuoeq5DPfvXwQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMoIYHUSEeuoeq5DPfvXwQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MMqkoHUSEeuoeq5DPfvXwQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_MMrLsHUSEeuoeq5DPfvXwQ" name="obstacle" type="_Iih10DolEeuDR-FZDkAqqw" association="_MMkeAHUSEeuoeq5DPfvXwQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_MMrywHUSEeuoeq5DPfvXwQ" name="managerdepthmap" type="_nJbGQHRzEeuvj8F-LkYwwA" association="_MMkeAHUSEeuoeq5DPfvXwQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Y1peYHUSEeuoeq5DPfvXwQ" memberEnd="_Y1rTkHUSEeuoeq5DPfvXwQ _Y1rTkXUSEeuoeq5DPfvXwQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y1qsgHUSEeuoeq5DPfvXwQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y1qsgXUSEeuoeq5DPfvXwQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Y1rTkHUSEeuoeq5DPfvXwQ" name="road" type="_MIQmYDolEeuDR-FZDkAqqw" association="_Y1peYHUSEeuoeq5DPfvXwQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Y1rTkXUSEeuoeq5DPfvXwQ" name="managerfusion" type="_qOINYHRzEeuvj8F-LkYwwA" association="_Y1peYHUSEeuoeq5DPfvXwQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c0y0gHUSEeuoeq5DPfvXwQ" memberEnd="_c01QwXUSEeuoeq5DPfvXwQ _c0130HUSEeuoeq5DPfvXwQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c00psHUSEeuoeq5DPfvXwQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c01QwHUSEeuoeq5DPfvXwQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_c01QwXUSEeuoeq5DPfvXwQ" name="pedestrian" type="_iiOHcDokEeuDR-FZDkAqqw" association="_c0y0gHUSEeuoeq5DPfvXwQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_c0130HUSEeuoeq5DPfvXwQ" name="managerfusion" type="_qOINYHRzEeuvj8F-LkYwwA" association="_c0y0gHUSEeuoeq5DPfvXwQ"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VqEwUDokEeuDR-FZDkAqqw" name="Scenarios">
       <packagedElement xmi:type="uml:Class" xmi:id="_XKuDsDokEeuDR-FZDkAqqw" name="Context">
@@ -34,7 +134,71 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_TjYesDomEeuDR-FZDkAqqw" name="road" type="_MIQmYDolEeuDR-FZDkAqqw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_ilXQIDomEeuDR-FZDkAqqw" name="adas" type="_eYZyYDokEeuDR-FZDkAqqw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_LAgCMDonEeuDR-FZDkAqqw" name="AdasStartup"/>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_LAgCMDonEeuDR-FZDkAqqw" name="AdasStartup">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_OLSYQHR0Eeuvj8F-LkYwwA" name="Driver" coveredBy="_T7pNUHR0Eeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_R_Ey8HR0Eeuvj8F-LkYwwA" name="ADAS" coveredBy="_T7pNUXR0Eeuvj8F-LkYwwA _Ws07gXR0Eeuvj8F-LkYwwA _Ws07gnR0Eeuvj8F-LkYwwA _gGPh8XR0Eeuvj8F-LkYwwA _gGPh8nR0Eeuvj8F-LkYwwA _qvrl0XR0Eeuvj8F-LkYwwA _qvrl0nR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T7pNUHR0Eeuvj8F-LkYwwA" name="Message3SendEvent" covered="_OLSYQHR0Eeuvj8F-LkYwwA" message="_T7WSYHR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T7pNUXR0Eeuvj8F-LkYwwA" name="Message3ReceiveEvent" covered="_R_Ey8HR0Eeuvj8F-LkYwwA" message="_T7WSYHR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ws07gXR0Eeuvj8F-LkYwwA" name="Message6SendEvent" covered="_R_Ey8HR0Eeuvj8F-LkYwwA" message="_Ws07gHR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ws07gnR0Eeuvj8F-LkYwwA" name="Message6ReceiveEvent" covered="_R_Ey8HR0Eeuvj8F-LkYwwA" message="_Ws07gHR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gGPh8XR0Eeuvj8F-LkYwwA" name="Message9SendEvent" covered="_R_Ey8HR0Eeuvj8F-LkYwwA" message="_gGPh8HR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_gGPh8nR0Eeuvj8F-LkYwwA" name="Message9ReceiveEvent" covered="_R_Ey8HR0Eeuvj8F-LkYwwA" message="_gGPh8HR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qvrl0XR0Eeuvj8F-LkYwwA" name="Message12SendEvent" covered="_R_Ey8HR0Eeuvj8F-LkYwwA" message="_qvrl0HR0Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qvrl0nR0Eeuvj8F-LkYwwA" name="Message12ReceiveEvent" covered="_R_Ey8HR0Eeuvj8F-LkYwwA" message="_qvrl0HR0Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_T7WSYHR0Eeuvj8F-LkYwwA" name="Startup" messageSort="asynchCall" receiveEvent="_T7pNUXR0Eeuvj8F-LkYwwA" sendEvent="_T7pNUHR0Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_Ws07gHR0Eeuvj8F-LkYwwA" name="StartRightCamera" messageSort="asynchCall" receiveEvent="_Ws07gnR0Eeuvj8F-LkYwwA" sendEvent="_Ws07gXR0Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_gGPh8HR0Eeuvj8F-LkYwwA" name="StartDepthMap" messageSort="asynchCall" receiveEvent="_gGPh8nR0Eeuvj8F-LkYwwA" sendEvent="_gGPh8XR0Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_qvrl0HR0Eeuvj8F-LkYwwA" name="StartFusion" messageSort="asynchCall" receiveEvent="_qvrl0nR0Eeuvj8F-LkYwwA" sendEvent="_qvrl0XR0Eeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_cANrQHR1Eeuvj8F-LkYwwA" name="Interaction3">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_nVLYYHR1Eeuvj8F-LkYwwA" name="RightCamera" coveredBy="_CbUfAHUVEeuoeq5DPfvXwQ _Eg-j8HUVEeuoeq5DPfvXwQ"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_9vYUUHUUEeuoeq5DPfvXwQ" name="Odometer" coveredBy="_CbT38HUVEeuoeq5DPfvXwQ"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="__X0RwHUUEeuoeq5DPfvXwQ" name="DepthMap" coveredBy="_Eg_LAHUVEeuoeq5DPfvXwQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CbT38HUVEeuoeq5DPfvXwQ" name="Message4SendEvent" covered="_9vYUUHUUEeuoeq5DPfvXwQ" message="_CayTgHUVEeuoeq5DPfvXwQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CbUfAHUVEeuoeq5DPfvXwQ" name="Message4ReceiveEvent" covered="_nVLYYHR1Eeuvj8F-LkYwwA" message="_CayTgHUVEeuoeq5DPfvXwQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Eg-j8HUVEeuoeq5DPfvXwQ" name="Message7SendEvent" covered="_nVLYYHR1Eeuvj8F-LkYwwA" message="_Eg9V0HUVEeuoeq5DPfvXwQ"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Eg_LAHUVEeuoeq5DPfvXwQ" name="Message7ReceiveEvent" covered="__X0RwHUUEeuoeq5DPfvXwQ" message="_Eg9V0HUVEeuoeq5DPfvXwQ"/>
+        <message xmi:type="uml:Message" xmi:id="_CayTgHUVEeuoeq5DPfvXwQ" name="Speed" messageSort="asynchCall" receiveEvent="_CbUfAHUVEeuoeq5DPfvXwQ" sendEvent="_CbT38HUVEeuoeq5DPfvXwQ"/>
+        <message xmi:type="uml:Message" xmi:id="_Eg9V0HUVEeuoeq5DPfvXwQ" name="CompressedImage" messageSort="asynchCall" receiveEvent="_Eg_LAHUVEeuoeq5DPfvXwQ" sendEvent="_Eg-j8HUVEeuoeq5DPfvXwQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_d-KwQHR2Eeuvj8F-LkYwwA" name="Interaction4">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_Z13Z8HR9Eeuvj8F-LkYwwA" name="RightCamera" coveredBy="_rsHp0HR9Eeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_dT3x4HR9Eeuvj8F-LkYwwA" name="LeftCamera" coveredBy="_t8714HR9Eeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_gdFlkHR9Eeuvj8F-LkYwwA" name="Odometer" coveredBy="_v7PVoHR9Eeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_ifOccHR9Eeuvj8F-LkYwwA" name="DepthMap" coveredBy="_rsIQ4HR9Eeuvj8F-LkYwwA _t88c8HR9Eeuvj8F-LkYwwA _v7P8sHR9Eeuvj8F-LkYwwA _xZGawHR9Eeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_mKyvQHR9Eeuvj8F-LkYwwA" name="Fusion" coveredBy="_xZGawXR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rsHp0HR9Eeuvj8F-LkYwwA" name="Message6SendEvent" covered="_Z13Z8HR9Eeuvj8F-LkYwwA" message="_rsHCwHR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rsIQ4HR9Eeuvj8F-LkYwwA" name="Message6ReceiveEvent" covered="_ifOccHR9Eeuvj8F-LkYwwA" message="_rsHCwHR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t8714HR9Eeuvj8F-LkYwwA" name="Message9SendEvent" covered="_dT3x4HR9Eeuvj8F-LkYwwA" message="_t87O0HR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_t88c8HR9Eeuvj8F-LkYwwA" name="Message9ReceiveEvent" covered="_ifOccHR9Eeuvj8F-LkYwwA" message="_t87O0HR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v7PVoHR9Eeuvj8F-LkYwwA" name="Message12SendEvent" covered="_gdFlkHR9Eeuvj8F-LkYwwA" message="_v7OukHR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v7P8sHR9Eeuvj8F-LkYwwA" name="Message12ReceiveEvent" covered="_ifOccHR9Eeuvj8F-LkYwwA" message="_v7OukHR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xZGawHR9Eeuvj8F-LkYwwA" name="Message15SendEvent" covered="_ifOccHR9Eeuvj8F-LkYwwA" message="_xZFzsHR9Eeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xZGawXR9Eeuvj8F-LkYwwA" name="Message15ReceiveEvent" covered="_mKyvQHR9Eeuvj8F-LkYwwA" message="_xZFzsHR9Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_rsHCwHR9Eeuvj8F-LkYwwA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_rsIQ4HR9Eeuvj8F-LkYwwA" sendEvent="_rsHp0HR9Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_t87O0HR9Eeuvj8F-LkYwwA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_t88c8HR9Eeuvj8F-LkYwwA" sendEvent="_t8714HR9Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_v7OukHR9Eeuvj8F-LkYwwA" name="Speed" messageSort="asynchCall" receiveEvent="_v7P8sHR9Eeuvj8F-LkYwwA" sendEvent="_v7PVoHR9Eeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_xZFzsHR9Eeuvj8F-LkYwwA" name="DepthMap" messageSort="asynchCall" receiveEvent="_xZGawXR9Eeuvj8F-LkYwwA" sendEvent="_xZGawHR9Eeuvj8F-LkYwwA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_4z70oHR9Eeuvj8F-LkYwwA" name="Interaction5">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_mM3OAHSMEeuvj8F-LkYwwA" name="DepthMap" coveredBy="_9aa5wHSMEeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_pX0uIHSMEeuvj8F-LkYwwA" name="RoadDetection" coveredBy="_-fFbwHSMEeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_t0wzgHSMEeuvj8F-LkYwwA" name="PedestrianDetection" coveredBy="__dlrYHSMEeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_0QYMEHSMEeuvj8F-LkYwwA" name="Fusion" coveredBy="_9abg0HSMEeuvj8F-LkYwwA _-fGC0HSMEeuvj8F-LkYwwA __dmScHSMEeuvj8F-LkYwwA _AqeVQHSNEeuvj8F-LkYwwA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_2QUqkHSMEeuvj8F-LkYwwA" name="InformationDespaly" coveredBy="_Aqe8UHSNEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9aa5wHSMEeuvj8F-LkYwwA" name="Message6SendEvent" covered="_mM3OAHSMEeuvj8F-LkYwwA" message="_9aaSsHSMEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9abg0HSMEeuvj8F-LkYwwA" name="Message6ReceiveEvent" covered="_0QYMEHSMEeuvj8F-LkYwwA" message="_9aaSsHSMEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-fFbwHSMEeuvj8F-LkYwwA" name="Message9SendEvent" covered="_pX0uIHSMEeuvj8F-LkYwwA" message="_-fE0sHSMEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-fGC0HSMEeuvj8F-LkYwwA" name="Message9ReceiveEvent" covered="_0QYMEHSMEeuvj8F-LkYwwA" message="_-fE0sHSMEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__dlrYHSMEeuvj8F-LkYwwA" name="Message12SendEvent" covered="_t0wzgHSMEeuvj8F-LkYwwA" message="__dkdQHSMEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__dmScHSMEeuvj8F-LkYwwA" name="Message12ReceiveEvent" covered="_0QYMEHSMEeuvj8F-LkYwwA" message="__dkdQHSMEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AqeVQHSNEeuvj8F-LkYwwA" name="Message15SendEvent" covered="_0QYMEHSMEeuvj8F-LkYwwA" message="_AqdHIHSNEeuvj8F-LkYwwA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Aqe8UHSNEeuvj8F-LkYwwA" name="Message15ReceiveEvent" covered="_2QUqkHSMEeuvj8F-LkYwwA" message="_AqdHIHSNEeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_9aaSsHSMEeuvj8F-LkYwwA" name="DepthMap" messageSort="asynchCall" receiveEvent="_9abg0HSMEeuvj8F-LkYwwA" sendEvent="_9aa5wHSMEeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_-fE0sHSMEeuvj8F-LkYwwA" name="RoadDetection" messageSort="asynchCall" receiveEvent="_-fGC0HSMEeuvj8F-LkYwwA" sendEvent="_-fFbwHSMEeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="__dkdQHSMEeuvj8F-LkYwwA" name="Pedestrian" messageSort="asynchCall" receiveEvent="__dmScHSMEeuvj8F-LkYwwA" sendEvent="__dlrYHSMEeuvj8F-LkYwwA"/>
+        <message xmi:type="uml:Message" xmi:id="_AqdHIHSNEeuvj8F-LkYwwA" name="Message15" messageSort="asynchCall" receiveEvent="_Aqe8UHSNEeuvj8F-LkYwwA" sendEvent="_AqeVQHSNEeuvj8F-LkYwwA"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_plv10Dl6Eeu2uO8BpxUrEw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_plv10Tl6Eeu2uO8BpxUrEw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -98,4 +262,7 @@
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_XKyVIDokEeuDR-FZDkAqqw" base_Class="_XKuDsDokEeuDR-FZDkAqqw"/>
+  <Requirements:Requirement xmi:id="_uWat4HRyEeuvj8F-LkYwwA" base_Class="_uVrHAHRyEeuvj8F-LkYwwA" id="MAReq1" text="The ADAS must be able to see the envirement from the right side of the car"/>
+  <Requirements:Requirement xmi:id="_u83C0XRyEeuvj8F-LkYwwA" base_Class="_u83C0HRyEeuvj8F-LkYwwA" id="MAReq2" text="The ADAS must be able to measure the distance between an object and the car"/>
+  <Requirements:Requirement xmi:id="_vrDlkHRyEeuvj8F-LkYwwA" base_Class="_vq50kHRyEeuvj8F-LkYwwA" id="MAReq3" text="The ADAS must be able to detect the position of obstacles "/>
 </xmi:XMI>
