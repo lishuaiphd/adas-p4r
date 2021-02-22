@@ -55,10 +55,10 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_2Nv5oHU6EeuEWd6Q1a1qWQ">
       <importedPackage xmi:type="uml:Model" href="../components/speedcontrol.compdef.uml#_wuccYFlvEeuV3PQBT7TM0Q"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_xqM_gHVGEeuEWd6Q1a1qWQ">
+      <importedPackage xmi:type="uml:Model" href="../../../adas-p4r/components/AdasComponents/models/components/rightcamera.compdef.uml#_0l7EQFlvEeuV3PQBT7TM0Q"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_qJKjgl7rEeuI_MoNIwX5mQ" name="Adas">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_1XjewF_AEeug4qV42C4qHQ" name="ComponentInstance1">
-        <type xmi:type="uml:Class" href="../components/rightcamera.compdef.uml#_0l7EQ1lvEeuV3PQBT7TM0Q"/>
-      </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_AFCzEHU0EeuEWd6Q1a1qWQ" name="ComponentInstance2">
         <type xmi:type="uml:Class" href="../components/leftcamera.compdef.uml#_GjXWs1lvEeuV3PQBT7TM0Q"/>
       </ownedAttribute>
@@ -322,7 +322,6 @@
   </uml:Model>
   <robotics.components:SystemComponentArchitectureModel xmi:id="_qJKjl17rEeuI_MoNIwX5mQ" base_Package="_qJKjgF7rEeuI_MoNIwX5mQ"/>
   <robotics.components:System xmi:id="_qJKjmF7rEeuI_MoNIwX5mQ" base_Class="_qJKjgl7rEeuI_MoNIwX5mQ"/>
-  <robotics.components:ComponentInstance xmi:id="_5ScnAF_AEeug4qV42C4qHQ" base_Property="_1XjewF_AEeug4qV42C4qHQ"/>
   <robotics.components:ComponentInstance xmi:id="_BstUcHU0EeuEWd6Q1a1qWQ" base_Property="_AFCzEHU0EeuEWd6Q1a1qWQ"/>
   <robotics.components:ComponentInstance xmi:id="_N8bZoHU0EeuEWd6Q1a1qWQ" base_Property="_MbkD0HU0EeuEWd6Q1a1qWQ"/>
   <robotics.components:ComponentInstance xmi:id="_agn6AHU0EeuEWd6Q1a1qWQ" base_Property="_VcmmgHU0EeuEWd6Q1a1qWQ"/>
