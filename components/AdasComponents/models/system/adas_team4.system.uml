@@ -77,9 +77,6 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_g2FPIHVTEeu4_c_2OUMR0g" name="ComponentInstance12">
         <type xmi:type="uml:Class" href="../components/odometer.compdef.uml#_ltM8g1lvEeuV3PQBT7TM0Q"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Boy3QHVUEeu4_c_2OUMR0g" name="ComponentInstance18">
-        <type xmi:type="uml:Class" href="../../../adas-p4r/components/AdasComponents/models/components/rightcamera.compdef.uml#_0l7EQ1lvEeuV3PQBT7TM0Q"/>
-      </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_KqMmUHVUEeu4_c_2OUMR0g" name="ComponentInstance19">
         <type xmi:type="uml:Class" href="../components/depthmap.compdef.uml#_2SQqQ1lvEeuV3PQBT7TM0Q"/>
       </ownedAttribute>
@@ -94,6 +91,9 @@
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_cf5nIHVVEeu4_c_2OUMR0g" name="ComponentInstance28">
         <type xmi:type="uml:Class" href="../components/informationdisplay.compdef.uml#_yyh0A1lvEeuV3PQBT7TM0Q"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9aldgHVrEeu-acPGLzWFxw" name="ComponentInstance38">
+        <type xmi:type="uml:Class" href="../components/rightcamera.compdef.uml#_0l7EQ1lvEeuV3PQBT7TM0Q"/>
       </ownedAttribute>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_KSIhEHVTEeu4_c_2OUMR0g" name="Connects8">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_KSIhEXVTEeu4_c_2OUMR0g" partWithPort="_XRM1AHVSEeu4_c_2OUMR0g">
@@ -287,6 +287,30 @@
           <role xmi:type="uml:Port" href="../components/fusion.compdef.uml#_6ZhdoHhHEeuvyrhrQ8ghtQ"/>
         </end>
       </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_XD1voHVsEeu-acPGLzWFxw" name="Connects39">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XD-5kHVsEeu-acPGLzWFxw" partWithPort="_ciFqYHVTEeu4_c_2OUMR0g">
+          <role xmi:type="uml:Port" href="../components/speed.compdef.uml#_JcwW4Fo5EeuXmsDhYsJ_5Q"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XD_goHVsEeu-acPGLzWFxw" partWithPort="_9aldgHVrEeu-acPGLzWFxw">
+          <role xmi:type="uml:Port" href="../components/rightcamera.compdef.uml#___mKEHlfEeusBZblO_G34A"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_aX0B0HVsEeu-acPGLzWFxw" name="Connects40">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_aX4TQHVsEeu-acPGLzWFxw" partWithPort="_9aldgHVrEeu-acPGLzWFxw">
+          <role xmi:type="uml:Port" href="../components/rightcamera.compdef.uml#_EY0dkHnjEeuThvmYVQOUFw"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_aX4TQXVsEeu-acPGLzWFxw" partWithPort="_KqMmUHVUEeu4_c_2OUMR0g">
+          <role xmi:type="uml:Port" href="../components/depthmap.compdef.uml#_TdxDcHnjEeuThvmYVQOUFw"/>
+        </end>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_f9G2YHVsEeu-acPGLzWFxw" name="Connects41">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_f9M9AHVsEeu-acPGLzWFxw" partWithPort="_ciFqYHVTEeu4_c_2OUMR0g">
+          <role xmi:type="uml:Port" href="../components/speed.compdef.uml#_JcwW4Fo5EeuXmsDhYsJ_5Q"/>
+        </end>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_f9M9AXVsEeu-acPGLzWFxw" partWithPort="_KqMmUHVUEeu4_c_2OUMR0g">
+          <role xmi:type="uml:Port" href="../components/depthmap.compdef.uml#_MgRKcHliEeusBZblO_G34A"/>
+        </end>
+      </ownedConnector>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qJKjg17rEeuI_MoNIwX5mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qJKjhF7rEeuI_MoNIwX5mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -368,7 +392,6 @@
   <robotics.generics:Connects xmi:id="_z4NcQnVTEeu4_c_2OUMR0g" base_Connector="_z4DrQHVTEeu4_c_2OUMR0g"/>
   <robotics.generics:Connects xmi:id="_4xHE43VTEeu4_c_2OUMR0g" base_Connector="_4xHE4HVTEeu4_c_2OUMR0g"/>
   <robotics.generics:Connects xmi:id="_7T81E3VTEeu4_c_2OUMR0g" base_Connector="_7T81EHVTEeu4_c_2OUMR0g"/>
-  <robotics.components:ComponentInstance xmi:id="_DQDwAHVUEeu4_c_2OUMR0g" base_Property="_Boy3QHVUEeu4_c_2OUMR0g"/>
   <robotics.components:ComponentInstance xmi:id="_MjMvUXVUEeu4_c_2OUMR0g" base_Property="_KqMmUHVUEeu4_c_2OUMR0g"/>
   <robotics.components:ComponentInstance xmi:id="_cgSeIXVUEeu4_c_2OUMR0g" base_Property="_bTsvMHVUEeu4_c_2OUMR0g"/>
   <robotics.components:ComponentInstance xmi:id="_v9L7sHVUEeu4_c_2OUMR0g" base_Property="_tvXZQHVUEeu4_c_2OUMR0g"/>
@@ -389,4 +412,8 @@
   <robotics.generics:Connects xmi:id="_KOy8Y3VXEeu4_c_2OUMR0g" base_Connector="_KOy8YHVXEeu4_c_2OUMR0g"/>
   <robotics.generics:Connects xmi:id="_Ppx-Y3VXEeu4_c_2OUMR0g" base_Connector="_Ppx-YHVXEeu4_c_2OUMR0g"/>
   <robotics.generics:Connects xmi:id="_TqT0kHVXEeu4_c_2OUMR0g" base_Connector="_TqKDkHVXEeu4_c_2OUMR0g"/>
+  <robotics.components:ComponentInstance xmi:id="_-oNHMHVrEeu-acPGLzWFxw" base_Property="_9aldgHVrEeu-acPGLzWFxw"/>
+  <robotics.generics:Connects xmi:id="_XEAHsHVsEeu-acPGLzWFxw" base_Connector="_XD1voHVsEeu-acPGLzWFxw"/>
+  <robotics.generics:Connects xmi:id="_aX46UHVsEeu-acPGLzWFxw" base_Connector="_aX0B0HVsEeu-acPGLzWFxw"/>
+  <robotics.generics:Connects xmi:id="_f9NkEHVsEeu-acPGLzWFxw" base_Connector="_f9G2YHVsEeu-acPGLzWFxw"/>
 </xmi:XMI>
