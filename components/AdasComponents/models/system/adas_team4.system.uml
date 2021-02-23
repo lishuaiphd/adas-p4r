@@ -52,6 +52,12 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_eQI1sHVVEeu4_c_2OUMR0g">
       <importedPackage xmi:type="uml:Model" href="../components/informationdisplay.compdef.uml#_yyh0AFlvEeuV3PQBT7TM0Q"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_MF0bgHVvEeu-acPGLzWFxw">
+      <importedPackage xmi:type="uml:Model" href="../../../adas-p4r/components/AdasComponents/models/components/lanedetection.compdef.uml#_fXszAFlvEeuV3PQBT7TM0Q"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_bkK_4HVvEeu-acPGLzWFxw">
+      <importedPackage xmi:type="uml:Model" href="../../../adas-p4r/components/AdasComponents/models/components/informationdisplay.compdef.uml#_yyh0AFlvEeuV3PQBT7TM0Q"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_qJKjgl7rEeuI_MoNIwX5mQ" name="Adas">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_XRM1AHVSEeu4_c_2OUMR0g" name="ComponentInstance1">
         <type xmi:type="uml:Class" href="../components/leftcamera.compdef.uml#_GjXWs1lvEeuV3PQBT7TM0Q"/>

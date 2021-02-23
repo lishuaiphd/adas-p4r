@@ -124,6 +124,6 @@
   <robotics.skills:InAttribute xmi:id="_i-q6oHnlEeuThvmYVQOUFw" base_Parameter="_i-eGUHnlEeuThvmYVQOUFw"/>
   <robotics.skills:InAttribute xmi:id="_n4M1YHnlEeuThvmYVQOUFw" base_Parameter="_n4CdUHnlEeuThvmYVQOUFw"/>
   <robotics.skills:OutAttribute xmi:id="_q_Z24HnlEeuThvmYVQOUFw" base_Parameter="_q_Pe0HnlEeuThvmYVQOUFw"/>
-  <robotics.skills:SkillResult xmi:id="_uobzEHnlEeuThvmYVQOUFw" base_Parameter="_uoI4IHnlEeuThvmYVQOUFw"/>
-  <robotics.skills:SkillResult xmi:id="_wBeCkHnlEeuThvmYVQOUFw" base_Parameter="_wBURkHnlEeuThvmYVQOUFw"/>
+  <robotics.skills:SkillResult xmi:id="_uobzEHnlEeuThvmYVQOUFw" base_Parameter="_uoI4IHnlEeuThvmYVQOUFw" kind="SUCCESS"/>
+  <robotics.skills:SkillResult xmi:id="_wBeCkHnlEeuThvmYVQOUFw" base_Parameter="_wBURkHnlEeuThvmYVQOUFw" kind="FAILURE"/>
 </xmi:XMI>

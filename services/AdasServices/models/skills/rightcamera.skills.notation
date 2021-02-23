@@ -34,13 +34,13 @@
     <element xmi:type="uml:Interface" href="rightcamera.skills.uml#_gIE78GU0Eeu1zopIpqgBVg"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gU_9oWU0Eeu1zopIpqgBVg" x="340" y="60" width="361" height="181"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_5xcH6nnlEeuThvmYVQOUFw" type="StereotypeComment">
-    <styles xmi:type="notation:TitleStyle" xmi:id="_5xcH63nlEeuThvmYVQOUFw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5xcH7XnlEeuThvmYVQOUFw" name="BASE_ELEMENT">
+  <children xmi:type="notation:Shape" xmi:id="_n2FNsHWAEeutV59MsNjphg" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_n2FNsXWAEeutV59MsNjphg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_n2F0wHWAEeutV59MsNjphg" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="rightcamera.skills.uml#_gIE78GU0Eeu1zopIpqgBVg"/>
     </styles>
     <element xsi:nil="true"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5xcH7HnlEeuThvmYVQOUFw" x="540" y="60"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n2FNsnWAEeutV59MsNjphg" x="540" y="60"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_isocHGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_isocHWRzEeufoscjYXqgTw"/>
@@ -48,14 +48,14 @@
     <owner xmi:type="uml:Model" href="rightcamera.skills.uml#_isocEGRzEeufoscjYXqgTw"/>
   </styles>
   <element xmi:type="uml:Model" href="rightcamera.skills.uml#_isocEGRzEeufoscjYXqgTw"/>
-  <edges xmi:type="notation:Connector" xmi:id="_5xcH7nnlEeuThvmYVQOUFw" type="StereotypeCommentLink" source="_gU_9oGU0Eeu1zopIpqgBVg" target="_5xcH6nnlEeuThvmYVQOUFw">
-    <styles xmi:type="notation:FontStyle" xmi:id="_5xcH73nlEeuThvmYVQOUFw"/>
-    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_5xcH83nlEeuThvmYVQOUFw" name="BASE_ELEMENT">
+  <edges xmi:type="notation:Connector" xmi:id="_n2F0wXWAEeutV59MsNjphg" type="StereotypeCommentLink" source="_gU_9oGU0Eeu1zopIpqgBVg" target="_n2FNsHWAEeutV59MsNjphg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_n2F0wnWAEeutV59MsNjphg"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_n2F0xnWAEeutV59MsNjphg" name="BASE_ELEMENT">
       <eObjectValue xmi:type="uml:Interface" href="rightcamera.skills.uml#_gIE78GU0Eeu1zopIpqgBVg"/>
     </styles>
     <element xsi:nil="true"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5xcH8HnlEeuThvmYVQOUFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5xcH8XnlEeuThvmYVQOUFw"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5xcH8nnlEeuThvmYVQOUFw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n2F0w3WAEeutV59MsNjphg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n2F0xHWAEeutV59MsNjphg"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n2F0xXWAEeutV59MsNjphg"/>
   </edges>
 </notation:Diagram>
