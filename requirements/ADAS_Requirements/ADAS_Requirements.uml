@@ -9,11 +9,23 @@
         <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
       </packageImport>
       <packagedElement xmi:type="uml:Package" xmi:id="_0SBhIDoQEeuDR-FZDkAqqw" name="MotionAssistance">
-        <packagedElement xmi:type="uml:Class" xmi:id="_qm6VkDrzEeuK2K6rYvhOcA" name="LeftCamera"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_tCEJYDrzEeuK2K6rYvhOcA" name="LaneDetection"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_AoFmYDr3EeuK2K6rYvhOcA" name="PedestrianDetection"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_i2B1QFASEeuyucgwnE4nkA" client="_qm6VkDrzEeuK2K6rYvhOcA" supplier="_tCEJYDrzEeuK2K6rYvhOcA"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_jzQSgFASEeuyucgwnE4nkA" client="_qm6VkDrzEeuK2K6rYvhOcA" supplier="_AoFmYDr3EeuK2K6rYvhOcA"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_EY1V8HfFEeuzgInNY7mfYw" name="Package24">
+          <packagedElement xmi:type="uml:Class" xmi:id="_84adAHe6EeuzgInNY7mfYw" name="Résolution vidéo"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_osK4EHe4EeuzgInNY7mfYw" name="Fréquence de capture"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_ksMTIHfGEeuzgInNY7mfYw" client="_EY1V8HfFEeuzgInNY7mfYw" supplier="_p1-F0HfFEeuzgInNY7mfYw"/>
+          <packagedElement xmi:type="uml:Dependency" xmi:id="_mNfGwHfGEeuzgInNY7mfYw" client="_EY1V8HfFEeuzgInNY7mfYw" supplier="_2aHi4HfFEeuzgInNY7mfYw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_p1-F0HfFEeuzgInNY7mfYw" name="Package9">
+          <packagedElement xmi:type="uml:Class" xmi:id="_xhcS0He8EeuzgInNY7mfYw" name="Robustesse"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ymf2YHe8EeuzgInNY7mfYw" name="Précision"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_yG0QwHe8EeuzgInNY7mfYw" name="Fiabibilité"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_zC9v8He8EeuzgInNY7mfYw" name="Communication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_2aHi4HfFEeuzgInNY7mfYw" name="Package6">
+          <packagedElement xmi:type="uml:Class" xmi:id="_4sCGsHe7EeuzgInNY7mfYw" name="Réactivité"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_LCx0gHe8EeuzgInNY7mfYw" name="Reconnaissance"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_eVeCoHe7EeuzgInNY7mfYw" name="Communication"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_8MfdUDoQEeuDR-FZDkAqqw" name="SteeringAssistance"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_9NCUUDoQEeuDR-FZDkAqqw" name="Feedback"/>
@@ -124,43 +136,49 @@
         <message xmi:type="uml:Message" xmi:id="_qmRpAFATEeuyucgwnE4nkA" name="Start Lane Detection" messageSort="asynchCall" receiveEvent="_qmTeMFATEeuyucgwnE4nkA" sendEvent="_qmS3IFATEeuyucgwnE4nkA"/>
         <message xmi:type="uml:Message" xmi:id="_94jyAFATEeuyucgwnE4nkA" name="Start Pedestrian Detection" messageSort="asynchCall" receiveEvent="_94lnMFATEeuyucgwnE4nkA" sendEvent="_94lAIFATEeuyucgwnE4nkA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_5XHjEDsKEeuK2K6rYvhOcA" name="LeftCameraManagement">
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_-eQqoFAUEeuyucgwnE4nkA" name="LeftCamera" coveredBy="_u4PikFAVEeuyucgwnE4nkA _JgCgkFAWEeuyucgwnE4nkA _QsXkYFAWEeuyucgwnE4nkA _TLsGgFAWEeuyucgwnE4nkA _T3GbAFAWEeuyucgwnE4nkA __JiycGoiEeurzZo0QFSc2g"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_JUo-UFAVEeuyucgwnE4nkA" name="DepthMap" coveredBy="_u4QJoFAVEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_PylSIFAVEeuyucgwnE4nkA" name="TrafficSignDetection" coveredBy="_JgDHoFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_STrV4FAVEeuyucgwnE4nkA" name="PedestrianDetection" coveredBy="_QsYLcFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_VWqlwFAVEeuyucgwnE4nkA" name="RoadDetection" coveredBy="_TLstkFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_iiQdUFAVEeuyucgwnE4nkA" name="LaneDetection" coveredBy="_T3HCEFAWEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_5eO1cGoiEeurzZo0QFSc2g" name="InformationDisplay" coveredBy="__JiycWoiEeurzZo0QFSc2g"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u4PikFAVEeuyucgwnE4nkA" name="Message7SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_u4OUcFAVEeuyucgwnE4nkA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u4QJoFAVEeuyucgwnE4nkA" name="Message7ReceiveEvent" covered="_JUo-UFAVEeuyucgwnE4nkA" message="_u4OUcFAVEeuyucgwnE4nkA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JgCgkFAWEeuyucgwnE4nkA" name="Message10SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_JgB5gFAWEeuyucgwnE4nkA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JgDHoFAWEeuyucgwnE4nkA" name="Message10ReceiveEvent" covered="_PylSIFAVEeuyucgwnE4nkA" message="_JgB5gFAWEeuyucgwnE4nkA"/>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_5XHjEDsKEeuK2K6rYvhOcA" name="Sequence Diagram">
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_-eQqoFAUEeuyucgwnE4nkA" name="LeftCamera" coveredBy="_QsXkYFAWEeuyucgwnE4nkA _T3GbAFAWEeuyucgwnE4nkA __JiycGoiEeurzZo0QFSc2g"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_STrV4FAVEeuyucgwnE4nkA" name="PedestrianDetection" coveredBy="_QsYLcFAWEeuyucgwnE4nkA _L7IF4HfJEeuzgInNY7mfYw _fSBpIHfJEeuzgInNY7mfYw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_iiQdUFAVEeuyucgwnE4nkA" name="LaneDetection" coveredBy="_T3HCEFAWEeuyucgwnE4nkA _NZAZIXfJEeuzgInNY7mfYw _TFVCwHfJEeuzgInNY7mfYw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_5eO1cGoiEeurzZo0QFSc2g" name="InformationDisplay" coveredBy="_TFVp0HfJEeuzgInNY7mfYw __JiycWoiEeurzZo0QFSc2g"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_I1aHkHfIEeuzgInNY7mfYw" name="Speed Control" coveredBy="_L7He0HfJEeuzgInNY7mfYw _NZAZIHfJEeuzgInNY7mfYw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_-KoxgHfIEeuzgInNY7mfYw" name="Fusion" coveredBy="_fSCQMHfJEeuzgInNY7mfYw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsXkYFAWEeuyucgwnE4nkA" name="Message13SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_QsWWQFAWEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QsYLcFAWEeuyucgwnE4nkA" name="Message13ReceiveEvent" covered="_STrV4FAVEeuyucgwnE4nkA" message="_QsWWQFAWEeuyucgwnE4nkA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TLsGgFAWEeuyucgwnE4nkA" name="Message16SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_TLq4YFAWEeuyucgwnE4nkA"/>
-        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TLstkFAWEeuyucgwnE4nkA" name="Message16ReceiveEvent" covered="_VWqlwFAVEeuyucgwnE4nkA" message="_TLq4YFAWEeuyucgwnE4nkA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L7He0HfJEeuzgInNY7mfYw" name="Message16SendEvent" covered="_I1aHkHfIEeuzgInNY7mfYw" message="_L7G3wHfJEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L7IF4HfJEeuzgInNY7mfYw" name="Message16ReceiveEvent" covered="_STrV4FAVEeuyucgwnE4nkA" message="_L7G3wHfJEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fSBpIHfJEeuzgInNY7mfYw" name="Message25SendEvent" covered="_STrV4FAVEeuyucgwnE4nkA" message="_fSBCEHfJEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fSCQMHfJEeuzgInNY7mfYw" name="Message25ReceiveEvent" covered="_-KoxgHfIEeuzgInNY7mfYw" message="_fSBCEHfJEeuzgInNY7mfYw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T3GbAFAWEeuyucgwnE4nkA" name="Message19SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="_T3Fz8FAWEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T3HCEFAWEeuyucgwnE4nkA" name="Message19ReceiveEvent" covered="_iiQdUFAVEeuyucgwnE4nkA" message="_T3Fz8FAWEeuyucgwnE4nkA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NZAZIHfJEeuzgInNY7mfYw" name="Message19SendEvent" covered="_I1aHkHfIEeuzgInNY7mfYw" message="_NY_yEHfJEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NZAZIXfJEeuzgInNY7mfYw" name="Message19ReceiveEvent" covered="_iiQdUFAVEeuyucgwnE4nkA" message="_NY_yEHfJEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TFVCwHfJEeuzgInNY7mfYw" name="Message22SendEvent" covered="_iiQdUFAVEeuyucgwnE4nkA" message="_TFUbsHfJEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TFVp0HfJEeuzgInNY7mfYw" name="Message22ReceiveEvent" covered="_5eO1cGoiEeurzZo0QFSc2g" message="_TFUbsHfJEeuzgInNY7mfYw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__JiycGoiEeurzZo0QFSc2g" name="Message23SendEvent" covered="_-eQqoFAUEeuyucgwnE4nkA" message="__JiLYGoiEeurzZo0QFSc2g"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__JiycWoiEeurzZo0QFSc2g" name="Message23ReceiveEvent" covered="_5eO1cGoiEeurzZo0QFSc2g" message="__JiLYGoiEeurzZo0QFSc2g"/>
-        <message xmi:type="uml:Message" xmi:id="_u4OUcFAVEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_u4QJoFAVEeuyucgwnE4nkA" sendEvent="_u4PikFAVEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_JgB5gFAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_JgDHoFAWEeuyucgwnE4nkA" sendEvent="_JgCgkFAWEeuyucgwnE4nkA"/>
         <message xmi:type="uml:Message" xmi:id="_QsWWQFAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_QsYLcFAWEeuyucgwnE4nkA" sendEvent="_QsXkYFAWEeuyucgwnE4nkA"/>
-        <message xmi:type="uml:Message" xmi:id="_TLq4YFAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_TLstkFAWEeuyucgwnE4nkA" sendEvent="_TLsGgFAWEeuyucgwnE4nkA"/>
         <message xmi:type="uml:Message" xmi:id="_T3Fz8FAWEeuyucgwnE4nkA" name="CompressedImage" messageSort="asynchCall" receiveEvent="_T3HCEFAWEeuyucgwnE4nkA" sendEvent="_T3GbAFAWEeuyucgwnE4nkA"/>
         <message xmi:type="uml:Message" xmi:id="__JiLYGoiEeurzZo0QFSc2g" name="CompressedImage" messageSort="asynchCall" receiveEvent="__JiycWoiEeurzZo0QFSc2g" sendEvent="__JiycGoiEeurzZo0QFSc2g"/>
+        <message xmi:type="uml:Message" xmi:id="_L7G3wHfJEeuzgInNY7mfYw" name="Speed" messageSort="asynchCall" receiveEvent="_L7IF4HfJEeuzgInNY7mfYw" sendEvent="_L7He0HfJEeuzgInNY7mfYw"/>
+        <message xmi:type="uml:Message" xmi:id="_NY_yEHfJEeuzgInNY7mfYw" name="Speed" messageSort="asynchCall" receiveEvent="_NZAZIXfJEeuzgInNY7mfYw" sendEvent="_NZAZIHfJEeuzgInNY7mfYw"/>
+        <message xmi:type="uml:Message" xmi:id="_TFUbsHfJEeuzgInNY7mfYw" name="LaneDetected" messageSort="asynchCall" receiveEvent="_TFVp0HfJEeuzgInNY7mfYw" sendEvent="_TFVCwHfJEeuzgInNY7mfYw"/>
+        <message xmi:type="uml:Message" xmi:id="_fSBCEHfJEeuzgInNY7mfYw" name="PedestrianDetected" messageSort="asynchCall" receiveEvent="_fSCQMHfJEeuzgInNY7mfYw" sendEvent="_fSBpIHfJEeuzgInNY7mfYw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interaction" xmi:id="_uWze4FAUEeuyucgwnE4nkA" name="LaneDetectionManagement">
         <lifeline xmi:type="uml:Lifeline" xmi:id="_EmMK0FAYEeuyucgwnE4nkA" name="LeftCamera" coveredBy="_kBc30FAYEeuyucgwnE4nkA"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_OiZ8UFAYEeuyucgwnE4nkA" name="Odometer" coveredBy="_g6SSkFAYEeuyucgwnE4nkA"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_cRjM4FAYEeuyucgwnE4nkA" name="LaneDetection" coveredBy="_g6SSkVAYEeuyucgwnE4nkA _kBde4FAYEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_cRjM4FAYEeuyucgwnE4nkA" name="LaneDetection" coveredBy="_lA79cHetEeuzgInNY7mfYw _g6SSkVAYEeuyucgwnE4nkA _kBde4FAYEeuyucgwnE4nkA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_5CxwkHesEeuzgInNY7mfYw" name="Information Display" coveredBy="_lA8kgHetEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lA79cHetEeuzgInNY7mfYw" name="Message11SendEvent" covered="_cRjM4FAYEeuyucgwnE4nkA" message="_lAhtwHetEeuzgInNY7mfYw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lA8kgHetEeuzgInNY7mfYw" name="Message11ReceiveEvent" covered="_5CxwkHesEeuzgInNY7mfYw" message="_lAhtwHetEeuzgInNY7mfYw"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_g6SSkFAYEeuyucgwnE4nkA" name="Message4SendEvent" covered="_OiZ8UFAYEeuyucgwnE4nkA" message="_g6REcFAYEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_g6SSkVAYEeuyucgwnE4nkA" name="Message4ReceiveEvent" covered="_cRjM4FAYEeuyucgwnE4nkA" message="_g6REcFAYEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kBc30FAYEeuyucgwnE4nkA" name="Message7SendEvent" covered="_EmMK0FAYEeuyucgwnE4nkA" message="_kBcQwFAYEeuyucgwnE4nkA"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kBde4FAYEeuyucgwnE4nkA" name="Message7ReceiveEvent" covered="_cRjM4FAYEeuyucgwnE4nkA" message="_kBcQwFAYEeuyucgwnE4nkA"/>
         <message xmi:type="uml:Message" xmi:id="_g6REcFAYEeuyucgwnE4nkA" name="Speed" messageSort="asynchCall" receiveEvent="_g6SSkVAYEeuyucgwnE4nkA" sendEvent="_g6SSkFAYEeuyucgwnE4nkA"/>
         <message xmi:type="uml:Message" xmi:id="_kBcQwFAYEeuyucgwnE4nkA" name="Observation" messageSort="asynchCall" receiveEvent="_kBde4FAYEeuyucgwnE4nkA" sendEvent="_kBc30FAYEeuyucgwnE4nkA"/>
+        <message xmi:type="uml:Message" xmi:id="_lAhtwHetEeuzgInNY7mfYw" name="LaneDetected" messageSort="asynchCall" receiveEvent="_lA8kgHetEeuzgInNY7mfYw" sendEvent="_lA79cHetEeuzgInNY7mfYw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interaction" xmi:id="_1T1icFAUEeuyucgwnE4nkA" name="PedestrianDetectionManagement">
         <lifeline xmi:type="uml:Lifeline" xmi:id="_Gtwe0FAZEeuyucgwnE4nkA" name="LeftCamera" coveredBy="_U7yq0FAZEeuyucgwnE4nkA"/>
@@ -236,8 +254,18 @@
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_XKyVIDokEeuDR-FZDkAqqw" base_Class="_XKuDsDokEeuDR-FZDkAqqw"/>
-  <Requirements:Requirement xmi:id="_qnEtoDrzEeuK2K6rYvhOcA" base_Class="_qm6VkDrzEeuK2K6rYvhOcA" id="MAReq1" text="The ADAS must help to observe the environment on the left side of the car."/>
-  <Requirements:Requirement xmi:id="_tCMFMDrzEeuK2K6rYvhOcA" base_Class="_tCEJYDrzEeuK2K6rYvhOcA" id="MAReq2" text="The ADAS must be able to detect the lane on the road."/>
-  <Requirements:Requirement xmi:id="_AorcQDr3EeuK2K6rYvhOcA" base_Class="_AoFmYDr3EeuK2K6rYvhOcA" id="MAReq3" text="The ADAS must be able to detect pedestrian."/>
   <Requirements:Refine xmi:id="_l6grUDsIEeuK2K6rYvhOcA"/>
+  <Requirements:Requirement xmi:id="_osPJgHe4EeuzgInNY7mfYw" base_Class="_osK4EHe4EeuzgInNY7mfYw" id="MAReq1" text="Bonne fréquence d'image pour satisfaire les contraintes de temps de chaque sous-système&#xA;"/>
+  <Requirements:Requirement xmi:id="_84fVgHe6EeuzgInNY7mfYw" base_Class="_84adAHe6EeuzgInNY7mfYw" id="MAReq2" text="Retranscrire correctement  l'environnement autour du véhicule"/>
+  <Requirements:Requirement xmi:id="_eVhF8He7EeuzgInNY7mfYw" base_Class="_eVeCoHe7EeuzgInNY7mfYw" id="MAReq3" text="Envoyer le message au service responsable du freinage lors d'une détection"/>
+  <Requirements:Requirement xmi:id="_4sFKAHe7EeuzgInNY7mfYw" base_Class="_4sCGsHe7EeuzgInNY7mfYw" id="MAReq4" text="Détecter le piéton à temps"/>
+  <Requirements:Requirement xmi:id="_LC030He8EeuzgInNY7mfYw" base_Class="_LCx0gHe8EeuzgInNY7mfYw" id="MAReq5" text="Pouvoir détecter n’importe quel obstacle traversant la route du véhicule"/>
+  <Requirements:Requirement xmi:id="_xhfWIHe8EeuzgInNY7mfYw" base_Class="_xhcS0He8EeuzgInNY7mfYw" id="MAReq6" text="Pouvoir détecter les lignes par tout type de temps "/>
+  <Requirements:Requirement xmi:id="_yG3UEHe8EeuzgInNY7mfYw" base_Class="_yG0QwHe8EeuzgInNY7mfYw" id="MAReq7" text="Pouvoir détecter tout type de lignes"/>
+  <Requirements:Requirement xmi:id="_ymi5sHe8EeuzgInNY7mfYw" base_Class="_ymf2YHe8EeuzgInNY7mfYw" id="MAReq8" text="Ne pas confondre une ligne avec une trace quelconque"/>
+  <Requirements:Requirement xmi:id="_zDBaUHe8EeuzgInNY7mfYw" base_Class="_zC9v8He8EeuzgInNY7mfYw" id="MAReq9" text="Envoyer le message au service s’occupant de la correction de trajectoire "/>
+  <Requirements:Satisfy xmi:id="_ijug4He9EeuzgInNY7mfYw"/>
+  <Requirements:DeriveReqt xmi:id="_vqVx0He9EeuzgInNY7mfYw"/>
+  <Requirements:DeriveReqt xmi:id="_DkGKgHe-EeuzgInNY7mfYw"/>
+  <Requirements:DeriveReqt xmi:id="_IrjzkHe-EeuzgInNY7mfYw"/>
 </xmi:XMI>
