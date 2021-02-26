@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics">
+  <uml:Model xmi:id="_WbWGoHhpEeux0-ISfXsjCQ" name="Affichage_team3Thara">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Huy9MHhqEeux0-ISfXsjCQ">
+      <importedPackage xmi:type="uml:Model" href="../tasks/adas_team3.bt.uml#_0KqZMGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_WbWGoXhpEeux0-ISfXsjCQ" name="Affichage_team3">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KQpO4HhqEeux0-ISfXsjCQ" name="panne d'ecran"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xGkWoHhqEeux0-ISfXsjCQ" name="Hazardbug d'affichage"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WbWGonhpEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WbWGo3hpEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WbWGpHhpEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WbWGpXhpEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WbWGpnhpEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WbWGp3hpEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WbWGqHhpEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WbWGqXhpEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WbWGqnhpEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WbWGq3hpEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WbWGrHhpEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WbWGrXhpEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_HARA/TaskBasedRiskAnalysis.profile.uml#_VoagkD9eEemSWsc0fABanw"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_WbWGrnhpEeux0-ISfXsjCQ" base_Package="_WbWGoHhpEeux0-ISfXsjCQ"/>
+  <RiskAnalysis:HazardAnalysisContext xmi:id="_WbWGr3hpEeux0-ISfXsjCQ" base_Interface="_WbWGoXhpEeux0-ISfXsjCQ"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_KSoL4HhqEeux0-ISfXsjCQ" Origin="ecran" HazardousSituation="plus d'information sur le vehicule" HazardousEvent="le conducteur ne peut plus reagir correctement" PossibleHarm="mauvaise decision" base_Property="_KQpO4HhqEeux0-ISfXsjCQ"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_xGpPIHhqEeux0-ISfXsjCQ" Origin="mauvaise communication de données" HazardousSituation="plus d'information sur le véhicule" HazardousEvent="le conducteur ne peut plus reagis correctement" PossibleHarm="mauvaise decision" base_Property="_xGkWoHhqEeux0-ISfXsjCQ"/>
+</xmi:XMI>
