@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
+  <uml:Model xmi:id="_BEhZgGq0EeuFyMP3XyhAFA" name="Taskbased_haraThara">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_EjKmcGq7EeuFyMP3XyhAFA">
+      <importedPackage xmi:type="uml:Model" href="../tasks/adas_team2.bt.uml#_yrz1kGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_BEhZgWq0EeuFyMP3XyhAFA" name="Taskbased_hara">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IuD5kGq7EeuFyMP3XyhAFA" name="Left camera no stream"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7TgjgGq7EeuFyMP3XyhAFA" name="Left camera no stream"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mq-hEHjkEeuVNNOkKI6DGQ" name="Road not detected"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RdK0oHjmEeuVNNOkKI6DGQ" name="Traffic sign not detected"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_J-rNUHjnEeuVNNOkKI6DGQ" name="Traffic sign not detected "/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_f9U18HjnEeuVNNOkKI6DGQ" name="Speed not adapted to speed limit"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ag2wwHjoEeuVNNOkKI6DGQ" name="Collision"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3ALREHjoEeuVNNOkKI6DGQ" name="Traffic sign not detected"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7f_O0HjpEeuVNNOkKI6DGQ" name="Vehicle not stopped when needed"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JMoIgHjrEeuVNNOkKI6DGQ" name="Pedestrian not detected"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_fplBQHjsEeuVNNOkKI6DGQ" name="Pedestrian not detected"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BEhZgmq0EeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BEhZg2q0EeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BEhZhGq0EeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BEhZhWq0EeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BEhZhmq0EeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BEhZh2q0EeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BEhZiGq0EeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BEhZiWq0EeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BEhZimq0EeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BEhZi2q0EeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BEhZjGq0EeuFyMP3XyhAFA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BEhZjWq0EeuFyMP3XyhAFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_HARA/TaskBasedRiskAnalysis.profile.uml#_VoagkD9eEemSWsc0fABanw"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_BEhZjmq0EeuFyMP3XyhAFA" base_Package="_BEhZgGq0EeuFyMP3XyhAFA"/>
+  <RiskAnalysis:HazardAnalysisContext xmi:id="_BEhZj2q0EeuFyMP3XyhAFA" base_Interface="_BEhZgWq0EeuFyMP3XyhAFA"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_IwPq4Gq7EeuFyMP3XyhAFA" Origin="Dirty lenses" Initial_Occurence="3" Initial_Frequency="2" Initial_Severity="2" Initial_RiskReduction="Maintain the camera lenses." base_Property="_IuD5kGq7EeuFyMP3XyhAFA">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/leftcamera.skills.uml#_JHeZAGUyEeudPMCtZy-xNQ"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_7Ti_wGq7EeuFyMP3XyhAFA" Origin="Camera gets hit" Initial_Severity="2" Initial_RiskReduction="Duplicate the left camera component" base_Property="_7TgjgGq7EeuFyMP3XyhAFA">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/leftcamera.skills.uml#_JHeZAGUyEeudPMCtZy-xNQ"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_mrCLcHjkEeuVNNOkKI6DGQ" Origin="Road not clear enough" Initial_Severity="2" Initial_RiskReduction="Add IR sensors" base_Property="_mq-hEHjkEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/roaddetection.skills.uml#_67Xi0GU1Eeuko5tk88a-Ng"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_RdgL0HjmEeuVNNOkKI6DGQ" Origin="Very high speed" Initial_Occurence="2" Initial_Severity="2" Initial_RiskReduction="The speed control decision should be taken more frequently." base_Property="_RdK0oHjmEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/trafficsigndetection.skills.uml#_4A4SMGU2Eeuko5tk88a-Ng"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_J-tpkHjnEeuVNNOkKI6DGQ" Origin="Sign is hidden by an obstacle" Initial_Occurence="2" Initial_Severity="2" Initial_RiskReduction="Add GPS feature to the vehicle" base_Property="_J-rNUHjnEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/leftcamera.skills.uml#_JHeZAGUyEeudPMCtZy-xNQ"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_f9XSMHjnEeuVNNOkKI6DGQ" Origin="Speed not correctly measured" Initial_Severity="2" Initial_RiskReduction="Add a verification parameter to check the speed availability" base_Property="_f9U18HjnEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/speed.skills.uml#_pQg1MGU2Eeuko5tk88a-Ng"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_ag5NAHjoEeuVNNOkKI6DGQ" Origin="Distance not correctly measured" Initial_Severity="2" Initial_RiskReduction="Duplicate the lidar component" base_Property="_ag2wwHjoEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/lidar.skills.uml#_58kfoGUyEeu5O-q0VXTiKA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_3ANGQHjoEeuVNNOkKI6DGQ" Origin="Traffic sign is deformed" Initial_Severity="2" Initial_RiskReduction="Add a pre-processing image processing module to the existing algorithm." base_Property="_3ALREHjoEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/trafficsigndetection.skills.uml#_4A4SMGU2Eeuko5tk88a-Ng"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_7gBEAHjpEeuVNNOkKI6DGQ" Origin="Stop decision not correctly made" Initial_Severity="2" base_Property="_7f_O0HjpEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/speedcontrol2.skills.uml#_CCyzEGrJEeuFyMP3XyhAFA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_JMrL0HjrEeuVNNOkKI6DGQ" Origin="very high speed" Initial_Severity="2" Initial_RiskReduction="Impose a speed limit in urban environment in order to properly detect pedestrians" base_Property="_JMoIgHjrEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/pedestriandetection.skills.uml#_pZo1oGUuEeuv5pRcTLDdJA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_fpoEkHjsEeuVNNOkKI6DGQ" Origin="Camera is defective" Initial_Severity="2" Initial_RiskReduction="Duplicate the left camera component" base_Property="_fplBQHjsEeuVNNOkKI6DGQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/leftcamera.skills.uml#_JHeZAGUyEeudPMCtZy-xNQ"/>
+  </RiskAnalysis:HazardAnalysis>
+</xmi:XMI>
