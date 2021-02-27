@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
+  <uml:Model xmi:id="__iSaUHhfEeux0-ISfXsjCQ" name="Acceleration_team3Thara">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_xQ5GYHhhEeux0-ISfXsjCQ">
+      <importedPackage xmi:type="uml:Model" href="../tasks/adas_team3.bt.uml#_0KqZMGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interface" xmi:id="__iSaUXhfEeux0-ISfXsjCQ" name="Acceleration_team3">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-5qCIHhhEeux0-ISfXsjCQ" name="pas assez de carburant"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3257oHhiEeux0-ISfXsjCQ" name="problème moteur"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UIb3kHhjEeux0-ISfXsjCQ" name="mauvais calcul de vitesse"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_UxZfkHhkEeux0-ISfXsjCQ" name="défaut calcul de freinage"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__iSaUnhfEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__iSaU3hfEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__iSaVHhfEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__iSaVXhfEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__iSaVnhfEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__iTBYHhfEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__iTBYXhfEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__iTBYnhfEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__iTBY3hfEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__iTBZHhfEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__iTBZXhfEeux0-ISfXsjCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__iTBZnhfEeux0-ISfXsjCQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_HARA/TaskBasedRiskAnalysis.profile.uml#_VoagkD9eEemSWsc0fABanw"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="__iTBZ3hfEeux0-ISfXsjCQ" base_Package="__iSaUHhfEeux0-ISfXsjCQ"/>
+  <RiskAnalysis:HazardAnalysisContext xmi:id="__iTBaHhfEeux0-ISfXsjCQ" base_Interface="__iSaUXhfEeux0-ISfXsjCQ"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_-5zzIHhhEeux0-ISfXsjCQ" Origin="il n'y a plus assez de carburant dans le réservoir pour alimenter le moteur" HazardousSituation="la voiture ne peut plus accélérer" HazardousEvent="la voiture ne peut que ralentir jusqu'à l'arrer" PossibleHarm="le véhicule ne peut plus sortir d'une situation compliqué" Initial_Avoidance="2" Initial_Severity="2" Initial_RiskReduction="prévenir le conducteur de remplir le réservoir" Final_Avoidance="2" base_Property="_-5qCIHhhEeux0-ISfXsjCQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/speedcontrol.skills.uml#_QKZn8Gq-EeuT89nIG34gmA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_33DFkHhiEeux0-ISfXsjCQ" Origin="le moteur à un défaut interne" HazardousSituation="le moteur va commencer à se comporter de façon imprévisible" HazardousEvent="le moteur ne réagit plus comme on veut" PossibleHarm="le moteur peut casser et la voiture sera immobilisé" Initial_Severity="2" Initial_RiskReduction="" Final_Avoidance="2" Final_Severity="2" base_Property="_3257oHhiEeux0-ISfXsjCQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/speedcontrol.skills.uml#_QKZn8Gq-EeuT89nIG34gmA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_UIfh8HhjEeux0-ISfXsjCQ" Origin="suite à de mauvaise données en entrès ou une erreur d'implémentation de calcul, il y a une erreur dans le calcul de la vitesse qui doit être atteinte" HazardousSituation="la vitesse n'est pas adapté à la situation" HazardousEvent="mauvais calcul de la vitesse actuelle" PossibleHarm="sortir de la voie, gener la circulation, perdre le controle" Initial_Occurence="2" Initial_Severity="2" Initial_RiskReduction="essayer de recalculer la vitesse puis laissez la main au conducteur" Final_Severity="2" base_Property="_UIb3kHhjEeux0-ISfXsjCQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/speedcontrol.skills.uml#_bWNS8GU1EeuPV-OwkyB9JA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_UxeYEHhkEeux0-ISfXsjCQ" Origin="mauvaise prise en compte du terrain, du climat" HazardousSituation="ralentissement pas adapté " HazardousEvent="arrivé sur un environnement pas pris en compte" PossibleHarm="distance de freinage trop long et possibilité de percuté un obstacle/ piéton" Initial_Frequency="2" Initial_Severity="2" Initial_RiskReduction="rajouter une prise d'information du climat (internet) et ajouter un algorithme de détection du type de root" Final_Severity="2" base_Property="_UxZfkHhkEeux0-ISfXsjCQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../adas-p4r/services/AdasServices/models/skills/speedcontrol.skills.uml#_NXUcUGq-EeuT89nIG34gmA"/>
+  </RiskAnalysis:HazardAnalysis>
+</xmi:XMI>
