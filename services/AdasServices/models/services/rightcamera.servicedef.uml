@@ -28,7 +28,39 @@
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
         </templateBinding>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_mEvv8F-oEeug4qV42C4qHQ" name="RightImage" type="_Ue1uEFTEEeu6l7cbBbbmBQ"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1dVqkF-oEeug4qV42C4qHQ" name="CameraInfo" type="__8hbsF-nEeug4qV42C4qHQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_iO2DkHedEeubWMEpR0MmgA" name="Push_RightCompressedImage">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_mFUl4HedEeubWMEpR0MmgA">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_mFXCIHedEeubWMEpR0MmgA" actual="_JI50wFS9Eeu6l7cbBbbmBQ">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_sj8PIHedEeubWMEpR0MmgA" name="Type" type="_qtx0MHecEeubWMEpR0MmgA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_SfB4UHg4EeugkMJpZLTXLg" name="Push_Info">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_UWDrYHg4EeugkMJpZLTXLg">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_UWDrYXg4EeugkMJpZLTXLg" actual="_BJnrsHg4EeugkMJpZLTXLg">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_WEBzoHg5EeugkMJpZLTXLg" name="Push_Info">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_Xm8X4Hg5EeugkMJpZLTXLg">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_Xm8X4Xg5EeugkMJpZLTXLg" actual="_BJnrsHg4EeugkMJpZLTXLg">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_k-66EHhDEeuvyrhrQ8ghtQ" name="Push_Parameters">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_mm0sAHhDEeuvyrhrQ8ghtQ">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_mm-dAHhDEeuvyrhrQ8ghtQ" actual="_BJnrsHg4EeugkMJpZLTXLg">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_bNWvY08wEeuf54tkkZK0ow" name="msg">
@@ -41,27 +73,27 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_3RYdwFS1Eeu6l7cbBbbmBQ" name="Publish">
         <packagedElement xmi:type="uml:DataType" xmi:id="_7ZXioFS8Eeu6l7cbBbbmBQ" name="Camera">
           <generalization xmi:type="uml:Generalization" xmi:id="_agGkgF9aEeu7PLqzaxKaUg" general="_Uw4uAF9REeu7PLqzaxKaUg"/>
+          <generalization xmi:type="uml:Generalization" xmi:id="_OD80IHg4EeugkMJpZLTXLg" general="_JI50wFS9Eeu6l7cbBbbmBQ"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_AbuDsF-pEeug4qV42C4qHQ" name="RightImage" type="_Ue1uEFTEEeu6l7cbBbbmBQ">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4YMcsF-pEeug4qV42C4qHQ" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4YMcsV-pEeug4qV42C4qHQ" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_-SCk8F-pEeug4qV42C4qHQ" name="Info" type="__8hbsF-nEeug4qV42C4qHQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-SCk8V-pEeug4qV42C4qHQ" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-SCk8l-pEeug4qV42C4qHQ" value="1"/>
-          </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_JI50wFS9Eeu6l7cbBbbmBQ" name="RightCompressedImage">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_JI50wFS9Eeu6l7cbBbbmBQ" name="CompressedImage">
           <generalization xmi:type="uml:Generalization" xmi:id="_5rozcF9aEeu7PLqzaxKaUg" general="_Uw4uAF9REeu7PLqzaxKaUg"/>
-          <generalization xmi:type="uml:Generalization" xmi:id="_I8y3cF-qEeug4qV42C4qHQ" general="_7ZXioFS8Eeu6l7cbBbbmBQ"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_VQSEAFTCEeu6l7cbBbbmBQ" name="format">
-            <type xmi:type="uml:Class" href="pathmap://PapyrusC_Cpp_LIBRARIES/STL.uml#_0v5VQDWoEea5ROkfuvcZmg"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xjckkFnZEeulN90HlATXmw" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xjdLoFnZEeulN90HlATXmw" value="1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_M7gMUHeeEeubWMEpR0MmgA" name="Type" type="_qtx0MHecEeubWMEpR0MmgA">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_M7gMUXeeEeubWMEpR0MmgA" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_M7gMUneeEeubWMEpR0MmgA" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_rFLTsFTCEeu6l7cbBbbmBQ" name="data">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rFLTsFTCEeu6l7cbBbbmBQ" name="data_c">
             <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xjzJ4FnZEeulN90HlATXmw"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xjzJ4VnZEeulN90HlATXmw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_x0nsUHeiEeubWMEpR0MmgA" name="size">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2HkvQHeiEeubWMEpR0MmgA" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2HkvQXeiEeubWMEpR0MmgA" value="1"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_0Vd6sFS_Eeu6l7cbBbbmBQ" name="RightChannelFloat32">
@@ -72,7 +104,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TZRPgFnaEeulN90HlATXmw" value="1"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TZRPgVnaEeulN90HlATXmw" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_MitnYFnaEeulN90HlATXmw" name="values">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_MitnYFnaEeulN90HlATXmw" name="Position">
             <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TZlYkFnaEeulN90HlATXmw"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TZlYkVnaEeulN90HlATXmw" value="*"/>
@@ -142,6 +174,14 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HPhIMF-oEeug4qV42C4qHQ"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HPhIMV-oEeug4qV42C4qHQ" value="*"/>
           </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_qtx0MHecEeubWMEpR0MmgA" name="Format">
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_uvbEsHecEeubWMEpR0MmgA" name="PNG"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_xIo-0HecEeubWMEpR0MmgA" name="JPG"/>
+          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_7DKHMHecEeubWMEpR0MmgA" name="PDF"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_BJnrsHg4EeugkMJpZLTXLg" name="Parameters">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DWl5kHg4EeugkMJpZLTXLg" name="Type" type="__8hbsF-nEeug4qV42C4qHQ"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_7CUYwFS1Eeu6l7cbBbbmBQ" name="Subscribe"/>
@@ -219,7 +259,6 @@
   <robotics.commobject:CommunicationObject xmi:id="_7ZgFgFS8Eeu6l7cbBbbmBQ" base_DataType="_7ZXioFS8Eeu6l7cbBbbmBQ"/>
   <robotics.commobject:CommunicationObject xmi:id="_JJAicFS9Eeu6l7cbBbbmBQ" base_DataType="_JI50wFS9Eeu6l7cbBbbmBQ"/>
   <robotics.commobject:CommunicationObject xmi:id="_0VkoYFS_Eeu6l7cbBbbmBQ" base_DataType="_0Vd6sFS_Eeu6l7cbBbbmBQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_VQYxsFTCEeu6l7cbBbbmBQ" base_Property="_VQSEAFTCEeu6l7cbBbbmBQ"/>
   <robotics.commobject:DataAttribute xmi:id="_rFOXAFTCEeu6l7cbBbbmBQ" base_Property="_rFLTsFTCEeu6l7cbBbbmBQ"/>
   <robotics.commobject:DataType xmi:id="_Ue70sFTEEeu6l7cbBbbmBQ" base_DataType="_Ue1uEFTEEeu6l7cbBbbmBQ"/>
   <robotics.commobject:DataAttribute xmi:id="_VbF68FTEEeu6l7cbBbbmBQ" base_Property="_VbBpgFTEEeu6l7cbBbbmBQ"/>
@@ -243,9 +282,20 @@
   <robotics.commobject:DataAttribute xmi:id="_FrctYF-oEeug4qV42C4qHQ" base_Property="_FrWmwF-oEeug4qV42C4qHQ"/>
   <robotics.services:ServiceDefinition xmi:id="_kLZBoF-oEeug4qV42C4qHQ" base_Interface="_irU9EF-oEeug4qV42C4qHQ"/>
   <robotics.services:ServiceProperty xmi:id="_mEzaUF-oEeug4qV42C4qHQ" base_Property="_mEvv8F-oEeug4qV42C4qHQ"/>
-  <robotics.services:ServiceProperty xmi:id="_1dcYQF-oEeug4qV42C4qHQ" base_Property="_1dVqkF-oEeug4qV42C4qHQ"/>
   <robotics.commobject:DataAttribute xmi:id="_AbzjQF-pEeug4qV42C4qHQ" base_Property="_AbuDsF-pEeug4qV42C4qHQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_-SFoQF-pEeug4qV42C4qHQ" base_Property="_-SCk8F-pEeug4qV42C4qHQ"/>
   <robotics.generics:Is_a xmi:id="_Ho4YgF-qEeug4qV42C4qHQ" base_Generalization="_HosyUF-qEeug4qV42C4qHQ"/>
-  <robotics.generics:Is_a xmi:id="_I87aUF-qEeug4qV42C4qHQ" base_Generalization="_I8y3cF-qEeug4qV42C4qHQ"/>
+  <robotics.commobject:Enumeration xmi:id="_q2_akHecEeubWMEpR0MmgA" base_DataType="_qtx0MHecEeubWMEpR0MmgA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_uvhLUHecEeubWMEpR0MmgA" base_EnumerationLiteral="_uvbEsHecEeubWMEpR0MmgA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_xItQQHecEeubWMEpR0MmgA" base_EnumerationLiteral="_xIo-0HecEeubWMEpR0MmgA"/>
+  <robotics.commobject:EnumerationLiteral xmi:id="_7DVtYHecEeubWMEpR0MmgA" base_EnumerationLiteral="_7DKHMHecEeubWMEpR0MmgA"/>
+  <robotics.services:ServiceDefinition xmi:id="_mFiBQHedEeubWMEpR0MmgA" base_Interface="_iO2DkHedEeubWMEpR0MmgA"/>
+  <robotics.services:ServiceProperty xmi:id="_skCVwHedEeubWMEpR0MmgA" base_Property="_sj8PIHedEeubWMEpR0MmgA"/>
+  <robotics.commobject:DataAttribute xmi:id="_M7lr4HeeEeubWMEpR0MmgA" base_Property="_M7gMUHeeEeubWMEpR0MmgA"/>
+  <robotics.commobject:DataAttribute xmi:id="_x1BU8HeiEeubWMEpR0MmgA" base_Property="_x0nsUHeiEeubWMEpR0MmgA"/>
+  <robotics.commobject:CommunicationObject xmi:id="_BJvAcHg4EeugkMJpZLTXLg" base_DataType="_BJnrsHg4EeugkMJpZLTXLg"/>
+  <robotics.commobject:DataAttribute xmi:id="_DWxfwHg4EeugkMJpZLTXLg" base_Property="_DWl5kHg4EeugkMJpZLTXLg"/>
+  <robotics.generics:Is_a xmi:id="_OEBsoHg4EeugkMJpZLTXLg" base_Generalization="_OD80IHg4EeugkMJpZLTXLg"/>
+  <robotics.services:ServiceDefinition xmi:id="_UWGusHg4EeugkMJpZLTXLg" base_Interface="_SfB4UHg4EeugkMJpZLTXLg"/>
+  <robotics.services:ServiceDefinition xmi:id="_Xm-0IHg5EeugkMJpZLTXLg" base_Interface="_WEBzoHg5EeugkMJpZLTXLg"/>
+  <robotics.services:ServiceDefinition xmi:id="_mnDVgHhDEeuvyrhrQ8ghtQ" base_Interface="_k-66EHhDEeuvyrhrQ8ghtQ"/>
 </xmi:XMI>
