@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
+  <uml:Model xmi:id="_HFwvsHBFEeuezu6kvhmnow" name="ErrorTourner_team3Thara">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_LUINkHBFEeuezu6kvhmnow">
+      <importedPackage xmi:type="uml:Model" href="../tasks/adas_team3.bt.uml#_0KqZMGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_HFwvsXBFEeuezu6kvhmnow" name="ErrorTourner_team3">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TEEUwHBFEeuezu6kvhmnow" name="le lidar n'envoye pas de donnée"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tnfIAHhnEeux0-ISfXsjCQ" name="mauvaise detection d'un obstacle"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cuXZUHhoEeux0-ISfXsjCQ" name="mauvaise vitesse dans un virage"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HFwvsnBFEeuezu6kvhmnow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HFwvs3BFEeuezu6kvhmnow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HFwvtHBFEeuezu6kvhmnow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HFwvtXBFEeuezu6kvhmnow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HFwvtnBFEeuezu6kvhmnow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HFwvt3BFEeuezu6kvhmnow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HFwvuHBFEeuezu6kvhmnow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HFwvuXBFEeuezu6kvhmnow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HFwvunBFEeuezu6kvhmnow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HFwvu3BFEeuezu6kvhmnow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HFwvvHBFEeuezu6kvhmnow">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HFwvvXBFEeuezu6kvhmnow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_HARA/TaskBasedRiskAnalysis.profile.uml#_VoagkD9eEemSWsc0fABanw"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_HFwvvnBFEeuezu6kvhmnow" base_Package="_HFwvsHBFEeuezu6kvhmnow"/>
+  <RiskAnalysis:HazardAnalysisContext xmi:id="_HFwvv3BFEeuezu6kvhmnow" base_Interface="_HFwvsXBFEeuezu6kvhmnow"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_sZ6GMHBGEeuezu6kvhmnow" description="" Origin="le lidar à une erreur interne" HazardousSituation="ADAS ne voit détecte plus les obstacle" HazardousEvent="ADAS ne réagit pas en fonction des obstacles" PossibleHarm="danger d'impact avec un obstacle" Initial_Avoidance="2" Initial_Severity="2" Initial_RiskReduction="laisser la main au conducteur" base_Property="_TEEUwHBFEeuezu6kvhmnow">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/lidar.skills.uml#_58kfoGUyEeu5O-q0VXTiKA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_tno5AHhnEeux0-ISfXsjCQ" Origin="mauvais calcul ou mauvaise donnée provenant du lidar" HazardousSituation="mauvais comportement de l'adas devant un obstacle qui n'existe pas ou un obstacle non détecter" HazardousEvent="mauvais comportement" PossibleHarm="changement de trajectoire en urgence alors que ce n'est pas necessaire ou impact avec l'obstacle" Initial_Avoidance="2" Initial_Severity="2" Initial_RiskReduction="ajouter de la redondance" base_Property="_tnfIAHhnEeux0-ISfXsjCQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../adas-p4r/services/AdasServices/models/skills/obstacledetection2.skills.uml#_6PH34GrHEeuFyMP3XyhAFA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_cuZ1kHhoEeux0-ISfXsjCQ" Origin="mauvais calcul de la vitesse" HazardousSituation="virage pris avec trop de vitesse" HazardousEvent="données provenant des capteurs" PossibleHarm="sortie de route" Initial_Avoidance="2" Initial_Severity="2" Initial_RiskReduction="ralentir" Final_Severity="2" base_Property="_cuXZUHhoEeux0-ISfXsjCQ">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/speedcontrol.skills.uml#_bWNS8GU1EeuPV-OwkyB9JA"/>
+  </RiskAnalysis:HazardAnalysis>
+</xmi:XMI>

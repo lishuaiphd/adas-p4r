@@ -34,6 +34,18 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_SVfCoGrCEeuwTI0FcunWYA">
       <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/skills/lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_90NXsHA3Eeu4U629dBwRkQ">
+      <importedPackage xmi:type="uml:Model" href="../../../adas-p4r/services/AdasServices/models/skills/lanedetection.skills.uml#_MyjKYGRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_YKAmwHA4Eeu4U629dBwRkQ">
+      <importedPackage xmi:type="uml:Model" href="../../../adas-p4r/services/AdasServices/models/skills/obstacledetection2.skills.uml#_w5BEIGrHEeuFyMP3XyhAFA"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zAHGgHA4Eeu4U629dBwRkQ">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/skills/obstacledetection2.skills.uml#_w5BEIGrHEeuFyMP3XyhAFA"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ipqKkHA6Eeu4U629dBwRkQ">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/skills/leftcamera.skills.uml#_KFyCIGRzEeufoscjYXqgTw"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Activity" xmi:id="_0KqZMWRzEeufoscjYXqgTw" name="acceleration possible" node="_bb1cwGq6EeuwTI0FcunWYA _wqd9sGq6EeuwTI0FcunWYA _xe4LQGq8EeuwTI0FcunWYA _x342QGq-EeuwTI0FcunWYA _42Yc8Gq_EeuwTI0FcunWYA">
       <edge xmi:type="uml:ControlFlow" xmi:id="_Cj_coGq-EeuwTI0FcunWYA" name="ControlFlowEdge5" target="_xe4LQGq8EeuwTI0FcunWYA" source="_wqd9sGq6EeuwTI0FcunWYA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_ajCPsGq-EeuwTI0FcunWYA" name="ControlFlowEdge9" target="_wqd9sGq6EeuwTI0FcunWYA" source="_bb1cwGq6EeuwTI0FcunWYA"/>
@@ -55,22 +67,70 @@
         <operation xmi:type="uml:Operation" href="../../../adas-p4r/services/AdasServices/models/skills/speedcontrol.skills.uml#_QKKXYGq-EeuT89nIG34gmA"/>
       </node>
     </packagedElement>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_Xx5MgGq4EeuwTI0FcunWYA" name="Activity7"/>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_xBmAEGrBEeuwTI0FcunWYA" name="tourner" node="_DE5NcGrCEeuwTI0FcunWYA _HYFg8GrCEeuwTI0FcunWYA _Q8wVIGrCEeuwTI0FcunWYA _CtwDUGrDEeuwTI0FcunWYA">
-      <edge xmi:type="uml:ControlFlow" xmi:id="_U21IkGrDEeuwTI0FcunWYA" name="ControlFlowEdge5" target="_CtwDUGrDEeuwTI0FcunWYA" source="_DE5NcGrCEeuwTI0FcunWYA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_WFf7IGrDEeuwTI0FcunWYA" name="ControlFlowEdge6" target="_HYFg8GrCEeuwTI0FcunWYA" source="_DE5NcGrCEeuwTI0FcunWYA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_XTEhgGrDEeuwTI0FcunWYA" name="ControlFlowEdge7" target="_Q8wVIGrCEeuwTI0FcunWYA" source="_HYFg8GrCEeuwTI0FcunWYA"/>
-      <node xmi:type="uml:CallBehaviorAction" xmi:id="_DE5NcGrCEeuwTI0FcunWYA" name="" outgoing="_U21IkGrDEeuwTI0FcunWYA _WFf7IGrDEeuwTI0FcunWYA">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_Xx5MgGq4EeuwTI0FcunWYA" name="adas doit ralentir" node="_T45koHA9Eeu4U629dBwRkQ _wBBF4HA9Eeu4U629dBwRkQ _N7CpoHA-Eeu4U629dBwRkQ _y_QjMHA-Eeu4U629dBwRkQ">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Lwj5oHA_Eeu4U629dBwRkQ" name="ControlFlowEdge5" target="_N7CpoHA-Eeu4U629dBwRkQ" source="_T45koHA9Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_M-Rp8HA_Eeu4U629dBwRkQ" name="ControlFlowEdge6" target="_wBBF4HA9Eeu4U629dBwRkQ" source="_T45koHA9Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OQSrcHA_Eeu4U629dBwRkQ" name="ControlFlowEdge7" target="_y_QjMHA-Eeu4U629dBwRkQ" source="_T45koHA9Eeu4U629dBwRkQ"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_T45koHA9Eeu4U629dBwRkQ" name="" outgoing="_Lwj5oHA_Eeu4U629dBwRkQ _M-Rp8HA_Eeu4U629dBwRkQ _OQSrcHA_Eeu4U629dBwRkQ">
         <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
       </node>
-      <node xmi:type="uml:CallBehaviorAction" xmi:id="_HYFg8GrCEeuwTI0FcunWYA" name="changer voie" incoming="_WFf7IGrDEeuwTI0FcunWYA" outgoing="_XTEhgGrDEeuwTI0FcunWYA">
+      <node xmi:type="uml:CallOperationAction" xmi:id="_wBBF4HA9Eeu4U629dBwRkQ" name="" incoming="_M-Rp8HA_Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/obstacledetection2.skills.uml#_6PCYUGrHEeuFyMP3XyhAFA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_N7CpoHA-Eeu4U629dBwRkQ" name="" incoming="_Lwj5oHA_Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/pedestriandetection.skills.uml#_pYJA0GUuEeuv5pRcTLDdJA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_y_QjMHA-Eeu4U629dBwRkQ" name="" incoming="_OQSrcHA_Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/trafficsigndetection.skills.uml#_deQNgGlnEeueJv3-WDzOVw"/>
+      </node>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_xBmAEGrBEeuwTI0FcunWYA" name="tourner" node="_DE5NcGrCEeuwTI0FcunWYA _HYFg8GrCEeuwTI0FcunWYA _VBrZUHA3Eeu4U629dBwRkQ _pXATsHA3Eeu4U629dBwRkQ _IHYQoHA4Eeu4U629dBwRkQ _ZIgPUHA4Eeu4U629dBwRkQ _nA7-wHA4Eeu4U629dBwRkQ _wFyqcHA4Eeu4U629dBwRkQ _zna-IHA4Eeu4U629dBwRkQ _6jweIHA4Eeu4U629dBwRkQ _OXBNQHA5Eeu4U629dBwRkQ _QyqwUHA5Eeu4U629dBwRkQ">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_WFf7IGrDEeuwTI0FcunWYA" name="ControlFlowEdge6" target="_HYFg8GrCEeuwTI0FcunWYA" source="_DE5NcGrCEeuwTI0FcunWYA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_YXkFIHA5Eeu4U629dBwRkQ" target="_6jweIHA4Eeu4U629dBwRkQ" source="_OXBNQHA5Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_gWrQwHA5Eeu4U629dBwRkQ" target="_QyqwUHA5Eeu4U629dBwRkQ" source="_OXBNQHA5Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_vQqj0HA5Eeu4U629dBwRkQ" target="_VBrZUHA3Eeu4U629dBwRkQ" source="_HYFg8GrCEeuwTI0FcunWYA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_wsyjkHA5Eeu4U629dBwRkQ" target="_pXATsHA3Eeu4U629dBwRkQ" source="_HYFg8GrCEeuwTI0FcunWYA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_xrY50HA5Eeu4U629dBwRkQ" target="_IHYQoHA4Eeu4U629dBwRkQ" source="_HYFg8GrCEeuwTI0FcunWYA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_zpoIIHA5Eeu4U629dBwRkQ" target="_OXBNQHA5Eeu4U629dBwRkQ" source="_nA7-wHA4Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_1fHDEHA5Eeu4U629dBwRkQ" target="_ZIgPUHA4Eeu4U629dBwRkQ" source="_nA7-wHA4Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_3_df8HA5Eeu4U629dBwRkQ" target="_wFyqcHA4Eeu4U629dBwRkQ" source="_nA7-wHA4Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_674NwHA5Eeu4U629dBwRkQ" target="_zna-IHA4Eeu4U629dBwRkQ" source="_nA7-wHA4Eeu4U629dBwRkQ"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_OuqbwHA6Eeu4U629dBwRkQ" name="ControlFlowEdge23" target="_nA7-wHA4Eeu4U629dBwRkQ" source="_DE5NcGrCEeuwTI0FcunWYA"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_DE5NcGrCEeuwTI0FcunWYA" name="" outgoing="_WFf7IGrDEeuwTI0FcunWYA _OuqbwHA6Eeu4U629dBwRkQ">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_HYFg8GrCEeuwTI0FcunWYA" name="changer voie" incoming="_WFf7IGrDEeuwTI0FcunWYA" outgoing="_vQqj0HA5Eeu4U629dBwRkQ _wsyjkHA5Eeu4U629dBwRkQ _xrY50HA5Eeu4U629dBwRkQ">
         <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_BIq1QAboEeqCcYqBkTNorg"/>
       </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_Q8wVIGrCEeuwTI0FcunWYA" name="" incoming="_XTEhgGrDEeuwTI0FcunWYA">
-        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/lanedetection.skills.uml#_2ReF4GU9EeucYueNcfn0IA"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_VBrZUHA3Eeu4U629dBwRkQ" name="" incoming="_vQqj0HA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/roaddetection.skills.uml#_67QOEGU1Eeuko5tk88a-Ng"/>
       </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_CtwDUGrDEeuwTI0FcunWYA" name="" incoming="_U21IkGrDEeuwTI0FcunWYA">
-        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/trafficsigndetection.skills.uml#_4AwWYGU2Eeuko5tk88a-Ng"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_pXATsHA3Eeu4U629dBwRkQ" name="" incoming="_wsyjkHA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../adas-p4r/services/AdasServices/models/skills/lanedetection.skills.uml#_2ReF4GU9EeucYueNcfn0IA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_IHYQoHA4Eeu4U629dBwRkQ" name="" incoming="_xrY50HA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../adas-p4r/services/AdasServices/models/skills/obstacledetection2.skills.uml#_6PCYUGrHEeuFyMP3XyhAFA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_ZIgPUHA4Eeu4U629dBwRkQ" name="" incoming="_1fHDEHA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/roaddetection.skills.uml#_67QOEGU1Eeuko5tk88a-Ng"/>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_nA7-wHA4Eeu4U629dBwRkQ" name="virage" incoming="_OuqbwHA6Eeu4U629dBwRkQ" outgoing="_zpoIIHA5Eeu4U629dBwRkQ _1fHDEHA5Eeu4U629dBwRkQ _3_df8HA5Eeu4U629dBwRkQ _674NwHA5Eeu4U629dBwRkQ">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_BIq1QAboEeqCcYqBkTNorg"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_wFyqcHA4Eeu4U629dBwRkQ" name="" incoming="_3_df8HA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/obstacledetection2.skills.uml#_6PCYUGrHEeuFyMP3XyhAFA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_zna-IHA4Eeu4U629dBwRkQ" name="" incoming="_674NwHA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/pedestriandetection.skills.uml#_pYJA0GUuEeuv5pRcTLDdJA"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_6jweIHA4Eeu4U629dBwRkQ" name="" incoming="_YXkFIHA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/trafficsigndetection.skills.uml#_IRrM8GllEeueJv3-WDzOVw"/>
+      </node>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_OXBNQHA5Eeu4U629dBwRkQ" name="le droit de tourner" incoming="_zpoIIHA5Eeu4U629dBwRkQ" outgoing="_YXkFIHA5Eeu4U629dBwRkQ _gWrQwHA5Eeu4U629dBwRkQ">
+        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
+      </node>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_QyqwUHA5Eeu4U629dBwRkQ" name="" incoming="_gWrQwHA5Eeu4U629dBwRkQ">
+        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/trafficsigndetection.skills.uml#_IUjsYGlmEeueJv3-WDzOVw"/>
       </node>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0KqZMmRzEeufoscjYXqgTw">
@@ -107,7 +167,7 @@
   <robotics.behavior:Task xmi:id="_0KqZPGRzEeufoscjYXqgTw" base_Class="_0KqZMWRzEeufoscjYXqgTw" base_Behavior="_0KqZMWRzEeufoscjYXqgTw"/>
   <bt:TreeRoot xmi:id="_0KqZPWRzEeufoscjYXqgTw" base_Activity="_0KqZMWRzEeufoscjYXqgTw"/>
   <robotics.generics:Package xmi:id="_0KqZPmRzEeufoscjYXqgTw" base_Package="_0KqZMGRzEeufoscjYXqgTw"/>
-  <robotics.behavior:Task xmi:id="_ZR0uMGq4EeuwTI0FcunWYA" base_Class="_Xx5MgGq4EeuwTI0FcunWYA" base_Behavior="_Xx5MgGq4EeuwTI0FcunWYA"/>
+  <robotics.behavior:Task xmi:id="_ZR0uMGq4EeuwTI0FcunWYA" description="vérifie si la voiture doit ralentir" base_Class="_Xx5MgGq4EeuwTI0FcunWYA" base_Behavior="_Xx5MgGq4EeuwTI0FcunWYA"/>
   <bt:TreeRoot xmi:id="_ZR5msGq4EeuwTI0FcunWYA" base_Activity="_Xx5MgGq4EeuwTI0FcunWYA"/>
   <bt:Fallback xmi:id="_bb5uMGq6EeuwTI0FcunWYA" base_Action="_bb1cwGq6EeuwTI0FcunWYA"/>
   <bt:Sequence xmi:id="_wqi2MGq6EeuwTI0FcunWYA" base_Action="_wqd9sGq6EeuwTI0FcunWYA"/>
@@ -122,9 +182,23 @@
   <bt:TreeRoot xmi:id="_8NOLAGrBEeuwTI0FcunWYA" base_Activity="_xBmAEGrBEeuwTI0FcunWYA"/>
   <bt:Fallback xmi:id="_DE_UEGrCEeuwTI0FcunWYA" base_Action="_DE5NcGrCEeuwTI0FcunWYA"/>
   <bt:Sequence xmi:id="_HYJyYGrCEeuwTI0FcunWYA" base_Action="_HYFg8GrCEeuwTI0FcunWYA"/>
-  <bt:Action xmi:id="_SVgQwGrCEeuwTI0FcunWYA" base_Action="_Q8wVIGrCEeuwTI0FcunWYA"/>
-  <bt:Action xmi:id="_FatY0GrDEeuwTI0FcunWYA" base_Action="_CtwDUGrDEeuwTI0FcunWYA"/>
-  <bt:ControlFlowEdge xmi:id="_U24L4GrDEeuwTI0FcunWYA" base_ControlFlow="_U21IkGrDEeuwTI0FcunWYA"/>
   <bt:ControlFlowEdge xmi:id="_WFjlgGrDEeuwTI0FcunWYA" base_ControlFlow="_WFf7IGrDEeuwTI0FcunWYA"/>
-  <bt:ControlFlowEdge xmi:id="_XTJaAGrDEeuwTI0FcunWYA" base_ControlFlow="_XTEhgGrDEeuwTI0FcunWYA"/>
+  <bt:Action xmi:id="_g-6nYHA3Eeu4U629dBwRkQ" base_Action="_VBrZUHA3Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_90RpIHA3Eeu4U629dBwRkQ" base_Action="_pXATsHA3Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_YKCb8HA4Eeu4U629dBwRkQ" base_Action="_IHYQoHA4Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_j3COkHA4Eeu4U629dBwRkQ" base_Action="_ZIgPUHA4Eeu4U629dBwRkQ"/>
+  <bt:Sequence xmi:id="_nBFIsHA4Eeu4U629dBwRkQ" base_Action="_nA7-wHA4Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_zAL_AHA4Eeu4U629dBwRkQ" base_Action="_wFyqcHA4Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_2I0j4HA4Eeu4U629dBwRkQ" base_Action="_zna-IHA4Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_KwzUgHA5Eeu4U629dBwRkQ" base_Action="_6jweIHA4Eeu4U629dBwRkQ"/>
+  <bt:Fallback xmi:id="_OXGs0HA5Eeu4U629dBwRkQ" base_Action="_OXBNQHA5Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_V3q7QHA5Eeu4U629dBwRkQ" base_Action="_QyqwUHA5Eeu4U629dBwRkQ"/>
+  <bt:ControlFlowEdge xmi:id="_OuvUQHA6Eeu4U629dBwRkQ" base_ControlFlow="_OuqbwHA6Eeu4U629dBwRkQ"/>
+  <bt:Fallback xmi:id="_T492EHA9Eeu4U629dBwRkQ" base_Action="_T45koHA9Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_MozlsHA-Eeu4U629dBwRkQ" base_Action="_wBBF4HA9Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_QQJf0HA-Eeu4U629dBwRkQ" base_Action="_N7CpoHA-Eeu4U629dBwRkQ"/>
+  <bt:Action xmi:id="_0tLdkHA-Eeu4U629dBwRkQ" base_Action="_y_QjMHA-Eeu4U629dBwRkQ"/>
+  <bt:ControlFlowEdge xmi:id="_LwoyIHA_Eeu4U629dBwRkQ" base_ControlFlow="_Lwj5oHA_Eeu4U629dBwRkQ"/>
+  <bt:ControlFlowEdge xmi:id="_M-ZlwHA_Eeu4U629dBwRkQ" base_ControlFlow="_M-Rp8HA_Eeu4U629dBwRkQ"/>
+  <bt:ControlFlowEdge xmi:id="_OQW84HA_Eeu4U629dBwRkQ" base_ControlFlow="_OQSrcHA_Eeu4U629dBwRkQ"/>
 </xmi:XMI>

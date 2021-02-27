@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RiskAnalysis="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
+  <uml:Model xmi:id="_sMPdoHBGEeuJnpf4fp3i8g" name="ToPark_team1Thara">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_t-W7gHBGEeuJnpf4fp3i8g">
+      <importedPackage xmi:type="uml:Model" href="../tasks/adas_team1.bt.uml#_xFxE0GRzEeufoscjYXqgTw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_sMPdoXBGEeuJnpf4fp3i8g" name="ToPark_team1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5lgk0HBGEeuJnpf4fp3i8g" name="Left camera no stream"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_myNBYHBHEeuJnpf4fp3i8g" name="No detected line "/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2T1jQHBHEeuJnpf4fp3i8g" name="Vehicule not detected"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sMPdonBGEeuJnpf4fp3i8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sMPdo3BGEeuJnpf4fp3i8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//generics"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_eFhjMEnvEeien6eLHpkAxA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sMPdpHBGEeuJnpf4fp3i8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sMPdpXBGEeuJnpf4fp3i8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//skills"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_gi8QcEu_EemIANEC5Ku3WA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sMPdpnBGEeuJnpf4fp3i8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sMPdp3BGEeuJnpf4fp3i8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/1#//behavior"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_PROFILES/robotics.profile.uml#_q3mpAEyBEemO4axG7yzSjw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sMPdqHBGEeuJnpf4fp3i8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sMPdqXBGEeuJnpf4fp3i8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bt/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_BT/bt.profile.uml#_ReuxwEu8Eem2LtvnSS1y6A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sMPdqnBGEeuJnpf4fp3i8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sMPdq3BGEeuJnpf4fp3i8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/bpc/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://ROBOTICS_BPC_PROFILES/bpc.profile.uml#__9qqMJZ1Eeeq1f8hGgKVzA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_sMPdrHBGEeuJnpf4fp3i8g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sMPdrXBGEeuJnpf4fp3i8g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/robotics/safety/riskanalysis/1#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://Robotics_PROFILES_HARA/TaskBasedRiskAnalysis.profile.uml#_VoagkD9eEemSWsc0fABanw"/>
+    </profileApplication>
+  </uml:Model>
+  <robotics.generics:Package xmi:id="_sMPdrnBGEeuJnpf4fp3i8g" base_Package="_sMPdoHBGEeuJnpf4fp3i8g"/>
+  <RiskAnalysis:HazardAnalysisContext xmi:id="_sMPdr3BGEeuJnpf4fp3i8g" base_Interface="_sMPdoXBGEeuJnpf4fp3i8g"/>
+  <RiskAnalysis:HazardAnalysis xmi:id="_5lhy8HBGEeuJnpf4fp3i8g" instance_uid="_EiA3QGq4EeuV1qKt5qT6YQ" Origin="The camera got hit." HazardousSituation="Hidden vision, electronic failure, broken camera" HazardousEvent="Snow, dirty, accident" Initial_Severity="2" Initial_RiskReduction="Duplicate the left camera component." Final_Severity="2" Final_RiskReduction="" base_Property="_5lgk0HBGEeuJnpf4fp3i8g">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../services/AdasServices/models/skills/leftcamera.skills.uml#_JHeZAGUyEeudPMCtZy-xNQ"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_myOPgHBHEeuJnpf4fp3i8g" instance_uid="_gk6Z8Gq7EeuV1qKt5qT6YQ" Origin="Marking defect." HazardousSituation="Deformed line, absent line, worn line" HazardousEvent="Bad weather, time" Initial_Occurence="3" Initial_Severity="2" Initial_RiskReduction="Algorithm training." Final_Occurence="3" Final_Severity="2" Final_RiskReduction="" base_Property="_myNBYHBHEeuJnpf4fp3i8g">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../services/AdasServices/models/skills/lanedetection.skills.uml#_2Rt9gGU9EeucYueNcfn0IA"/>
+  </RiskAnalysis:HazardAnalysis>
+  <RiskAnalysis:HazardAnalysis xmi:id="_2T50sHBHEeuJnpf4fp3i8g" Origin="Vehicle too far away" HazardousSituation="Garage with poles, vehicle too small" HazardousEvent="" Initial_Occurence="2" base_Property="_2T1jQHBHEeuJnpf4fp3i8g">
+    <Skill xmi:type="robotics.skills:SkillDefinition" href="../../../AdasServices/models/skills/rightcamera.skills.uml#_kTfzgGU0Eeu1zopIpqgBVg"/>
+  </RiskAnalysis:HazardAnalysis>
+</xmi:XMI>

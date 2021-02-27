@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_dBalu2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Obstacledetection diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_dBalvGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_dBalvWRzEeufoscjYXqgTw"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_dBalvmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
-    <owner href="obstacledetection.skills.uml#_dBalsGRzEeufoscjYXqgTw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_dBalu2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Obstacledetection diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_tyAU0HA2Eeu_SeFO0LxRcw" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tyCxEHA2Eeu_SeFO0LxRcw" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tyDYIHA2Eeu_SeFO0LxRcw" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tyDYIXA2Eeu_SeFO0LxRcw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tyDYInA2Eeu_SeFO0LxRcw" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_tyDYI3A2Eeu_SeFO0LxRcw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tyDYJHA2Eeu_SeFO0LxRcw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tyDYJXA2Eeu_SeFO0LxRcw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tyDYJnA2Eeu_SeFO0LxRcw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tyDYJ3A2Eeu_SeFO0LxRcw" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_xzXRcHA2Eeu_SeFO0LxRcw" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="obstacledetection.skills.uml#_xxfpMHA2Eeu_SeFO0LxRcw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xzXRcXA2Eeu_SeFO0LxRcw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_tyDYKHA2Eeu_SeFO0LxRcw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tyDYKXA2Eeu_SeFO0LxRcw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tyDYKnA2Eeu_SeFO0LxRcw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tyDYK3A2Eeu_SeFO0LxRcw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_tyD_MHA2Eeu_SeFO0LxRcw" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_tyD_MXA2Eeu_SeFO0LxRcw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tyD_MnA2Eeu_SeFO0LxRcw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tyD_M3A2Eeu_SeFO0LxRcw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tyD_NHA2Eeu_SeFO0LxRcw"/>
+    </children>
+    <element xmi:type="uml:Interface" href="obstacledetection.skills.uml#_txmsMHA2Eeu_SeFO0LxRcw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tyAU0XA2Eeu_SeFO0LxRcw" x="251" y="53" width="350" height="168"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_tyfdAHA2Eeu_SeFO0LxRcw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_tyfdAXA2Eeu_SeFO0LxRcw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tygEEHA2Eeu_SeFO0LxRcw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="obstacledetection.skills.uml#_txmsMHA2Eeu_SeFO0LxRcw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tyfdAnA2Eeu_SeFO0LxRcw" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_dBalvGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_dBalvWRzEeufoscjYXqgTw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_dBalvmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="obstacledetection.skills.uml#_dBalsGRzEeufoscjYXqgTw"/>
   </styles>
-  <element href="obstacledetection.skills.uml#_dBalsGRzEeufoscjYXqgTw"/>
+  <element xmi:type="uml:Model" href="obstacledetection.skills.uml#_dBalsGRzEeufoscjYXqgTw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_tygEEXA2Eeu_SeFO0LxRcw" type="StereotypeCommentLink" source="_tyAU0HA2Eeu_SeFO0LxRcw" target="_tyfdAHA2Eeu_SeFO0LxRcw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_tygEEnA2Eeu_SeFO0LxRcw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tygrIHA2Eeu_SeFO0LxRcw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="obstacledetection.skills.uml#_txmsMHA2Eeu_SeFO0LxRcw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tygEE3A2Eeu_SeFO0LxRcw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tygEFHA2Eeu_SeFO0LxRcw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tygEFXA2Eeu_SeFO0LxRcw"/>
+  </edges>
 </notation:Diagram>

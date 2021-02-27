@@ -182,52 +182,6 @@
         <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/pedestriandetection.skills.uml#_pYJA0GUuEeuv5pRcTLDdJA"/>
       </node>
     </packagedElement>
-    <packagedElement xmi:type="uml:Activity" xmi:id="_GAl04GfVEeu1s8FOAgJV7A" name="FollowRoad" node="_S-zXwGfVEeu1s8FOAgJV7A _Z-yDoGowEeuyLphI0JJOjA _gG0Y4GowEeuyLphI0JJOjA _hxLo8GowEeuyLphI0JJOjA _nzmeYGowEeuyLphI0JJOjA _qbYY8GowEeuyLphI0JJOjA _0WA2EGowEeuyLphI0JJOjA">
-      <edge xmi:type="uml:ControlFlow" xmi:id="_4NgFAGowEeuyLphI0JJOjA" name="ControlFlowEdge8" target="_Z-yDoGowEeuyLphI0JJOjA" source="_0WA2EGowEeuyLphI0JJOjA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_4xaDUGowEeuyLphI0JJOjA" name="ControlFlowEdge9" target="_hxLo8GowEeuyLphI0JJOjA" source="_0WA2EGowEeuyLphI0JJOjA"/>
-      <edge xmi:type="uml:ObjectFlow" xmi:id="_7i7IsGowEeuyLphI0JJOjA" name="DataFlowEdge10" target="_pBAssGowEeuyLphI0JJOjA" source="_g-KQkGowEeuyLphI0JJOjA">
-        <guard xmi:type="uml:LiteralBoolean" xmi:id="_7jnsQGowEeuyLphI0JJOjA" value="true"/>
-        <weight xmi:type="uml:LiteralInteger" xmi:id="_7jnsQWowEeuyLphI0JJOjA" value="1"/>
-      </edge>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_9BQH4GowEeuyLphI0JJOjA" name="ControlFlowEdge11" target="_qbYY8GowEeuyLphI0JJOjA" source="_S-zXwGfVEeu1s8FOAgJV7A"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_AOeR0GoxEeuyLphI0JJOjA" name="ControlFlowEdge12" target="_nzmeYGowEeuyLphI0JJOjA" source="_0WA2EGowEeuyLphI0JJOjA"/>
-      <edge xmi:type="uml:ControlFlow" xmi:id="_LjUDIGoxEeuyLphI0JJOjA" name="ControlFlowEdge13" target="_0WA2EGowEeuyLphI0JJOjA" source="_S-zXwGfVEeu1s8FOAgJV7A"/>
-      <node xmi:type="uml:CallBehaviorAction" xmi:id="_S-zXwGfVEeu1s8FOAgJV7A" name="" outgoing="_9BQH4GowEeuyLphI0JJOjA _LjUDIGoxEeuyLphI0JJOjA">
-        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_DfdGcAboEeqCcYqBkTNorg"/>
-      </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_Z-yDoGowEeuyLphI0JJOjA" name="" incoming="_4NgFAGowEeuyLphI0JJOjA">
-        <operation xmi:type="uml:Operation" href="../../../services/AdasServices/models/skills/leftcamera.skills.uml#_JHFXcGUyEeudPMCtZy-xNQ"/>
-      </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_gG0Y4GowEeuyLphI0JJOjA" name="">
-        <result xmi:type="uml:OutputPin" xmi:id="_g-KQkGowEeuyLphI0JJOjA" outgoing="_7i7IsGowEeuyLphI0JJOjA">
-          <name xsi:nil="true"/>
-          <type xmi:type="uml:DataType" href="../../../AdasServices/models/services/odometer.servicedef.uml#_3DXmgFNuEeuQhfTHhMdrVQ"/>
-          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_g-N68GowEeuyLphI0JJOjA" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g-KQkWowEeuyLphI0JJOjA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g-KQkmowEeuyLphI0JJOjA" value="1"/>
-        </result>
-        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/odometer.skills.uml#_V3sb0GU1Eeuko5tk88a-Ng"/>
-      </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_hxLo8GowEeuyLphI0JJOjA" name="RightCamera" incoming="_4xaDUGowEeuyLphI0JJOjA">
-        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/rightcamera.skills.uml#_kOnTgGU0Eeu1zopIpqgBVg"/>
-      </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_nzmeYGowEeuyLphI0JJOjA" name="" incoming="_AOeR0GoxEeuyLphI0JJOjA">
-        <argument xmi:type="uml:InputPin" xmi:id="_pBAssGowEeuyLphI0JJOjA" incoming="_7i7IsGowEeuyLphI0JJOjA">
-          <name xsi:nil="true"/>
-          <type xmi:type="uml:DataType" href="../../../services/AdasServices/models/services/odometer.servicedef.uml#_3DXmgFNuEeuQhfTHhMdrVQ"/>
-          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_pBIogGowEeuyLphI0JJOjA" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pBAssWowEeuyLphI0JJOjA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pBAssmowEeuyLphI0JJOjA" value="1"/>
-        </argument>
-        <operation xmi:type="uml:Operation" href="../../../services/AdasServices/models/skills/speed.skills.uml#_pQYSUGU2Eeuko5tk88a-Ng"/>
-      </node>
-      <node xmi:type="uml:CallOperationAction" xmi:id="_qbYY8GowEeuyLphI0JJOjA" name="" incoming="_9BQH4GowEeuyLphI0JJOjA">
-        <operation xmi:type="uml:Operation" href="../../../AdasServices/models/skills/roaddetection.skills.uml#_67QOEGU1Eeuko5tk88a-Ng"/>
-      </node>
-      <node xmi:type="uml:CallBehaviorAction" xmi:id="_0WA2EGowEeuyLphI0JJOjA" name="" incoming="_LjUDIGoxEeuyLphI0JJOjA" outgoing="_4NgFAGowEeuyLphI0JJOjA _4xaDUGowEeuyLphI0JJOjA _AOeR0GoxEeuyLphI0JJOjA">
-        <behavior xmi:type="uml:FunctionBehavior" href="pathmap://Robotics_LIBRARIES_BT/btsemantics.uml#_BIq1QAboEeqCcYqBkTNorg"/>
-      </node>
-    </packagedElement>
     <packagedElement xmi:type="uml:Activity" xmi:id="_WCBdsGoxEeuyLphI0JJOjA" name="Braking" node="_dns1oGoxEeuyLphI0JJOjA _fF6gEGoxEeuyLphI0JJOjA _gJcZoGoxEeuyLphI0JJOjA _mzPYIGoxEeuyLphI0JJOjA _orfTMGoxEeuyLphI0JJOjA _CzsyMGoyEeuyLphI0JJOjA">
       <edge xmi:type="uml:ControlFlow" xmi:id="_i_WPwGoxEeuyLphI0JJOjA" name="ControlFlowEdge4" target="_gJcZoGoxEeuyLphI0JJOjA" source="_dns1oGoxEeuyLphI0JJOjA"/>
       <edge xmi:type="uml:ControlFlow" xmi:id="_02sr0GoxEeuyLphI0JJOjA" name="ControlFlowEdge7" target="_fF6gEGoxEeuyLphI0JJOjA" source="_dns1oGoxEeuyLphI0JJOjA"/>
@@ -485,9 +439,6 @@
   <bt:Action xmi:id="_xe7HoGfUEeu1s8FOAgJV7A" base_Action="_wjINwGfUEeu1s8FOAgJV7A"/>
   <bt:OutFlowPort xmi:id="_xfDDcGfUEeu1s8FOAgJV7A" base_OutputPin="_xfAnMGfUEeu1s8FOAgJV7A"/>
   <bt:DataFlowEdge xmi:id="_yeZnoGfUEeu1s8FOAgJV7A" base_ObjectFlow="_yeV9QGfUEeu1s8FOAgJV7A"/>
-  <robotics.behavior:Task xmi:id="_PMwCcGfVEeu1s8FOAgJV7A" base_Class="_GAl04GfVEeu1s8FOAgJV7A" base_Behavior="_GAl04GfVEeu1s8FOAgJV7A"/>
-  <bt:TreeRoot xmi:id="_PM3-QGfVEeu1s8FOAgJV7A" base_Activity="_GAl04GfVEeu1s8FOAgJV7A"/>
-  <bt:Fallback xmi:id="_S-7TkGfVEeu1s8FOAgJV7A" base_Action="_S-zXwGfVEeu1s8FOAgJV7A"/>
   <bt:ControlFlowEdge xmi:id="_DZDz8GowEeuyLphI0JJOjA" base_ControlFlow="_DZAJkGowEeuyLphI0JJOjA"/>
   <bt:DataFlowEdge xmi:id="_E4SyEGowEeuyLphI0JJOjA" base_ObjectFlow="_E4N5kGowEeuyLphI0JJOjA"/>
   <bt:DataFlowEdge xmi:id="_F_LhoGowEeuyLphI0JJOjA" base_ObjectFlow="_F_IeUGowEeuyLphI0JJOjA"/>
@@ -497,20 +448,6 @@
   <bt:ControlFlowEdge xmi:id="_Pq9DYGowEeuyLphI0JJOjA" base_ControlFlow="_Pq6AEGowEeuyLphI0JJOjA"/>
   <bt:DataFlowEdge xmi:id="_QcEXQGowEeuyLphI0JJOjA" base_ObjectFlow="_Qb_ewGowEeuyLphI0JJOjA"/>
   <bt:DataFlowEdge xmi:id="_Q7tgoGowEeuyLphI0JJOjA" base_ObjectFlow="_Q7rEYGowEeuyLphI0JJOjA"/>
-  <bt:Action xmi:id="_fbSIkGowEeuyLphI0JJOjA" base_Action="_Z-yDoGowEeuyLphI0JJOjA"/>
-  <bt:Action xmi:id="_g-ExAGowEeuyLphI0JJOjA" base_Action="_gG0Y4GowEeuyLphI0JJOjA"/>
-  <bt:OutFlowPort xmi:id="_g-Ms0GowEeuyLphI0JJOjA" base_OutputPin="_g-KQkGowEeuyLphI0JJOjA"/>
-  <bt:Action xmi:id="_jNM7AGowEeuyLphI0JJOjA" base_Action="_hxLo8GowEeuyLphI0JJOjA"/>
-  <bt:Action xmi:id="_pA7NIGowEeuyLphI0JJOjA" base_Action="_nzmeYGowEeuyLphI0JJOjA"/>
-  <bt:InFlowPort xmi:id="_pBDwAGowEeuyLphI0JJOjA" base_InputPin="_pBAssGowEeuyLphI0JJOjA"/>
-  <bt:Action xmi:id="_rZGlcGowEeuyLphI0JJOjA" base_Action="_qbYY8GowEeuyLphI0JJOjA"/>
-  <bt:Sequence xmi:id="_0WD5YGowEeuyLphI0JJOjA" base_Action="_0WA2EGowEeuyLphI0JJOjA"/>
-  <bt:ControlFlowEdge xmi:id="_4NjIUGowEeuyLphI0JJOjA" base_ControlFlow="_4NgFAGowEeuyLphI0JJOjA"/>
-  <bt:ControlFlowEdge xmi:id="_4xcfkGowEeuyLphI0JJOjA" base_ControlFlow="_4xaDUGowEeuyLphI0JJOjA"/>
-  <bt:DataFlowEdge xmi:id="_7jPRwGowEeuyLphI0JJOjA" base_ObjectFlow="_7i7IsGowEeuyLphI0JJOjA"/>
-  <bt:ControlFlowEdge xmi:id="_9BSkIGowEeuyLphI0JJOjA" base_ControlFlow="_9BQH4GowEeuyLphI0JJOjA"/>
-  <bt:ControlFlowEdge xmi:id="_AOhVIGoxEeuyLphI0JJOjA" base_ControlFlow="_AOeR0GoxEeuyLphI0JJOjA"/>
-  <bt:ControlFlowEdge xmi:id="_LjWfYGoxEeuyLphI0JJOjA" base_ControlFlow="_LjUDIGoxEeuyLphI0JJOjA"/>
   <robotics.behavior:Task xmi:id="_Zw140GoxEeuyLphI0JJOjA" base_Class="_WCBdsGoxEeuyLphI0JJOjA" base_Behavior="_WCBdsGoxEeuyLphI0JJOjA"/>
   <bt:TreeRoot xmi:id="_Zw-bsGoxEeuyLphI0JJOjA" base_Activity="_WCBdsGoxEeuyLphI0JJOjA"/>
   <bt:Fallback xmi:id="_dny8QGoxEeuyLphI0JJOjA" base_Action="_dns1oGoxEeuyLphI0JJOjA"/>
