@@ -16,11 +16,16 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_XR0a4F9rEeu7PLqzaxKaUg">
       <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/roaddetection.servicedef.uml#_U8FloE8wEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zWP38HnjEeuThvmYVQOUFw">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/fusion.servicedef.uml#_gIArgE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_3rhjQ1lvEeuV3PQBT7TM0Q" name="Fusion">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_BpdLUV9rEeu7PLqzaxKaUg" name="activity1" type="_BnuF8F9rEeu7PLqzaxKaUg"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_3OK78HhHEeuvyrhrQ8ghtQ" name="Pedestrian" type="_5COTgHhHEeuvyrhrQ8ghtQ" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_6ZhdoHhHEeuvyrhrQ8ghtQ" name="Road" type="_8A6SMHhHEeuvyrhrQ8ghtQ" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_9RXNcHhHEeuvyrhrQ8ghtQ" name="Depth map" type="__V_-sHhHEeuvyrhrQ8ghtQ" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_uzHrAHnjEeuThvmYVQOUFw" name="navigation parameters" type="_zWUJYHnjEeuThvmYVQOUFw" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Boz-oHnkEeuThvmYVQOUFw" name="activity1" type="_BomjQHnkEeuThvmYVQOUFw"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_GZDKsHhIEeuvyrhrQ8ghtQ" name="Connects10">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_GZM7sHhIEeuvyrhrQ8ghtQ" role="_3OK78HhHEeuvyrhrQ8ghtQ"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_GZM7sXhIEeuvyrhrQ8ghtQ" partWithPort="_BpdLUV9rEeu7PLqzaxKaUg" role="_A34BIHhIEeuvyrhrQ8ghtQ"/>
@@ -33,8 +38,24 @@
         <end xmi:type="uml:ConnectorEnd" xmi:id="_IBoSEXhIEeuvyrhrQ8ghtQ" role="_9RXNcHhHEeuvyrhrQ8ghtQ"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_IBoSEnhIEeuvyrhrQ8ghtQ" partWithPort="_BpdLUV9rEeu7PLqzaxKaUg" role="_E0r08HhIEeuvyrhrQ8ghtQ"/>
       </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="__ewh4HnjEeuThvmYVQOUFw" name="Connects15">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="__e0MQHnjEeuThvmYVQOUFw" partWithPort="_BpdLUV9rEeu7PLqzaxKaUg" role="_9izLgHnjEeuThvmYVQOUFw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="__e0MQXnjEeuThvmYVQOUFw" role="_uzHrAHnjEeuThvmYVQOUFw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_4_BB0HnkEeuThvmYVQOUFw" name="Connects18">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_4_IWkHnkEeuThvmYVQOUFw" role="_3OK78HhHEeuvyrhrQ8ghtQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_4_IWkXnkEeuThvmYVQOUFw" partWithPort="_Boz-oHnkEeuThvmYVQOUFw" role="_zatEsHnkEeuThvmYVQOUFw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_CgzhIHnlEeuThvmYVQOUFw" name="Connects19">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_Cg4ZoHnlEeuThvmYVQOUFw" role="_6ZhdoHhHEeuvyrhrQ8ghtQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_Cg4ZoXnlEeuThvmYVQOUFw" partWithPort="_Boz-oHnkEeuThvmYVQOUFw" role="_-2ekcHnkEeuThvmYVQOUFw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_DickUHnlEeuThvmYVQOUFw" name="Connects20">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_DijSAHnlEeuThvmYVQOUFw" role="_9RXNcHhHEeuvyrhrQ8ghtQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_DijSAXnlEeuThvmYVQOUFw" partWithPort="_Boz-oHnkEeuThvmYVQOUFw" role="_Ab8GYHnlEeuThvmYVQOUFw"/>
+      </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_3rhjRFlvEeuV3PQBT7TM0Q"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_BnuF8F9rEeu7PLqzaxKaUg" name="Navigate autonomously">
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_BnuF8F9rEeu7PLqzaxKaUg" name="MergeData">
         <generalization xmi:type="uml:Generalization" xmi:id="_BnutAF9rEeu7PLqzaxKaUg">
           <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
         </generalization>
@@ -47,11 +68,29 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_GZM7tXhIEeuvyrhrQ8ghtQ" name="" type="_GZM7s3hIEeuvyrhrQ8ghtQ"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_HGVuhnhIEeuvyrhrQ8ghtQ" name="" type="_HGVuhHhIEeuvyrhrQ8ghtQ"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_IByDEnhIEeuvyrhrQ8ghtQ" name="" type="_IByDEHhIEeuvyrhrQ8ghtQ"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_9izLgHnjEeuThvmYVQOUFw" name="ActivityPort12" aggregation="composite"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_H6rRwF9rEeu7PLqzaxKaUg" name="processing "/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_5COTgHhHEeuvyrhrQ8ghtQ"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_8A6SMHhHEeuvyrhrQ8ghtQ"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="__V_-sHhHEeuvyrhrQ8ghtQ"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_zWUJYHnjEeuThvmYVQOUFw">
+        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_zWhkwHnjEeuThvmYVQOUFw" client="_zWUJYHnjEeuThvmYVQOUFw">
+          <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/fusion.servicedef.uml#_lyl7IHniEeuThvmYVQOUFw"/>
+          <contract xmi:type="uml:Interface" href="../../../AdasServices/models/services/fusion.servicedef.uml#_lyl7IHniEeuThvmYVQOUFw"/>
+        </interfaceRealization>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_BomjQHnkEeuThvmYVQOUFw" name="NotifyIfDanger">
+        <generalization xmi:type="uml:Generalization" xmi:id="_Bosp4HnkEeuThvmYVQOUFw">
+          <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_zatEsHnkEeuThvmYVQOUFw" name="ActivityPort2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_4_SHkXnkEeuThvmYVQOUFw" name="" type="_4_QSYHnkEeuThvmYVQOUFw"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_-2ekcHnkEeuThvmYVQOUFw" name="ActivityPort4" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_Ab8GYHnlEeuThvmYVQOUFw" name="ActivityPort5" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ChAVcXnlEeuThvmYVQOUFw" name="" type="_Cg_HUHnlEeuThvmYVQOUFw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Disb8XnlEeuThvmYVQOUFw" name="" type="_DiqmwHnlEeuThvmYVQOUFw"/>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_d7_M0F9rEeu7PLqzaxKaUg" name="Pedestrian_handler">
       <language>C++</language>
@@ -83,6 +122,18 @@
       <body></body>
     </packagedElement>
     <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_IByDEHhIEeuvyrhrQ8ghtQ" name="Depth map_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_4_QSYHnkEeuThvmYVQOUFw" name="Pedestrian_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_Cg_HUHnlEeuThvmYVQOUFw" name="Road_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_DiqmwHnlEeuThvmYVQOUFw" name="Depth map_handler">
       <language>C++</language>
       <body></body>
     </packagedElement>
@@ -171,4 +222,19 @@
   <robotics.functions:Function xmi:id="_HGVuhXhIEeuvyrhrQ8ghtQ" base_Class="_HGVuhHhIEeuvyrhrQ8ghtQ" activityPort="_CLwD0XhIEeuvyrhrQ8ghtQ"/>
   <robotics.generics:Connects xmi:id="_IBoSE3hIEeuvyrhrQ8ghtQ" base_Connector="_IBoSEHhIEeuvyrhrQ8ghtQ"/>
   <robotics.functions:Function xmi:id="_IByDEXhIEeuvyrhrQ8ghtQ" base_Class="_IByDEHhIEeuvyrhrQ8ghtQ" activityPort="_E0r08XhIEeuvyrhrQ8ghtQ"/>
+  <robotics.components:ComponentService xmi:id="_zWV-kHnjEeuThvmYVQOUFw" base_Class="_zWUJYHnjEeuThvmYVQOUFw"/>
+  <robotics.components:ComponentPort xmi:id="_zWiy4HnjEeuThvmYVQOUFw" base_Port="_uzHrAHnjEeuThvmYVQOUFw"/>
+  <robotics.components:ActivityPort xmi:id="_9i214HnjEeuThvmYVQOUFw" base_Port="_9izLgHnjEeuThvmYVQOUFw"/>
+  <robotics.generics:Connects xmi:id="__e0zUHnjEeuThvmYVQOUFw" base_Connector="__ewh4HnjEeuThvmYVQOUFw"/>
+  <robotics.components:Activity xmi:id="_BoufEHnkEeuThvmYVQOUFw" base_Class="_BomjQHnkEeuThvmYVQOUFw"/>
+  <robotics.components:ActivityInstance xmi:id="_Bo1z0HnkEeuThvmYVQOUFw" base_Property="_Boz-oHnkEeuThvmYVQOUFw"/>
+  <robotics.components:ActivityPort xmi:id="_za1AgHnkEeuThvmYVQOUFw" base_Port="_zatEsHnkEeuThvmYVQOUFw"/>
+  <robotics.generics:Connects xmi:id="_4_IWknnkEeuThvmYVQOUFw" base_Connector="_4_BB0HnkEeuThvmYVQOUFw"/>
+  <robotics.functions:Function xmi:id="_4_SHkHnkEeuThvmYVQOUFw" base_Class="_4_QSYHnkEeuThvmYVQOUFw" activityPort="_za1AgHnkEeuThvmYVQOUFw"/>
+  <robotics.components:ActivityPort xmi:id="_-2jc8HnkEeuThvmYVQOUFw" base_Port="_-2ekcHnkEeuThvmYVQOUFw"/>
+  <robotics.components:ActivityPort xmi:id="_Ab_JsHnlEeuThvmYVQOUFw" base_Port="_Ab8GYHnlEeuThvmYVQOUFw"/>
+  <robotics.generics:Connects xmi:id="_Cg4ZonnlEeuThvmYVQOUFw" base_Connector="_CgzhIHnlEeuThvmYVQOUFw"/>
+  <robotics.functions:Function xmi:id="_ChAVcHnlEeuThvmYVQOUFw" base_Class="_Cg_HUHnlEeuThvmYVQOUFw" activityPort="_-2jc8HnkEeuThvmYVQOUFw"/>
+  <robotics.generics:Connects xmi:id="_DijSAnnlEeuThvmYVQOUFw" base_Connector="_DickUHnlEeuThvmYVQOUFw"/>
+  <robotics.functions:Function xmi:id="_Disb8HnlEeuThvmYVQOUFw" base_Class="_DiqmwHnlEeuThvmYVQOUFw" activityPort="_Ab_JsHnlEeuThvmYVQOUFw"/>
 </xmi:XMI>

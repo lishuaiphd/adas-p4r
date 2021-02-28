@@ -13,20 +13,13 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="__pvl4HeeEeubWMEpR0MmgA">
       <importedPackage xmi:type="uml:Model" href="leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Ov45IHlhEeusBZblO_G34A">
+      <importedPackage xmi:type="uml:Model" href="speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_d-5p8k8wEeuf54tkkZK0ow" name="svcdefs">
       <packagedElement xmi:type="uml:Interface" xmi:id="_XOUm4F-rEeug4qV42C4qHQ" name="Push_DepthMap">
         <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_YnpxUF-rEeug4qV42C4qHQ">
           <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_YnpxUV-rEeug4qV42C4qHQ" actual="_IrFd0FpDEeuo0rRLh24f4Q">
-            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
-          </parameterSubstitution>
-          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
-        </templateBinding>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_awu9sF-rEeug4qV42C4qHQ" name="DisparityImage"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_XPdf4HfUEeugkMJpZLTXLg" name="Window" type="_ziLkEHfTEeugkMJpZLTXLg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_KogB8HgtEeugkMJpZLTXLg" name="Push_DepthMap">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_L82lwHgtEeugkMJpZLTXLg">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_L84a8HgtEeugkMJpZLTXLg" actual="_IrFd0FpDEeuo0rRLh24f4Q">
             <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
           </parameterSubstitution>
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
@@ -52,8 +45,11 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WAnfEVpEEeuo0rRLh24f4Q" value="1"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_4aLbgHfYEeugkMJpZLTXLg" name="window" type="_ziLkEHfTEeugkMJpZLTXLg"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_8uoTQHfYEeugkMJpZLTXLg" name="depthImage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8uoTQHfYEeugkMJpZLTXLg" name="depthMap">
             <type xmi:type="uml:DataType" href="rightcamera.servicedef.uml#_Ue1uEFTEEeu6l7cbBbbmBQ"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Uqo4gHneEeuThvmYVQOUFw" name="speed">
+            <type xmi:type="uml:DataType" href="speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_ziLkEHfTEeugkMJpZLTXLg" name="IntersetRegion">
@@ -92,8 +88,8 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_tyt7sHgnEeugkMJpZLTXLg" name="leftImage">
             <type xmi:type="uml:DataType" href="leftcamera.servicedef.uml#_o6h9UFRPEeuHn4gYbqpl3w"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_0fNo4HgnEeugkMJpZLTXLg" name="Info">
-            <type xmi:type="uml:DataType" href="rightcamera.servicedef.uml#__8hbsF-nEeug4qV42C4qHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_H4e8cHlhEeusBZblO_G34A" name="speed">
+            <type xmi:type="uml:DataType" href="speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -173,7 +169,6 @@
   <robotics.commobject:DataAttribute xmi:id="_I4z7UFpEEeuo0rRLh24f4Q" base_Property="_I4nuEFpEEeuo0rRLh24f4Q"/>
   <robotics.commobject:DataAttribute xmi:id="_Jn6dAFpEEeuo0rRLh24f4Q" base_Property="_Jn09cFpEEeuo0rRLh24f4Q"/>
   <robotics.services:ServiceDefinition xmi:id="_YntbsF-rEeug4qV42C4qHQ" base_Interface="_XOUm4F-rEeug4qV42C4qHQ"/>
-  <robotics.services:ServiceProperty xmi:id="_awyBAF-rEeug4qV42C4qHQ" base_Property="_awu9sF-rEeug4qV42C4qHQ"/>
   <robotics.commobject:DataType xmi:id="_ziP1gHfTEeugkMJpZLTXLg" base_DataType="_ziLkEHfTEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_2i9NcHfTEeugkMJpZLTXLg" base_Property="_2i6KIHfTEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_4nTDwHfTEeugkMJpZLTXLg" base_Property="_4nM9IHfTEeugkMJpZLTXLg"/>
@@ -181,12 +176,11 @@
   <robotics.commobject:DataAttribute xmi:id="_9GhBEHfTEeugkMJpZLTXLg" base_Property="_9GcvoHfTEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="__KBJ4HfTEeugkMJpZLTXLg" base_Property="__J2KwHfTEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_KDU1wHfUEeugkMJpZLTXLg" base_Property="_KDJPkHfUEeugkMJpZLTXLg"/>
-  <robotics.services:ServiceProperty xmi:id="_XPgjMHfUEeugkMJpZLTXLg" base_Property="_XPdf4HfUEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_4aLbgXfYEeugkMJpZLTXLg" base_Property="_4aLbgHfYEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_8uyEQHfYEeugkMJpZLTXLg" base_Property="_8uoTQHfYEeugkMJpZLTXLg"/>
   <robotics.commobject:CommunicationObject xmi:id="_k-a0gHgnEeugkMJpZLTXLg" base_DataType="_k-RqkHgnEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_n9iRAHgnEeugkMJpZLTXLg" base_Property="_n9AskHgnEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_ty3FoHgnEeugkMJpZLTXLg" base_Property="_tyt7sHgnEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_0fQFIHgnEeugkMJpZLTXLg" base_Property="_0fNo4HgnEeugkMJpZLTXLg"/>
-  <robotics.services:ServiceDefinition xmi:id="_L86QIHgtEeugkMJpZLTXLg" base_Interface="_KogB8HgtEeugkMJpZLTXLg"/>
+  <robotics.commobject:DataAttribute xmi:id="_H47oYHlhEeusBZblO_G34A" base_Property="_H4e8cHlhEeusBZblO_G34A"/>
+  <robotics.commobject:DataAttribute xmi:id="_Uqo4gXneEeuThvmYVQOUFw" base_Property="_Uqo4gHneEeuThvmYVQOUFw"/>
 </xmi:XMI>

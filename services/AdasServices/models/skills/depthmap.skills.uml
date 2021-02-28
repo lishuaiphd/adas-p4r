@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.skills="http://www.eclipse.org/papyrus/robotics/skills/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/skills/1 http://www.eclipse.org/papyrus/robotics/1#//skills">
-  <uml:Model xmi:id="_kIShwGRzEeufoscjYXqgTw" name="DepthmapSkills">
+  <uml:Model xmi:id="_kIShwGRzEeufoscjYXqgTw" name="DepthmapSkillSet">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_kIShwWRzEeufoscjYXqgTw">
       <importedPackage xmi:type="uml:Package" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_ysOXAPjgEeqA4v_JqiO9QA"/>
     </packageImport>
@@ -13,8 +13,11 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_gdTTIGU2EeuHdOYoIlzASw">
       <importedPackage xmi:type="uml:Model" href="../services/depthmap.servicedef.uml#_d-5p8E8wEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_BsNYsHlnEeusBZblO_G34A">
+      <importedPackage xmi:type="uml:Model" href="../services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_kIShwmRzEeufoscjYXqgTw" name="defaultsemantics">
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="MapConstructionDefaultFSM" specification="_UleJgGU2EeuHdOYoIlzASw">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="ConstructMapDefaultFSM" specification="_UleJgGU2EeuHdOYoIlzASw">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
           <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
           <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
@@ -34,21 +37,22 @@
         </region>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_SEk6EGU2EeuHdOYoIlzASw" name="DepthMapSkills">
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_UleJgGU2EeuHdOYoIlzASw" name="MapConstruction" method="_4Qge8PjgEeqA4v_JqiO9QA">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vl4doGU2EeuHdOYoIlzASw">
-          <type xmi:type="uml:DataType" href="../services/rightcamera.servicedef.uml#_JI50wFS9Eeu6l7cbBbbmBQ"/>
-        </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_YuDIcGU2EeuHdOYoIlzASw">
-          <type xmi:type="uml:DataType" href="../services/rightcamera.servicedef.uml#_Uw4uAF9REeu7PLqzaxKaUg"/>
-        </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_btD3QGU2EeuHdOYoIlzASw">
-          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
-        </ownedParameter>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_SEk6EGU2EeuHdOYoIlzASw" name="DepthMapSkillSet">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UleJgGU2EeuHdOYoIlzASw" name="ConstructMap" method="_4Qge8PjgEeqA4v_JqiO9QA">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_ej6voGU2EeuHdOYoIlzASw" direction="out">
           <type xmi:type="uml:DataType" href="../services/depthmap.servicedef.uml#_IrFd0FpDEeuo0rRLh24f4Q"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_g8GvAGU2EeuHdOYoIlzASw" name="DepthMap" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_KvE80HlmEeusBZblO_G34A">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_-voe0FRDEeuHcITk3ae9JA"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="__29uUHlmEeusBZblO_G34A">
+          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_IVG_UHlnEeusBZblO_G34A" name="MapConsctructed" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_LShLoHlnEeusBZblO_G34A" name="MapNotConstructed" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kK_HUHnmEeuThvmYVQOUFw">
+          <type xmi:type="uml:DataType" href="../services/rightcamera.servicedef.uml#_JI50wFS9Eeu6l7cbBbbmBQ"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_kIShw2RzEeufoscjYXqgTw">
@@ -83,9 +87,10 @@
   <robotics.skills:SkillFailState xmi:id="_Uolu8GU2EeuHdOYoIlzASw" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillSuccessState xmi:id="_UooLMGU2EeuHdOYoIlzASw" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillDefinition xmi:id="_UowuEGU2EeuHdOYoIlzASw" base_Operation="_UleJgGU2EeuHdOYoIlzASw"/>
-  <robotics.skills:InAttribute xmi:id="_VmI8UGU2EeuHdOYoIlzASw" base_Parameter="_Vl4doGU2EeuHdOYoIlzASw"/>
-  <robotics.skills:InAttribute xmi:id="_YuQj0GU2EeuHdOYoIlzASw" base_Parameter="_YuDIcGU2EeuHdOYoIlzASw"/>
-  <robotics.skills:InAttribute xmi:id="_btQrkGU2EeuHdOYoIlzASw" base_Parameter="_btD3QGU2EeuHdOYoIlzASw"/>
   <robotics.skills:OutAttribute xmi:id="_ekjBwGU2EeuHdOYoIlzASw" base_Parameter="_ej6voGU2EeuHdOYoIlzASw"/>
-  <robotics.skills:SkillResult xmi:id="_g8UxcGU2EeuHdOYoIlzASw" base_Parameter="_g8GvAGU2EeuHdOYoIlzASw"/>
+  <robotics.skills:InAttribute xmi:id="_KvWCkHlmEeusBZblO_G34A" base_Parameter="_KvE80HlmEeusBZblO_G34A"/>
+  <robotics.skills:InAttribute xmi:id="__3PbIHlmEeusBZblO_G34A" base_Parameter="__29uUHlmEeusBZblO_G34A"/>
+  <robotics.skills:SkillResult xmi:id="_IVbIYHlnEeusBZblO_G34A" base_Parameter="_IVG_UHlnEeusBZblO_G34A"/>
+  <robotics.skills:SkillResult xmi:id="_LSvOEHlnEeusBZblO_G34A" base_Parameter="_LShLoHlnEeusBZblO_G34A"/>
+  <robotics.skills:InAttribute xmi:id="_kLh54HnmEeuThvmYVQOUFw" base_Parameter="_kK_HUHnmEeuThvmYVQOUFw"/>
 </xmi:XMI>

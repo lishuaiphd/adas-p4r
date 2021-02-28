@@ -7,8 +7,30 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_rW3IkGU0Eeu1zopIpqgBVg">
       <importedPackage xmi:type="uml:Model" href="../services/rightcamera.servicedef.uml#_bNWvYE8wEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_734UgHlkEeusBZblO_G34A">
+      <importedPackage xmi:type="uml:Model" href="../services/speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_isocEmRzEeufoscjYXqgTw" name="defaultsemantics">
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DisplayDefaultFSM" specification="_kOnTgGU0Eeu1zopIpqgBVg">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DisplayRightImageDefaultFSM" specification="_kOnTgGU0Eeu1zopIpqgBVg">
+        <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9PjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_87HQEPjkEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_4Qge9fjgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-fjgEeqA4v_JqiO9QA">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4Qge9vjgEeqA4v_JqiO9QA">
+              <event xmi:type="uml:SignalEvent" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.temp.uml#_XuDHEPjlEeqA4v_JqiO9QA"/>
+            </trigger>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_4Qge9_jgEeqA4v_JqiO9QA" name="Initial1"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-PjgEeqA4v_JqiO9QA" name="run"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-vjgEeqA4v_JqiO9QA" name="success"/>
+          <subvertex xmi:type="uml:State" xmi:id="_4Qge-fjgEeqA4v_JqiO9QA" name="failure"/>
+        </region>
+      </packagedElement>
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="RectifyImageDefaultFSM" specification="_BnhX4HllEeusBZblO_G34A">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
           <transition xmi:type="uml:Transition" xmi:id="_4Qge8vjgEeqA4v_JqiO9QA" source="_4Qge9_jgEeqA4v_JqiO9QA" target="_4Qge-PjgEeqA4v_JqiO9QA"/>
           <transition xmi:type="uml:Transition" xmi:id="_4Qge8_jgEeqA4v_JqiO9QA" source="_4Qge-PjgEeqA4v_JqiO9QA" target="_4Qge-vjgEeqA4v_JqiO9QA">
@@ -28,12 +50,29 @@
         </region>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_gIE78GU0Eeu1zopIpqgBVg" name="RightCameraSkills">
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_kOnTgGU0Eeu1zopIpqgBVg" name="Display" method="_4Qge8PjgEeqA4v_JqiO9QA">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_lf248GU0Eeu1zopIpqgBVg" direction="out">
+    <packagedElement xmi:type="uml:Interface" xmi:id="_gIE78GU0Eeu1zopIpqgBVg" name="RightCameraSkillSet">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kOnTgGU0Eeu1zopIpqgBVg" name="DisplayRightImage" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Rrr0gHlkEeusBZblO_G34A" name="ImageDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_eupUgHlkEeusBZblO_G34A" name="ImageNotDetected" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6WgBUHlkEeusBZblO_G34A">
+          <type xmi:type="uml:DataType" href="../services/speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_VTp8IHnlEeuThvmYVQOUFw" direction="out">
+          <type xmi:type="uml:DataType" href="../services/rightcamera.servicedef.uml#_7ZXioFS8Eeu6l7cbBbbmBQ"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BnhX4HllEeusBZblO_G34A" name="RectifyImage" method="_4Qge8PjgEeqA4v_JqiO9QA">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_i-eGUHnlEeuThvmYVQOUFw">
+          <type xmi:type="uml:DataType" href="../services/rightcamera.servicedef.uml#_qrbWgHnbEeuThvmYVQOUFw"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_n4CdUHnlEeuThvmYVQOUFw">
+          <type xmi:type="uml:DataType" href="../services/rightcamera.servicedef.uml#_7ZXioFS8Eeu6l7cbBbbmBQ"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_q_Pe0HnlEeuThvmYVQOUFw" direction="out">
           <type xmi:type="uml:DataType" href="../services/rightcamera.servicedef.uml#_JI50wFS9Eeu6l7cbBbbmBQ"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_sphqUGU0Eeu1zopIpqgBVg" name="TakeImage" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_uoI4IHnlEeuThvmYVQOUFw" name="ImgaeProcessed" direction="return"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_wBURkHnlEeuThvmYVQOUFw" name="ImageNotProcessed" direction="return"/>
       </ownedOperation>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_isocE2RzEeufoscjYXqgTw">
@@ -68,6 +107,23 @@
   <robotics.skills:SkillFailState xmi:id="_kSEQIGU0Eeu1zopIpqgBVg" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillSuccessState xmi:id="_kSE3MGU0Eeu1zopIpqgBVg" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillDefinition xmi:id="_kTfzgGU0Eeu1zopIpqgBVg" base_Operation="_kOnTgGU0Eeu1zopIpqgBVg"/>
-  <robotics.skills:OutAttribute xmi:id="_lgGJgGU0Eeu1zopIpqgBVg" base_Parameter="_lf248GU0Eeu1zopIpqgBVg"/>
-  <robotics.skills:SkillResult xmi:id="_spywEGU0Eeu1zopIpqgBVg" base_Parameter="_sphqUGU0Eeu1zopIpqgBVg"/>
+  <robotics.skills:SkillResult xmi:id="_Rr_WgHlkEeusBZblO_G34A" description="Image taken and read" base_Parameter="_Rrr0gHlkEeusBZblO_G34A"/>
+  <robotics.skills:SkillResult xmi:id="_evAg4HlkEeusBZblO_G34A" description="Image not taken or not read" base_Parameter="_eupUgHlkEeusBZblO_G34A"/>
+  <robotics.skills:InAttribute xmi:id="_6WxHEHlkEeusBZblO_G34A" base_Parameter="_6WgBUHlkEeusBZblO_G34A"/>
+  <robotics.skills:SkillSemantic xmi:id="_Bo9iUHllEeusBZblO_G34A" base_Class="_4Qge8PjgEeqA4v_JqiO9QA" base_StateMachine="_4Qge8PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFSMRegion xmi:id="_BpH6YHllEeusBZblO_G34A" base_Region="_4Qge8fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_BpH6YXllEeusBZblO_G34A" base_Transition="_4Qge8vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_BpH6YnllEeusBZblO_G34A" base_Transition="_4Qge8_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:TransitionEdge xmi:id="_BpKWoHllEeusBZblO_G34A" base_Transition="_4Qge9fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillInitialState xmi:id="_BpK9sHllEeusBZblO_G34A" base_Pseudostate="_4Qge9_jgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillOperationalState xmi:id="_BpK9sXllEeusBZblO_G34A" base_State="_4Qge-PjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillFailState xmi:id="_BpLkwHllEeusBZblO_G34A" base_State="_4Qge-vjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillSuccessState xmi:id="_BpML0HllEeusBZblO_G34A" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
+  <robotics.skills:SkillDefinition xmi:id="_BpNZ8HllEeusBZblO_G34A" base_Operation="_BnhX4HllEeusBZblO_G34A"/>
+  <robotics.skills:OutAttribute xmi:id="_VUMHoHnlEeuThvmYVQOUFw" base_Parameter="_VTp8IHnlEeuThvmYVQOUFw"/>
+  <robotics.skills:InAttribute xmi:id="_i-q6oHnlEeuThvmYVQOUFw" base_Parameter="_i-eGUHnlEeuThvmYVQOUFw"/>
+  <robotics.skills:InAttribute xmi:id="_n4M1YHnlEeuThvmYVQOUFw" base_Parameter="_n4CdUHnlEeuThvmYVQOUFw"/>
+  <robotics.skills:OutAttribute xmi:id="_q_Z24HnlEeuThvmYVQOUFw" base_Parameter="_q_Pe0HnlEeuThvmYVQOUFw"/>
+  <robotics.skills:SkillResult xmi:id="_uobzEHnlEeuThvmYVQOUFw" base_Parameter="_uoI4IHnlEeuThvmYVQOUFw"/>
+  <robotics.skills:SkillResult xmi:id="_wBeCkHnlEeuThvmYVQOUFw" base_Parameter="_wBURkHnlEeuThvmYVQOUFw"/>
 </xmi:XMI>

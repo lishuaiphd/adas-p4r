@@ -13,34 +13,28 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_KyoyMHgpEeugkMJpZLTXLg">
       <importedPackage xmi:type="uml:Model" href="../../../AdasComponents/models/components/roaddetection.compdef.uml#_pYwoQFlvEeuV3PQBT7TM0Q"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TotsAHnfEeuThvmYVQOUFw">
+      <importedPackage xmi:type="uml:Model" href="depthmap.servicedef.uml#_d-5p8E8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TouTEHnfEeuThvmYVQOUFw">
+      <importedPackage xmi:type="uml:Model" href="rightcamera.servicedef.uml#_bNWvYE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TouTEXnfEeuThvmYVQOUFw">
+      <importedPackage xmi:type="uml:Model" href="pedestrian.servicedef.uml#_pcQTgE8vEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_TouTEnnfEeuThvmYVQOUFw">
+      <importedPackage xmi:type="uml:Model" href="roaddetection.servicedef.uml#_U8FloE8wEeuf54tkkZK0ow"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ev2jEHngEeuThvmYVQOUFw">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasComponents/models/components/speed.compdef.uml#_nbecMFlvEeuV3PQBT7TM0Q"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_qiSPUHngEeuThvmYVQOUFw">
+      <importedPackage xmi:type="uml:Model" href="speed.servicedef.uml#_QcDwAE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_gIArgk8wEeuf54tkkZK0ow" name="svcdefs">
-      <packagedElement xmi:type="uml:Interface" xmi:id="_0gCygHgrEeugkMJpZLTXLg" name="Push_Location">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_25evEHgrEeugkMJpZLTXLg">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_25fWIHgrEeugkMJpZLTXLg" actual="_6E3moF-5Eeug4qV42C4qHQ">
-            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
-          </parameterSubstitution>
-          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
-        </templateBinding>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_3csw4HgrEeugkMJpZLTXLg" name="Push_Throttle">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_4yXjUHgrEeugkMJpZLTXLg">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_4yXjUXgrEeugkMJpZLTXLg" actual="_nMpHkF9lEeu7PLqzaxKaUg">
-            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
-          </parameterSubstitution>
-          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
-        </templateBinding>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_ZTFLwHhIEeuvyrhrQ8ghtQ" name="Push_Steering">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_bHlPQHhIEeuvyrhrQ8ghtQ">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_bHlPQXhIEeuvyrhrQ8ghtQ" actual="_kNNiAF9lEeu7PLqzaxKaUg">
-            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
-          </parameterSubstitution>
-          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
-        </templateBinding>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_b3jToHhIEeuvyrhrQ8ghtQ" name="Push_Braking">
-        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_dPmEoHhIEeuvyrhrQ8ghtQ">
-          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_dPmEoXhIEeuvyrhrQ8ghtQ" actual="_4Fi-YF9lEeu7PLqzaxKaUg">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_lyl7IHniEeuThvmYVQOUFw" name="Push_Fusion">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_m7ZWQHniEeuThvmYVQOUFw">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_m7akYHniEeuThvmYVQOUFw" actual="_oIzhYHneEeuThvmYVQOUFw">
             <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
           </parameterSubstitution>
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
@@ -49,109 +43,66 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_gIArg08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_WlahgF9jEeu7PLqzaxKaUg" name="Publish">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_kNNiAF9lEeu7PLqzaxKaUg" name="Steering">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_GdURYF-3Eeug4qV42C4qHQ" name="Speed">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gFj24F-3Eeug4qV42C4qHQ" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gFj24V-3Eeug4qV42C4qHQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_gF-GkF-3Eeug4qV42C4qHQ" name="wheel_torque">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gF-GkV-3Eeug4qV42C4qHQ" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gF-Gkl-3Eeug4qV42C4qHQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_vNMnUGU8EeuTu8HcNMJgMQ" name="Direction">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9FiQIGU8EeuTu8HcNMJgMQ" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9FiQIWU8EeuTu8HcNMJgMQ" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_8-mXAHfaEeugkMJpZLTXLg" name="angle">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MaOXgHfbEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MaOXgXfbEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_CL6JYHfbEeugkMJpZLTXLg" name="ratio">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MahScHfbEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MahScXfbEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-        </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_nMpHkF9lEeu7PLqzaxKaUg" name="Throttle">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_OcB3MHfbEeugkMJpZLTXLg" name="speed">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SmVUcHfbEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SmVUcXfbEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_QHCngHfbEeugkMJpZLTXLg" name="power">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SmoPYHfbEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SmoPYXfbEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-        </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_4Fi-YF9lEeu7PLqzaxKaUg" name="Braking">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_Tk1ZgHfaEeugkMJpZLTXLg" name="force">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xwA-sHfaEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xwA-sXfaEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_Ut23EHfaEeugkMJpZLTXLg" name="torque">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xwKvsHfaEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xwKvsXfaEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_WFf_cHfaEeugkMJpZLTXLg" name="distance">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xwdqoHfaEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xwdqoXfaEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_XnmEUHfaEeugkMJpZLTXLg" name="time">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xwwlkHfaEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xwwlkXfaEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-        </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_6E3moF-5Eeug4qV42C4qHQ" name="Location">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_jTRdwHfZEeugkMJpZLTXLg" name="Position">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7_Mk8HfZEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7_Mk8XfZEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_lkvxIHfZEeugkMJpZLTXLg" name="Orientation">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7_ff4HfZEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7_ff4XfZEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_p4GG8HgsEeugkMJpZLTXLg" name="Signs" type="_ANJMEHfaEeugkMJpZLTXLg"/>
-        </packagedElement>
         <packagedElement xmi:type="uml:Enumeration" xmi:id="_ANJMEHfaEeugkMJpZLTXLg" name="Alarms">
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Cq2koHfaEeugkMJpZLTXLg" name="Pedestrian"/>
           <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_KkhPkHfaEeugkMJpZLTXLg" name="drift"/>
-          <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_z3txwHgsEeugkMJpZLTXLg" name="speedLimit"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_oIzhYHneEeuThvmYVQOUFw" name="Fusion">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_-9OUYHneEeuThvmYVQOUFw" name="freeSpace">
+            <type xmi:type="uml:DataType" href="rightcamera.servicedef.uml#_Ue1uEFTEEeu6l7cbBbbmBQ"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qa31MHnfEeuThvmYVQOUFw" name="obstacles">
+            <type xmi:type="uml:DataType" href="rightcamera.servicedef.uml#_Ue1uEFTEEeu6l7cbBbbmBQ"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_stO5YHnfEeuThvmYVQOUFw" name="steer" type="_W38WMHnhEeuThvmYVQOUFw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_urRTYHnfEeuThvmYVQOUFw" name="brake" type="_wVs_cHngEeuThvmYVQOUFw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wXvcQHnfEeuThvmYVQOUFw" name="throttle" type="_4s1NAHnhEeuThvmYVQOUFw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_xQMuQHnfEeuThvmYVQOUFw" name="signs" type="_ANJMEHfaEeugkMJpZLTXLg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Z2N6oHngEeuThvmYVQOUFw" name="speed">
+            <type xmi:type="uml:DataType" href="speed.servicedef.uml#_KNWN8FS1EeunjeKkmcG6Xw"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_wVs_cHngEeuThvmYVQOUFw" name="Braking">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_zOtM4HngEeuThvmYVQOUFw" name="force">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7B1K8HngEeuThvmYVQOUFw" name="time">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/XMLPrimitiveTypes.library.uml#Time"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SHsTQHnhEeuThvmYVQOUFw" name="distance">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_W38WMHnhEeuThvmYVQOUFw" name="Steering">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZgCZ0HnhEeuThvmYVQOUFw" name="torque">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dVC8gHnhEeuThvmYVQOUFw" name="speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1P0TkHnhEeuThvmYVQOUFw" name="angle">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_4s1NAHnhEeuThvmYVQOUFw" name="Throttle">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7uzJMHnhEeuThvmYVQOUFw" name="speed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8OdgsHnhEeuThvmYVQOUFw" name="power">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
+          </ownedAttribute>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YHWOUF9jEeu7PLqzaxKaUg" name="Subscribe">
         <packagedElement xmi:type="uml:DataType" xmi:id="_QtO90HgoEeugkMJpZLTXLg" name="fusion">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_1HxoQHgoEeugkMJpZLTXLg" name="PedestrianDetection" type="_3yVKAHgoEeugkMJpZLTXLg"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1HxoQHgoEeugkMJpZLTXLg" name="PedestrianDetection">
+            <type xmi:type="uml:DataType" href="pedestrian.servicedef.uml#_hCg1AFRLEeuFB7VlL5LR-w"/>
+          </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_9i9r4HgoEeugkMJpZLTXLg" name="RoadDetection">
             <type xmi:type="uml:DataType" href="roaddetection.servicedef.uml#_kFhE0FTAEeunjeKkmcG6Xw"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_CghLAHgpEeugkMJpZLTXLg" name="DepthMap">
             <type xmi:type="uml:DataType" href="depthmap.servicedef.uml#_IrFd0FpDEeuo0rRLh24f4Q"/>
-          </ownedAttribute>
-        </packagedElement>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_3yVKAHgoEeugkMJpZLTXLg" name="Pedestrian">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_IFtccHgqEeugkMJpZLTXLg" name="Presence">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_vAIV4I7PEdySGvm5GN66HA"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NlL84HgqEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NlL84XgqEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_RuFE4HgqEeugkMJpZLTXLg" name="speed">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://PapyrusC_Cpp_LIBRARIES/AnsiCLibrary.uml#_7W3wkBydEduyofBvg4RL2w"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VFgTsHgqEeugkMJpZLTXLg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VFgTsXgqEeugkMJpZLTXLg" value="1"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_WXfgAHgqEeugkMJpZLTXLg" name="coordinates">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFeatureMap"/>
           </ownedAttribute>
         </packagedElement>
       </packagedElement>
@@ -226,38 +177,31 @@
   <robotics.services:ServiceDefinitionModel xmi:id="_gIArmE8wEeuf54tkkZK0ow" base_Package="_gIArgE8wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_gIArmU8wEeuf54tkkZK0ow" base_Package="_gIArg08wEeuf54tkkZK0ow"/>
   <robotics.generics:Package xmi:id="_gIArmk8wEeuf54tkkZK0ow" base_Package="_gIArgk8wEeuf54tkkZK0ow"/>
-  <robotics.commobject:CommunicationObject xmi:id="_kP4bgF9lEeu7PLqzaxKaUg" base_DataType="_kNNiAF9lEeu7PLqzaxKaUg"/>
-  <robotics.commobject:CommunicationObject xmi:id="_nMrj0F9lEeu7PLqzaxKaUg" base_DataType="_nMpHkF9lEeu7PLqzaxKaUg"/>
-  <robotics.commobject:CommunicationObject xmi:id="_4FmowF9lEeu7PLqzaxKaUg" base_DataType="_4Fi-YF9lEeu7PLqzaxKaUg"/>
-  <robotics.commobject:DataAttribute xmi:id="_GesxcF-3Eeug4qV42C4qHQ" base_Property="_GdURYF-3Eeug4qV42C4qHQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_gGAi0F-3Eeug4qV42C4qHQ" base_Property="_gF-GkF-3Eeug4qV42C4qHQ"/>
-  <robotics.commobject:CommunicationObject xmi:id="_6E3moV-5Eeug4qV42C4qHQ" base_DataType="_6E3moF-5Eeug4qV42C4qHQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_vPGEwGU8EeuTu8HcNMJgMQ" base_Property="_vNMnUGU8EeuTu8HcNMJgMQ"/>
-  <robotics.commobject:DataAttribute xmi:id="_jTRdwXfZEeugkMJpZLTXLg" base_Property="_jTRdwHfZEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_lkvxIXfZEeugkMJpZLTXLg" base_Property="_lkvxIHfZEeugkMJpZLTXLg"/>
   <robotics.commobject:Enumeration xmi:id="_ANSWAHfaEeugkMJpZLTXLg" base_DataType="_ANJMEHfaEeugkMJpZLTXLg"/>
   <robotics.commobject:EnumerationLiteral xmi:id="_Cq2koXfaEeugkMJpZLTXLg" base_EnumerationLiteral="_Cq2koHfaEeugkMJpZLTXLg"/>
   <robotics.commobject:EnumerationLiteral xmi:id="_KkhPkXfaEeugkMJpZLTXLg" base_EnumerationLiteral="_KkhPkHfaEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_Tk-jcHfaEeugkMJpZLTXLg" base_Property="_Tk1ZgHfaEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_Ut23EXfaEeugkMJpZLTXLg" base_Property="_Ut23EHfaEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_WFpJYHfaEeugkMJpZLTXLg" base_Property="_WFf_cHfaEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_XnmEUXfaEeugkMJpZLTXLg" base_Property="_XnmEUHfaEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_8-wIAHfaEeugkMJpZLTXLg" base_Property="_8-mXAHfaEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_CMNEUHfbEeugkMJpZLTXLg" base_Property="_CL6JYHfbEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_OcLBIHfbEeugkMJpZLTXLg" base_Property="_OcB3MHfbEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_QHLxcHfbEeugkMJpZLTXLg" base_Property="_QHCngHfbEeugkMJpZLTXLg"/>
   <robotics.commobject:CommunicationObject xmi:id="_QtSoMHgoEeugkMJpZLTXLg" base_DataType="_QtO90HgoEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_1INGEHgoEeugkMJpZLTXLg" base_Property="_1HxoQHgoEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataType xmi:id="_3yZbcHgoEeugkMJpZLTXLg" base_DataType="_3yVKAHgoEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_9jG10HgoEeugkMJpZLTXLg" base_Property="_9i9r4HgoEeugkMJpZLTXLg"/>
   <robotics.commobject:DataAttribute xmi:id="_Cgpt4HgpEeugkMJpZLTXLg" base_Property="_CghLAHgpEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_IFv4sHgqEeugkMJpZLTXLg" base_Property="_IFtccHgqEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_RubqMHgqEeugkMJpZLTXLg" base_Property="_RuFE4HgqEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_WXjKYHgqEeugkMJpZLTXLg" base_Property="_WXfgAHgqEeugkMJpZLTXLg"/>
-  <robotics.services:ServiceDefinition xmi:id="_25hLUHgrEeugkMJpZLTXLg" base_Interface="_0gCygHgrEeugkMJpZLTXLg"/>
-  <robotics.services:ServiceDefinition xmi:id="_4yZ_kHgrEeugkMJpZLTXLg" base_Interface="_3csw4HgrEeugkMJpZLTXLg"/>
-  <robotics.commobject:DataAttribute xmi:id="_p4OCwHgsEeugkMJpZLTXLg" base_Property="_p4GG8HgsEeugkMJpZLTXLg"/>
-  <robotics.commobject:EnumerationLiteral xmi:id="_z3wOAHgsEeugkMJpZLTXLg" base_EnumerationLiteral="_z3txwHgsEeugkMJpZLTXLg"/>
-  <robotics.services:ServiceDefinition xmi:id="_bHvAQHhIEeuvyrhrQ8ghtQ" base_Interface="_ZTFLwHhIEeuvyrhrQ8ghtQ"/>
-  <robotics.services:ServiceDefinition xmi:id="_dPmEonhIEeuvyrhrQ8ghtQ" base_Interface="_b3jToHhIEeuvyrhrQ8ghtQ"/>
+  <robotics.commobject:CommunicationObject xmi:id="_oIzhYXneEeuThvmYVQOUFw" base_DataType="_oIzhYHneEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_-9XeUHneEeuThvmYVQOUFw" base_Property="_-9OUYHneEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_qa31MXnfEeuThvmYVQOUFw" base_Property="_qa31MHnfEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_stO5YXnfEeuThvmYVQOUFw" base_Property="_stO5YHnfEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_urRTYXnfEeuThvmYVQOUFw" base_Property="_urRTYHnfEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_wXvcQXnfEeuThvmYVQOUFw" base_Property="_wXvcQHnfEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_xQMuQXnfEeuThvmYVQOUFw" base_Property="_xQMuQHnfEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_Z2N6oXngEeuThvmYVQOUFw" base_Property="_Z2N6oHngEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataType xmi:id="_wVwCwHngEeuThvmYVQOUFw" base_DataType="_wVs_cHngEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_zO4MAHngEeuThvmYVQOUFw" base_Property="_zOtM4HngEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_7B7RkHngEeuThvmYVQOUFw" base_Property="_7B1K8HngEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_SHxy0HnhEeuThvmYVQOUFw" base_Property="_SHsTQHnhEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataType xmi:id="_W4FgIHnhEeuThvmYVQOUFw" base_DataType="_W38WMHnhEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_ZgE2EHnhEeuThvmYVQOUFw" base_Property="_ZgCZ0HnhEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_dVF_0HnhEeuThvmYVQOUFw" base_Property="_dVC8gHnhEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_1P_SsHnhEeuThvmYVQOUFw" base_Property="_1P0TkHnhEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataType xmi:id="_4s8hwHnhEeuThvmYVQOUFw" base_DataType="_4s1NAHnhEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_7u1lcHnhEeuThvmYVQOUFw" base_Property="_7uzJMHnhEeuThvmYVQOUFw"/>
+  <robotics.commobject:DataAttribute xmi:id="_8OlcgHnhEeuThvmYVQOUFw" base_Property="_8OdgsHnhEeuThvmYVQOUFw"/>
+  <robotics.services:ServiceDefinition xmi:id="_m7dAoHniEeuThvmYVQOUFw" base_Interface="_lyl7IHniEeuThvmYVQOUFw"/>
 </xmi:XMI>

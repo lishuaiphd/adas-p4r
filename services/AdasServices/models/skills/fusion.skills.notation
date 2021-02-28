@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmi:id="_lSviu2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Fusion diagram" measurementUnit="Pixel">
-  <styles xsi:type="notation:StringValueStyle" xmi:id="_lSvivGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
-  <styles xsi:type="notation:DiagramStyle" xmi:id="_lSvivWRzEeufoscjYXqgTw"/>
-  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_lSvivmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
-    <owner href="fusion.skills.uml#_lSvisGRzEeufoscjYXqgTw"/>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_lSviu2RzEeufoscjYXqgTw" type="PapyrusUMLClassDiagram" name="Fusion diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ro0K0HnmEeuThvmYVQOUFw" type="Interface_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ro1Y8HnmEeuThvmYVQOUFw" type="Interface_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ro1Y8XnmEeuThvmYVQOUFw" type="Interface_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ro1Y8nnmEeuThvmYVQOUFw" y="15"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ro1Y83nmEeuThvmYVQOUFw" type="Interface_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ro1Y9HnmEeuThvmYVQOUFw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ro1Y9XnmEeuThvmYVQOUFw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ro1Y9nnmEeuThvmYVQOUFw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ro1Y93nmEeuThvmYVQOUFw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ro1Y-HnmEeuThvmYVQOUFw" type="Interface_OperationCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_1APNMHnmEeuThvmYVQOUFw" type="Operation_InterfaceOperationLabel">
+        <element xmi:type="uml:Operation" href="fusion.skills.uml#_0_NScHnmEeuThvmYVQOUFw"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1APNMXnmEeuThvmYVQOUFw"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ro1Y-XnmEeuThvmYVQOUFw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ro1Y-nnmEeuThvmYVQOUFw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ro1Y-3nmEeuThvmYVQOUFw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ro1Y_HnmEeuThvmYVQOUFw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_ro1Y_XnmEeuThvmYVQOUFw" type="Interface_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ro1Y_nnmEeuThvmYVQOUFw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ro1Y_3nmEeuThvmYVQOUFw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ro1ZAHnmEeuThvmYVQOUFw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ro1ZAXnmEeuThvmYVQOUFw"/>
+    </children>
+    <element xmi:type="uml:Interface" href="fusion.skills.uml#_rmsq8HnmEeuThvmYVQOUFw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ro0K0XnmEeuThvmYVQOUFw" x="240" y="60" width="361" height="172"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ro7fl3nmEeuThvmYVQOUFw" type="StereotypeComment">
+    <styles xmi:type="notation:TitleStyle" xmi:id="_ro7fmHnmEeuThvmYVQOUFw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ro7fmnnmEeuThvmYVQOUFw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="fusion.skills.uml#_rmsq8HnmEeuThvmYVQOUFw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ro7fmXnmEeuThvmYVQOUFw" x="200"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_lSvivGRzEeufoscjYXqgTw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_lSvivWRzEeufoscjYXqgTw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_lSvivmRzEeufoscjYXqgTw" diagramKindId="org.eclipse.papyrus.robotics.diagram.skill">
+    <owner xmi:type="uml:Model" href="fusion.skills.uml#_lSvisGRzEeufoscjYXqgTw"/>
   </styles>
-  <element href="fusion.skills.uml#_lSvisGRzEeufoscjYXqgTw"/>
+  <element xmi:type="uml:Model" href="fusion.skills.uml#_lSvisGRzEeufoscjYXqgTw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_ro7fm3nmEeuThvmYVQOUFw" type="StereotypeCommentLink" source="_ro0K0HnmEeuThvmYVQOUFw" target="_ro7fl3nmEeuThvmYVQOUFw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_ro7fnHnmEeuThvmYVQOUFw"/>
+    <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ro7foHnmEeuThvmYVQOUFw" name="BASE_ELEMENT">
+      <eObjectValue xmi:type="uml:Interface" href="fusion.skills.uml#_rmsq8HnmEeuThvmYVQOUFw"/>
+    </styles>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ro7fnXnmEeuThvmYVQOUFw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ro7fnnnmEeuThvmYVQOUFw"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ro7fn3nmEeuThvmYVQOUFw"/>
+  </edges>
 </notation:Diagram>
