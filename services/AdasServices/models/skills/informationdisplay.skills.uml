@@ -13,6 +13,9 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_-PHxUGrBEeu-JY2ZjxfCrQ">
       <importedPackage xmi:type="uml:Model" href="../../../adas-p4r/services/AdasServices/models/services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_2MxVEHrTEeuIzqkpRSw6rA">
+      <importedPackage xmi:type="uml:Model" href="../services/leftcamera.servicedef.uml#_bGS6kE8vEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_gyXHwmRzEeufoscjYXqgTw" name="defaultsemantics">
       <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DisplayInfoSpeedDefaultFSM" specification="_C60g4GrBEeu-JY2ZjxfCrQ">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
@@ -51,8 +54,8 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_SC-y0GrBEeu-JY2ZjxfCrQ" name="DisplayLeftCamera" method="_4Qge8PjgEeqA4v_JqiO9QA">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7PpIcGrBEeu-JY2ZjxfCrQ">
-          <type xmi:type="uml:DataType" href="../../../adas-p4r/services/AdasServices/models/services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_0GqkMHrTEeuIzqkpRSw6rA">
+          <type xmi:type="uml:DataType" href="../services/leftcamera.servicedef.uml#_OxRL0FAlEeuQn4VMJWeC_w"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -83,5 +86,5 @@
   <robotics.skills:SkillDefinition xmi:id="_SDODYGrBEeu-JY2ZjxfCrQ" base_Operation="_SC-y0GrBEeu-JY2ZjxfCrQ"/>
   <robotics.skills:InAttribute xmi:id="_rP7jcGrBEeu-JY2ZjxfCrQ" base_Parameter="_rPyZgGrBEeu-JY2ZjxfCrQ"/>
   <robotics.skills:InAttribute xmi:id="_1hf54GrBEeu-JY2ZjxfCrQ" base_Parameter="_1hM-8GrBEeu-JY2ZjxfCrQ"/>
-  <robotics.skills:InAttribute xmi:id="_7Py5cGrBEeu-JY2ZjxfCrQ" base_Parameter="_7PpIcGrBEeu-JY2ZjxfCrQ"/>
+  <robotics.skills:InAttribute xmi:id="_0GtAcHrTEeuIzqkpRSw6rA" base_Parameter="_0GqkMHrTEeuIzqkpRSw6rA"/>
 </xmi:XMI>
