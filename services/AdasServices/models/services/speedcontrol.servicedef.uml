@@ -34,21 +34,28 @@
           <ownedAttribute xmi:type="uml:Property" xmi:id="_sJva8FS1EeuEh6TOcyHeKA" name="Speed" type="_f50MUFSzEeuEh6TOcyHeKA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_NLfLUFS7EeuEh6TOcyHeKA" name="Motor" type="_zd6hQFS3EeuEh6TOcyHeKA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_RVtwEFS7EeuEh6TOcyHeKA" name="Brake" type="_IlWYkFS5EeuEh6TOcyHeKA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZPvEMHq2EeuIzqkpRSw6rA" name="SpeedOrder" type="_gpLzcHq1EeuIzqkpRSw6rA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_f50MUFSzEeuEh6TOcyHeKA" name="Speed">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_rMgokFSzEeuEh6TOcyHeKA" name="Speed">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Rm98UFS0EeuEh6TOcyHeKA" name="Time">
-            <type xmi:type="uml:Enumeration" href="pathmap://Papyrus_LIBRARIES/MARTE_Library.library.uml#_MDyyoA-KEdyNj8xzjk-DoA"/>
+            <type xmi:type="uml:Enumeration" href="pathmap://Papyrus_PROFILES/MARTE_Library.library.uml#_MDyyoA-KEdyNj8xzjk-DoA"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_zd6hQFS3EeuEh6TOcyHeKA" name="Motor">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Dshd4FS4EeuEh6TOcyHeKA" name="InjectFuel">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_cMc7AFS5EeuEh6TOcyHeKA" name="Rotation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cMc7AFS5EeuEh6TOcyHeKA" name="MotorRotSpeed">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_sgTLYHq1EeuIzqkpRSw6rA" name="MotorRotPos">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_TnN8gHq2EeuIzqkpRSw6rA" name="State">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedAttribute>
         </packagedElement>
         <packagedElement xmi:type="uml:DataType" xmi:id="_IlWYkFS5EeuEh6TOcyHeKA" name="Brakes">
@@ -59,6 +66,17 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_JfI1YFS7EeuEh6TOcyHeKA" name="ABS">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_xDxWkHq1EeuIzqkpRSw6rA" name="BrakesRotSpeed">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_gpLzcHq1EeuIzqkpRSw6rA" name="SpeedOrder">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_jHoWYHq2EeuIzqkpRSw6rA" name="MotorOrder">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_mbFEIHq2EeuIzqkpRSw6rA" name="BrakesOrder">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           </ownedAttribute>
         </packagedElement>
@@ -211,4 +229,11 @@
   <robotics.commobject:DataAttribute xmi:id="_uG_w0FTAEeuEh6TOcyHeKA" base_Property="_uG9UkFTAEeuEh6TOcyHeKA"/>
   <robotics.services:ServiceDefinition xmi:id="_PlKtUFo-EeuDz9PbhVKlDA" base_Interface="_N7pKwFo-EeuDz9PbhVKlDA"/>
   <robotics.services:ServiceDefinition xmi:id="_bWoJMFo-EeuDz9PbhVKlDA" base_Interface="_XcUPwFo-EeuDz9PbhVKlDA"/>
+  <robotics.commobject:DataType xmi:id="_gpZ14Hq1EeuIzqkpRSw6rA" base_DataType="_gpLzcHq1EeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_sgYD4Hq1EeuIzqkpRSw6rA" base_Property="_sgTLYHq1EeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_xD1oAHq1EeuIzqkpRSw6rA" base_Property="_xDxWkHq1EeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_TnSN8Hq2EeuIzqkpRSw6rA" base_Property="_TnN8gHq2EeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_ZPyukHq2EeuIzqkpRSw6rA" base_Property="_ZPvEMHq2EeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_jHtO4Hq2EeuIzqkpRSw6rA" base_Property="_jHoWYHq2EeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_mbIugHq2EeuIzqkpRSw6rA" base_Property="_mbFEIHq2EeuIzqkpRSw6rA"/>
 </xmi:XMI>
