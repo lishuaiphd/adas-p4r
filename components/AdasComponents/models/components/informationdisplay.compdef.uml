@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:robotics.components="http://www.eclipse.org/papyrus/robotics/components/1" xmlns:robotics.functions="http://www.eclipse.org/papyrus/robotics/functions/1" xmlns:robotics.generics="http://www.eclipse.org/papyrus/robotics/generics/1" xmlns:robotics.parameters="http://www.eclipse.org/papyrus/robotics/parameters/1" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/robotics/components/1 http://www.eclipse.org/papyrus/robotics/1#//components http://www.eclipse.org/papyrus/robotics/functions/1 http://www.eclipse.org/papyrus/robotics/1#//functions http://www.eclipse.org/papyrus/robotics/generics/1 http://www.eclipse.org/papyrus/robotics/1#//generics http://www.eclipse.org/papyrus/robotics/parameters/1 http://www.eclipse.org/papyrus/robotics/1#//parameters">
   <uml:Model xmi:id="_yyh0AFlvEeuV3PQBT7TM0Q" name="InformationdisplayCompdef">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_yyh0AVlvEeuV3PQBT7TM0Q">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -25,13 +25,46 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_zWhNYF-7Eeu3UplPVMacQA">
       <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/trafficsigndetection.servicedef.uml#_X8W4sE8wEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_FqbwMHrEEeuIzqkpRSw6rA">
+      <importedPackage xmi:type="uml:Model" href="../../../AdasServices/models/services/fusion.servicedef.uml#_gIArgE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Class" xmi:id="_yyh0A1lvEeuV3PQBT7TM0Q" name="Informationdisplay">
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_8I9lUF-5Eeu3UplPVMacQA" name="leftcamera" type="_Apg_YF-6Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_8I9lUF-5Eeu3UplPVMacQA" name="LeftCamera" type="_Apg_YF-6Eeu3UplPVMacQA" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_Gx7IEF-6Eeu3UplPVMacQA" name="lanedection" type="_eq2sEF-6Eeu3UplPVMacQA" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_hnqbcF-6Eeu3UplPVMacQA" name="odometere" type="_kxnO8F-6Eeu3UplPVMacQA" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_n6coIF-6Eeu3UplPVMacQA" name="puch-vitesse " type="_w3KEcF-6Eeu3UplPVMacQA" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_x044AF-6Eeu3UplPVMacQA" name="speedcontrol" type="_SUglAF-7Eeu3UplPVMacQA" aggregation="composite"/>
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_vVgPAF-7Eeu3UplPVMacQA" name="Traficsigndetection" type="_zWpJMF-7Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_hnqbcF-6Eeu3UplPVMacQA" name="Odometere" type="_kxnO8F-6Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_n6coIF-6Eeu3UplPVMacQA" name="Speed" type="_w3KEcF-6Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_x044AF-6Eeu3UplPVMacQA" name="SpeedControl" type="_SUglAF-7Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_vVgPAF-7Eeu3UplPVMacQA" name="TraficSignDetection" type="_zWpJMF-7Eeu3UplPVMacQA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_EW1aUHrEEeuIzqkpRSw6rA" name="Fusion" type="_FqezgHrEEeuIzqkpRSw6rA" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Trcz4HrEEeuIzqkpRSw6rA" name="activity1" type="_TrRNsHrEEeuIzqkpRSw6rA"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_vvOAoHrEEeuIzqkpRSw6rA" name="Connects18">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vvWjgHrEEeuIzqkpRSw6rA" role="_8I9lUF-5Eeu3UplPVMacQA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_vvWjgXrEEeuIzqkpRSw6rA" partWithPort="_Trcz4HrEEeuIzqkpRSw6rA" role="_hYcIUHrEEeuIzqkpRSw6rA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_wTo8UHrEEeuIzqkpRSw6rA" name="Connects19">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_wTvC8HrEEeuIzqkpRSw6rA" role="_hnqbcF-6Eeu3UplPVMacQA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_wTvC8XrEEeuIzqkpRSw6rA" partWithPort="_Trcz4HrEEeuIzqkpRSw6rA" role="_e0Y3MHrEEeuIzqkpRSw6rA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_w22-IHrEEeuIzqkpRSw6rA" name="Connects20">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_w29EwHrEEeuIzqkpRSw6rA" role="_n6coIF-6Eeu3UplPVMacQA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_w29r0HrEEeuIzqkpRSw6rA" partWithPort="_Trcz4HrEEeuIzqkpRSw6rA" role="_b9Y04HrEEeuIzqkpRSw6rA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_xeT_sHrEEeuIzqkpRSw6rA" name="Connects21">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_xeaGUHrEEeuIzqkpRSw6rA" role="_x044AF-6Eeu3UplPVMacQA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_xeaGUXrEEeuIzqkpRSw6rA" partWithPort="_Trcz4HrEEeuIzqkpRSw6rA" role="_uAvFkHrEEeuIzqkpRSw6rA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_yE--IHrEEeuIzqkpRSw6rA" name="Connects22">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_yFFEwHrEEeuIzqkpRSw6rA" role="_EW1aUHrEEeuIzqkpRSw6rA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_yFFEwXrEEeuIzqkpRSw6rA" partWithPort="_Trcz4HrEEeuIzqkpRSw6rA" role="_mqWG0HrEEeuIzqkpRSw6rA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ynRL0HrEEeuIzqkpRSw6rA" name="Connects23">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ynXScHrEEeuIzqkpRSw6rA" role="_vVgPAF-7Eeu3UplPVMacQA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ynX5gHrEEeuIzqkpRSw6rA" partWithPort="_Trcz4HrEEeuIzqkpRSw6rA" role="_ksKi4HrEEeuIzqkpRSw6rA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_zRwTQHrEEeuIzqkpRSw6rA" name="Connects24">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_zRz9oHrEEeuIzqkpRSw6rA" role="_Gx7IEF-6Eeu3UplPVMacQA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_zRz9oXrEEeuIzqkpRSw6rA" partWithPort="_Trcz4HrEEeuIzqkpRSw6rA" role="_i1D3UHrEEeuIzqkpRSw6rA"/>
+      </ownedConnector>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_yyh0BFlvEeuV3PQBT7TM0Q"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_Apg_YF-6Eeu3UplPVMacQA"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_eq2sEF-6Eeu3UplPVMacQA"/>
@@ -39,6 +72,26 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_w3KEcF-6Eeu3UplPVMacQA"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_SUglAF-7Eeu3UplPVMacQA"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_zWpJMF-7Eeu3UplPVMacQA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_FqezgHrEEeuIzqkpRSw6rA"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_TrRNsHrEEeuIzqkpRSw6rA" name="DataHandler">
+        <generalization xmi:type="uml:Generalization" xmi:id="_TrR0wHrEEeuIzqkpRSw6rA">
+          <general xmi:type="uml:Class" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_dFzyYPn9Eee8c8wpObBu7w"/>
+        </generalization>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_b9Y04HrEEeuIzqkpRSw6rA" name="In_1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_e0Y3MHrEEeuIzqkpRSw6rA" name="In_2" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_hYcIUHrEEeuIzqkpRSw6rA" name="In_3" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_i1D3UHrEEeuIzqkpRSw6rA" name="In_4" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_ksKi4HrEEeuIzqkpRSw6rA" name="In_5" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_mqWG0HrEEeuIzqkpRSw6rA" name="In_6" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_uAvFkHrEEeuIzqkpRSw6rA" name="In_7" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vvrToXrEEeuIzqkpRSw6rA" name="" type="_vvoQUHrEEeuIzqkpRSw6rA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_wUCk8HrEEeuIzqkpRSw6rA" name="" type="_wT-TgHrEEeuIzqkpRSw6rA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_w3PYoHrEEeuIzqkpRSw6rA" name="" type="_w3MVUHrEEeuIzqkpRSw6rA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xerzIXrEEeuIzqkpRSw6rA" name="" type="_xeov0HrEEeuIzqkpRSw6rA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_yFTuQXrEEeuIzqkpRSw6rA" name="" type="_yFR5EHrEEeuIzqkpRSw6rA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ynnxIXrEEeuIzqkpRSw6rA" name="" type="_ynl78HrEEeuIzqkpRSw6rA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zR_j0XrEEeuIzqkpRSw6rA" name="" type="_zR9uoHrEEeuIzqkpRSw6rA"/>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_Ap29oF-6Eeu3UplPVMacQA" client="_Apg_YF-6Eeu3UplPVMacQA">
       <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/leftcamera.servicedef.uml#_vt-dcFAlEeuQn4VMJWeC_w"/>
@@ -57,6 +110,37 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_zW3LoF-7Eeu3UplPVMacQA" client="_zWpJMF-7Eeu3UplPVMacQA">
       <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/trafficsigndetection.servicedef.uml#_Ho79MFTFEeunjeKkmcG6Xw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_FqpyoHrEEeuIzqkpRSw6rA" client="_FqezgHrEEeuIzqkpRSw6rA">
+      <supplier xmi:type="uml:Interface" href="../../../AdasServices/models/services/fusion.servicedef.uml#_lyl7IHniEeuThvmYVQOUFw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_vvoQUHrEEeuIzqkpRSw6rA" name="LeftCamera_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_wT-TgHrEEeuIzqkpRSw6rA" name="Odometere_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_w3MVUHrEEeuIzqkpRSw6rA" name="Speed_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_xeov0HrEEeuIzqkpRSw6rA" name="SpeedControl_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_yFR5EHrEEeuIzqkpRSw6rA" name="Fusion_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_ynl78HrEEeuIzqkpRSw6rA" name="TraficSignDetection_handler">
+      <language>C++</language>
+      <body></body>
+    </packagedElement>
+    <packagedElement xmi:type="uml:OpaqueBehavior" xmi:id="_zR9uoHrEEeuIzqkpRSw6rA" name="lanedection_handler">
+      <language>C++</language>
+      <body></body>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yyh0BVlvEeuV3PQBT7TM0Q">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yyh0BllvEeuV3PQBT7TM0Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -134,4 +218,29 @@
   <robotics.components:ComponentPort xmi:id="_SU0HAF-7Eeu3UplPVMacQA" base_Port="_x044AF-6Eeu3UplPVMacQA"/>
   <robotics.components:ComponentService xmi:id="_zWvP0F-7Eeu3UplPVMacQA" base_Class="_zWpJMF-7Eeu3UplPVMacQA"/>
   <robotics.components:ComponentPort xmi:id="_zW5A0F-7Eeu3UplPVMacQA" base_Port="_vVgPAF-7Eeu3UplPVMacQA"/>
+  <robotics.components:ComponentService xmi:id="_FqgosHrEEeuIzqkpRSw6rA" base_Class="_FqezgHrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ComponentPort xmi:id="_FqrAwHrEEeuIzqkpRSw6rA" base_Port="_EW1aUHrEEeuIzqkpRSw6rA"/>
+  <robotics.components:Activity xmi:id="_TrTp8HrEEeuIzqkpRSw6rA" base_Class="_TrRNsHrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityInstance xmi:id="_TrepEHrEEeuIzqkpRSw6rA" base_Property="_Trcz4HrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityPort xmi:id="_b9bRIHrEEeuIzqkpRSw6rA" base_Port="_b9Y04HrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityPort xmi:id="_e0bTcHrEEeuIzqkpRSw6rA" base_Port="_e0Y3MHrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityPort xmi:id="_hYekkHrEEeuIzqkpRSw6rA" base_Port="_hYcIUHrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityPort xmi:id="_i1G6oHrEEeuIzqkpRSw6rA" base_Port="_i1D3UHrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityPort xmi:id="_ksNmMHrEEeuIzqkpRSw6rA" base_Port="_ksKi4HrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityPort xmi:id="_mqYjEHrEEeuIzqkpRSw6rA" base_Port="_mqWG0HrEEeuIzqkpRSw6rA"/>
+  <robotics.components:ActivityPort xmi:id="_uAxh0HrEEeuIzqkpRSw6rA" base_Port="_uAvFkHrEEeuIzqkpRSw6rA"/>
+  <robotics.generics:Connects xmi:id="_vvXKkHrEEeuIzqkpRSw6rA" base_Connector="_vvOAoHrEEeuIzqkpRSw6rA"/>
+  <robotics.functions:Function xmi:id="_vvrToHrEEeuIzqkpRSw6rA" base_Class="_vvoQUHrEEeuIzqkpRSw6rA" activityPort="_hYekkHrEEeuIzqkpRSw6rA"/>
+  <robotics.generics:Connects xmi:id="_wTvqAHrEEeuIzqkpRSw6rA" base_Connector="_wTo8UHrEEeuIzqkpRSw6rA"/>
+  <robotics.functions:Function xmi:id="_wUB94HrEEeuIzqkpRSw6rA" base_Class="_wT-TgHrEEeuIzqkpRSw6rA" activityPort="_e0bTcHrEEeuIzqkpRSw6rA"/>
+  <robotics.generics:Connects xmi:id="_w2-S4HrEEeuIzqkpRSw6rA" base_Connector="_w22-IHrEEeuIzqkpRSw6rA"/>
+  <robotics.functions:Function xmi:id="_w3OxkHrEEeuIzqkpRSw6rA" base_Class="_w3MVUHrEEeuIzqkpRSw6rA" activityPort="_b9bRIHrEEeuIzqkpRSw6rA"/>
+  <robotics.generics:Connects xmi:id="_xebUcHrEEeuIzqkpRSw6rA" base_Connector="_xeT_sHrEEeuIzqkpRSw6rA"/>
+  <robotics.functions:Function xmi:id="_xerzIHrEEeuIzqkpRSw6rA" base_Class="_xeov0HrEEeuIzqkpRSw6rA" activityPort="_uAxh0HrEEeuIzqkpRSw6rA"/>
+  <robotics.generics:Connects xmi:id="_yFFr0HrEEeuIzqkpRSw6rA" base_Connector="_yE--IHrEEeuIzqkpRSw6rA"/>
+  <robotics.functions:Function xmi:id="_yFTuQHrEEeuIzqkpRSw6rA" base_Class="_yFR5EHrEEeuIzqkpRSw6rA" activityPort="_mqYjEHrEEeuIzqkpRSw6rA"/>
+  <robotics.generics:Connects xmi:id="_ynYgkHrEEeuIzqkpRSw6rA" base_Connector="_ynRL0HrEEeuIzqkpRSw6rA"/>
+  <robotics.functions:Function xmi:id="_ynnxIHrEEeuIzqkpRSw6rA" base_Class="_ynl78HrEEeuIzqkpRSw6rA" activityPort="_ksNmMHrEEeuIzqkpRSw6rA"/>
+  <robotics.generics:Connects xmi:id="_zR0ksHrEEeuIzqkpRSw6rA" base_Connector="_zRwTQHrEEeuIzqkpRSw6rA"/>
+  <robotics.functions:Function xmi:id="_zR_j0HrEEeuIzqkpRSw6rA" base_Class="_zR9uoHrEEeuIzqkpRSw6rA" activityPort="_i1G6oHrEEeuIzqkpRSw6rA"/>
 </xmi:XMI>

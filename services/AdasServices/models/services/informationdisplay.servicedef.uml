@@ -10,13 +10,27 @@
         <packagedElement xmi:type="uml:DataType" xmi:id="_rcawgF-uEeuhMuB_t-XsHw" name="DisplayMsg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_-fCFQF8_EeuhMuB_t-XsHw" name="subscribe">
-        <packagedElement xmi:type="uml:DataType" xmi:id="_KWSAEF9AEeuhMuB_t-XsHw" name="FusionMsg"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_LDqqgF9AEeuhMuB_t-XsHw" name="LeftCameraMsg"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_PIvCcF9AEeuhMuB_t-XsHw" name="SpeedControlMsg"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_Q9m5YF9AEeuhMuB_t-XsHw" name="LaneDetectionMsg"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_SPjCYF9AEeuhMuB_t-XsHw" name="OdometerMsg"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_YBqyAF9AEeuhMuB_t-XsHw" name="TrafficSignDetection"/>
-        <packagedElement xmi:type="uml:DataType" xmi:id="_aYT5QF9AEeuhMuB_t-XsHw" name="SpeedMsg"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_KWSAEF9AEeuhMuB_t-XsHw" name="FusionMsg">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_-DN1QHrFEeuIzqkpRSw6rA" name="Fusion" type="_KWSAEF9AEeuhMuB_t-XsHw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_LDqqgF9AEeuhMuB_t-XsHw" name="LeftCameraMsg">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1CI2UHrFEeuIzqkpRSw6rA" name="LeftCamera" type="_LDqqgF9AEeuhMuB_t-XsHw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_PIvCcF9AEeuhMuB_t-XsHw" name="SpeedControlMsg">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_fhO5oHrFEeuIzqkpRSw6rA" name="SpeedControl" type="_PIvCcF9AEeuhMuB_t-XsHw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_Q9m5YF9AEeuhMuB_t-XsHw" name="LaneDetectionMsg">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4-rkYHrFEeuIzqkpRSw6rA" name="LaneDetection" type="_Q9m5YF9AEeuhMuB_t-XsHw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_SPjCYF9AEeuhMuB_t-XsHw" name="OdometerMsg">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_w20FYHrFEeuIzqkpRSw6rA" name="Odometer" type="_SPjCYF9AEeuhMuB_t-XsHw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_YBqyAF9AEeuhMuB_t-XsHw" name="TrafficSignDetection">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_sGS8sHrFEeuIzqkpRSw6rA" name="TraficSign" type="_YBqyAF9AEeuhMuB_t-XsHw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_aYT5QF9AEeuhMuB_t-XsHw" name="SpeedMsg">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_oJlPgHrFEeuIzqkpRSw6rA" name="Speed" type="_aYT5QF9AEeuhMuB_t-XsHw"/>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_1qZ19E8wEeuf54tkkZK0ow">
@@ -91,4 +105,11 @@
   <robotics.commobject:CommunicationObject xmi:id="_YBzU4F9AEeuhMuB_t-XsHw" base_DataType="_YBqyAF9AEeuhMuB_t-XsHw"/>
   <robotics.commobject:CommunicationObject xmi:id="_aYXjoF9AEeuhMuB_t-XsHw" base_DataType="_aYT5QF9AEeuhMuB_t-XsHw"/>
   <robotics.commobject:CommunicationObject xmi:id="_rciFQF-uEeuhMuB_t-XsHw" base_DataType="_rcawgF-uEeuhMuB_t-XsHw"/>
+  <robotics.commobject:DataAttribute xmi:id="_fhQu0HrFEeuIzqkpRSw6rA" base_Property="_fhO5oHrFEeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_oJnrwHrFEeuIzqkpRSw6rA" base_Property="_oJlPgHrFEeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_sGVY8HrFEeuIzqkpRSw6rA" base_Property="_sGS8sHrFEeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_w216kHrFEeuIzqkpRSw6rA" base_Property="_w20FYHrFEeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_1CKrgHrFEeuIzqkpRSw6rA" base_Property="_1CI2UHrFEeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_4-uAoHrFEeuIzqkpRSw6rA" base_Property="_4-rkYHrFEeuIzqkpRSw6rA"/>
+  <robotics.commobject:DataAttribute xmi:id="_-DQRgHrFEeuIzqkpRSw6rA" base_Property="_-DN1QHrFEeuIzqkpRSw6rA"/>
 </xmi:XMI>

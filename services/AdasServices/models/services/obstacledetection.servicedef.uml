@@ -13,6 +13,14 @@
           <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
         </templateBinding>
       </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_gFV-MHrDEeuIzqkpRSw6rA" name="Push_Obstacle">
+        <templateBinding xmi:type="uml:TemplateBinding" xmi:id="_jlS24HrDEeuIzqkpRSw6rA">
+          <parameterSubstitution xmi:type="uml:TemplateParameterSubstitution" xmi:id="_jlS24XrDEeuIzqkpRSw6rA" actual="_AAbaYFXbEeuv-d3PD1mVRQ">
+            <formal xmi:type="uml:ClassifierTemplateParameter" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_HAQwoPIzEeeJotakjzOasQ"/>
+          </parameterSubstitution>
+          <signature xmi:type="uml:RedefinableTemplateSignature" href="pathmap://ROBOTICS_LIBRARIES/robotics.library.uml#_CagtgPIzEeeJotakjzOasQ"/>
+        </templateBinding>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_uNmGI08wEeuf54tkkZK0ow" name="msg">
       <packagedElement xmi:type="uml:Package" xmi:id="_mWV1wFSxEeusQNN_osqztQ" name="publish">
@@ -114,4 +122,5 @@
   <robotics.commobject:DataAttribute xmi:id="_FzoIEFXbEeuv-d3PD1mVRQ" base_Property="_FzeXEFXbEeuv-d3PD1mVRQ"/>
   <robotics.commobject:DataAttribute xmi:id="_GbRW4FXbEeuv-d3PD1mVRQ" base_Property="_GbIM8FXbEeuv-d3PD1mVRQ"/>
   <robotics.services:ServiceDefinition xmi:id="_HLuS8Fo6Eeuci-RQJweH7g" base_Interface="_4M0qsFo5Eeuci-RQJweH7g"/>
+  <robotics.services:ServiceDefinition xmi:id="_jnE_kHrDEeuIzqkpRSw6rA" base_Interface="_gFV-MHrDEeuIzqkpRSw6rA"/>
 </xmi:XMI>

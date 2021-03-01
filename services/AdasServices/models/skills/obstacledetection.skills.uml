@@ -7,6 +7,9 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_F-wzwHA3Eeu_SeFO0LxRcw">
       <importedPackage xmi:type="uml:Model" href="../services/obstacledetection.servicedef.uml#_uNmGIE8wEeuf54tkkZK0ow"/>
     </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_W3-WQHh_EeuEa6DoHwNIBQ">
+      <importedPackage xmi:type="uml:Model" href="../services/lidar.servicedef.uml#_ibmewE8wEeuf54tkkZK0ow"/>
+    </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_dBalsmRzEeufoscjYXqgTw" name="defaultsemantics">
       <packagedElement xmi:type="uml:StateMachine" xmi:id="_4Qge8PjgEeqA4v_JqiO9QA" name="DetecteObstaclesDefaultFSM" specification="_xxfpMHA2Eeu_SeFO0LxRcw">
         <region xmi:type="uml:Region" xmi:id="_4Qge8fjgEeqA4v_JqiO9QA" name="Region1">
@@ -32,6 +35,9 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_xxfpMHA2Eeu_SeFO0LxRcw" name="DetecteObstacles" method="_4Qge8PjgEeqA4v_JqiO9QA">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_EQde4HA3Eeu_SeFO0LxRcw" direction="out">
           <type xmi:type="uml:DataType" href="../services/obstacledetection.servicedef.uml#_AAbaYFXbEeuv-d3PD1mVRQ"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_VEbVAHh_EeuEa6DoHwNIBQ">
+          <type xmi:type="uml:DataType" href="../services/lidar.servicedef.uml#_s5oBUFA3EeuN0MABJzfdCw"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -68,4 +74,5 @@
   <robotics.skills:SkillSuccessState xmi:id="_xy7MkHA2Eeu_SeFO0LxRcw" base_State="_4Qge-fjgEeqA4v_JqiO9QA"/>
   <robotics.skills:SkillDefinition xmi:id="_xzB6QHA2Eeu_SeFO0LxRcw" base_Operation="_xxfpMHA2Eeu_SeFO0LxRcw"/>
   <robotics.skills:OutAttribute xmi:id="_EQkzoHA3Eeu_SeFO0LxRcw" base_Parameter="_EQde4HA3Eeu_SeFO0LxRcw"/>
+  <robotics.skills:InAttribute xmi:id="_VEmUIHh_EeuEa6DoHwNIBQ" base_Parameter="_VEbVAHh_EeuEa6DoHwNIBQ"/>
 </xmi:XMI>
